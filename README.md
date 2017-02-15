@@ -1,4 +1,3 @@
-# simplyLaunchResources
+# Theme: Agency
 
-## Themes
-The application will download theme packages from here
+For use in SimplyLaunch Desktop Application
