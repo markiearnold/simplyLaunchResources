@@ -2,10 +2,18 @@
 <header>
     <div class="container">
         <div class="intro-text">
-            <div rich-text
+            <rich-text
               label="Enter HTML here"
               meta="left_column"
-              overridable="true"><div>My rich text default content</div></div>
+              overridable="true">
+
+              <div
+                class="intro-lead-in"
+                ng-model="block.content.title"
+                medium-editor bind-options="mediumBindOptionsNoTag"
+                ng-style="setStyles(block, {'color':'text_color'})"></div>
+                
+            </rich-text>
 
             <div
               class="intro-lead-in"
