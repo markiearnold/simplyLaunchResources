@@ -57,32 +57,26 @@
     "js" : [
       {
         "relative" : true,
-        "requiredInHead" : false,
         "link" : "vendor/jquery/jquery.min.js"
       },
       {
         "relative" : true,
-        "requiredInHead" : false,
         "link" : "vendor/bootstrap/js/bootstrap.min.js"
       },
       {
         "relative" : false,
-        "requiredInHead" : false,
         "link" : "https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"
       },
       {
         "relative" : true,
-        "requiredInHead" : false,
         "link" : "js/jqBootstrapValidation.js"
       },
       {
         "relative" : true,
-        "requiredInHead" : false,
         "link" : "js/contact_me.js"
       },
       {
         "relative" : true,
-        "requiredInHead" : false,
         "link" : "js/agency.min.js"
       }
     ]
