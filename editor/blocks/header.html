@@ -2,16 +2,14 @@
 <header>
     <div class="container">
         <div class="intro-text">
-            <rich-text
+            <div
+              rich-text
               label="Enter HTML here"
               meta="left_column"
-              overridable="true">
-
-              <div
-                class="intro-lead-in"
-                ng-style="setStyles(block, {'color':'text_color'})">HELLO THERE</div>
-
-            </rich-text>
+              overridable="true"
+              class="intro-lead-in"
+              ng-model="block.content.title"
+              ng-style="setStyles(block, {'color':'text_color'})">HELLO THERE</div>
 
             <div
               class="intro-lead-in"
