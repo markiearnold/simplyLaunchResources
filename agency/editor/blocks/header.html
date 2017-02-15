@@ -1,0 +1,28 @@
+<!-- Header -->
+<header>
+    <div class="container">
+        <div class="intro-text">
+            <div
+              class="intro-lead-in"
+              ng-model="block.content.title"
+              medium-editor bind-options="mediumBindOptionsNoTag"
+              ng-style="setStyles(block, {'color':'text_color'})"></div>
+
+            <div
+              class="intro-heading"
+              ng-model="block.content.subtitle"
+              medium-editor bind-options="mediumBindOptionsNoTag"
+              ng-style="setStyles(block, {'color':'text_color'})"></div>
+
+            <a
+              href="{{block.content.link.value}}"
+              class="page-scroll btn btn-xl"
+              ng-if="getSetting(block, 'btn_show')"
+              ng-style="setStyles(block, {
+                'color':'btn_text_color',
+                'background':'btn_bg_color',
+                'border-color':'btn_bg_color'
+              })">{{block.content.link.text}}</a>
+        </div>
+    </div>
+</header>

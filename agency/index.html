@@ -1,0 +1,35 @@
+<ng-include src="include('admin/modules/no-internet-connection')"></ng-include>
+
+<div class="builder-image-cropper" ng-class="{active: croppingImage}">
+  <div class="sl-cropArea">
+    <img-crop area-type="square" image="myImage" result-image="myCroppedImage"></img-crop>
+  </div>
+  <div class="builder-subMenu">
+    <ul>
+      <li class="left input">
+        <div class="fileUpload">
+          <span>Upload</span>
+          <input type="file" class="upload" id="fileInput" />
+        </div>
+      </li>
+      <li class="crop active"><a href=""><i class="fa fa-crop"></i></a></li>
+      <li class="edit"><a href=""><i class="fa fa-paint-brush"></i></a></li>
+      <li class="right"><a href="" class="btn save" ng-click="saveImage()">Save</a></li>
+      <li class="right"><a href="" class="btn cancel">Cancel</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="app-page builder-page" ng-if="online">
+  <ng-include src="include('admin/modules/preloader')"></ng-include>
+  <ng-include src="include('admin/modules/admin-header')"></ng-include>
+
+  <!-- Content -->
+  <div ng-repeat="block in site.website.blocks track by $index" class="sl-block" ng-if="!croppingImage">
+    <ng-include src="getBlock(block.type)"></ng-include>
+    <ng-include src="include('builder/modules/block-editor')"></ng-include>
+  </div>
+  <div ng-if="site.website.blocks.length <= 0" class="sl-toggle-drawer-button single" ng-click="toggleBlockDrawer()"><i class="fa fa-plus"></i></div>
+  <!-- END Content -->
+
+</div>
