@@ -1,11 +1,13 @@
 {
-  "name" : "Start Bootstrap",
-  "meta" : "start-bootstrap",
-  "version" : "1.0",
-  "preview_image" : "",
-  "author" : {
-    "name" : "Markie Arnold",
-    "website" : "http://simplylaunch.com"
+  "info" : {
+    "name" : "Start Bootstrap",
+    "meta" : "start-bootstrap",
+    "version" : "1.0",
+    "preview_image" : "",
+    "author" : {
+      "name" : "Markie Arnold",
+      "website" : "http://simplylaunch.com"
+    }
   },
   "marketplace" : {
     "id" : 1001,
