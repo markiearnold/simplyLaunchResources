@@ -1,12 +1,12 @@
 {
   "info" : {
-    "name" : "Start Bootstrap",
-    "meta" : "start-bootstrap",
+    "name" : "Agency",
+    "meta" : "agency",
     "version" : "1.0",
     "preview_image" : "",
     "author" : {
-      "name" : "Markie Arnold",
-      "website" : "http://simplylaunch.com"
+      "name" : "Start Bootstrap",
+      "website" : "https://startbootstrap.com/template-overviews/agency/"
     }
   },
   "marketplace" : {
