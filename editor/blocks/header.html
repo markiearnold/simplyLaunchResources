@@ -8,7 +8,9 @@
               meta="left_column"
               overridable="true"
               class="intro-lead-in"
-              ng-style="setStyles(block, {'color':'text_color'})">HELLO THERE</div>
+              ng-style="setStyles(block, {'color':'text_color'})"
+              ng-model="block.content.title"
+              medium-editor bind-options="mediumBindOptionsNoTag">HELLO THERE</div>
 
             <div
               class="intro-lead-in"
