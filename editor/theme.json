@@ -1,16 +1,16 @@
 {
   "info" : {
-    "name" : "Agency",
-    "meta" : "agency",
+    "name" : "Freelancer",
+    "meta" : "freelancer",
     "version" : "1.0",
     "preview_image" : "",
     "author" : {
       "name" : "Start Bootstrap",
-      "website" : "https://startbootstrap.com/template-overviews/agency/"
+      "website" : "https://startbootstrap.com/template-overviews/freelancer/"
     }
   },
   "marketplace" : {
-    "id" : 1001,
+    "id" : 1002,
     "premium" : false,
     "free" : true,
     "price" : 0,
@@ -31,6 +31,10 @@
       },
       {
         "relative" : true,
+        "link" : "css/freelancer.min.css"
+      },
+      {
+        "relative" : true,
         "link" : "vendor/font-awesome/css/font-awesome.min.css"
       },
       {
@@ -39,19 +43,7 @@
       },
       {
         "relative" : false,
-        "link" : "https://fonts.googleapis.com/css?family=Kaushan+Script"
-      },
-      {
-        "relative" : false,
-        "link" : "https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic"
-      },
-      {
-        "relative" : false,
-        "link" : "https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
-      },
-      {
-        "relative" : true,
-        "link" : "css/agency.min.css"
+        "link" : "https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
       }
     ],
     "js" : [
@@ -77,7 +69,7 @@
       },
       {
         "relative" : true,
-        "link" : "js/agency.min.js"
+        "link" : "js/freelancer.min.js"
       }
     ]
   },
@@ -88,13 +80,8 @@
       "order" : 1,
       "preview_image" : "header.jpg",
       "content" : {
-        "title" : "Welcome To Our Studio!",
-        "subtitle" : "It's Nice To Meet You",
-        "link" : {
-          "text" : "Tell Me More",
-          "type" : "anchor",
-          "value" : "#services"
-        }
+        "title" : "Start Bootstrap",
+        "subtitle" : "Web Developer - Graphic Artist - User Experience Designer"
       },
       "block_settings" : [
         {
@@ -108,41 +95,17 @@
               "value" : "#ffffff",
               "required" : false
             },
-            {
-              "id" : "btn_text_color",
-              "label" : "Button Text",
-              "type" : "color",
-              "placeholder" : "",
-              "value" : "#ffffff",
-              "required" : false
-            },
-            {
-              "id" : "btn_bg_color",
-              "label" : "Button Background",
-              "type" : "color",
-              "placeholder" : "",
-              "value" : "#fed136",
-              "required" : false
-            },
-            {
-              "id" : "btn_show",
-              "label" : "Show Button",
-              "type" : "checkbox",
-              "placeholder" : "",
-              "value" : true,
-              "required" : false
-            }
           ]
         },
         {
           "group" : "Images",
           "settings" : [
             {
-              "id" : "bg_image",
-              "label" : "Background Image",
+              "id" : "header_image",
+              "label" : "Header Image",
               "type" : "image",
               "placeholder" : "",
-              "value" : "https://images.unsplash.com/photo-1468853692559-fc594e932a2d?dpr=2&auto=format&fit=crop&w=1500&h=2250&q=80&cs=tinysrgb&crop=",
+              "value" : "assets/img/profile.png",
               "required" : false
             }
           ]
