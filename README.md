@@ -1,4 +1,4 @@
-# SimplyLaunch Desktop Application Resource Repository
+# SimplyLaunch Resource Repository
 
 ## Themes
 The application will download theme packages from here.    
