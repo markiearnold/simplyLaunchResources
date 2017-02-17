@@ -142,7 +142,7 @@
               "label" : "Background Image",
               "type" : "image",
               "placeholder" : "",
-              "value" : "https://images.unsplash.com/photo-1468853692559-fc594e932a2d?dpr=2&auto=format&fit=crop&w=1500&h=2250&q=80&cs=tinysrgb&crop=",
+              "value" : "/assets/img/header-bg.jpg",
               "required" : false
             }
           ]
