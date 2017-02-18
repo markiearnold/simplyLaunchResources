@@ -42,20 +42,33 @@
       },
       "block_settings" : [
         {
+          "group" : "Appearance",
+          "settings" : [
+            {
+              "id" : "plp_hero_overlay_color",
+              "label" : "Hero image overlay color",
+              "type" : "color",
+              "value" : "#202020",
+              "no_wrapper" : true
+            },
+            {
+              "id" : "plp_hero_overlay_opacity",
+              "label" : "Hero image overlay opacity",
+              "type" : "choice",
+              "value" : "0.4",
+              "choices" : ["0.0", "0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7", "0.8", "0.9"],
+              "no_wrapper" : true
+            }
+          ]
+        },
+        {
           "group" : "Images",
           "settings" : [
             {
               "id" : "plp_logo_top",
-              "label" : "Logo",
+              "label" : "Hero Background Image",
               "type" : "image_src",
-              "value" : "http://s3.amazonaws.com/bp.asset-manager.cdn1.bigpresence.com/bigagency/libs/v.1/img/logo-2.png",
-              "no_wrapper" : true
-            },
-            {
-              "id" : "plp_top_logo_linkto",
-              "label" : "Header logo links to",
-              "type" : "text",
-              "value" : "#",
+              "value" : "http://s3.amazonaws.com/bp.asset-manager.cdn1.bigpresence.com/bigagency/libs/v.1/img/hero-1.jpg",
               "no_wrapper" : true
             }
           ]
@@ -96,7 +109,7 @@
           "group" : "Images",
           "settings" : [
             {
-              "id" : "plp_logo_top",
+              "id" : "plp_hero_img",
               "label" : "Hero Background Image",
               "type" : "image_src",
               "value" : "http://s3.amazonaws.com/bp.asset-manager.cdn1.bigpresence.com/bigagency/libs/v.1/img/hero-1.jpg",
