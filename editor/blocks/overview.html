@@ -1,0 +1,125 @@
+<section
+    style="
+        background:{% color "plp_addon_bg_color" label='Overview section background color' color="#fff" no_wrapper="true" %};
+    ">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="clearfix" style="margin-top:55px;"></div>
+                <div class="main-content-wrapper">
+                    <div class="overview wow fadeInDown" data-wow-delay="1s">
+                        <h2>
+                            {% widget_block rich_text "plp_overview_title" overrideable="true" label="Overview H2 title" no_wrapper="true"  %}
+                                {% widget_attribute "html" %}
+                                    WEBINAR <span class="accent">OVERVIEW</span>
+                                {% end_widget_attribute %}
+                            {% end_widget_block %}
+                        </h2>
+                        <div class="plp-overview-content">
+                        {% widget_block rich_text "plp_overview_content" overrideable="true" label="Overview body content" no_wrapper="true"  %}
+                            {% widget_attribute "html" %}
+                                Et lectus adipiscing. Nec semper odio eleifend ipsum diam scelerisque mattis magnis sagittis tristique quis eu pharetra fermentum suscipit. Porta duis duis pretium vel, dapibus per dignissim fames. Facilisi nullam pulvinar imperdiet laoreet nisi Erat lacinia vehicula Augue commodo Lacus vivamus. Nisl nullam. Nascetur viverra. <p>&nbsp;</p>
+                            {% end_widget_attribute %}
+                        {% end_widget_block %}
+                        </div>
+                    </div>
+                    <div class="clearfix" style="margin-top:65px;"></div>
+                    <div class="features wow fadeInUp" data-wow-delay="1s">
+                        <h2>
+                            {% widget_block rich_text "plp_learn_title" overrideable="true" label="Learn H2 title" no_wrapper="true"  %}
+                                {% widget_attribute "html" %}
+                                    WHAT YOU'LL <span class="accent">LEARN</span>
+                                {% end_widget_attribute %}
+                            {% end_widget_block %}
+                        </h2>
+                        <div class="outline-left">
+                            {% widget_block rich_text "plp_learn_body_content" overrideable="true" label="Learn body content" no_wrapper="true"  %}
+                                {% widget_attribute "html" %}
+                                    <ul>
+                                        <li>Sollicitudin luctus urna nulla</li>
+                                        <li>Neque aptent quis, nisl <span class="accent">vestibulum</span> aenean praesent. Arcu sagittis Conubia.</li>
+                                        <li>Viverra hac senectus fames feugiat maecenas consectetuer sociis. Maecenas neque.</li>
+                                        <li>Est nascetur vehicula. Diam <span class="accent">adipiscing</span> erat turpis leo dolor purus.</li>
+                                        <li>Quisque elementum nibh risus ut vivamus purus nullam condimentum cum.</li>
+                                        <li>Libero aenean luctus, bibendum nulla consequat sem. Metus. Laoreet dictum.</li>
+                                        <li>Pellentesque <span class="accent">pellentesque</span> morbi facilisi torquent magna aliquet ultrices. Ac lacinia.</li>
+                                    </ul>
+                                {% end_widget_attribute %}
+                            {% end_widget_block %}
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix" style="margin-top:65px;"></div>
+            </div>
+            <div class="col-md-5 contact-wrapper" style="background: #EBEBEB">
+                <div class="share-container">
+                    <div class="share-inner-container">
+                        <ul>
+                            <li class="wow fadeInDown" data-wow-delay="2.2s" style="background:transparent;">
+                                <i class="fa fa-share-alt" aria-hidden="true"></i>
+                            </li>
+                            <li class="wow fadeInDown" data-wow-delay="1.9s"  style="background:#587CB1;">
+                                <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ content.absolute_url }}">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="wow fadeInDown" data-wow-delay="1.6s" style="background:#1FBFEE;">
+                                <a target="_blank" href="https://twitter.com/home?status={{ content.title|urlencode }}%20-%20{{ content.absolute_url }}">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="wow fadeInDown" data-wow-delay="1.3s" style="background:#E64B22;">
+                                <a target="_blank" href="https://plus.google.com/share?url={{ content.absolute_url }}">
+                                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="wow fadeInDown" data-wow-delay="1s" style="background:#1791B9;">
+                                <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{ content.absolute_url }}&title={{ content.title|urlencode }}&summary=&source=">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="wow fadeInDown" data-wow-delay=".8s" style="background:#fc8370;">
+                                <a target="_blank" href="mailto:?&subject={{ content.title|urlencode }}&body={{ content.title|urlencode }}%0A{{ content.absolute_url }}">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="clearfix" style="margin-top:65px;"></div>
+                <div  class="wow fadeInRight" data-wow-delay="1.9s">
+                    <h2>
+                        {% widget_block rich_text "plp_form_title" overrideable="true" label="Form H2 title" no_wrapper="true"  %}
+                            {% widget_attribute "html" %}
+                                REGISTER NOW!
+                            {% end_widget_attribute %}
+                        {% end_widget_block %}
+                    </h2>
+                    <div class="description">
+                        {% widget_block rich_text "plp_form_description" overrideable="true" label="Form description" no_wrapper="true"  %}
+                            {% widget_attribute "html" %}
+                                Et lectus adipiscing. Nec semper odio eleifend scelerisque magnis sagittis tristique quis eu pharetra fermentum suscipit.
+                            {% end_widget_attribute %}
+                        {% end_widget_block %}
+                    </div>
+                    <div class="form-container">
+                        <div class="form-wrapper">
+                            <div class="clearfix" style="margin-top:20px;"></div>
+                            <form>
+                                <input type="text" placeholder="First Name" />
+                                <input type="text" placeholder="Last Name" />
+                                <input type="email" placeholder="Email" />
+                                <input type="text" placeholder="Company (optional)" />
+                                <input type="text" placeholder="Phone (optional)" />
+                                <input type="submit" value="REGISTER" />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix" style="margin-top:135px;"></div>
+            </div>
+        </div>
+    </div>
+</section>

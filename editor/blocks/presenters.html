@@ -1,0 +1,233 @@
+<section
+    style="
+        background:{% color "plp_presenters_bg_color" label='Presenters section background color' color="#fff" no_wrapper="true" %};
+    ">
+    <div class="container-fluid">
+        <div class="clearfix" style="margin-top:65px;"></div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="wow fadeInUp" data-wow-delay="1s">
+                    {% widget_block rich_text "plp_presenters_title" overrideable="true" label="Presenters H2 title" no_wrapper="true"  %}
+                        {% widget_attribute "html" %}
+                            THE <span class="accent">PRESENTERS</span>
+                        {% end_widget_attribute %}
+                    {% end_widget_block %}
+                </h2>
+            </div>
+        </div>
+        <div class="clearfix" style="margin-top:5px;"></div>
+        <div class="row profiles">
+            <div class="col-md-4 profile wow fadeInDown">
+                <div class="profile-inner-wrapper">
+                    <div class="bg-img" style="background: url('{% image_src "plp_presenters_first_img" label="Presenter (first) Image" src='//s3.amazonaws.com/bp.asset-manager.cdn1.bigpresence.com/bigagency/libs/v.1/img/profile-1.jpg' no_wrapper="true" %}');"></div>
+                    <div class="profile-hover-wrapper">
+                        <div class="profile-social-container">
+
+                            {% text "profile_first_fb_url"
+                                label="Profile (first) facebook url - (empty to hide icon)"
+                                value="#"
+                                export_to_template_context="true"
+                                no_wrapper="true"
+                            %}
+                            {% text "profile_first_tw_url"
+                                label="Profile (first) twitter url - (empty to hide icon)"
+                                value="#"
+                                export_to_template_context="true"
+                                no_wrapper="true"
+                            %}
+                            {% text "profile_first_li_url"
+                                label="Profile (first) linkedin url - (empty to hide icon)"
+                                value="#"
+                                export_to_template_context="true"
+                                no_wrapper="true"
+                            %}
+
+
+
+                            <ul>
+                                {% if widget_data.profile_first_fb_url.value != '' %}
+                                <li>
+                                    <a href="{{widget_data.profile_first_fb_url.value}}" target="_blank">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                {% endif %}
+                                {% if widget_data.profile_first_tw_url.value != '' %}
+                                <li>
+                                    <a href="{{widget_data.profile_first_tw_url.value}}" target="_blank">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                {% endif %}
+                                {% if widget_data.profile_first_li_url.value != '' %}
+                                <li>
+                                    <a href="{{widget_data.profile_first_li_url.value}}" target="_blank">
+                                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                {% endif %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="meta">
+                    <div class="title">
+                        {% widget_block rich_text "plp_presenters_first_name" overrideable="true" label="Presenters (first) name" no_wrapper="true"  %}
+                            {% widget_attribute "html" %}
+                                SHANE PORTSINGER
+                            {% end_widget_attribute %}
+                        {% end_widget_block %}
+                    </div>
+                    <div class="pos">
+                        {% widget_block rich_text "plp_presenters_first_role" overrideable="true" label="Presenters (first) role" no_wrapper="true"  %}
+                            {% widget_attribute "html" %}
+                                Juniper <span class="accent">Photography</span>
+                            {% end_widget_attribute %}
+                        {% end_widget_block %}
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 profile wow fadeInUp">
+                <div class="profile-inner-wrapper">
+                    <div class="bg-img" style="background: url('{% image_src "plp_presenters_second_img" label="Presenter (second) Image" src='//s3.amazonaws.com/bp.asset-manager.cdn1.bigpresence.com/bigagency/libs/v.1/img/profile-2.jpg' no_wrapper="true" %}');"></div>
+                    <div class="profile-hover-wrapper">
+                        <div class="profile-social-container">
+
+                            {% text "profile_second_fb_url"
+                                label="Profile (second) facebook url - (empty to hide icon)"
+                                value="#"
+                                export_to_template_context="true"
+                                no_wrapper="true"
+                            %}
+                            {% text "profile_second_tw_url"
+                                label="Profile (second) twitter url - (empty to hide icon)"
+                                value="#"
+                                export_to_template_context="true"
+                                no_wrapper="true"
+                            %}
+                            {% text "profile_second_li_url"
+                                label="Profile (second) linkedin url - (empty to hide icon)"
+                                value="#"
+                                export_to_template_context="true"
+                                no_wrapper="true"
+                            %}
+
+
+
+                            <ul>
+                                {% if widget_data.profile_second_fb_url.value != '' %}
+                                <li>
+                                    <a href="{{widget_data.profile_second_fb_url.value}}" target="_blank">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                {% endif %}
+                                {% if widget_data.profile_second_tw_url.value != '' %}
+                                <li>
+                                    <a href="{{widget_data.profile_second_tw_url.value}}" target="_blank">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                {% endif %}
+                                {% if widget_data.profile_second_li_url.value != '' %}
+                                <li>
+                                    <a href="{{widget_data.profile_second_li_url.value}}" target="_blank">
+                                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                {% endif %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="meta">
+                    <div class="title">
+                        {% widget_block rich_text "plp_presenters_second_name" overrideable="true" label="Presenters (second) name" no_wrapper="true"  %}
+                            {% widget_attribute "html" %}
+                                TOPHER MCKENZIE
+                            {% end_widget_attribute %}
+                        {% end_widget_block %}
+                    </div>
+                    <div class="pos">
+                        {% widget_block rich_text "plp_presenters_second_role" overrideable="true" label="Presenters (second) role" no_wrapper="true"  %}
+                            {% widget_attribute "html" %}
+                                All American <span class="accent">Photography</span>
+                            {% end_widget_attribute %}
+                        {% end_widget_block %}
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 profile wow fadeInDown">
+                <div class="profile-inner-wrapper">
+                    <div class="bg-img" style="background: url('{% image_src "plp_presenters_third_img" label="Presenter (third) Image" src='//s3.amazonaws.com/bp.asset-manager.cdn1.bigpresence.com/bigagency/libs/v.1/img/profile-3.jpg' no_wrapper="true" %}');"></div>
+                    <div class="profile-hover-wrapper">
+                        <div class="profile-social-container">
+
+                            {% text "profile_third_fb_url"
+                                label="Profile (third) facebook url - (empty to hide icon)"
+                                value="#"
+                                export_to_template_context="true"
+                                no_wrapper="true"
+                            %}
+                            {% text "profile_third_tw_url"
+                                label="Profile (third) twitter url - (empty to hide icon)"
+                                value="#"
+                                export_to_template_context="true"
+                                no_wrapper="true"
+                            %}
+                            {% text "profile_third_li_url"
+                                label="Profile (third) linkedin url - (empty to hide icon)"
+                                value="#"
+                                export_to_template_context="true"
+                                no_wrapper="true"
+                            %}
+
+
+
+                            <ul>
+                                {% if widget_data.profile_third_fb_url.value != '' %}
+                                <li>
+                                    <a href="{{widget_data.profile_third_fb_url.value}}" target="_blank">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                {% endif %}
+                                {% if widget_data.profile_third_tw_url.value != '' %}
+                                <li>
+                                    <a href="{{widget_data.profile_third_tw_url.value}}" target="_blank">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                {% endif %}
+                                {% if widget_data.profile_third_li_url.value != '' %}
+                                <li>
+                                    <a href="{{widget_data.profile_third_li_url.value}}" target="_blank">
+                                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                {% endif %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="meta">
+                    <div class="title">
+                        {% widget_block rich_text "plp_presenters_third_name" overrideable="true" label="Presenters (third) name" no_wrapper="true"  %}
+                            {% widget_attribute "html" %}
+                                GRACIE LARSON
+                            {% end_widget_attribute %}
+                        {% end_widget_block %}
+                    </div>
+                    <div class="pos">
+                        {% widget_block rich_text "plp_presenters_third_role" overrideable="true" label="Presenters (third) role" no_wrapper="true"  %}
+                            {% widget_attribute "html" %}
+                                Kealto <span class="accent">Photography</span>
+                            {% end_widget_attribute %}
+                        {% end_widget_block %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix" style="margin-top:65px;"></div>
+    </div>
+</section>

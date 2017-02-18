@@ -1,0 +1,66 @@
+<section class="fixed-bg" style="background: url('{% image_src "plp_savedate_img" label="Save the date Background Image" src='//s3.amazonaws.com/bp.asset-manager.cdn1.bigpresence.com/bigagency/libs/v.1/img/hero-2.jpg' no_wrapper="true" %}');">
+    <div class="overlay-wrapper">
+        <div class="overlay"
+                style="
+                    background:{% color "plp_savedate_overlay_color" label='Save the date image overlay color' color="#202020" no_wrapper="true" %};
+                    opacity:{% choice "plp_savedate_overlay_opacity"
+                               label='Hero image overlay opacity'
+                               value="0.4" choices="0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9"
+                               no_wrapper="true" %};
+                "></div>
+    </div>
+
+    <div class="container">
+        <div class="clearfix" style="margin-top:85px;"></div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="hero2-content-wrapper text-left outline-left">
+                        <h3 class="wow fadeInRight" data-wow-delay="1s">
+                            {% widget_block rich_text "plp_save_date_subtitle" overrideable="true" label="Save the date H3 title" no_wrapper="true"  %}
+                                {% widget_attribute "html" %}
+                                    REMINDER
+                                {% end_widget_attribute %}
+                            {% end_widget_block %}
+                        </h3>
+                        <h1 class="wow fadeInRight" data-wow-delay="1.3s">
+                            {% widget_block rich_text "plp_save_date_title" overrideable="true" label="Save the date H1 title" no_wrapper="true"  %}
+                                {% widget_attribute "html" %}
+                                    SAVE<br/>THE DATE
+                                {% end_widget_attribute %}
+                            {% end_widget_block %}
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="date-super-wrapper wow fadeInDown" data-wow-delay=".8s">
+                        <div class="date-wrapper">
+                            <div class="date-super">
+                                {% widget_block rich_text "plp_save_date_date" overrideable="true" label="Save the date date" no_wrapper="true"  %}
+                                    {% widget_attribute "html" %}
+                                        Jan 23
+                                    {% end_widget_attribute %}
+                                {% end_widget_block %}
+                            </div>
+                            <div class="date-lower">
+                                {% widget_block rich_text "plp_save_date_year" overrideable="true" label="Save the date year" no_wrapper="true"  %}
+                                    {% widget_attribute "html" %}
+                                        2018
+                                    {% end_widget_attribute %}
+                                {% end_widget_block %}
+                            </div>
+                        </div>
+                        <div class="day-wrapper">
+                            <div class="day">
+                                {% widget_block rich_text "plp_save_date_day" overrideable="true" label="Save the date day" no_wrapper="true"  %}
+                                    {% widget_attribute "html" %}
+                                        WEDNESDAY
+                                    {% end_widget_attribute %}
+                                {% end_widget_block %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="clearfix" style="margin-top:125px;"></div>
+    </div>
+</section>

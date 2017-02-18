@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Title and Meta Tags Begins -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta charset="utf-8">
+        <!--[if IE]>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+        <![endif]-->
+
+        <title>{{ content.html_title }}</title>
+        <meta name="description" content="{{ content.meta_description }}">
+        {{ standard_header_includes }}
+        {{ favicon_link }}
+
+
+
+
+        <link href="//fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+        <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700,800" rel="stylesheet">
+
+        {% boolean "enable_animations" label="Enable loading animations?"  value="true" export_to_template_context="true" %}
+
+
+        {% textarea "custom_font_embed" label='Custom google font css embed code' no_wrapper="true" export_to_template_context="true" %}
+        {% textarea "custom_css_code" label='Custom CSS values' no_wrapper="true" export_to_template_context="true" %}
+        {{ widget_data.custom_font_embed.value }}
+
+        <link href="//s3.amazonaws.com/bp.asset-manager.cdn1.bigpresence.com/bigagency/libs/v.1/css/reset.css" rel="stylesheet"/>
+        <link href="//s3.amazonaws.com/bp.asset-manager.cdn1.bigpresence.com/bigagency/libs/v.1/css/normalize.css" rel="stylesheet"/>
+
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="//s3.amazonaws.com/bp.asset-manager.cdn1.bigpresence.com/bigagency/libs/v.1/css/bootstrap-select.min.css" rel="stylesheet"/>
+        <link href="//s3.amazonaws.com/bp.asset-manager.cdn1.bigpresence.com/bigagency/libs/v.1/css/animate.min.css" rel="stylesheet" type="text/css"/>
+
+        <link rel="stylesheet" href="{{ get_public_template_url("custom/page/bigagency/overrides.css") }}">
+
+
+        {% color "body_font_color" label="Main body color" color="#606060" no_wrapper="true" export_to_template_context="true" %}
+        {% color "accent_font_color" label="Main accent color" color="#fb6d51" no_wrapper="true" export_to_template_context="true" %}
+        {% color "accent2_font_color" label="Secondary accent color" color="#e8563f" no_wrapper="true" export_to_template_context="true" %}
+
+        {% text "body_font_family" label="Body/Paragraph font family" value="'Open Sans', sans-serif" no_wrapper="true" export_to_template_context="true" %}
+
+        {% text "h1_font_family" label="H1 font family" value="'Roboto Condensed', sans-serif" no_wrapper="true" export_to_template_context="true" %}
+        {% text "h2_font_family" label="H2 font family" value="'Roboto Condensed', sans-serif" no_wrapper="true" export_to_template_context="true" %}
+        {% text "h3_font_family" label="H3 font family" value="'Roboto Condensed', sans-serif" no_wrapper="true" export_to_template_context="true" %}
+        {% text "h4_font_family" label="H4 font family" value="'Roboto Condensed', sans-serif" no_wrapper="true" export_to_template_context="true" %}
+        {% text "h5_font_family" label="H5 font family" value="'Roboto Condensed', sans-serif" no_wrapper="true" export_to_template_context="true" %}
+        {% text "h6_font_family" label="H6 font family" value="'Roboto Condensed', sans-serif" no_wrapper="true" export_to_template_context="true" %}
+
+        {% color "h1_font_color" label="H1 font color" color="#fff" no_wrapper="true" export_to_template_context="true" %}
+        {% color "h2_font_color" label="H2 font color" color="#606060" no_wrapper="true" export_to_template_context="true" %}
+        {% color "h3_font_color" label="H3 font color" color="#fb6d51" no_wrapper="true" export_to_template_context="true" %}
+        {% color "h4_font_color" label="H4 font color" color="#606060" no_wrapper="true" export_to_template_context="true" %}
+        {% color "h5_font_color" label="H5 font color" color="#606060" no_wrapper="true" export_to_template_context="true" %}
+        {% color "h6_font_color" label="H6 font color" color="#606060" no_wrapper="true" export_to_template_context="true" %}
+
+        <style>
+            html,
+            body,
+            a,
+            p {
+                font-family: {{ widget_data.body_font_family.value|replace(';', '')}} ;
+            }
+
+            h1 {
+                font-family: {{ widget_data.h1_font_family.value|replace(';', '')}};
+            }
+            h2 {
+                font-family: {{ widget_data.h2_font_family.value|replace(';', '')}};
+            }
+            h3 {
+                font-family: {{ widget_data.h3_font_family.value|replace(';', '')}};
+            }
+            h4 {
+                font-family: {{ widget_data.h4_font_family.value|replace(';', '')}};
+            }
+            h5 {
+                font-family: {{ widget_data.h5_font_family.value|replace(';', '')}};
+            }
+            h6 {
+                font-family: {{ widget_data.h6_font_family.value|replace(';', '')}};
+            }
+
+            h1 {
+                color: {{ widget_data.h1_font_color.color }};
+            }
+            h2 {
+                color: {{ widget_data.h2_font_color.color }};
+            }
+            h3 {
+                color: {{ widget_data.h3_font_color.color }};
+            }
+            h4 {
+                color: {{ widget_data.h4_font_color.color }};
+            }
+            h5 {
+                color: {{ widget_data.h5_font_color.color }};
+            }
+            h6 {
+                color: {{ widget_data.h6_font_color.color }};
+            }
+
+            html, body, p {
+                font-family: {{ widget_data.body_font_family.value|replace(';', '')}};
+            }
+
+            html,
+            body,
+            p,
+            .meta .description,
+            .meta .description p {
+                color: {{ widget_data.body_font_color.color}};
+            }
+
+            a,
+            .accent,
+            .ba-btn.knockout.orange a,
+            .meta .go,
+            .meta .go a {
+                color: {{ widget_data.accent_font_color.color}};
+            }
+
+            .ba-btn.knockout.orange a:hover,
+            .outline-left:after,
+            .share-container,
+            input[type="submit"]
+            {
+                background: {{ widget_data.accent_font_color.color}};
+            }
+
+            .ba-btn.knockout.orange a,
+            .date-wrapper,
+            .day-wrapper
+            {
+                border-color: {{ widget_data.accent_font_color.color}};
+            }
+
+            .meta .go a:hover,
+            a
+            {
+                color: {{ widget_data.accent2_font_color.color}};
+            }
+
+            input[type="submit"]:hover
+
+            {
+                background: {{ widget_data.accent2_font_color.color}};
+            }
+        </style>
+
+        <style>
+            .contact-wrapper .hs-form-field>label{
+                display: none;
+            }
+            .actions input[type="submit"]{
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                color: white;
+                border: 0;
+                outline: 0;
+                padding: 7px 20px;
+                min-width: 200px;
+                margin-top: 12px;
+                border-radius: 0;
+                -webkit-transition: all .2s linear;
+                -o-transition: all .2s linear;
+                -moz-transition: all .2s linear;
+                -ms-transition: all .2s linear;
+                -kthtml-transition: all .2s linear;
+                transition: all .2s linear;
+            }
+            .hs-error-msgs.inputs-list {
+                font-size: 12px;
+                line-height: 12px;
+                margin-bottom: 0;
+            }
+            .hs-error-msgs.inputs-list label {
+                font-weight: normal;
+                color: red;
+                letter-spacing: 1px;
+            }
+            @media screen and (max-width: 992px) {
+                .contact-wrapper {
+                    float: left;
+                    width: 100%;
+                }
+            }
+            @media screen and (max-width: 768px) {
+                body h1 {
+                    font-size: 23px;
+                    line-height: 23px;
+                    letter-spacing: 2px;
+                }
+            }
+            {{ widget_data.custom_css_code.value }}
+        </style>
+    </head>
+<body class="{{ builtin_body_classes }}">
+
+
+
+<!-- <div class="nav-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 logo-wrapper wow fadeInDown" data-wow-delay="0.8s">
+                <a href="{% text "plp_top_logo_linkto" label="Header logo links to" value="#" no_wrapper="true" %}">
+                    <img alt="logo" src="{% image_src "plp_logo_top" label="Logo" src='//s3.amazonaws.com/bp.asset-manager.cdn1.bigpresence.com/bigagency/libs/v.1/img/logo-2.png' no_wrapper="true" %}">
+                </a>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <section class="fullscreen-wrapper-with-full-height-children fixed-bg" style="background: url('{% image_src "plp_hero_img" label="Hero Background Image" src='//s3.amazonaws.com/bp.asset-manager.cdn1.bigpresence.com/bigagency/libs/v.1/img/hero-1.jpg' no_wrapper="true" %}');">
+    <div class="overlay-wrapper">
+        <div class="overlay"
+                style="
+                    background:{% color "plp_hero_overlay_color" label='Hero image overlay color' color="#202020" no_wrapper="true" %};
+                    opacity:{% choice "plp_hero_overlay_opacity"
+                               label='Hero image overlay opacity'
+                               value="0.4" choices="0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9"
+                               no_wrapper="true" %};
+                "></div>
+    </div>
+
+    <div class="valign-content">
+        <div class="valign-inner-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="hero-content-wrapper text-left outline-left wow fadeInLeft">
+                            <h3 class="wow fadeInRight" data-wow-delay="1s">
+                                {% widget_block rich_text "plp_hero_sub_h3" overrideable="true" label="Hero H3 text" no_wrapper="true"  %}
+                                    {% widget_attribute "html" %}
+                                        WEBINAR SIGNUP
+                                    {% end_widget_attribute %}
+                                {% end_widget_block %}
+                            </h3>
+                            <h1 class="wow fadeInRight" data-wow-delay="1.2s">
+                                {% widget_block rich_text "plp_hero_sub_h1" overrideable="true" label="Hero H1 text" no_wrapper="true"  %}
+                                    {% widget_attribute "html" %}
+                                        HOW TO INSPIRE <span class="accent">&amp;</span> EXCITE CREATIVITY IN NEW <span class="accent">PHOTOGRAPHERS</span>
+                                    {% end_widget_attribute %}
+                                {% end_widget_block %}
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section> -->
+
+
+
+
+<!-- <section
+    style="
+        background:{% color "plp_addon_bg_color" label='Overview section background color' color="#fff" no_wrapper="true" %};
+    ">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="clearfix" style="margin-top:55px;"></div>
+                <div class="main-content-wrapper">
+                    <div class="overview wow fadeInDown" data-wow-delay="1s">
+                        <h2>
+                            {% widget_block rich_text "plp_overview_title" overrideable="true" label="Overview H2 title" no_wrapper="true"  %}
+                                {% widget_attribute "html" %}
+                                    WEBINAR <span class="accent">OVERVIEW</span>
+                                {% end_widget_attribute %}
+                            {% end_widget_block %}
+                        </h2>
+                        <div class="plp-overview-content">
+                        {% widget_block rich_text "plp_overview_content" overrideable="true" label="Overview body content" no_wrapper="true"  %}
+                            {% widget_attribute "html" %}
+                                Et lectus adipiscing. Nec semper odio eleifend ipsum diam scelerisque mattis magnis sagittis tristique quis eu pharetra fermentum suscipit. Porta duis duis pretium vel, dapibus per dignissim fames. Facilisi nullam pulvinar imperdiet laoreet nisi Erat lacinia vehicula Augue commodo Lacus vivamus. Nisl nullam. Nascetur viverra. <p>&nbsp;</p>
+                            {% end_widget_attribute %}
+                        {% end_widget_block %}
+                        </div>
+                    </div>
+                    <div class="clearfix" style="margin-top:65px;"></div>
+                    <div class="features wow fadeInUp" data-wow-delay="1s">
+                        <h2>
+                            {% widget_block rich_text "plp_learn_title" overrideable="true" label="Learn H2 title" no_wrapper="true"  %}
+                                {% widget_attribute "html" %}
+                                    WHAT YOU'LL <span class="accent">LEARN</span>
+                                {% end_widget_attribute %}
+                            {% end_widget_block %}
+                        </h2>
+                        <div class="outline-left">
+                            {% widget_block rich_text "plp_learn_body_content" overrideable="true" label="Learn body content" no_wrapper="true"  %}
+                                {% widget_attribute "html" %}
+                                    <ul>
+                                        <li>Sollicitudin luctus urna nulla</li>
+                                        <li>Neque aptent quis, nisl <span class="accent">vestibulum</span> aenean praesent. Arcu sagittis Conubia.</li>
+                                        <li>Viverra hac senectus fames feugiat maecenas consectetuer sociis. Maecenas neque.</li>
+                                        <li>Est nascetur vehicula. Diam <span class="accent">adipiscing</span> erat turpis leo dolor purus.</li>
+                                        <li>Quisque elementum nibh risus ut vivamus purus nullam condimentum cum.</li>
+                                        <li>Libero aenean luctus, bibendum nulla consequat sem. Metus. Laoreet dictum.</li>
+                                        <li>Pellentesque <span class="accent">pellentesque</span> morbi facilisi torquent magna aliquet ultrices. Ac lacinia.</li>
+                                    </ul>
+                                {% end_widget_attribute %}
+                            {% end_widget_block %}
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix" style="margin-top:65px;"></div>
+            </div>
+            <div class="col-md-5 contact-wrapper" style="background: #EBEBEB">
+                <div class="share-container">
+                    <div class="share-inner-container">
+                        <ul>
+                            <li class="wow fadeInDown" data-wow-delay="2.2s" style="background:transparent;">
+                                <i class="fa fa-share-alt" aria-hidden="true"></i>
+                            </li>
+                            <li class="wow fadeInDown" data-wow-delay="1.9s"  style="background:#587CB1;">
+                                <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ content.absolute_url }}">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="wow fadeInDown" data-wow-delay="1.6s" style="background:#1FBFEE;">
+                                <a target="_blank" href="https://twitter.com/home?status={{ content.title|urlencode }}%20-%20{{ content.absolute_url }}">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="wow fadeInDown" data-wow-delay="1.3s" style="background:#E64B22;">
+                                <a target="_blank" href="https://plus.google.com/share?url={{ content.absolute_url }}">
+                                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="wow fadeInDown" data-wow-delay="1s" style="background:#1791B9;">
+                                <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{ content.absolute_url }}&title={{ content.title|urlencode }}&summary=&source=">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="wow fadeInDown" data-wow-delay=".8s" style="background:#fc8370;">
+                                <a target="_blank" href="mailto:?&subject={{ content.title|urlencode }}&body={{ content.title|urlencode }}%0A{{ content.absolute_url }}">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="clearfix" style="margin-top:65px;"></div>
+                <div  class="wow fadeInRight" data-wow-delay="1.9s">
+                    <h2>
+                        {% widget_block rich_text "plp_form_title" overrideable="true" label="Form H2 title" no_wrapper="true"  %}
+                            {% widget_attribute "html" %}
+                                REGISTER NOW!
+                            {% end_widget_attribute %}
+                        {% end_widget_block %}
+                    </h2>
+                    <div class="description">
+                        {% widget_block rich_text "plp_form_description" overrideable="true" label="Form description" no_wrapper="true"  %}
+                            {% widget_attribute "html" %}
+                                Et lectus adipiscing. Nec semper odio eleifend scelerisque magnis sagittis tristique quis eu pharetra fermentum suscipit.
+                            {% end_widget_attribute %}
+                        {% end_widget_block %}
+                    </div>
+                    <div class="form-container">
+                        <div class="form-wrapper">
+                            <div class="clearfix" style="margin-top:20px;"></div>
+                            <form>
+                                <input type="text" placeholder="First Name" />
+                                <input type="text" placeholder="Last Name" />
+                                <input type="email" placeholder="Email" />
+                                <input type="text" placeholder="Company (optional)" />
+                                <input type="text" placeholder="Phone (optional)" />
+                                <input type="submit" value="REGISTER" />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix" style="margin-top:135px;"></div>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <section class="fixed-bg" style="background: url('{% image_src "plp_savedate_img" label="Save the date Background Image" src='//s3.amazonaws.com/bp.asset-manager.cdn1.bigpresence.com/bigagency/libs/v.1/img/hero-2.jpg' no_wrapper="true" %}');">
+    <div class="overlay-wrapper">
+        <div class="overlay"
+                style="
+                    background:{% color "plp_savedate_overlay_color" label='Save the date image overlay color' color="#202020" no_wrapper="true" %};
+                    opacity:{% choice "plp_savedate_overlay_opacity"
+                               label='Hero image overlay opacity'
+                               value="0.4" choices="0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9"
+                               no_wrapper="true" %};
+                "></div>
+    </div>
+
+    <div class="container">
+        <div class="clearfix" style="margin-top:85px;"></div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="hero2-content-wrapper text-left outline-left">
+                        <h3 class="wow fadeInRight" data-wow-delay="1s">
+                            {% widget_block rich_text "plp_save_date_subtitle" overrideable="true" label="Save the date H3 title" no_wrapper="true"  %}
+                                {% widget_attribute "html" %}
+                                    REMINDER
+                                {% end_widget_attribute %}
+                            {% end_widget_block %}
+                        </h3>
+                        <h1 class="wow fadeInRight" data-wow-delay="1.3s">
+                            {% widget_block rich_text "plp_save_date_title" overrideable="true" label="Save the date H1 title" no_wrapper="true"  %}
+                                {% widget_attribute "html" %}
+                                    SAVE<br/>THE DATE
+                                {% end_widget_attribute %}
+                            {% end_widget_block %}
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="date-super-wrapper wow fadeInDown" data-wow-delay=".8s">
+                        <div class="date-wrapper">
+                            <div class="date-super">
+                                {% widget_block rich_text "plp_save_date_date" overrideable="true" label="Save the date date" no_wrapper="true"  %}
+                                    {% widget_attribute "html" %}
+                                        Jan 23
+                                    {% end_widget_attribute %}
+                                {% end_widget_block %}
+                            </div>
+                            <div class="date-lower">
+                                {% widget_block rich_text "plp_save_date_year" overrideable="true" label="Save the date year" no_wrapper="true"  %}
+                                    {% widget_attribute "html" %}
+                                        2018
+                                    {% end_widget_attribute %}
+                                {% end_widget_block %}
+                            </div>
+                        </div>
+                        <div class="day-wrapper">
+                            <div class="day">
+                                {% widget_block rich_text "plp_save_date_day" overrideable="true" label="Save the date day" no_wrapper="true"  %}
+                                    {% widget_attribute "html" %}
+                                        WEDNESDAY
+                                    {% end_widget_attribute %}
+                                {% end_widget_block %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="clearfix" style="margin-top:125px;"></div>
+    </div>
+</section> -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <section
+    style="
+        background:{% color "plp_presenters_bg_color" label='Presenters section background color' color="#fff" no_wrapper="true" %};
+    ">
+    <div class="container-fluid">
+        <div class="clearfix" style="margin-top:65px;"></div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="wow fadeInUp" data-wow-delay="1s">
+                    {% widget_block rich_text "plp_presenters_title" overrideable="true" label="Presenters H2 title" no_wrapper="true"  %}
+                        {% widget_attribute "html" %}
+                            THE <span class="accent">PRESENTERS</span>
+                        {% end_widget_attribute %}
+                    {% end_widget_block %}
+                </h2>
+            </div>
+        </div>
+        <div class="clearfix" style="margin-top:5px;"></div>
+        <div class="row profiles">
+            <div class="col-md-4 profile wow fadeInDown">
+                <div class="profile-inner-wrapper">
+                    <div class="bg-img" style="background: url('{% image_src "plp_presenters_first_img" label="Presenter (first) Image" src='//s3.amazonaws.com/bp.asset-manager.cdn1.bigpresence.com/bigagency/libs/v.1/img/profile-1.jpg' no_wrapper="true" %}');"></div>
+                    <div class="profile-hover-wrapper">
+                        <div class="profile-social-container">
+
+                            {% text "profile_first_fb_url"
+                                label="Profile (first) facebook url - (empty to hide icon)"
+                                value="#"
+                                export_to_template_context="true"
+                                no_wrapper="true"
+                            %}
+                            {% text "profile_first_tw_url"
+                                label="Profile (first) twitter url - (empty to hide icon)"
+                                value="#"
+                                export_to_template_context="true"
+                                no_wrapper="true"
+                            %}
+                            {% text "profile_first_li_url"
+                                label="Profile (first) linkedin url - (empty to hide icon)"
+                                value="#"
+                                export_to_template_context="true"
+                                no_wrapper="true"
+                            %}
+
+
+
+                            <ul>
+                                {% if widget_data.profile_first_fb_url.value != '' %}
+                                <li>
+                                    <a href="{{widget_data.profile_first_fb_url.value}}" target="_blank">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                {% endif %}
+                                {% if widget_data.profile_first_tw_url.value != '' %}
+                                <li>
+                                    <a href="{{widget_data.profile_first_tw_url.value}}" target="_blank">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                {% endif %}
+                                {% if widget_data.profile_first_li_url.value != '' %}
+                                <li>
+                                    <a href="{{widget_data.profile_first_li_url.value}}" target="_blank">
+                                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                {% endif %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="meta">
+                    <div class="title">
+                        {% widget_block rich_text "plp_presenters_first_name" overrideable="true" label="Presenters (first) name" no_wrapper="true"  %}
+                            {% widget_attribute "html" %}
+                                SHANE PORTSINGER
+                            {% end_widget_attribute %}
+                        {% end_widget_block %}
+                    </div>
+                    <div class="pos">
+                        {% widget_block rich_text "plp_presenters_first_role" overrideable="true" label="Presenters (first) role" no_wrapper="true"  %}
+                            {% widget_attribute "html" %}
+                                Juniper <span class="accent">Photography</span>
+                            {% end_widget_attribute %}
+                        {% end_widget_block %}
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 profile wow fadeInUp">
+                <div class="profile-inner-wrapper">
+                    <div class="bg-img" style="background: url('{% image_src "plp_presenters_second_img" label="Presenter (second) Image" src='//s3.amazonaws.com/bp.asset-manager.cdn1.bigpresence.com/bigagency/libs/v.1/img/profile-2.jpg' no_wrapper="true" %}');"></div>
+                    <div class="profile-hover-wrapper">
+                        <div class="profile-social-container">
+
+                            {% text "profile_second_fb_url"
+                                label="Profile (second) facebook url - (empty to hide icon)"
+                                value="#"
+                                export_to_template_context="true"
+                                no_wrapper="true"
+                            %}
+                            {% text "profile_second_tw_url"
+                                label="Profile (second) twitter url - (empty to hide icon)"
+                                value="#"
+                                export_to_template_context="true"
+                                no_wrapper="true"
+                            %}
+                            {% text "profile_second_li_url"
+                                label="Profile (second) linkedin url - (empty to hide icon)"
+                                value="#"
+                                export_to_template_context="true"
+                                no_wrapper="true"
+                            %}
+
+
+
+                            <ul>
+                                {% if widget_data.profile_second_fb_url.value != '' %}
+                                <li>
+                                    <a href="{{widget_data.profile_second_fb_url.value}}" target="_blank">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                {% endif %}
+                                {% if widget_data.profile_second_tw_url.value != '' %}
+                                <li>
+                                    <a href="{{widget_data.profile_second_tw_url.value}}" target="_blank">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                {% endif %}
+                                {% if widget_data.profile_second_li_url.value != '' %}
+                                <li>
+                                    <a href="{{widget_data.profile_second_li_url.value}}" target="_blank">
+                                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                {% endif %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="meta">
+                    <div class="title">
+                        {% widget_block rich_text "plp_presenters_second_name" overrideable="true" label="Presenters (second) name" no_wrapper="true"  %}
+                            {% widget_attribute "html" %}
+                                TOPHER MCKENZIE
+                            {% end_widget_attribute %}
+                        {% end_widget_block %}
+                    </div>
+                    <div class="pos">
+                        {% widget_block rich_text "plp_presenters_second_role" overrideable="true" label="Presenters (second) role" no_wrapper="true"  %}
+                            {% widget_attribute "html" %}
+                                All American <span class="accent">Photography</span>
+                            {% end_widget_attribute %}
+                        {% end_widget_block %}
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 profile wow fadeInDown">
+                <div class="profile-inner-wrapper">
+                    <div class="bg-img" style="background: url('{% image_src "plp_presenters_third_img" label="Presenter (third) Image" src='//s3.amazonaws.com/bp.asset-manager.cdn1.bigpresence.com/bigagency/libs/v.1/img/profile-3.jpg' no_wrapper="true" %}');"></div>
+                    <div class="profile-hover-wrapper">
+                        <div class="profile-social-container">
+
+                            {% text "profile_third_fb_url"
+                                label="Profile (third) facebook url - (empty to hide icon)"
+                                value="#"
+                                export_to_template_context="true"
+                                no_wrapper="true"
+                            %}
+                            {% text "profile_third_tw_url"
+                                label="Profile (third) twitter url - (empty to hide icon)"
+                                value="#"
+                                export_to_template_context="true"
+                                no_wrapper="true"
+                            %}
+                            {% text "profile_third_li_url"
+                                label="Profile (third) linkedin url - (empty to hide icon)"
+                                value="#"
+                                export_to_template_context="true"
+                                no_wrapper="true"
+                            %}
+
+
+
+                            <ul>
+                                {% if widget_data.profile_third_fb_url.value != '' %}
+                                <li>
+                                    <a href="{{widget_data.profile_third_fb_url.value}}" target="_blank">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                {% endif %}
+                                {% if widget_data.profile_third_tw_url.value != '' %}
+                                <li>
+                                    <a href="{{widget_data.profile_third_tw_url.value}}" target="_blank">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                {% endif %}
+                                {% if widget_data.profile_third_li_url.value != '' %}
+                                <li>
+                                    <a href="{{widget_data.profile_third_li_url.value}}" target="_blank">
+                                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                {% endif %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="meta">
+                    <div class="title">
+                        {% widget_block rich_text "plp_presenters_third_name" overrideable="true" label="Presenters (third) name" no_wrapper="true"  %}
+                            {% widget_attribute "html" %}
+                                GRACIE LARSON
+                            {% end_widget_attribute %}
+                        {% end_widget_block %}
+                    </div>
+                    <div class="pos">
+                        {% widget_block rich_text "plp_presenters_third_role" overrideable="true" label="Presenters (third) role" no_wrapper="true"  %}
+                            {% widget_attribute "html" %}
+                                Kealto <span class="accent">Photography</span>
+                            {% end_widget_attribute %}
+                        {% end_widget_block %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix" style="margin-top:65px;"></div>
+    </div>
+</section> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <footer
+    style="
+        background:{% color "plp_footer_bg_color" label='Footer section background color' color="#404040" no_wrapper="true" %};
+    ">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 footer-logo text-center">
+                <a href="{% text "plp_footer_logo_linkto" label="Footer logo links to" value="#" no_wrapper="true" %}">
+                    <img alt="logo" src="{% image_src "plp_logo_footer" label="Footer logo" src='//s3.amazonaws.com/bp.asset-manager.cdn1.bigpresence.com/bigagency/libs/v.1/img/logo-2.png' no_wrapper="true"  overrideable="true"%}">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {{ standard_footer_includes }}
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+
+
+    <script src="//s3.amazonaws.com/bp.asset-manager.cdn1.bigpresence.com/bigagency/libs/v.1/js/bootstrap-select.min.js"></script>
+    <script src="//s3.amazonaws.com/bp.asset-manager.cdn1.bigpresence.com/bigagency/libs/v.1/js/wow.min.js"></script>
+
+    <script src="{{ get_public_template_url("custom/page/bigagency/custom-scripts.js") }}"></script>
+
+
+    {% if widget_data.enable_animations.value %}
+
+    <script>
+    $(function(){
+        new WOW().init();
+    });
+    </script>
+
+    {% endif %}
+    <script>
+        {% textarea "custom_js_code" label='Custom JS code' no_wrapper="true" %}
+    </script>
+</body>
+</html>
