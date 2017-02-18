@@ -25,60 +25,21 @@
   "settings" : {},
   "assets" : {
     "css" : [
-      {
-        "relative" : true,
-        "link" : "vendor/bootstrap/css/bootstrap.min.css"
-      },
-      {
-        "relative" : true,
-        "link" : "vendor/font-awesome/css/font-awesome.min.css"
-      },
-      {
-        "relative" : false,
-        "link" : "https://fonts.googleapis.com/css?family=Montserrat:400,700"
-      },
-      {
-        "relative" : false,
-        "link" : "https://fonts.googleapis.com/css?family=Kaushan+Script"
-      },
-      {
-        "relative" : false,
-        "link" : "https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic"
-      },
-      {
-        "relative" : false,
-        "link" : "https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
-      },
-      {
-        "relative" : true,
-        "link" : "css/agency.min.css"
-      }
+      "https://blackrockdigital.github.io/startbootstrap-agency/vendor/bootstrap/css/bootstrap.min.css",
+      "https://blackrockdigital.github.io/startbootstrap-agency/vendor/font-awesome/css/font-awesome.min.css",
+      "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+      "https://fonts.googleapis.com/css?family=Kaushan+Script",
+      "https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic",
+      "https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700",
+      "https://blackrockdigital.github.io/startbootstrap-agency/css/agency.min.css"
     ],
     "js" : [
-      {
-        "relative" : true,
-        "link" : "vendor/jquery/jquery.min.js"
-      },
-      {
-        "relative" : true,
-        "link" : "vendor/bootstrap/js/bootstrap.min.js"
-      },
-      {
-        "relative" : false,
-        "link" : "https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"
-      },
-      {
-        "relative" : true,
-        "link" : "js/jqBootstrapValidation.js"
-      },
-      {
-        "relative" : true,
-        "link" : "js/contact_me.js"
-      },
-      {
-        "relative" : true,
-        "link" : "js/agency.min.js"
-      }
+      "https://blackrockdigital.github.io/startbootstrap-agency/vendor/jquery/jquery.min.js",
+      "https://blackrockdigital.github.io/startbootstrap-agency/vendor/bootstrap/js/bootstrap.min.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js",
+      "https://blackrockdigital.github.io/startbootstrap-agency/js/jqBootstrapValidation.js",
+      "https://blackrockdigital.github.io/startbootstrap-agency/js/contact_me.js",
+      "https://blackrockdigital.github.io/startbootstrap-agency/js/agency.min.js"
     ]
   },
   "blocks" : [
