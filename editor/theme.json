@@ -48,7 +48,7 @@
               "id" : "plp_hero_overlay_color",
               "label" : "Hero image overlay color",
               "type" : "color",
-              "color" : "#202020",
+              "value" : "#202020",
               "no_wrapper" : true
             },
             {
@@ -68,7 +68,7 @@
               "id" : "plp_hero_img",
               "label" : "Hero Background Image",
               "type" : "image_src",
-              "src" : "//s3.amazonaws.com/bp.asset-manager.cdn1.bigpresence.com/bigagency/libs/v.1/img/hero-1.jpg",
+              "value" : "//s3.amazonaws.com/bp.asset-manager.cdn1.bigpresence.com/bigagency/libs/v.1/img/hero-1.jpg",
               "no_wrapper" : true
             }
           ]
