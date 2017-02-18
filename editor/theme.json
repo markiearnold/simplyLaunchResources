@@ -32,9 +32,40 @@
   },
   "blocks" : [
     {
+      "name" : "Nav",
+      "type" : "nav",
+      "order" : 1,
+      "preview_image" : "header.jpg",
+      "content" : {
+        "plp_hero_sub_h3" : "WEBINAR SIGNUP",
+        "plp_hero_sub_h1" : "HOW TO INSPIRE <span class=\"accent\">&amp;</span> EXCITE CREATIVITY IN NEW <span class=\"accent\">PHOTOGRAPHERS</span>"
+      },
+      "block_settings" : [
+        {
+          "group" : "Images",
+          "settings" : [
+            {
+              "id" : "plp_logo_top",
+              "label" : "Logo",
+              "type" : "image_src",
+              "value" : "http://s3.amazonaws.com/bp.asset-manager.cdn1.bigpresence.com/bigagency/libs/v.1/img/logo-2.png",
+              "no_wrapper" : true
+            },
+            {
+              "id" : "plp_top_logo_linkto",
+              "label" : "Header logo links to",
+              "type" : "text",
+              "value" : "#",
+              "no_wrapper" : true
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name" : "Header",
       "type" : "header",
-      "order" : 1,
+      "order" : 2,
       "preview_image" : "header.jpg",
       "content" : {
         "plp_hero_sub_h3" : "WEBINAR SIGNUP",
