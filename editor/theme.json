@@ -96,7 +96,7 @@
           "group" : "Images",
           "settings" : [
             {
-              "id" : "plp_hero_img",
+              "id" : "plp_logo_top",
               "label" : "Hero Background Image",
               "type" : "image_src",
               "value" : "http://s3.amazonaws.com/bp.asset-manager.cdn1.bigpresence.com/bigagency/libs/v.1/img/hero-1.jpg",
