@@ -35,7 +35,7 @@
       "name" : "Nav",
       "type" : "nav",
       "order" : 1,
-      "preview_image" : "header.jpg",
+      "preview_image" : "nav.jpg",
       "content" : {
         "plp_hero_sub_h3" : "WEBINAR SIGNUP",
         "plp_hero_sub_h1" : "HOW TO INSPIRE <span class=\"accent\">&amp;</span> EXCITE CREATIVITY IN NEW <span class=\"accent\">PHOTOGRAPHERS</span>"
