@@ -49,6 +49,13 @@
           "group" : "Images",
           "settings" : [
             {
+              "id" : "plp_top_logo_linkto",
+              "label" : "Header logo links to",
+              "type" : "text",
+              "value" : "#",
+              "no_wrapper" : true
+            },
+            {
               "id" : "plp_logo_top",
               "label" : "Logo",
               "type" : "image_src",
