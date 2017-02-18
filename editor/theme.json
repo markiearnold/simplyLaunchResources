@@ -42,10 +42,6 @@
       },
       "block_settings" : [
         {
-          "group" : "Appearance",
-          "settings" : []
-        },
-        {
           "group" : "Images",
           "settings" : [
             {
