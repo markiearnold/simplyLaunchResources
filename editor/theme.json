@@ -31,8 +31,7 @@
       "https://fonts.googleapis.com/css?family=Kaushan+Script",
       "https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic",
       "https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700",
-      "https://blackrockdigital.github.io/startbootstrap-agency/css/agency.min.css",
-      "http://prototypeux.com/per/override-additions.css"
+      "https://blackrockdigital.github.io/startbootstrap-agency/css/agency.min.css"
     ],
     "js" : [
       "https://blackrockdigital.github.io/startbootstrap-agency/vendor/jquery/jquery.min.js",
