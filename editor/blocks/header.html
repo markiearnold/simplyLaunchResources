@@ -13,13 +13,13 @@
               rich-text label="Enter HTML here" meta="subtitle" overridable="true"
               style-setting="color:text_color"></div>
 
-            <!-- <a
-              class="page-scroll btn btn-xl"
-              url-link content="link.value" label="headerlink"
-              ng-if="getSetting(block, 'btn_show')"
-              style-setting="color:btn_text_color|background-color:btn_bg_color|border-color:btn_bg_color"></a> -->
-
             <a
+              class="page-scroll btn btn-xl"
+              url-link content="link" label="headerlink"
+              ng-if="getSetting(block, 'btn_show')"
+              style-setting="color:btn_text_color|background-color:btn_bg_color|border-color:btn_bg_color"></a>
+
+            <!-- <a
               href="{{block.content.link.value}}"
               class="page-scroll btn btn-xl"
               ng-if="getSetting(block, 'btn_show')"
@@ -27,7 +27,7 @@
                 'color':'btn_text_color',
                 'background':'btn_bg_color',
                 'border-color':'btn_bg_color'
-              })">{{block.content.link.text}}</a>
+              })">{{block.content.link.text}}</a> -->
         </div>
     </div>
 </header>
