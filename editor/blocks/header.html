@@ -15,9 +15,11 @@
 
             <a
               class="page-scroll btn btn-xl"
-              url-link content="link" label="headerlink" href="#"
+              url-link content="link.value" label="headerlink" href="#"
               ng-if="getSetting(block, 'btn_show')"
-              settings style-setting="color:btn_text_color|background-color:btn_bg_color|border-color:btn_bg_color"></a>
+              settings style-setting="color:btn_text_color|background-color:btn_bg_color|border-color:btn_bg_color">
+              <span text content="link.text" label="headerlinktext"></span>
+            </a>
 
             <!-- <a
               href="{{block.content.link.value}}"
