@@ -54,7 +54,7 @@
         "link" : {
           "text" : "Tell Me More",
           "type" : "anchor",
-          "value" : "#services"
+          "value" : "/marketplace"
         }
       },
       "block_settings" : [
