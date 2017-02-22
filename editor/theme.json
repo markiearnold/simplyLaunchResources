@@ -156,6 +156,14 @@
               "required" : false
             },
             {
+              "id" : "title_color",
+              "label" : "Title Text Color",
+              "type" : "color",
+              "placeholder" : "",
+              "value" : "#000000",
+              "required" : false
+            },
+            {
               "id" : "text_color",
               "label" : "Text Color",
               "type" : "color",
@@ -169,6 +177,27 @@
               "type" : "color",
               "placeholder" : "",
               "value" : "#ffffff",
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group" : "Controls",
+          "settings" : [
+            {
+              "id" : "subtitle_show",
+              "label" : "Show Subtitle",
+              "type" : "checkbox",
+              "placeholder" : "",
+              "value" : true,
+              "required" : false
+            },
+            {
+              "id" : "icon_show",
+              "label" : "Show Icons",
+              "type" : "checkbox",
+              "placeholder" : "",
+              "value" : true,
               "required" : false
             }
           ]
