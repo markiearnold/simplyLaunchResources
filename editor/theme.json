@@ -178,14 +178,6 @@
               "placeholder" : "",
               "value" : "#ffffff",
               "required" : false
-            },
-            {
-              "id" : "subtitle_show",
-              "label" : "Show Button",
-              "type" : "checkbox",
-              "placeholder" : "",
-              "value" : true,
-              "required" : false
             }
           ]
         },
