@@ -135,7 +135,45 @@
           }
         ]
       },
-      "block_settings" : []
+      "block_settings" : [
+        {
+          "group" : "Appearance",
+          "settings" : [
+            {
+              "id" : "icon_bg_color",
+              "label" : "Icon Background Color",
+              "type" : "color",
+              "placeholder" : "",
+              "value" : "#fed136",
+              "required" : false
+            },
+            {
+              "id" : "icon_text_color",
+              "label" : "Icon Text Color",
+              "type" : "color",
+              "placeholder" : "",
+              "value" : "#ffffff",
+              "required" : false
+            },
+            {
+              "id" : "text_color",
+              "label" : "Text Color",
+              "type" : "color",
+              "placeholder" : "",
+              "value" : "#000000",
+              "required" : false
+            },
+            {
+              "id" : "background_color",
+              "label" : "Background Color",
+              "type" : "color",
+              "placeholder" : "",
+              "value" : "#ffffff",
+              "required" : false
+            }
+          ]
+        }
+      ]
     }
   ],
   "menus" : [
