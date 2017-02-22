@@ -49,8 +49,8 @@
       "order" : 1,
       "preview_image" : "header.jpg",
       "content" : {
-        "title" : "Welcome To Our Studio!",
-        "subtitle" : "It's Nice To Meet You",
+        "subtitle" : "Welcome To Our Studio!",
+        "title" : "It's Nice To Meet You",
         "link" : {
           "text" : "Tell Me More",
           "value" : "/marketplace"
@@ -82,6 +82,27 @@
               "type" : "color",
               "placeholder" : "",
               "value" : "#fed136",
+              "required" : false
+            },
+            {
+              "id" : "btn_show",
+              "label" : "Show Button",
+              "type" : "checkbox",
+              "placeholder" : "",
+              "value" : true,
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group" : "Controls",
+          "settings" : [
+            {
+              "id" : "subtitle_show",
+              "label" : "Show Subtitle",
+              "type" : "checkbox",
+              "placeholder" : "",
+              "value" : true,
               "required" : false
             },
             {
