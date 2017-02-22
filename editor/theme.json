@@ -51,10 +51,7 @@
       "content" : {
         "subtitle" : "Welcome To Our Studio!",
         "title" : "It's Nice To Meet You",
-        "link" : {
-          "text" : "Tell Me More",
-          "value" : "/marketplace"
-        }
+        "link" : "Tell Me More"
       },
       "block_settings" : [
         {
@@ -82,6 +79,19 @@
               "type" : "color",
               "placeholder" : "",
               "value" : "#fed136",
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group" : "Content",
+          "settings" : [
+            {
+              "id" : "link_url",
+              "label" : "Link Url",
+              "type" : "text",
+              "placeholder" : "",
+              "value" : "#",
               "required" : false
             }
           ]
