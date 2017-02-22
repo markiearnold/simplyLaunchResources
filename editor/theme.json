@@ -83,14 +83,6 @@
               "placeholder" : "",
               "value" : "#fed136",
               "required" : false
-            },
-            {
-              "id" : "btn_show",
-              "label" : "Show Button",
-              "type" : "checkbox",
-              "placeholder" : "",
-              "value" : true,
-              "required" : false
             }
           ]
         },
