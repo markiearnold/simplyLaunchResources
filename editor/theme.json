@@ -124,8 +124,33 @@
       "type" : "features",
       "order" : 3,
       "preview_image" : "header.jpg",
-      "content" : {},
-      "block_settings" : []
+      "content" : {
+        "title" : "Unlimited Features, Unlimited Fun",
+        "subtitle" : "Check out what you can do with this app theme!"
+      },
+      "block_settings" : [
+        {
+          "group" : "Appearance",
+          "settings" : [
+            {
+              "id" : "text_color",
+              "label" : "Title Text",
+              "type" : "color",
+              "placeholder" : "",
+              "value" : "#333333",
+              "required" : false
+            },
+            {
+              "id" : "text_muted_color",
+              "label" : "Subtitle Text",
+              "type" : "color",
+              "placeholder" : "",
+              "value" : "#777777",
+              "required" : false
+            }
+          ]
+        }
+      ]
     },
     {
       "name" : "CTA",
