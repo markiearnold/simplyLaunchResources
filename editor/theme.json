@@ -165,16 +165,69 @@
       "type" : "cta",
       "order" : 5,
       "preview_image" : "header.jpg",
-      "content" : {},
-      "block_settings" : []
+      "content" : {
+        "title" : "Stop waiting.<br>Start building."
+      },
+      "block_settings" : [
+        {
+          "group" : "Appearance",
+          "settings" : [
+            {
+              "id" : "text_color",
+              "label" : "Title",
+              "type" : "color",
+              "placeholder" : "",
+              "value" : "#ffffff",
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group" : "Links",
+          "settings" : [
+            {
+              "id" : "link_text",
+              "label" : "CTA Link Text",
+              "type" : "text",
+              "placeholder" : "",
+              "value" : "Let's Get Started!",
+              "required" : false
+            },
+            {
+              "id" : "link_url",
+              "label" : "CTA Link Url",
+              "type" : "text",
+              "placeholder" : "",
+              "value" : "#somepage",
+              "required" : false
+            }
+          ]
+        }
+      ]
     },
     {
       "name" : "Contact",
       "type" : "contact",
       "order" : 6,
       "preview_image" : "header.jpg",
-      "content" : {},
-      "block_settings" : []
+      "content" : {
+        "title" : "We <i class=\"fa fa-heart\"></i> new friends!"
+      },
+      "block_settings" : [
+        {
+          "group" : "Appearance",
+          "settings" : [
+            {
+              "id" : "text_color",
+              "label" : "Title",
+              "type" : "color",
+              "placeholder" : "",
+              "value" : "#ffffff",
+              "required" : false
+            }
+          ]
+        }
+      ]
     },
     {
       "name" : "Footer",
