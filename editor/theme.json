@@ -223,7 +223,7 @@
               "label" : "Icon 3",
               "type" : "text",
               "placeholder" : "",
-              "value" : "desktop",
+              "value" : "battery-three-quarters",
               "required" : false
             }
           ]
