@@ -106,6 +106,14 @@
               "placeholder" : "",
               "value" : "#ffffff",
               "required" : false
+            },
+            {
+              "id" : "background_color",
+              "label" : "Background Color",
+              "type" : "color",
+              "placeholder" : "",
+              "value" : "#fdcc52",
+              "required" : false
             }
           ]
         }
