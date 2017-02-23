@@ -207,7 +207,7 @@
               "label" : "Icon 1",
               "type" : "text",
               "placeholder" : "",
-              "value" : "laptop",
+              "value" : "fa-laptop",
               "required" : false
             },
             {
@@ -215,7 +215,7 @@
               "label" : "Icon 2",
               "type" : "text",
               "placeholder" : "",
-              "value" : "bullhorn",
+              "value" : "fa-bullhorn",
               "required" : false
             },
             {
@@ -223,7 +223,7 @@
               "label" : "Icon 3",
               "type" : "text",
               "placeholder" : "",
-              "value" : "battery-three-quarters",
+              "value" : "fa-battery-three-quarters",
               "required" : false
             }
           ]
