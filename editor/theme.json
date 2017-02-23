@@ -104,7 +104,7 @@
               "label" : "Text",
               "type" : "color",
               "placeholder" : "",
-              "value" : "#000000",
+              "value" : "#ffffff",
               "required" : false
             }
           ]
