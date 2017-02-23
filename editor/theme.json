@@ -91,8 +91,25 @@
       "type" : "download",
       "order" : 2,
       "preview_image" : "header.jpg",
-      "content" : {},
-      "block_settings" : []
+      "content" : {
+        "title" : "Discover what all the buzz is about!",
+        "text" : "Our app is available on any mobile device! Download now to get started!"
+      },
+      "block_settings" : [
+        {
+          "group" : "Appearance",
+          "settings" : [
+            {
+              "id" : "text_color",
+              "label" : "Text",
+              "type" : "color",
+              "placeholder" : "",
+              "value" : "#000000",
+              "required" : false
+            }
+          ]
+        }
+      ]
     },
     {
       "name" : "Features",
