@@ -140,23 +140,18 @@
       "content" : {
         "title" : "Services",
         "subtitle" : "Lorem ipsum dolor sit amet consectetur.",
-        "items" : [
-          {
-            "title" : "E-Commerce",
-            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.",
-            "icon" : "laptop"
-          },
-          {
-            "title" : "Responsive Design",
-            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.",
-            "icon" : "bullhorn"
-          },
-          {
-            "title" : "Web Security",
-            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.",
-            "icon" : "desktop"
-          }
-        ]
+        "item1" : {
+          "title" : "E-Commerce",
+          "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.",
+        },
+        "item2" : {
+          "title" : "Responsive Design",
+          "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.",
+        },
+        "item3" : {
+          "title" : "Web Security",
+          "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.",
+        }
       },
       "block_settings" : [
         {
@@ -200,6 +195,35 @@
               "type" : "color",
               "placeholder" : "",
               "value" : "#ffffff",
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group" : "Icons",
+          "settings" : [
+            {
+              "id" : "icon_1",
+              "label" : "Icon 1",
+              "type" : "text",
+              "placeholder" : "",
+              "value" : "laptop",
+              "required" : false
+            },
+            {
+              "id" : "icon_2",
+              "label" : "Icon 2",
+              "type" : "text",
+              "placeholder" : "",
+              "value" : "bullhorn",
+              "required" : false
+            },
+            {
+              "id" : "icon_3",
+              "label" : "Icon 3",
+              "type" : "text",
+              "placeholder" : "",
+              "value" : "desktop",
               "required" : false
             }
           ]
