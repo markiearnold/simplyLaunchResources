@@ -1,16 +1,15 @@
 {
   "info" : {
-    "name" : "Agency",
-    "meta" : "agency",
+    "name" : "New Age",
+    "meta" : "newage",
     "version" : "1.0",
     "preview_image" : "",
     "author" : {
       "name" : "Start Bootstrap",
-      "website" : "https://startbootstrap.com/template-overviews/agency/"
+      "website" : "https://startbootstrap.com/template-overviews/new-age/"
     }
   },
   "marketplace" : {
-    "id" : 1001,
     "premium" : false,
     "free" : true,
     "price" : 0,
@@ -25,21 +24,20 @@
   "settings" : {},
   "assets" : {
     "css" : [
-      "https://blackrockdigital.github.io/startbootstrap-agency/vendor/bootstrap/css/bootstrap.min.css",
-      "https://blackrockdigital.github.io/startbootstrap-agency/vendor/font-awesome/css/font-awesome.min.css",
-      "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-      "https://fonts.googleapis.com/css?family=Kaushan+Script",
-      "https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic",
-      "https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700",
-      "https://blackrockdigital.github.io/startbootstrap-agency/css/agency.min.css"
+      "https://blackrockdigital.github.io/startbootstrap-new-age/vendor/bootstrap/css/bootstrap.min.css",
+      "https://blackrockdigital.github.io/startbootstrap-new-age/vendor/font-awesome/css/font-awesome.min.css",
+      "https://fonts.googleapis.com/css?family=Lato",
+      "https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900",
+      "https://fonts.googleapis.com/css?family=Muli",
+      "https://blackrockdigital.github.io/startbootstrap-new-age/vendor/simple-line-icons/css/simple-line-icons.css",
+      "https://blackrockdigital.github.io/startbootstrap-new-age/vendor/device-mockups/device-mockups.min.css",
+      "https://blackrockdigital.github.io/startbootstrap-new-age/css/new-age.min.css"
     ],
     "js" : [
-      "https://blackrockdigital.github.io/startbootstrap-agency/vendor/jquery/jquery.min.js",
-      "https://blackrockdigital.github.io/startbootstrap-agency/vendor/bootstrap/js/bootstrap.min.js",
+      "https://blackrockdigital.github.io/startbootstrap-new-age/vendor/jquery/jquery.min.js",
+      "https://blackrockdigital.github.io/startbootstrap-new-age/vendor/bootstrap/js/bootstrap.min.js",
       "https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js",
-      "https://blackrockdigital.github.io/startbootstrap-agency/js/jqBootstrapValidation.js",
-      "https://blackrockdigital.github.io/startbootstrap-agency/js/contact_me.js",
-      "https://blackrockdigital.github.io/startbootstrap-agency/js/agency.min.js"
+      "https://blackrockdigital.github.io/startbootstrap-new-age/js/new-age.min.js"
     ]
   },
   "blocks" : [
@@ -49,9 +47,7 @@
       "order" : 1,
       "preview_image" : "header.jpg",
       "content" : {
-        "subtitle" : "Welcome To Our Studio!",
-        "title" : "It's Nice To Meet You",
-        "link" : "Tell Me More"
+        "text" : "New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!"
       },
       "block_settings" : [
         {
@@ -64,217 +60,50 @@
               "placeholder" : "",
               "value" : "#ffffff",
               "required" : false
-            },
-            {
-              "id" : "btn_text_color",
-              "label" : "Button Text",
-              "type" : "color",
-              "placeholder" : "",
-              "value" : "#ffffff",
-              "required" : false
-            },
-            {
-              "id" : "btn_bg_color",
-              "label" : "Button Background",
-              "type" : "color",
-              "placeholder" : "",
-              "value" : "#fed136",
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group" : "Content",
-          "settings" : [
-            {
-              "id" : "link_url",
-              "label" : "Link Url",
-              "type" : "text",
-              "placeholder" : "",
-              "value" : "/marketplace",
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group" : "Controls",
-          "settings" : [
-            {
-              "id" : "subtitle_show",
-              "label" : "Show Subtitle",
-              "type" : "checkbox",
-              "placeholder" : "",
-              "value" : true,
-              "required" : false
-            },
-            {
-              "id" : "btn_show",
-              "label" : "Show Button",
-              "type" : "checkbox",
-              "placeholder" : "",
-              "value" : true,
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group" : "Images",
-          "settings" : [
-            {
-              "id" : "bg_image",
-              "label" : "Background Image",
-              "type" : "image",
-              "placeholder" : "",
-              "value" : "/assets/img/header-bg.jpg",
-              "required" : false
             }
           ]
         }
       ]
     },
     {
-      "name" : "Services",
-      "type" : "services",
-      "order" : 1,
-      "preview_image" : "services.jpg",
-      "content" : {
-        "title" : "Services",
-        "subtitle" : "Lorem ipsum dolor sit amet consectetur.",
-        "item1" : {
-          "title" : "E-Commerce",
-          "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        },
-        "item2" : {
-          "title" : "Responsive Design",
-          "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        },
-        "item3" : {
-          "title" : "Web Security",
-          "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        }
-      },
-      "block_settings" : [
-        {
-          "group" : "Appearance",
-          "settings" : [
-            {
-              "id" : "icon_bg_color",
-              "label" : "Icon Background Color",
-              "type" : "color",
-              "placeholder" : "",
-              "value" : "#fed136",
-              "required" : false
-            },
-            {
-              "id" : "icon_text_color",
-              "label" : "Icon Text Color",
-              "type" : "color",
-              "placeholder" : "",
-              "value" : "#ffffff",
-              "required" : false
-            },
-            {
-              "id" : "title_color",
-              "label" : "Title Text Color",
-              "type" : "color",
-              "placeholder" : "",
-              "value" : "#000000",
-              "required" : false
-            },
-            {
-              "id" : "text_color",
-              "label" : "Text Color",
-              "type" : "color",
-              "placeholder" : "",
-              "value" : "#000000",
-              "required" : false
-            },
-            {
-              "id" : "background_color",
-              "label" : "Background Color",
-              "type" : "color",
-              "placeholder" : "",
-              "value" : "#ffffff",
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group" : "Icons",
-          "settings" : [
-            {
-              "id" : "icon_1",
-              "label" : "Icon 1",
-              "type" : "text",
-              "placeholder" : "",
-              "value" : "fa-laptop",
-              "required" : false
-            },
-            {
-              "id" : "icon_2",
-              "label" : "Icon 2",
-              "type" : "text",
-              "placeholder" : "",
-              "value" : "fa-bullhorn",
-              "required" : false
-            },
-            {
-              "id" : "icon_3",
-              "label" : "Icon 3",
-              "type" : "text",
-              "placeholder" : "",
-              "value" : "fa-battery-three-quarters",
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group" : "Controls",
-          "settings" : [
-            {
-              "id" : "subtitle_show",
-              "label" : "Show Subtitle",
-              "type" : "checkbox",
-              "placeholder" : "",
-              "value" : true,
-              "required" : false
-            },
-            {
-              "id" : "icon_show",
-              "label" : "Show Icons",
-              "type" : "checkbox",
-              "placeholder" : "",
-              "value" : true,
-              "required" : false
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "menus" : [
+      "name" : "Download",
+      "type" : "download",
+      "order" : 2,
+      "preview_image" : "header.jpg",
+      "content" : {},
+      "block_settings" : []
+    },
     {
-      "name" : "primary",
-      "items" : [
-        {
-          "text" : "Home",
-          "type" : "anchor",
-          "value" : "#home"
-        }
-      ]
-    }
-  ],
-  "forms" : [
+      "name" : "Features",
+      "type" : "features",
+      "order" : 3,
+      "preview_image" : "header.jpg",
+      "content" : {},
+      "block_settings" : []
+    },
     {
-      "name" : "contact",
-      "items" : [
-        {
-          "type" : "text",
-          "placeholder" : "Name",
-          "value" : "",
-          "required" : false
-        }
-      ]
+      "name" : "CTA",
+      "type" : "cta",
+      "order" : 5,
+      "preview_image" : "header.jpg",
+      "content" : {},
+      "block_settings" : []
+    },
+    {
+      "name" : "Contact",
+      "type" : "contact",
+      "order" : 6,
+      "preview_image" : "header.jpg",
+      "content" : {},
+      "block_settings" : []
+    },
+    {
+      "name" : "Footer",
+      "type" : "footer",
+      "order" : 7,
+      "preview_image" : "header.jpg",
+      "content" : {},
+      "block_settings" : []
     }
   ]
 }

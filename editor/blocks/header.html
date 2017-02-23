@@ -1,25 +1,32 @@
 <!-- Header -->
 <header>
     <div class="container">
-        <div class="intro-text">
-
-            <div class="intro-lead-in"
-              content="title"
-              rich-text label="Header Subtitle"
-              settings style-setting="color:text_color" show-if="subtitle_show"></div>
-
-            <div class="intro-heading"
-              content="subtitle"
-              rich-text label="Header Title"
-              settings style-setting="color:text_color"></div>
-
-            <a
-              class="btn btn-xl"
-              url-link content="link_url" label="Header Link" href="#"
-              settings style-setting="color:btn_text_color|background-color:btn_bg_color|border-color:btn_bg_color" show-if="btn_show">
-              <span text content="link" label="headerlinktext"></span>
-            </a>
-
+        <div class="row">
+            <div class="col-sm-7">
+                <div class="header-content">
+                    <div class="header-content-inner">
+                        <h1 content="text"
+                        rich-text label="Header Text"
+                        settings style-setting="color:text_color">New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!</h1>
+                        <a href="#download" class="btn btn-outline btn-xl page-scroll">Start Now for Free!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <div class="device-container">
+                    <div class="device-mockup iphone6_plus portrait white">
+                        <div class="device">
+                            <div class="screen">
+                                <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                <img src="img/demo-screen-1.jpg" class="https://blackrockdigital.github.io/startbootstrap-new-age/img/demo-screen-1.jpg" alt="">
+                            </div>
+                            <div class="button">
+                                <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </header>
