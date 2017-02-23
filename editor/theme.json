@@ -142,15 +142,15 @@
         "subtitle" : "Lorem ipsum dolor sit amet consectetur.",
         "item1" : {
           "title" : "E-Commerce",
-          "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.",
+          "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         },
         "item2" : {
           "title" : "Responsive Design",
-          "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.",
+          "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         },
         "item3" : {
           "title" : "Web Security",
-          "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.",
+          "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         }
       },
       "block_settings" : [
