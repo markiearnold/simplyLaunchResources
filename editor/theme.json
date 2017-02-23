@@ -112,7 +112,7 @@
               "label" : "Background Color",
               "type" : "color",
               "placeholder" : "",
-              "value" : "#fdcc52",
+              "value" : "#fdc539",
               "required" : false
             }
           ]
