@@ -62,6 +62,27 @@
               "required" : false
             }
           ]
+        },
+        {
+          "group" : "Links",
+          "settings" : [
+            {
+              "id" : "link_text",
+              "label" : "Header Link Text",
+              "type" : "text",
+              "placeholder" : "",
+              "value" : "Start Now for Free!",
+              "required" : false
+            },
+            {
+              "id" : "link_url",
+              "label" : "Header Link Url",
+              "type" : "text",
+              "placeholder" : "",
+              "value" : "#somepage",
+              "required" : false
+            }
+          ]
         }
       ]
     },
