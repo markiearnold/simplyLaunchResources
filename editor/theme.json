@@ -66,7 +66,7 @@
               "label" : "Gradient Start Color",
               "type" : "color",
               "placeholder" : "",
-              "value" : "#7b4397",
+              "value" : "#dc2430",
               "required" : false
             },
             {
@@ -74,7 +74,15 @@
               "label" : "Gradient End Color",
               "type" : "color",
               "placeholder" : "",
-              "value" : "#dc2430",
+              "value" : "#7b4397",
+              "required" : false
+            },
+            {
+              "id" : "show_pattern",
+              "label" : "Show Pattern",
+              "type" : "checkbox",
+              "placeholder" : "",
+              "value" : true,
               "required" : false
             }
           ]

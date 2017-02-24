@@ -3,11 +3,15 @@
 <style>
   header {
     background: url('https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png'),
-        linear-gradient(to left, {{getSetting(block, 'start_gradient')}}, {{getSetting(block, 'end_gradient')}});
+        {{getSetting(block, "end_gradient")}};
+    background: url('https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png'),
+        -webkit-linear-gradient(to left,{{getSetting(block, "end_gradient")}},{{getSetting(block, "start_gradient")}});
+    background: url('https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png'),
+        linear-gradient(to left, {{getSetting(block, "start_gradient")}}, {{getSetting(block, "end_gradient")}});
   }
 </style>
 
-<header>
+<header settings class-setting="pattern:show_pattern">
     <div class="container">
         <div class="row">
             <div class="col-sm-7">
@@ -25,12 +29,9 @@
                     <div class="device-mockup iphone6_plus portrait white">
                         <div class="device">
                             <div class="screen">
-                                <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
                                 <img src="https://blackrockdigital.github.io/startbootstrap-new-age/img/demo-screen-1.jpg" class="img-responsive" alt="">
                             </div>
-                            <div class="button">
-                                <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                            </div>
+                            <div class="button"></div>
                         </div>
                     </div>
                 </div>
