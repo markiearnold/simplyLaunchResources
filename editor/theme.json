@@ -76,14 +76,6 @@
               "placeholder" : "",
               "value" : "#7b4397",
               "required" : false
-            },
-            {
-              "id" : "show_pattern",
-              "label" : "Show Pattern",
-              "type" : "checkbox",
-              "placeholder" : "",
-              "value" : true,
-              "required" : false
             }
           ]
         },
