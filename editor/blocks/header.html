@@ -1,17 +1,5 @@
 <!-- Header -->
-
-<style>
-  {{getUniqClass(block)}} {
-    background: url('https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png'),
-        {{getSetting(block, "end_gradient")}};
-    background: url('https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png'),
-        -webkit-linear-gradient(to left,{{getSetting(block, "end_gradient")}},{{getSetting(block, "start_gradient")}});
-    background: url('https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png'),
-        linear-gradient(to left, {{getSetting(block, "end_gradient")}}, {{getSetting(block, "start_gradient")}});
-  }
-</style>
-
-<header ng-class="{{getUniqClass(block)}}" settings class-setting="pattern:show_pattern">
+<header settings class-setting="pattern:show_pattern">
     <div class="container">
         <div class="row">
             <div class="col-sm-7">
