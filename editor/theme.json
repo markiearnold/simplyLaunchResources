@@ -60,6 +60,22 @@
               "placeholder" : "",
               "value" : "#ffffff",
               "required" : false
+            },
+            {
+              "id" : "start_gradient",
+              "label" : "Gradient Start Color",
+              "type" : "color",
+              "placeholder" : "",
+              "value" : "#7b4397",
+              "required" : false
+            },
+            {
+              "id" : "end_gradient",
+              "label" : "Gradient End Color",
+              "type" : "color",
+              "placeholder" : "",
+              "value" : "#dc2430",
+              "required" : false
             }
           ]
         },
