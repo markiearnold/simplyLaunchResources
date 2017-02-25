@@ -90,7 +90,7 @@
       "name" : "Download",
       "type" : "download",
       "order" : 2,
-      "preview_image" : "header.jpg",
+      "preview_image" : "download.jpg",
       "content" : {
         "title" : "Discover what all the buzz is about!",
         "text" : "Our app is available on any mobile device! Download now to get started!"
@@ -123,7 +123,7 @@
       "name" : "Features",
       "type" : "features",
       "order" : 3,
-      "preview_image" : "header.jpg",
+      "preview_image" : "features.jpg",
       "content" : {
         "title" : "Unlimited Features, Unlimited Fun",
         "subtitle" : "Check out what you can do with this app theme!",
@@ -164,7 +164,7 @@
       "name" : "CTA",
       "type" : "cta",
       "order" : 5,
-      "preview_image" : "header.jpg",
+      "preview_image" : "cta.jpg",
       "content" : {
         "title" : "Stop waiting.<br>Start building."
       },
@@ -209,7 +209,7 @@
       "name" : "Contact",
       "type" : "contact",
       "order" : 6,
-      "preview_image" : "header.jpg",
+      "preview_image" : "contact.jpg",
       "content" : {
         "title" : "We love new friends!"
       },
@@ -233,7 +233,7 @@
       "name" : "Footer",
       "type" : "footer",
       "order" : 7,
-      "preview_image" : "header.jpg",
+      "preview_image" : "footer.jpg",
       "content" : {},
       "block_settings" : []
     }
