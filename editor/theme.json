@@ -60,14 +60,6 @@
               "placeholder" : "",
               "value" : "#ffffff",
               "required" : false
-            },
-            {
-              "id" : "mobile_image",
-              "label" : "Mobile Image",
-              "type" : "image",
-              "placeholder" : "",
-              "value" : "https://blackrockdigital.github.io/startbootstrap-new-age/img/demo-screen-1.jpg",
-              "required" : false
             }
           ]
         },
@@ -88,6 +80,19 @@
               "type" : "text",
               "placeholder" : "",
               "value" : "#somepage",
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group" : "Images",
+          "settings" : [
+            {
+              "id" : "mobile_image",
+              "label" : "Mobile Image",
+              "type" : "image",
+              "placeholder" : "",
+              "value" : "https://blackrockdigital.github.io/startbootstrap-new-age/img/demo-screen-1.jpg",
               "required" : false
             }
           ]
