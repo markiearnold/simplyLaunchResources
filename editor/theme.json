@@ -42,6 +42,23 @@
   },
   "blocks" : [
     {
+      "name" : "Nav",
+      "type" : "nav",
+      "order" : 0,
+      "preview_image" : "header.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+          "id" : "main_nav",
+          "label" : "Main Navigation",
+          "type" : "menu",
+          "placeholder" : "",
+          "value" : "",
+          "required" : false
+        }
+      ]
+    },
+    {
       "name" : "Header",
       "type" : "header",
       "order" : 1,
