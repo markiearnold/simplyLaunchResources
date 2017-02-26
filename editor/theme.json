@@ -50,8 +50,7 @@
       "preview_image" : "header.jpg",
       "content" : {
         "subtitle" : "Welcome To Our Studio!",
-        "title" : "It's Nice To Meet You",
-        "link" : "Tell Me More"
+        "title" : "It's Nice To Meet You"
       },
       "block_settings" : [
         {
@@ -84,14 +83,22 @@
           ]
         },
         {
-          "group" : "Content",
+          "group" : "Links",
           "settings" : [
             {
-              "id" : "link_url",
-              "label" : "Link Url",
+              "id" : "link_text",
+              "label" : "Header Link Text",
               "type" : "text",
               "placeholder" : "",
-              "value" : "/marketplace",
+              "value" : "Tell Me More",
+              "required" : false
+            },
+            {
+              "id" : "link_url",
+              "label" : "Header Link Url",
+              "type" : "text",
+              "placeholder" : "",
+              "value" : "#somepage",
               "required" : false
             }
           ]
