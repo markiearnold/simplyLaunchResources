@@ -45,7 +45,7 @@
       "name" : "Nav",
       "type" : "nav",
       "order" : 0,
-      "preview_image" : "header.jpg",
+      "preview_image" : "nav.jpg",
       "content" : {},
       "block_settings": [
         {
