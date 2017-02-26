@@ -47,7 +47,7 @@
       "order" : 1,
       "preview_image" : "header.jpg",
       "content" : {
-        "text" : "New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!"
+        "text" : "New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!",
       },
       "block_settings" : [
         {
@@ -59,6 +59,14 @@
               "type" : "color",
               "placeholder" : "",
               "value" : "#ffffff",
+              "required" : false
+            },
+            {
+              "id" : "mobile_image",
+              "label" : "Mobile Image",
+              "type" : "image",
+              "placeholder" : "",
+              "value" : "https://blackrockdigital.github.io/startbootstrap-new-age/img/demo-screen-1.jpg",
               "required" : false
             }
           ]
