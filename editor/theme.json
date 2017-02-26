@@ -49,12 +49,17 @@
       "content" : {},
       "block_settings": [
         {
-          "id" : "main_nav",
-          "label" : "Main Navigation",
-          "type" : "menu",
-          "placeholder" : "",
-          "value" : "",
-          "required" : false
+          "group" : "Menus",
+          "settings" : [
+            {
+              "id" : "main_nav",
+              "label" : "Main Navigation",
+              "type" : "menu",
+              "placeholder" : "",
+              "value" : "",
+              "required" : false
+            }
+          ]
         }
       ]
     },
