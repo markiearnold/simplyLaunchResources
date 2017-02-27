@@ -41,6 +41,27 @@
   },
   "settings" : [
     {
+      "group" : "Branding",
+      "settings" : [
+        {
+          "id" : "logo_name",
+          "label" : "Logo Name",
+          "type" : "menu",
+          "placeholder" : "",
+          "value" : "Belch.io",
+          "required" : false
+        },
+        {
+          "id" : "show_logo_name",
+          "label" : "Show Logo Name",
+          "type" : "text",
+          "placeholder" : "",
+          "value" : true,
+          "required" : false
+        }
+      ]
+    },
+    {
       "group" : "Navbar",
       "settings" : [
         {
