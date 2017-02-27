@@ -96,6 +96,7 @@
       "name" : "Nav",
       "type" : "nav",
       "order" : 0,
+      "multiple" : false,
       "preview_image" : "nav.jpg",
       "content" : {},
       "block_settings": [
