@@ -30,7 +30,7 @@
       "https://fonts.googleapis.com/css?family=Muli",
       "https://blackrockdigital.github.io/startbootstrap-new-age/vendor/simple-line-icons/css/simple-line-icons.css",
       "https://blackrockdigital.github.io/startbootstrap-new-age/vendor/device-mockups/device-mockups.min.css",
-      "https://blackrockdigital.github.io/startbootstrap-new-age/css/new-age.min.css"
+      "http://prototypeux.com/belch/new-age.css"
     ],
     "js" : [
       "https://blackrockdigital.github.io/startbootstrap-new-age/vendor/jquery/jquery.min.js",
