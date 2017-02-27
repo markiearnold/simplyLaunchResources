@@ -44,11 +44,19 @@
       "group" : "Branding",
       "settings" : [
         {
-          "id" : "logo_name",
-          "label" : "Logo Name",
+          "id" : "logo_link_text",
+          "label" : "Logo Text",
           "type" : "text",
           "placeholder" : "",
-          "value" : "Belch.io",
+          "value" : "Start Now for Free!",
+          "required" : false
+        },
+        {
+          "id" : "logo_link_url",
+          "label" : "Logo Url",
+          "type" : "text",
+          "placeholder" : "",
+          "value" : "#page-top",
           "required" : false
         },
         {
