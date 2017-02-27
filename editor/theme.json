@@ -46,7 +46,7 @@
         {
           "id" : "logo_name",
           "label" : "Logo Name",
-          "type" : "menu",
+          "type" : "text",
           "placeholder" : "",
           "value" : "Belch.io",
           "required" : false
@@ -54,7 +54,7 @@
         {
           "id" : "show_logo_name",
           "label" : "Show Logo Name",
-          "type" : "text",
+          "type" : "checkbox",
           "placeholder" : "",
           "value" : true,
           "required" : false
