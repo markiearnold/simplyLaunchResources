@@ -289,6 +289,19 @@
               "required" : false
             }
           ]
+        },
+        {
+          "group" : "Images",
+          "settings" : [
+            {
+              "id" : "bg_image",
+              "label" : "Background Image",
+              "type" : "image",
+              "placeholder" : "",
+              "value" : "https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-cta.jpg",
+              "required" : false
+            }
+          ]
         }
       ]
     },
