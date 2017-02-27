@@ -21,7 +21,6 @@
       "one-page"
     ]
   },
-  "settings" : {},
   "assets" : {
     "css" : [
       "https://blackrockdigital.github.io/startbootstrap-new-age/vendor/bootstrap/css/bootstrap.min.css",
@@ -40,6 +39,29 @@
       "https://blackrockdigital.github.io/startbootstrap-new-age/js/new-age.min.js"
     ]
   },
+  "settings" : [
+    {
+      "group" : "Navbar",
+      "settings" : [
+        {
+          "id" : "main_nav",
+          "label" : "Main Navigation",
+          "type" : "menu",
+          "placeholder" : "",
+          "value" : "",
+          "required" : false
+        },
+        {
+          "id" : "show_main_nav",
+          "label" : "Show Main Nav",
+          "type" : "checkbox",
+          "placeholder" : "",
+          "value" : true,
+          "required" : false
+        }
+      ]
+    }
+  ],
   "blocks" : [
     {
       "name" : "Nav",
