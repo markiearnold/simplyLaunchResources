@@ -160,6 +160,19 @@
           ]
         },
         {
+          "group" : "Forms",
+          "settings" : [
+            {
+              "id" : "main_form",
+              "label" : "Header Form",
+              "type" : "form",
+              "placeholder" : "",
+              "value" : "",
+              "required" : false
+            }
+          ]
+        },
+        {
           "group" : "Images",
           "settings" : [
             {
