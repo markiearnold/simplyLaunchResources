@@ -23,7 +23,6 @@
   },
   "assets" : {
     "css" : [
-      "https://s3.amazonaws.com/belch.io/belch-base-css/v1/belch-defaults.css",
       "https://blackrockdigital.github.io/startbootstrap-new-age/lib/bootstrap/css/bootstrap.min.css",
       "https://blackrockdigital.github.io/startbootstrap-new-age/lib/font-awesome/css/font-awesome.min.css",
       "https://fonts.googleapis.com/css?family=Lato",
