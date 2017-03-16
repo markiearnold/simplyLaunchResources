@@ -122,7 +122,7 @@
       "preview_image" : "header.jpg",
       "content" : {
         "text" : "New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!",
-        "rich_text_block" : "..."
+        "rich_text_block" : "<h1>Rich Text block!!</h2><p>Multiple things...</p>"
       },
       "block_settings" : [
         {
