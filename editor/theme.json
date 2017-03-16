@@ -156,6 +156,14 @@
               "placeholder" : "",
               "value" : "#somepage",
               "required" : false
+            },
+            {
+              "id" : "test_image_link",
+              "label" : "Test Image Url",
+              "type" : "text",
+              "placeholder" : "",
+              "value" : "http://google.com",
+              "required" : false
             }
           ]
         },
