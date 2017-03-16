@@ -182,6 +182,14 @@
               "placeholder" : "",
               "value" : "https://blackrockdigital.github.io/startbootstrap-new-age/img/demo-screen-1.jpg",
               "required" : false
+            },
+            {
+              "id" : "test_image",
+              "label" : "Test Image",
+              "type" : "image",
+              "placeholder" : "",
+              "value" : "https://musingsoftheamusingmuse.files.wordpress.com/2012/09/tumblr_kqcbn5rk7k1qzzaeso1_400.jpg",
+              "required" : false
             }
           ]
         }
