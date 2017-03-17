@@ -48,7 +48,7 @@
           "placeholder" : "",
           "value" : "#ffffff",
           "required" : false
-        }
+        },
         {
           "id" : "main_menu_text_color",
           "label" : "Menu Text Color",
