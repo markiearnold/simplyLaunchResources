@@ -13,7 +13,8 @@
       "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
       "https://fonts.googleapis.com/css?family=Open+Sans:300,600|Raleway:600,300|Josefin+Slab:400,700,600italic,600,400italic",
       "https://s3.amazonaws.com/belch.io/themes/tempo/css/style.css",
-      "https://s3.amazonaws.com/belch.io/belch-base-css/v1/belch-defaults.css"
+      "https://s3.amazonaws.com/belch.io/belch-base-css/v1/belch-defaults.css",
+      "https://info.bigpresenceagency.com/hs-fs/hub/385224/hub_generated/template_assets/1489757380678/Custom/page/belch-internal/tempo_overrides.min.css"
     ],
     "js": [
       "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.0/jquery.js",
