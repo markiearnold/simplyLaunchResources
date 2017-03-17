@@ -41,6 +41,14 @@
           "value" : true,
           "required" : false
         }
+        {
+          "id" : "header_bg_color",
+          "label" : "Header Background Color",
+          "type" : "color",
+          "placeholder" : "",
+          "value" : "#ffffff",
+          "required" : false
+        }
       ]
     }
   ],
