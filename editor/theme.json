@@ -20,6 +20,29 @@
       "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
     ]
   },
+  "settings":[
+    {
+      "group" : "Menus",
+      "settings" : [
+        {
+          "id" : "main_nav",
+          "label" : "Main Navigation",
+          "type" : "menu",
+          "placeholder" : "",
+          "value" : "",
+          "required" : false
+        },
+        {
+          "id" : "show_main_nav",
+          "label" : "Show Main Nav",
+          "type" : "checkbox",
+          "placeholder" : "",
+          "value" : true,
+          "required" : false
+        }
+      ]
+    }
+  ],
   "blocks": [
     {
       "name": "Navigation",
