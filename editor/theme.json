@@ -40,7 +40,7 @@
           "placeholder" : "",
           "value" : true,
           "required" : false
-        }
+        },
         {
           "id" : "header_bg_color",
           "label" : "Header Background Color",
