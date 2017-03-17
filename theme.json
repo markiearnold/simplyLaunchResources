@@ -1,0 +1,47 @@
+{
+  "info": {
+    "name": "Tempo",
+    "meta": "tempo",
+    "version": "1.0"
+  },
+  "settings": {
+    
+  },
+  "assets": {
+    "css": [
+      "\/\/maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
+      "\/\/maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+      "\/\/fonts.googleapis.com/css?family=Open+Sans:300,600|Raleway:600,300|Josefin+Slab:400,700,600italic,600,400italic",
+      "\/\/s3.amazonaws.com/belch.io/themes/tempo/css/style.css"
+    ],
+    "js": [
+      "\/\/cdnjs.cloudflare.com/ajax/libs/jquery/3.2.0/jquery.js",
+      "\/\/maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    ]
+  },
+  "blocks": [
+    {
+      "name": "Navigation",
+      "type": "nav",
+      "preview_image": "header.jpg",
+      "content": {
+        
+      },
+      "block_settings": [
+        {
+          "group": "Group Name",
+          "settings": [
+            {
+              "id": "text_color",
+              "label": "Text",
+              "type": "color",
+              "placeholder": "",
+              "value": "#ffffff",
+              "required": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
