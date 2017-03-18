@@ -524,7 +524,7 @@
       "type": "cta",
       "preview_image": "cta.jpg",
       "content": {
-        "cta_text": "<h3>ÒEvery Thing is designed. Few Things are Designed well.Ó - Brian Reed</h3><p class=\"cta-sub-title\"></p>"
+        "cta_text": "<h3>\"Every Thing is designed. Few Things are Designed well.\" - Brian Reed</h3><p class=\"cta-sub-title\">Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. </p>"
       },
       "block_settings": [
         {
