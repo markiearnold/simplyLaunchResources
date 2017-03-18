@@ -161,6 +161,30 @@
           "group": "Button",
           "settings": [
             {
+              "id": "show_button",
+              "label": "Show Button",
+              "type": "checkbox",
+              "placeholder": "",
+              "value": true,
+              "required": false
+            },
+            {
+              "id": "button_links_to",
+              "label": "Button Links To",
+              "type": "text",
+              "placeholder": "#",
+              "value": "#",
+              "required": false
+            },
+            {
+              "id": "button_label",
+              "label": "Button Label",
+              "type": "text",
+              "placeholder": "LEARN MORE",
+              "value": "LEARN MORE",
+              "required": false
+            },
+            {
               "id": "button_text_color",
               "label": "Button Text Color",
               "type": "color",
