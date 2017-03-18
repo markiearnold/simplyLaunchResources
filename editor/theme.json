@@ -857,6 +857,172 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Three Column",
+      "type": "threecol",
+      "preview_image": "threecol.jpg",
+      "content": {
+        "twocolone": "<h1>HEADER 1</h1><h2>HEADER 2</h2><h3>HEADER 3</h3><h4>HEADER 4</h4><h5>HEADER 5</h5><p>Morbi et dolor dapibus, suscipit nisi et, eleifend libero. Vivamus eget fermentum orci. Suspendisse potenti. Donec lobortis ultrices orci, non varius felis pulvinar ornare. Vivamus lobortis aliquet tempor. Pellentesque volutpat tincidunt eros sit amet feugiat. Nam vel leo quis orci volutpat tristique gravida quis mauris. Sed tincidunt urna ut sapien tempus varius. Phasellus maximus sem ut ligula sollicitudin ultricies. Cras in volutpat augue.</p><ul><li>vel rhoncus ex ullamcorper non</li><li>Aenean mauris nibh, sagittis nec nisl sed</li><li>vel rhoncus ex ullamcorper non</li><p>Curabitur tincidunt nulla tempus pretium consectetur. Donec ultrices mi quis tempus facilisis. Nam et tellus ac ipsum cursus malesuada at non lectus. Donec interdum convallis mi, et venenatis elit pharetra sit amet. Nulla rutrum ligula eget massa maximus, at pulvinar neque luctus.</p></ul>",
+        "twocoltwo": "<h1>HEADER 1</h1><h2>HEADER 2</h2><h3>HEADER 3</h3><h4>HEADER 4</h4><h5>HEADER 5</h5><p>Morbi et dolor dapibus, suscipit nisi et, eleifend libero. Vivamus eget fermentum orci. Suspendisse potenti. Donec lobortis ultrices orci, non varius felis pulvinar ornare. Vivamus lobortis aliquet tempor. Pellentesque volutpat tincidunt eros sit amet feugiat. Nam vel leo quis orci volutpat tristique gravida quis mauris. Sed tincidunt urna ut sapien tempus varius. Phasellus maximus sem ut ligula sollicitudin ultricies. Cras in volutpat augue.</p><ul><li>vel rhoncus ex ullamcorper non</li><li>Aenean mauris nibh, sagittis nec nisl sed</li><li>vel rhoncus ex ullamcorper non</li><p>Curabitur tincidunt nulla tempus pretium consectetur. Donec ultrices mi quis tempus facilisis. Nam et tellus ac ipsum cursus malesuada at non lectus. Donec interdum convallis mi, et venenatis elit pharetra sit amet. Nulla rutrum ligula eget massa maximus, at pulvinar neque luctus.</p></ul>",
+        "twocolthree": "<h1>HEADER 1</h1><h2>HEADER 2</h2><h3>HEADER 3</h3><h4>HEADER 4</h4><h5>HEADER 5</h5><p>Morbi et dolor dapibus, suscipit nisi et, eleifend libero. Vivamus eget fermentum orci. Suspendisse potenti. Donec lobortis ultrices orci, non varius felis pulvinar ornare. Vivamus lobortis aliquet tempor. Pellentesque volutpat tincidunt eros sit amet feugiat. Nam vel leo quis orci volutpat tristique gravida quis mauris. Sed tincidunt urna ut sapien tempus varius. Phasellus maximus sem ut ligula sollicitudin ultricies. Cras in volutpat augue.</p><ul><li>vel rhoncus ex ullamcorper non</li><li>Aenean mauris nibh, sagittis nec nisl sed</li><li>vel rhoncus ex ullamcorper non</li><p>Curabitur tincidunt nulla tempus pretium consectetur. Donec ultrices mi quis tempus facilisis. Nam et tellus ac ipsum cursus malesuada at non lectus. Donec interdum convallis mi, et venenatis elit pharetra sit amet. Nulla rutrum ligula eget massa maximus, at pulvinar neque luctus.</p></ul>"
+      },
+      "block_settings": [
+        {
+          "group": "Background",
+          "settings": [
+            {
+              "id": "background_image",
+              "label": "Background Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/tempo/img/banner-bg.jpg",
+              "required": false
+            },
+            {
+              "id": "overlay_color",
+              "label": "Overlay Color",
+              "type": "color",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
+              "required": false
+            },
+            {
+              "id": "overlay_opacity",
+              "label": "Overlay Opacity",
+              "type": "text",
+              "placeholder": "1",
+              "value": "1",
+              "required": false
+            }
+          ]
+        },
+        {
+          "group": "Content",
+          "settings": [
+            {
+              "id": "text_color",
+              "label": "Color",
+              "type": "color",
+              "placeholder": "#606060",
+              "value": "#606060",
+              "required": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Four Column",
+      "type": "fourcol",
+      "preview_image": "fourcol.jpg",
+      "content": {
+        "twocolone": "<h1>HEADER 1</h1><h2>HEADER 2</h2><h3>HEADER 3</h3><h4>HEADER 4</h4><h5>HEADER 5</h5><p>Morbi et dolor dapibus, suscipit nisi et, eleifend libero. Vivamus eget fermentum orci. Suspendisse potenti. Donec lobortis ultrices orci, non varius felis pulvinar ornare. Vivamus lobortis aliquet tempor. Pellentesque volutpat tincidunt eros sit amet feugiat. Nam vel leo quis orci volutpat tristique gravida quis mauris. Sed tincidunt urna ut sapien tempus varius. Phasellus maximus sem ut ligula sollicitudin ultricies. Cras in volutpat augue.</p><ul><li>vel rhoncus ex ullamcorper non</li><li>Aenean mauris nibh, sagittis nec nisl sed</li><li>vel rhoncus ex ullamcorper non</li><p>Curabitur tincidunt nulla tempus pretium consectetur. Donec ultrices mi quis tempus facilisis. Nam et tellus ac ipsum cursus malesuada at non lectus. Donec interdum convallis mi, et venenatis elit pharetra sit amet. Nulla rutrum ligula eget massa maximus, at pulvinar neque luctus.</p></ul>",
+        "twocoltwo": "<h1>HEADER 1</h1><h2>HEADER 2</h2><h3>HEADER 3</h3><h4>HEADER 4</h4><h5>HEADER 5</h5><p>Morbi et dolor dapibus, suscipit nisi et, eleifend libero. Vivamus eget fermentum orci. Suspendisse potenti. Donec lobortis ultrices orci, non varius felis pulvinar ornare. Vivamus lobortis aliquet tempor. Pellentesque volutpat tincidunt eros sit amet feugiat. Nam vel leo quis orci volutpat tristique gravida quis mauris. Sed tincidunt urna ut sapien tempus varius. Phasellus maximus sem ut ligula sollicitudin ultricies. Cras in volutpat augue.</p><ul><li>vel rhoncus ex ullamcorper non</li><li>Aenean mauris nibh, sagittis nec nisl sed</li><li>vel rhoncus ex ullamcorper non</li><p>Curabitur tincidunt nulla tempus pretium consectetur. Donec ultrices mi quis tempus facilisis. Nam et tellus ac ipsum cursus malesuada at non lectus. Donec interdum convallis mi, et venenatis elit pharetra sit amet. Nulla rutrum ligula eget massa maximus, at pulvinar neque luctus.</p></ul>",
+        "twocolthree": "<h1>HEADER 1</h1><h2>HEADER 2</h2><h3>HEADER 3</h3><h4>HEADER 4</h4><h5>HEADER 5</h5><p>Morbi et dolor dapibus, suscipit nisi et, eleifend libero. Vivamus eget fermentum orci. Suspendisse potenti. Donec lobortis ultrices orci, non varius felis pulvinar ornare. Vivamus lobortis aliquet tempor. Pellentesque volutpat tincidunt eros sit amet feugiat. Nam vel leo quis orci volutpat tristique gravida quis mauris. Sed tincidunt urna ut sapien tempus varius. Phasellus maximus sem ut ligula sollicitudin ultricies. Cras in volutpat augue.</p><ul><li>vel rhoncus ex ullamcorper non</li><li>Aenean mauris nibh, sagittis nec nisl sed</li><li>vel rhoncus ex ullamcorper non</li><p>Curabitur tincidunt nulla tempus pretium consectetur. Donec ultrices mi quis tempus facilisis. Nam et tellus ac ipsum cursus malesuada at non lectus. Donec interdum convallis mi, et venenatis elit pharetra sit amet. Nulla rutrum ligula eget massa maximus, at pulvinar neque luctus.</p></ul>",
+        "twocolfour": "<h1>HEADER 1</h1><h2>HEADER 2</h2><h3>HEADER 3</h3><h4>HEADER 4</h4><h5>HEADER 5</h5><p>Morbi et dolor dapibus, suscipit nisi et, eleifend libero. Vivamus eget fermentum orci. Suspendisse potenti. Donec lobortis ultrices orci, non varius felis pulvinar ornare. Vivamus lobortis aliquet tempor. Pellentesque volutpat tincidunt eros sit amet feugiat. Nam vel leo quis orci volutpat tristique gravida quis mauris. Sed tincidunt urna ut sapien tempus varius. Phasellus maximus sem ut ligula sollicitudin ultricies. Cras in volutpat augue.</p><ul><li>vel rhoncus ex ullamcorper non</li><li>Aenean mauris nibh, sagittis nec nisl sed</li><li>vel rhoncus ex ullamcorper non</li><p>Curabitur tincidunt nulla tempus pretium consectetur. Donec ultrices mi quis tempus facilisis. Nam et tellus ac ipsum cursus malesuada at non lectus. Donec interdum convallis mi, et venenatis elit pharetra sit amet. Nulla rutrum ligula eget massa maximus, at pulvinar neque luctus.</p></ul>"
+      },
+      "block_settings": [
+        {
+          "group": "Background",
+          "settings": [
+            {
+              "id": "background_image",
+              "label": "Background Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/tempo/img/banner-bg.jpg",
+              "required": false
+            },
+            {
+              "id": "overlay_color",
+              "label": "Overlay Color",
+              "type": "color",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
+              "required": false
+            },
+            {
+              "id": "overlay_opacity",
+              "label": "Overlay Opacity",
+              "type": "text",
+              "placeholder": "1",
+              "value": "1",
+              "required": false
+            }
+          ]
+        },
+        {
+          "group": "Content",
+          "settings": [
+            {
+              "id": "text_color",
+              "label": "Color",
+              "type": "color",
+              "placeholder": "#606060",
+              "value": "#606060",
+              "required": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Six Column",
+      "type": "sixcol",
+      "preview_image": "sixcol.jpg",
+      "content": {
+        "twocolone": "<h1>HEADER 1</h1><h2>HEADER 2</h2><h3>HEADER 3</h3><h4>HEADER 4</h4><h5>HEADER 5</h5><p>Morbi et dolor dapibus, suscipit nisi et, eleifend libero. Vivamus eget fermentum orci. Suspendisse potenti. Donec lobortis ultrices orci, non varius felis pulvinar ornare. Vivamus lobortis aliquet tempor. Pellentesque volutpat tincidunt eros sit amet feugiat. Nam vel leo quis orci volutpat tristique gravida quis mauris. Sed tincidunt urna ut sapien tempus varius. Phasellus maximus sem ut ligula sollicitudin ultricies. Cras in volutpat augue.</p><ul><li>vel rhoncus ex ullamcorper non</li><li>Aenean mauris nibh, sagittis nec nisl sed</li><li>vel rhoncus ex ullamcorper non</li><p>Curabitur tincidunt nulla tempus pretium consectetur. Donec ultrices mi quis tempus facilisis. Nam et tellus ac ipsum cursus malesuada at non lectus. Donec interdum convallis mi, et venenatis elit pharetra sit amet. Nulla rutrum ligula eget massa maximus, at pulvinar neque luctus.</p></ul>",
+        "twocoltwo": "<h1>HEADER 1</h1><h2>HEADER 2</h2><h3>HEADER 3</h3><h4>HEADER 4</h4><h5>HEADER 5</h5><p>Morbi et dolor dapibus, suscipit nisi et, eleifend libero. Vivamus eget fermentum orci. Suspendisse potenti. Donec lobortis ultrices orci, non varius felis pulvinar ornare. Vivamus lobortis aliquet tempor. Pellentesque volutpat tincidunt eros sit amet feugiat. Nam vel leo quis orci volutpat tristique gravida quis mauris. Sed tincidunt urna ut sapien tempus varius. Phasellus maximus sem ut ligula sollicitudin ultricies. Cras in volutpat augue.</p><ul><li>vel rhoncus ex ullamcorper non</li><li>Aenean mauris nibh, sagittis nec nisl sed</li><li>vel rhoncus ex ullamcorper non</li><p>Curabitur tincidunt nulla tempus pretium consectetur. Donec ultrices mi quis tempus facilisis. Nam et tellus ac ipsum cursus malesuada at non lectus. Donec interdum convallis mi, et venenatis elit pharetra sit amet. Nulla rutrum ligula eget massa maximus, at pulvinar neque luctus.</p></ul>",
+        "twocolthree": "<h1>HEADER 1</h1><h2>HEADER 2</h2><h3>HEADER 3</h3><h4>HEADER 4</h4><h5>HEADER 5</h5><p>Morbi et dolor dapibus, suscipit nisi et, eleifend libero. Vivamus eget fermentum orci. Suspendisse potenti. Donec lobortis ultrices orci, non varius felis pulvinar ornare. Vivamus lobortis aliquet tempor. Pellentesque volutpat tincidunt eros sit amet feugiat. Nam vel leo quis orci volutpat tristique gravida quis mauris. Sed tincidunt urna ut sapien tempus varius. Phasellus maximus sem ut ligula sollicitudin ultricies. Cras in volutpat augue.</p><ul><li>vel rhoncus ex ullamcorper non</li><li>Aenean mauris nibh, sagittis nec nisl sed</li><li>vel rhoncus ex ullamcorper non</li><p>Curabitur tincidunt nulla tempus pretium consectetur. Donec ultrices mi quis tempus facilisis. Nam et tellus ac ipsum cursus malesuada at non lectus. Donec interdum convallis mi, et venenatis elit pharetra sit amet. Nulla rutrum ligula eget massa maximus, at pulvinar neque luctus.</p></ul>",
+        "twocolfour": "<h1>HEADER 1</h1><h2>HEADER 2</h2><h3>HEADER 3</h3><h4>HEADER 4</h4><h5>HEADER 5</h5><p>Morbi et dolor dapibus, suscipit nisi et, eleifend libero. Vivamus eget fermentum orci. Suspendisse potenti. Donec lobortis ultrices orci, non varius felis pulvinar ornare. Vivamus lobortis aliquet tempor. Pellentesque volutpat tincidunt eros sit amet feugiat. Nam vel leo quis orci volutpat tristique gravida quis mauris. Sed tincidunt urna ut sapien tempus varius. Phasellus maximus sem ut ligula sollicitudin ultricies. Cras in volutpat augue.</p><ul><li>vel rhoncus ex ullamcorper non</li><li>Aenean mauris nibh, sagittis nec nisl sed</li><li>vel rhoncus ex ullamcorper non</li><p>Curabitur tincidunt nulla tempus pretium consectetur. Donec ultrices mi quis tempus facilisis. Nam et tellus ac ipsum cursus malesuada at non lectus. Donec interdum convallis mi, et venenatis elit pharetra sit amet. Nulla rutrum ligula eget massa maximus, at pulvinar neque luctus.</p></ul>",
+        "twocolfive": "<h1>HEADER 1</h1><h2>HEADER 2</h2><h3>HEADER 3</h3><h4>HEADER 4</h4><h5>HEADER 5</h5><p>Morbi et dolor dapibus, suscipit nisi et, eleifend libero. Vivamus eget fermentum orci. Suspendisse potenti. Donec lobortis ultrices orci, non varius felis pulvinar ornare. Vivamus lobortis aliquet tempor. Pellentesque volutpat tincidunt eros sit amet feugiat. Nam vel leo quis orci volutpat tristique gravida quis mauris. Sed tincidunt urna ut sapien tempus varius. Phasellus maximus sem ut ligula sollicitudin ultricies. Cras in volutpat augue.</p><ul><li>vel rhoncus ex ullamcorper non</li><li>Aenean mauris nibh, sagittis nec nisl sed</li><li>vel rhoncus ex ullamcorper non</li><p>Curabitur tincidunt nulla tempus pretium consectetur. Donec ultrices mi quis tempus facilisis. Nam et tellus ac ipsum cursus malesuada at non lectus. Donec interdum convallis mi, et venenatis elit pharetra sit amet. Nulla rutrum ligula eget massa maximus, at pulvinar neque luctus.</p></ul>",
+        "twocolsix": "<h1>HEADER 1</h1><h2>HEADER 2</h2><h3>HEADER 3</h3><h4>HEADER 4</h4><h5>HEADER 5</h5><p>Morbi et dolor dapibus, suscipit nisi et, eleifend libero. Vivamus eget fermentum orci. Suspendisse potenti. Donec lobortis ultrices orci, non varius felis pulvinar ornare. Vivamus lobortis aliquet tempor. Pellentesque volutpat tincidunt eros sit amet feugiat. Nam vel leo quis orci volutpat tristique gravida quis mauris. Sed tincidunt urna ut sapien tempus varius. Phasellus maximus sem ut ligula sollicitudin ultricies. Cras in volutpat augue.</p><ul><li>vel rhoncus ex ullamcorper non</li><li>Aenean mauris nibh, sagittis nec nisl sed</li><li>vel rhoncus ex ullamcorper non</li><p>Curabitur tincidunt nulla tempus pretium consectetur. Donec ultrices mi quis tempus facilisis. Nam et tellus ac ipsum cursus malesuada at non lectus. Donec interdum convallis mi, et venenatis elit pharetra sit amet. Nulla rutrum ligula eget massa maximus, at pulvinar neque luctus.</p></ul>"
+      },
+      "block_settings": [
+        {
+          "group": "Background",
+          "settings": [
+            {
+              "id": "background_image",
+              "label": "Background Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/tempo/img/banner-bg.jpg",
+              "required": false
+            },
+            {
+              "id": "overlay_color",
+              "label": "Overlay Color",
+              "type": "color",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
+              "required": false
+            },
+            {
+              "id": "overlay_opacity",
+              "label": "Overlay Opacity",
+              "type": "text",
+              "placeholder": "1",
+              "value": "1",
+              "required": false
+            }
+          ]
+        },
+        {
+          "group": "Content",
+          "settings": [
+            {
+              "id": "text_color",
+              "label": "Color",
+              "type": "color",
+              "placeholder": "#606060",
+              "value": "#606060",
+              "required": false
+            }
+          ]
+        }
+      ]
     }
   ]
 }
