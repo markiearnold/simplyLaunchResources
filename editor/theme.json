@@ -639,8 +639,8 @@
               "id": "contact_overlay_color",
               "label": "Contact Overlay Color",
               "type": "color",
-              "placeholder": "#e43c5c",
-              "value": "#e43c5c",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
               "required": false
             },
             {
