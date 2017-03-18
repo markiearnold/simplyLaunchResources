@@ -6,8 +6,14 @@
         <div class="container">
 			<div class="row">
 				<div class="jumbotron">
-                  <h1 rich-text label="Banner Header Text" content="header_text" class="small"></h1>
-				  <p class="big">Multipurpose HTML5 Bootstrap template.</p>
+                  <h1 
+                    rich-text label="Banner Header Text" content="header_text" 
+                    settings style-setting="color:banner_text_color"
+                    class="small"></h1>
+				  <p class="big " 
+				    rich-text label="Banner Subtitle Text" content="subtitle_text"
+				    settings style-setting="color:banner_text_color" 
+				    show-if="show_subtitle"></p>
 				  <a href="#" class="btn btn-banner">Learn More<i class="fa fa-send"></i></a>
 				</div>
 			</div>

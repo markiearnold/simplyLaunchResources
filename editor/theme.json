@@ -103,7 +103,8 @@
       "type": "banner",
       "preview_image": "header.jpg",
       "content": {
-        "header_text": "Welcome To <span class=\"bold\">Tempo</span>"
+        "header_text": "Welcome To <span class=\"bold\">Tempo</span>",
+        "subtitle_text": "Multipurpose HTML5 Bootstrap template."
       },
       "block_settings": [
         {
@@ -139,11 +140,19 @@
           "group": "Content",
           "settings": [
             {
-              "id": "header_text_off",
-              "label": "Banner Header Text",
-              "type": "text",
+              "id": "banner_text_color",
+              "label": "Banner Text Color",
+              "type": "color",
               "placeholder": "",
-              "value": "123",
+              "value": "#fff",
+              "required": false
+            },
+            {
+              "id": "show_subtitle",
+              "label": "Show Subtitle",
+              "type": "checkbox",
+              "placeholder": "",
+              "value": true,
               "required": false
             }
           ]
