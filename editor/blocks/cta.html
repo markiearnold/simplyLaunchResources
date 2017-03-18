@@ -1,3 +1,15 @@
+<style class="belch-compile">
+    .button-{{$index}} {
+        color: {{getSetting(block, "button_text_color")}} !important;
+        border-color: {{getSetting(block, "button_text_color")}} !important;
+    }
+    .button-{{$index}}:hover {
+        background: {{getSetting(block, "button_hover_background_color")}} !important;
+        border-color: {{getSetting(block, "button_hover_background_color")}} !important;
+        color: {{getSetting(block, "button_hover_text_color")}} !important;
+        
+    }
+</style>
 	<!--CTA2 START-->
 	<section class="cta2" image-background label="CTA Background Image" content="cta_background_image">
         <div class="overlay-wrapper">
@@ -10,7 +22,8 @@
 			>
 			</div>
 			<div class="cta-button-wrapper" style="text-align: center;">
-				<a href="#" class="btn btn-default">Request A Quote</a>
+    			  <a settings url-link link="cta_links_to" text="cta_label" label="CTA Link" 
+    			    href="#" class="btn btn-banner button-{{$index}}"></a>
 			</div>
 		</div>
 	</div>
