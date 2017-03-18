@@ -98,14 +98,19 @@
     }
   ],
   "blocks": [
-     {
-      "name": "Navigation",
-      "type": "nav",
-      "preview_image": "nav.jpg",
-      "content": {
-        
-      },    
-      {
+    {
+      "name" : "Nav",
+      "type" : "nav",
+      "order" : 0,
+      "multiple" : false,
+      "preview_image" : "nav.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
       "name": "Banner",
       "type": "banner",
       "preview_image": "header.jpg",
