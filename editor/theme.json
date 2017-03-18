@@ -416,6 +416,100 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Team",
+      "type": "team",
+      "preview_image": "team.jpg",
+      "content": {
+        "team_header": "<h1>Meet Our Team</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua.</p>",
+        "team_one": "<h3>Haris Brown</h3><p>Sr. UI Designer</p><p>Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. Nunc arcu dolor, vehicula ac dictum ut, dapibus id lacus. Duis nunc magna, imperdiet non placerat convallis, porta in ex.</p>",
+        "team_two" : "<h3>Emmie Brown</h3><p>Jr. UI Designer</p><p>Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. Nunc arcu dolor, vehicula ac dictum ut, dapibus id lacus. Duis nunc magna, imperdiet non placerat convallis, porta in ex.</p>"
+      },
+      "block_settings": [
+        {
+          "group": "Background",
+          "settings": [
+            {
+              "id": "team_background_image",
+              "label": "Team Background Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/tempo/img/banner-bg.jpg",
+              "required": false
+            },
+            {
+              "id": "team_overlay_color",
+              "label": "Team Overlay Color",
+              "type": "color",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
+              "required": false
+            },
+            {
+              "id": "team_overlay_opacity",
+              "label": "Team Overlay Opacity",
+              "type": "text",
+              "placeholder": "1",
+              "value": "1",
+              "required": false
+            }
+          ]
+        },
+        {
+          "group": "Content",
+          "settings": [
+            {
+              "id": "team1_image",
+              "label": "Team Member Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/tempo/img/agent1.jpg",
+              "required": false
+            },
+            {
+              "id": "team2_image",
+              "label": "Team Member Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/tempo/img/agent2.jpg",
+              "required": false
+            },
+            {
+              "id": "show_header_section",
+              "label": "Team Header Text",
+              "type": "checkbox",
+              "placeholder": "",
+              "value": true,
+              "required": false
+            },
+            {
+              "id": "team_header_text_color",
+              "label": "Team Header Text Color",
+              "type": "color",
+              "placeholder": "#333333",
+              "value": "#333333",
+              "required": false
+            },
+            {
+              "id": "team_line_color",
+              "label": "Design Line Color",
+              "type": "color",
+              "placeholder": "#e43c5c",
+              "value": "#e43c5c",
+              "required": false
+            },
+            {
+              "id": "team_text_color",
+              "label": "Team Text Color",
+              "type": "color",
+              "placeholder": "#333333",
+              "value": "#333333",
+              "required": false
+            }
+          ]
+        }
+      ]
     }
   ]
 }
