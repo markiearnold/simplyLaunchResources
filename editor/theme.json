@@ -776,8 +776,8 @@
               "id": "onecol_overlay_color",
               "label": "One Column Overlay Color",
               "type": "color",
-              "placeholder": "#e43c5c",
-              "value": "#e43c5c",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
               "required": false
             },
             {
@@ -794,8 +794,8 @@
           "group": "Content",
           "settings": [
             {
-              "id": "cta_text_color",
-              "label": "CTA Text Color",
+              "id": "onecol_text_color",
+              "label": "One Column Text Color",
               "type": "color",
               "placeholder": "#ffffff",
               "value": "#ffffff",
