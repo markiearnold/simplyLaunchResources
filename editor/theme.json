@@ -103,7 +103,7 @@
       "type": "banner",
       "preview_image": "header.jpg",
       "content": {
-        
+        "header_text": "Welcome To <span class=\"bold\">Tempo</span>"
       },
       "block_settings": [
         {
@@ -131,6 +131,19 @@
               "type": "text",
               "placeholder": "0.4",
               "value": "0.4",
+              "required": false
+            }
+          ]
+        },
+        {
+          "group": "Content",
+          "settings": [
+            {
+              "id": "header_text_off",
+              "label": "Banner Header Text",
+              "type": "text",
+              "placeholder": "",
+              "value": "123",
               "required": false
             }
           ]
