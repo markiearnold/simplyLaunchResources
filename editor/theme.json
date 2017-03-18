@@ -23,6 +23,19 @@
   },
   "settings":[
     {
+      "group" : "Header",
+      "settings" : [
+        {
+          "id" : "show_header",
+          "label" : "Show Header",
+          "type" : "checkbox",
+          "placeholder" : "",
+          "value" : true,
+          "required" : false
+        },
+      ]
+    },
+    {
       "group" : "Menus",
       "settings" : [
         {
