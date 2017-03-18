@@ -1,3 +1,15 @@
+<style class="belch-compile">
+    .button-{{$index}} {
+        color: {{getSetting(block, "button_text_color")}} !important;
+        border-color: {{getSetting(block, "button_text_color")}} !important;
+    }
+    .button-{{$index}}:hover {
+        background: {{getSetting(block, "button_hover_background_color")}} !important;
+        border-color: {{getSetting(block, "button_hover_background_color")}} !important;
+        color: {{getSetting(block, "button_hover_text_color")}} !important;
+        
+    }
+</style>
 	<!--BANNER START-->
 	<section id="banner" class="section-padding" image-background label="Header Background Image" content="banner_background_image">
         <div class="overlay-wrapper">
@@ -14,7 +26,7 @@
 				    rich-text label="Banner Subtitle Text" content="subtitle_text"
 				    settings style-setting="color:banner_text_color" 
 				    show-if="show_subtitle"></p>
-				  <a href="#" class="btn btn-banner">Learn More<i class="fa fa-send"></i></a>
+				  <a href="#" class="btn btn-banner button-{{$index}}">Learn More<i class="fa fa-send"></i></a>
 				</div>
 			</div>
 		</div>

@@ -156,6 +156,35 @@
               "required": false
             }
           ]
+        },
+        {
+          "group": "Button",
+          "settings": [
+            {
+              "id": "button_text_color",
+              "label": "Button Text Color",
+              "type": "color",
+              "placeholder": "",
+              "value": "#fff",
+              "required": false
+            },
+            {
+              "id": "button_hover_background_color",
+              "label": "Button Hover BG Color",
+              "type": "color",
+              "placeholder": "",
+              "value": "#e43c5c",
+              "required": false
+            },
+            {
+              "id": "button_hover_text_color",
+              "label": "Button Hover Text Color",
+              "type": "color",
+              "placeholder": "",
+              "value": "#fff",
+              "required": false
+            }
+          ]
         }
       ]
     }
