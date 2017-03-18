@@ -737,8 +737,8 @@
               "id": "button_hover_background_color",
               "label": "Submit Hover BG Color",
               "type": "color",
-              "placeholder": "",
-              "value": "#ffffff",
+              "placeholder": "#e47596",
+              "value": "#e47596",
               "required": false
             },
             {
