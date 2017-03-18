@@ -615,6 +615,135 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Contact",
+      "type": "form",
+      "preview_image": "form.jpg",
+      "content": {
+        "contact_header": "<h1>Quick Contact</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua.</p>"
+      },
+      "block_settings": [
+        {
+          "group": "Background",
+          "settings": [
+            {
+              "id": "contact_background_image",
+              "label": "Contact Background Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/tempo/img/banner-bg.jpg",
+              "required": false
+            },
+            {
+              "id": "contact_overlay_color",
+              "label": "Contact Overlay Color",
+              "type": "color",
+              "placeholder": "#e43c5c",
+              "value": "#e43c5c",
+              "required": false
+            },
+            {
+              "id": "contact_overlay_opacity",
+              "label": "Contact Overlay Opacity",
+              "type": "text",
+              "placeholder": "1",
+              "value": "1",
+              "required": false
+            }
+          ]
+        },
+        {
+          "group": "Content",
+          "settings": [
+            {
+              "id": "contact_form",
+              "label": "Contact Form",
+              "type": "form",
+              "placeholder": "Default",
+              "value": "Default",
+              "required": false
+            },
+            {
+              "id": "show_header_section",
+              "label": "Contact Header Text",
+              "type": "checkbox",
+              "placeholder": "",
+              "value": true,
+              "required": false
+            },
+            {
+              "id": "contact_header_text_color",
+              "label": "Contact Header Text Color",
+              "type": "color",
+              "placeholder": "#333333",
+              "value": "#333333",
+              "required": false
+            },
+            {
+              "id": "contact_line_color",
+              "label": "Contact Line Color",
+              "type": "color",
+              "placeholder": "#e43c5c",
+              "value": "#e43c5c",
+              "required": false
+            },
+          ]
+        },
+        {
+          "group": "Form Design",
+          "settings": [
+            {
+              "id": "form_text_color",
+              "label": "Form Text Color",
+              "type": "color",
+              "placeholder": "#666666",
+              "value": "#666666",
+              "required": false
+            },
+            {
+              "id": "form_label_color",
+              "label": "Form Label Color",
+              "type": "color",
+              "placeholder": "#000000",
+              "value": "#000000",
+              "required": false
+            },
+            {
+              "id": "form_border_color",
+              "label": "Form Input Border Color",
+              "type": "color",
+              "placeholder": "#666666",
+              "value": "#666666",
+              "required": false
+            },
+            {
+              "id": "button_text_color",
+              "label": "Submit Text Color",
+              "type": "color",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
+              "required": false
+            },
+            {
+              "id": "button_hover_background_color",
+              "label": "Submit Hover BG Color",
+              "type": "color",
+              "placeholder": "",
+              "value": "#ffffff",
+              "required": false
+            },
+            {
+              "id": "button_hover_text_color",
+              "label": "Submit Hover Text Color",
+              "type": "color",
+              "placeholder": "#ffffff",
+              "value": "#e43c5c",
+              "required": false
+            }
+          ]
+        }
+      ]
     }
   ]
 }
