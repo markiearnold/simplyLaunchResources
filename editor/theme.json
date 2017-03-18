@@ -99,22 +99,38 @@
   ],
   "blocks": [
     {
-      "name": "Navigation",
-      "type": "nav",
+      "name": "Banner",
+      "type": "banner",
       "preview_image": "header.jpg",
       "content": {
         
       },
       "block_settings": [
         {
-          "group": "Group Name",
+          "group": "Background",
           "settings": [
             {
-              "id": "text_color",
-              "label": "Text",
+              "id": "banner_background_image",
+              "label": "Banner Background Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/tempo/img/banner-bg.jpg",
+              "required": false
+            },
+            {
+              "id": "banner_overlay_color",
+              "label": "Banner Overlay Color",
               "type": "color",
               "placeholder": "",
-              "value": "#ffffff",
+              "value": "#000",
+              "required": false
+            },
+            {
+              "id": "banner_overlay_opacity",
+              "label": "Banner Overlay Opacity",
+              "type": "text",
+              "placeholder": "0.4",
+              "value": "0.4",
               "required": false
             }
           ]
