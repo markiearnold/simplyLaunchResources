@@ -67,10 +67,18 @@
         },
         {
           "id" : "main_menu_flyout_background_color",
-          "label" : "Menu Flyout Background Color",
+          "label" : "Menu Flyout BG Color",
           "type" : "color",
           "placeholder" : "",
           "value" : "#ffffff",
+          "required" : false
+        },
+        {
+          "id" : "main_menu_flyout_text_color",
+          "label" : "Menu Flyout Text Color",
+          "type" : "color",
+          "placeholder" : "",
+          "value" : "#606060",
           "required" : false
         }
       ]
