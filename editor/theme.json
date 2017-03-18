@@ -566,28 +566,12 @@
               "placeholder": "#ffffff",
               "value": "#ffffff",
               "required": false
-            },
-            {
-              "id": "show_subtitle",
-              "label": "Show Callout Subtitle",
-              "type": "checkbox",
-              "placeholder": "",
-              "value": true,
-              "required": false
             }
           ]
         },
         {
           "group": "Button",
           "settings": [
-            {
-              "id": "show_button",
-              "label": "Show Button",
-              "type": "checkbox",
-              "placeholder": "",
-              "value": true,
-              "required": false
-            },
             {
               "id": "button_links_to",
               "label": "Button Links To",
@@ -617,7 +601,7 @@
               "label": "Button Hover BG Color",
               "type": "color",
               "placeholder": "",
-              "value": "#e43c5c",
+              "value": "#ffffff",
               "required": false
             },
             {
@@ -625,7 +609,7 @@
               "label": "Button Hover Text Color",
               "type": "color",
               "placeholder": "#ffffff",
-              "value": "#ffffff",
+              "value": "#e43c5c",
               "required": false
             }
           ]
