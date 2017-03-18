@@ -492,6 +492,14 @@
               "required": false
             },
             {
+              "id": "team_line_color",
+              "label": "Design Line Color",
+              "type": "color",
+              "placeholder": "#e43c5c",
+              "value": "#e43c5c",
+              "required": false
+            },
+            {
               "id": "team_text_color",
               "label": "Team Text Color",
               "type": "color",
@@ -505,6 +513,66 @@
               "type": "color",
               "placeholder": "#333333",
               "value": "#333333",
+              "required": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CTA",
+      "type": "cta",
+      "preview_image": "cta.jpg",
+      "content": {
+        "cta_text": "<h3>ÒEvery Thing is designed. Few Things are Designed well.Ó - Brian Reed</h3><p class=\"cta-sub-title\"></p>"
+      },
+      "block_settings": [
+        {
+          "group": "Background",
+          "settings": [
+            {
+              "id": "cta_background_image",
+              "label": "CTA Background Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/tempo/img/banner-bg.jpg",
+              "required": false
+            },
+            {
+              "id": "cta_overlay_color",
+              "label": "CTA Overlay Color",
+              "type": "color",
+              "placeholder": "#e43c5c",
+              "value": "#e43c5c",
+              "required": false
+            },
+            {
+              "id": "cta_overlay_opacity",
+              "label": "CTA Overlay Opacity",
+              "type": "text",
+              "placeholder": "1",
+              "value": "1",
+              "required": false
+            }
+          ]
+        },
+        {
+          "group": "Content",
+          "settings": [
+            {
+              "id": "cta_text_color",
+              "label": "CTA Text Color",
+              "type": "color",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
+              "required": false
+            },
+            {
+              "id": "show_subtitle",
+              "label": "Show Callout Subtitle",
+              "type": "checkbox",
+              "placeholder": "",
+              "value": true,
               "required": false
             }
           ]
