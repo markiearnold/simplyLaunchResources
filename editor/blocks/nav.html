@@ -1,33 +1,31 @@
-<nav id="mainNav" class="navbar navbar-default navbar-fixed-top"
-    settings show-if="show_main_nav">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-            </button>
-            <div logo width="200" label="Page Logo">
-              <a url-link link="logo_link_url" text="logo_link_text" label="Logo"
-                settings show-if="show_logo_name"
-                href="#page-top" class="navbar-brand page-scroll"></a>
+<!-- /.preloader -->
+<div id="preloader"></div>
+<div id="top"></div>
+
+<!-- NAVIGATION -->
+<div id="menu">
+    <nav class="navbar-wrapper navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-backyard">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand site-name" href="#top"><img src="images/logo2.png" alt="logo"></a>
+            </div>
+
+            <div id="navbar-scroll" class="collapse navbar-collapse navbar-backyard navbar-right">
+                <ul class="nav navbar-nav">
+                    <li><a href="#intro">About</a></li>
+                    <li><a href="#feature">Features</a></li>
+                    <li><a href="#download">Download</a></li>
+                    <li><a href="#package">Pricing</a></li>
+                    <li><a href="#testi">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
             </div>
         </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul menu content="main_nav" label="Main Navigation" class="nav navbar-nav navbar-right">
-                <li>
-                    <a class="page-scroll" href="#download">Download</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#features">Features</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container-fluid -->
-</nav>
+    </nav>
+</div>
