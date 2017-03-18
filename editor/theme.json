@@ -7,7 +7,7 @@
   "assets" : {
     "css" : [
       "https://s3.amazonaws.com/belch.io/themes/backyard/css/bootstrap.min.css",
-      "https://s3.amazonaws.com/belch.io/themes/backyard/css/css/font-awesome.min.css",
+      "https://s3.amazonaws.com/belch.io/themes/backyard/css/font-awesome.min.css",
       "https://s3.amazonaws.com/belch.io/themes/backyard/fonts/icon-7-stroke/css/pe-icon-7-stroke.css",
       "https://s3.amazonaws.com/belch.io/themes/backyard/css/animate.css",
       "https://s3.amazonaws.com/belch.io/themes/backyard/css/owl.theme.css",
