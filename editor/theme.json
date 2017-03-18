@@ -58,7 +58,7 @@
           "id" : "header_bg_color",
           "label" : "Header Background Color",
           "type" : "color",
-          "placeholder" : "",
+          "placeholder" : "#ffffff",
           "value" : "#ffffff",
           "required" : false
         },
@@ -66,7 +66,7 @@
           "id" : "main_menu_text_color",
           "label" : "Menu Text Color",
           "type" : "color",
-          "placeholder" : "",
+          "placeholder" : "#606060",
           "value" : "#606060",
           "required" : false
         },
@@ -74,7 +74,7 @@
           "id" : "main_menu_text_hover_color",
           "label" : "Menu Text Hover Color",
           "type" : "color",
-          "placeholder" : "",
+          "placeholder" : "#e43c5c",
           "value" : "#e43c5c",
           "required" : false
         },
@@ -82,7 +82,7 @@
           "id" : "main_menu_flyout_background_color",
           "label" : "Menu Flyout BG Color",
           "type" : "color",
-          "placeholder" : "",
+          "placeholder" : "#ffffff",
           "value" : "#ffffff",
           "required" : false
         },
@@ -90,7 +90,7 @@
           "id" : "main_menu_flyout_text_color",
           "label" : "Menu Flyout Text Color",
           "type" : "color",
-          "placeholder" : "",
+          "placeholder" : "#606060",
           "value" : "#606060",
           "required" : false
         }
@@ -134,8 +134,8 @@
               "id": "banner_overlay_color",
               "label": "Banner Overlay Color",
               "type": "color",
-              "placeholder": "",
-              "value": "#000",
+              "placeholder": "#000000",
+              "value": "#000000",
               "required": false
             },
             {
@@ -155,8 +155,8 @@
               "id": "banner_text_color",
               "label": "Banner Text Color",
               "type": "color",
-              "placeholder": "",
-              "value": "#fff",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
               "required": false
             },
             {
@@ -200,8 +200,8 @@
               "id": "button_text_color",
               "label": "Button Text Color",
               "type": "color",
-              "placeholder": "",
-              "value": "#fff",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
               "required": false
             },
             {
@@ -216,8 +216,8 @@
               "id": "button_hover_text_color",
               "label": "Button Hover Text Color",
               "type": "color",
-              "placeholder": "",
-              "value": "#fff",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
               "required": false
             }
           ]
@@ -248,7 +248,7 @@
               "id": "callout_overlay_color",
               "label": "Callout Overlay Color",
               "type": "color",
-              "placeholder": "",
+              "placeholder": "#e43c5c",
               "value": "#e43c5c",
               "required": false
             },
@@ -269,8 +269,8 @@
               "id": "callout_text_color",
               "label": "Callout Text Color",
               "type": "color",
-              "placeholder": "",
-              "value": "#fff",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
               "required": false
             },
             {
@@ -393,8 +393,8 @@
               "id": "service_header_text_color",
               "label": "Services Header Text Color",
               "type": "color",
-              "placeholder": "#333",
-              "value": "#333",
+              "placeholder": "#333333",
+              "value": "#333333",
               "required": false
             },
             {
@@ -409,8 +409,8 @@
               "id": "service_text_color",
               "label": "Services Text Color",
               "type": "color",
-              "placeholder": "#333",
-              "value": "#333",
+              "placeholder": "#333333",
+              "value": "#333333",
               "required": false
             }
           ]
