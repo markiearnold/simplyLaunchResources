@@ -32,7 +32,7 @@
           "placeholder" : "",
           "value" : true,
           "required" : false
-        },
+        }
       ]
     },
     {
