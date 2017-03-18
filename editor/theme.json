@@ -223,6 +223,67 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Callout",
+      "type": "callout",
+      "preview_image": "callout.jpg",
+      "content": {
+        "callout_header": "Say Hey to Tempo!!",
+        "callout_subtitle": "Full Responsive HTML5 Bootstrap Template."
+      },
+      "block_settings": [
+        {
+          "group": "Background",
+          "settings": [
+            {
+              "id": "callout_background_image",
+              "label": "Callout Background Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/tempo/img/banner-bg.jpg",
+              "required": false
+            },
+            {
+              "id": "callout_overlay_color",
+              "label": "Callout Overlay Color",
+              "type": "color",
+              "placeholder": "",
+              "value": "#e43c5c",
+              "required": false
+            },
+            {
+              "id": "callout_overlay_opacity",
+              "label": "Callout Overlay Opacity",
+              "type": "text",
+              "placeholder": "1",
+              "value": "0.4",
+              "required": false
+            }
+          ]
+        },
+        {
+          "group": "Content",
+          "settings": [
+            {
+              "id": "callout_text_color",
+              "label": "Callout Text Color",
+              "type": "color",
+              "placeholder": "",
+              "value": "#fff",
+              "required": false
+            },
+            {
+              "id": "show_subtitle",
+              "label": "Show Callout Subtitle",
+              "type": "checkbox",
+              "placeholder": "",
+              "value": true,
+              "required": false
+            }
+          ]
+        }
+      ]
     }
   ]
 }
