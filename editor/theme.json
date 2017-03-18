@@ -64,6 +64,14 @@
           "placeholder" : "",
           "value" : "#e43c5c",
           "required" : false
+        },
+        {
+          "id" : "main_menu_flyout_background_color",
+          "label" : "Menu Flyout Background Color",
+          "type" : "color",
+          "placeholder" : "",
+          "value" : "#ffffff",
+          "required" : false
         }
       ]
     }

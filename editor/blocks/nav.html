@@ -2,8 +2,11 @@
     nav.navbar .hs-menu-wrapper ul li a {
         color: {{getSetting(block, "main_menu_text_color")}} !important;
     }
-    nav.navbar .hs-menu-wrapper ul li:hover a {
+    nav.navbar .hs-menu-wrapper ul li:hover>a {
         color: {{getSetting(block, "main_menu_text_hover_color")}} !important;
+    }
+    nav.navbar .hs-menu-wrapper ul ul {
+        background: {{getSetting(block, "main_menu_flyout_background_color")}} !important;
     }
 </style>
 
