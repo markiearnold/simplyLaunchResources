@@ -1,11 +1,21 @@
 	<!--SERVICE START-->
-	<div id="service" class="section-padding">
+	<section class="section-padding" id="banner" class="section-padding" image-background label="Header Background Image" content="banner_background_image">
+        <div class="overlay-wrapper">
+            <div class="overlay" settings style-setting="background:banner_overlay_color|opacity:banner_overlay_opacity"></div>
+        </div>		
 		<div class="container">
 			<div class="row">
-				<div class="page-title text-center">
-					<h1>Our Service</h1>
+				<div class="page-title text-center"
+				rich-block label="Header Text Block" content="services_header"
+				settings style-setting="color:service_header_text_color" show-if="show_header"
+				>
+					<h1 
+					rich-text label="Services Header" content="services_header"
+					settings style-setting="color:service_header_text_color" show-if="show_header">Our Service</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua. </p>
-					<hr class="pg-titl-bdr-btm"></hr>
+					<hr class="pg-titl-bdr-btm"
+					settings style-setting="background-color:service_line_color"
+					></hr>
 				</div>
 				<div class="col-md-4">
 					<div class="service-box">
@@ -36,5 +46,5 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 	<!--SERVICE END-->
