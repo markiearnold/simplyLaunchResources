@@ -382,7 +382,7 @@
           "group": "Content",
           "settings": [
             {
-              "id": "show_header",
+              "id": "show_header_section",
               "label": "Show Header Text",
               "type": "checkbox",
               "placeholder": "",
