@@ -311,8 +311,8 @@
               "id": "services_overlay_color",
               "label": "Services Overlay Color",
               "type": "color",
-              "placeholder": "#fff",
-              "value": "#fff",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
               "required": false
             },
             {
@@ -340,8 +340,8 @@
               "id": "icon_background_color",
               "label": "Icons Background Color",
               "type": "color",
-              "placeholder": "#fff",
-              "value": "#fff",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
               "required": false
             },
             {
