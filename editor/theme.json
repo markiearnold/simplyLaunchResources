@@ -398,27 +398,19 @@
               "required": false
             },
             {
-              "id": "service_title_text_color",
-              "label": "Services Title Text Color",
-              "type": "color",
-              "placeholder": "#333",
-              "value": "#333",
-              "required": false
-            },
-            {
-              "id": "service_body_text_color",
-              "label": "Services Content Text Color",
-              "type": "color",
-              "placeholder": "#333",
-              "value": "#333",
-              "required": false
-            },
-            {
               "id": "service_line_color",
               "label": "Design Line Color",
               "type": "color",
               "placeholder": "#e43c5c",
               "value": "#e43c5c",
+              "required": false
+            },
+            {
+              "id": "service_text_color",
+              "label": "Services Text Color",
+              "type": "color",
+              "placeholder": "#333",
+              "value": "#333",
               "required": false
             }
           ]
