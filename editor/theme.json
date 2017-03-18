@@ -257,7 +257,7 @@
               "label": "Callout Overlay Opacity",
               "type": "text",
               "placeholder": "1",
-              "value": "0.4",
+              "value": "1",
               "required": false
             }
           ]
