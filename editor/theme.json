@@ -43,7 +43,10 @@
       "multiple" : true,
       "shown" : true,
       "preview_image" : "test.jpg",
-      "content" : {},
+      "content" : {
+        "header_subscribe_title" : "High Converting Landing Page",
+        "header_subscribe_description" : "<p>Backyard is a modern and customizable landing page template designed to increase conversion of your product. Backyard is flexible to suit any kind of your business. Try now and join with our happy customers!</p>"
+      },
       "block_settings": []
     },
     {
