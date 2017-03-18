@@ -705,16 +705,16 @@
               "id": "form_label_color",
               "label": "Form Label Color",
               "type": "color",
-              "placeholder": "#000000",
-              "value": "#000000",
+              "placeholder": "#e43c5c",
+              "value": "#e43c5c",
               "required": false
             },
             {
               "id": "form_border_color",
               "label": "Form Input Border Color",
               "type": "color",
-              "placeholder": "#666666",
-              "value": "#666666",
+              "placeholder": "#e43c5c",
+              "value": "#e43c5c",
               "required": false
             },
             {
@@ -723,6 +723,14 @@
               "type": "color",
               "placeholder": "#ffffff",
               "value": "#ffffff",
+              "required": false
+            },
+            {
+              "id": "button_background_color",
+              "label": "Submit Background Color",
+              "type": "color",
+              "placeholder": "#e43c5c",
+              "value": "#e43c5c",
               "required": false
             },
             {
@@ -737,7 +745,7 @@
               "id": "button_hover_text_color",
               "label": "Submit Hover Text Color",
               "type": "color",
-              "placeholder": "#ffffff",
+              "placeholder": "#e43c5c",
               "value": "#e43c5c",
               "required": false
             }

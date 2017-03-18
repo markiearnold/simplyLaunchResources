@@ -1,3 +1,23 @@
+<style class="belch-compile">
+    .hs-form label {
+        color: {{getSetting(block, "form_label_color")}} !important; 
+    }
+    input[type=date], input[type=datetime], input[type=datetime-local], input[type=email], input[type=month], input[type=number], input[type=password], input[type=range], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], .hs-form fieldset.form-columns-1 textarea.hs-input, .hs-form fieldset.form-columns-1 .input select {
+        border-color: {{getSetting(block, "form_border_color")}} !important; 
+        color: {{getSetting(block, "form_border_color")}} !important; 
+    }
+    .hs-form button, .hs-form input[type=button], .hs-form input[type=reset], .hs-form input[type=submit] {
+        background: {{getSetting(block, "button_background_color")}} !important; 
+        color: {{getSetting(block, "button_text_color")}} !important;
+        padding: 13px 65px;
+        font-size: 16px;
+        border-radius: 2px;
+    }
+    .hs-form button:hover, .hs-form input[type=button]:hover, .hs-form input[type=reset]:hover, .hs-form input[type=submit]:hover {
+        background: {{getSetting(block, "button_hover_background_color")}} !important; 
+        color: {{getSetting(block, "button_hover_text_color")}} !important;
+    }
+</style>
 	<!--CONTACT START-->
 	<section class="section-padding" image-background label="Contact Background Image" content="contact_background_image">
         <div class="overlay-wrapper">
