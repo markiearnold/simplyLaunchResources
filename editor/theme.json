@@ -57,6 +57,14 @@
           "value" : "#606060",
           "required" : false
         }
+        {
+          "id" : "main_menu_text_hover_color",
+          "label" : "Menu Text Hover Color",
+          "type" : "color",
+          "placeholder" : "",
+          "value" : "#e43c5c",
+          "required" : false
+        }
       ]
     }
   ],
