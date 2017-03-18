@@ -492,16 +492,16 @@
               "required": false
             },
             {
-              "id": "team_line_color",
-              "label": "Design Line Color",
+              "id": "team_text_color",
+              "label": "Team Text Color",
               "type": "color",
-              "placeholder": "#e43c5c",
-              "value": "#e43c5c",
+              "placeholder": "#333333",
+              "value": "#333333",
               "required": false
             },
             {
-              "id": "team_text_color",
-              "label": "Team Text Color",
+              "id": "team_border_color",
+              "label": "Team Border Color",
               "type": "color",
               "placeholder": "#333333",
               "value": "#333333",
