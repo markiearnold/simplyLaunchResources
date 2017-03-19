@@ -258,12 +258,17 @@
               "required": false
             },
             {
-              "id": "callout_overlay_opacity",
-              "label": "Callout Overlay Opacity",
-              "type": "text",
-              "placeholder": "1",
-              "value": "1",
-              "required": false
+              "id" : "callout_overlay_opacity",
+              "label" : "Callout Overlay Opacity",
+              "type" : "range",
+              "placeholder" : "1",
+              "value" : 1,
+              "options" : {
+                "min" : 0,
+                "max" : 1,
+                "step" : 0.1
+              },
+              "required" : false
             }
           ]
         },
@@ -321,12 +326,17 @@
               "required": false
             },
             {
-              "id": "services_overlay_opacity",
-              "label": "Services Overlay Opacity",
-              "type": "text",
-              "placeholder": "1",
-              "value": "1",
-              "required": false
+              "id" : "services_overlay_opacity",
+              "label" : "Services Overlay Opacity",
+              "type" : "range",
+              "placeholder" : "1",
+              "value" : 1,
+              "options" : {
+                "min" : 0,
+                "max" : 1,
+                "step" : 0.1
+              },
+              "required" : false
             }
           ]
         },
@@ -452,12 +462,17 @@
               "required": false
             },
             {
-              "id": "team_overlay_opacity",
-              "label": "Team Overlay Opacity",
-              "type": "text",
-              "placeholder": "1",
-              "value": "1",
-              "required": false
+              "id" : "team_overlay_opacity",
+              "label" : "Team Overlay Opacity",
+              "type" : "range",
+              "placeholder" : "1",
+              "value" : 1,
+              "options" : {
+                "min" : 0,
+                "max" : 1,
+                "step" : 0.1
+              },
+              "required" : false
             }
           ]
         },
@@ -552,12 +567,17 @@
               "required": false
             },
             {
-              "id": "cta_overlay_opacity",
-              "label": "CTA Overlay Opacity",
-              "type": "text",
-              "placeholder": "1",
-              "value": "1",
-              "required": false
+              "id" : "cta_overlay_opacity",
+              "label" : "CTA Overlay Opacity",
+              "type" : "range",
+              "placeholder" : "1",
+              "value" : 1,
+              "options" : {
+                "min" : 0,
+                "max" : 1,
+                "step" : 0.1
+              },
+              "required" : false
             }
           ]
         },
@@ -649,12 +669,17 @@
               "required": false
             },
             {
-              "id": "contact_overlay_opacity",
-              "label": "Contact Overlay Opacity",
-              "type": "text",
-              "placeholder": "1",
-              "value": "1",
-              "required": false
+              "id" : "contact_overlay_opacity",
+              "label" : "Contact Overlay Opacity",
+              "type" : "range",
+              "placeholder" : "1",
+              "value" : 1,
+              "options" : {
+                "min" : 0,
+                "max" : 1,
+                "step" : 0.1
+              },
+              "required" : false
             }
           ]
         },
@@ -786,12 +811,17 @@
               "required": false
             },
             {
-              "id": "onecol_overlay_opacity",
-              "label": "One Column Overlay Opacity",
-              "type": "text",
-              "placeholder": "1",
-              "value": "1",
-              "required": false
+              "id" : "onecol_overlay_opacity",
+              "label" : "One Column Overlay Opacity",
+              "type" : "range",
+              "placeholder" : "1",
+              "value" : 1,
+              "options" : {
+                "min" : 0,
+                "max" : 1,
+                "step" : 0.1
+              },
+              "required" : false
             }
           ]
         },
@@ -839,12 +869,17 @@
               "required": false
             },
             {
-              "id": "twocol_overlay_opacity",
-              "label": "Two Column Overlay Opacity",
-              "type": "text",
-              "placeholder": "1",
-              "value": "1",
-              "required": false
+              "id" : "twocol_overlay_opacity",
+              "label" : "Two Column Overlay Opacity",
+              "type" : "range",
+              "placeholder" : "1",
+              "value" : 1,
+              "options" : {
+                "min" : 0,
+                "max" : 1,
+                "step" : 0.1
+              },
+              "required" : false
             }
           ]
         },
@@ -893,12 +928,17 @@
               "required": false
             },
             {
-              "id": "overlay_opacity",
-              "label": "Overlay Opacity",
-              "type": "text",
-              "placeholder": "1",
-              "value": "1",
-              "required": false
+              "id" : "overlay_opacity",
+              "label" : "Overlay Opacity",
+              "type" : "range",
+              "placeholder" : "1",
+              "value" : 1,
+              "options" : {
+                "min" : 0,
+                "max" : 1,
+                "step" : 0.1
+              },
+              "required" : false
             }
           ]
         },
@@ -948,12 +988,17 @@
               "required": false
             },
             {
-              "id": "overlay_opacity",
-              "label": "Overlay Opacity",
-              "type": "text",
-              "placeholder": "1",
-              "value": "1",
-              "required": false
+              "id" : "overlay_opacity",
+              "label" : "Overlay Opacity",
+              "type" : "range",
+              "placeholder" : "1",
+              "value" : 1,
+              "options" : {
+                "min" : 0,
+                "max" : 1,
+                "step" : 0.1
+              },
+              "required" : false
             }
           ]
         },
@@ -1005,12 +1050,17 @@
               "required": false
             },
             {
-              "id": "overlay_opacity",
-              "label": "Overlay Opacity",
-              "type": "text",
-              "placeholder": "1",
-              "value": "1",
-              "required": false
+              "id" : "overlay_opacity",
+              "label" : "Overlay Opacity",
+              "type" : "range",
+              "placeholder" : "1",
+              "value" : 1,
+              "options" : {
+                "min" : 0,
+                "max" : 1,
+                "step" : 0.1
+              },
+              "required" : false
             }
           ]
         },
