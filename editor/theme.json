@@ -64,7 +64,7 @@
               "label" : "Test Select",
               "type" : "select",
               "placeholder" : "",
-              "value" : "laptop",
+              "value" : "#000000",
               "options" : ["#ffffff", "#000000", "#ff5500"],
               "required" : false
             }
