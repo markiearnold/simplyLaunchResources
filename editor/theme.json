@@ -57,6 +57,10 @@
               "type" : "range",
               "placeholder" : "",
               "value" : 1,
+              "options" : {
+                "min" : 0,
+                "max" : 1
+              },
               "required" : false
             },
             {
