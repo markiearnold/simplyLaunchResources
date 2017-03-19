@@ -713,8 +713,8 @@
               "id": "form_border_color",
               "label": "Form Input Border Color",
               "type": "color",
-              "placeholder": "#e43c5c",
-              "value": "#e43c5c",
+              "placeholder": "#CACACA",
+              "value": "#CACACA",
               "required": false
             },
             {

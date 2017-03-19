@@ -1,10 +1,15 @@
 <style class="belch-compile">
     .hs-form label {
         color: {{getSetting(block, "form_label_color")}} !important; 
+        padding-left: 15px;
+        font-weight: bold;
+        margin-bottom: 6px;
     }
     .hs-form input[type=date], .hs-form input[type=datetime], .hs-form input[type=datetime-local], .hs-form input[type=email], .hs-form input[type=month], input[type=number], .hs-form input[type=password], .hs-form input[type=range], .hs-form input[type=search], .hs-form input[type=tel], .hs-form input[type=text], .hs-form input[type=time], .hs-form input[type=url], .hs-form input[type=week], .hs-form textarea.hs-input, .hs-form .input select {
         border-color: {{getSetting(block, "form_border_color")}} !important; 
         color: {{getSetting(block, "form_text_color")}} !important; 
+        border-radius: 20px;
+        padding: 13px;
     }
     .hs-form button, .hs-form input[type=button], .hs-form input[type=reset], .hs-form input[type=submit] {
         background: {{getSetting(block, "button_background_color")}} !important; 
