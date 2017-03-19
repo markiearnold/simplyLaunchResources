@@ -58,6 +58,15 @@
               "placeholder" : "",
               "value" : 1,
               "required" : false
+            },
+            {
+              "id" : "test2",
+              "label" : "Test Select",
+              "type" : "select",
+              "placeholder" : "",
+              "value" : "laptop",
+              "options" : ["#ffffff", "#000000", "#ff5500"],
+              "required" : false
             }
           ]
         }
