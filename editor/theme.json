@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "settings": {
-    
+
   },
   "assets": {
     "css": [
@@ -139,12 +139,17 @@
               "required": false
             },
             {
-              "id": "banner_overlay_opacity",
-              "label": "Banner Overlay Opacity",
-              "type": "text",
-              "placeholder": "0.4",
-              "value": "0.4",
-              "required": false
+              "id" : "banner_overlay_opacity",
+              "label" : "Banner Overlay Opacity",
+              "type" : "range",
+              "placeholder" : "0.4",
+              "value" : 0.4,
+              "options" : {
+                "min" : 0,
+                "max" : 1,
+                "step" : 0.1
+              },
+              "required" : false
             }
           ]
         },
