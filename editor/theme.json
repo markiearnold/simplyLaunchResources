@@ -3,6 +3,7 @@
     "name" : "BPAgency",
     "meta" : "bpagency",
     "version" : "1.0",
+    "type": "page",
     "preview_image" : "",
     "author" : {
       "name" : "Tim Joyce | Big Presence Agency",
