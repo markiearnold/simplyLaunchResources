@@ -3,6 +3,7 @@
     "name" : "Agency",
     "meta" : "agency",
     "version" : "1.0",
+    "type": "page",
     "preview_image" : "",
     "author" : {
       "name" : "Start Bootstrap",
