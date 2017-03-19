@@ -2,7 +2,8 @@
   "info" : {
     "name" : "Backyard",
     "meta" : "backyard",
-    "version" : "1.0"
+    "version" : "1.0",
+    "type": "page"
   },
   "assets" : {
     "css" : [
