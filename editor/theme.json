@@ -128,7 +128,7 @@
     {
       "name": "Banner",
       "type": "banner",
-      "showOnDefault" : true,
+      "showOnDefault" : false,
       "preview_image": "header.jpg",
       "content": {
         "header_text": "Welcome To <span class=\"bold\">Tempo</span>",
