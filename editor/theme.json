@@ -32,7 +32,7 @@
       "type" : "nav",
       "order" : 0,
       "multiple" : false,
-      "shown" : true,
+      "showOnDefault" : true,
       "preview_image" : "test.jpg",
       "content" : {},
       "block_settings": []
@@ -42,7 +42,7 @@
       "type" : "header-subscribe",
       "order" : 0,
       "multiple" : true,
-      "shown" : true,
+      "showOnDefault" : true,
       "preview_image" : "test.jpg",
       "content" : {
         "header_subscribe_title" : "High Converting Landing Page",
@@ -83,7 +83,7 @@
       "type" : "intro",
       "order" : 0,
       "multiple" : true,
-      "shown" : true,
+      "showOnDefault" : true,
       "preview_image" : "test.jpg",
       "content" : {},
       "block_settings": []
@@ -93,7 +93,7 @@
       "type" : "features",
       "order" : 0,
       "multiple" : true,
-      "shown" : true,
+      "showOnDefault" : true,
       "preview_image" : "test.jpg",
       "content" : {},
       "block_settings": []
@@ -103,7 +103,7 @@
       "type" : "features-2",
       "order" : 0,
       "multiple" : true,
-      "shown" : true,
+      "showOnDefault" : true,
       "preview_image" : "test.jpg",
       "content" : {},
       "block_settings": []
@@ -113,7 +113,7 @@
       "type" : "download",
       "order" : 0,
       "multiple" : true,
-      "shown" : true,
+      "showOnDefault" : true,
       "preview_image" : "test.jpg",
       "content" : {},
       "block_settings": []
@@ -123,7 +123,7 @@
       "type" : "pricing",
       "order" : 0,
       "multiple" : true,
-      "shown" : true,
+      "showOnDefault" : true,
       "preview_image" : "test.jpg",
       "content" : {},
       "block_settings": []
@@ -133,7 +133,7 @@
       "type" : "client",
       "order" : 0,
       "multiple" : true,
-      "shown" : true,
+      "showOnDefault" : true,
       "preview_image" : "test.jpg",
       "content" : {},
       "block_settings": []
@@ -143,7 +143,7 @@
       "type" : "testimonial",
       "order" : 0,
       "multiple" : true,
-      "shown" : true,
+      "showOnDefault" : true,
       "preview_image" : "test.jpg",
       "content" : {},
       "block_settings": []
@@ -153,7 +153,7 @@
       "type" : "contact",
       "order" : 0,
       "multiple" : true,
-      "shown" : true,
+      "showOnDefault" : true,
       "preview_image" : "test.jpg",
       "content" : {},
       "block_settings": []
@@ -163,7 +163,7 @@
       "type" : "footer",
       "order" : 0,
       "multiple" : true,
-      "shown" : true,
+      "showOnDefault" : true,
       "preview_image" : "test.jpg",
       "content" : {},
       "block_settings": []
