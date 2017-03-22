@@ -48,6 +48,7 @@
       "name" : "Header",
       "type" : "header",
       "order" : 1,
+      "showOnDefault" : true,
       "preview_image" : "header.jpg",
       "content" : {
         "subtitle" : "Welcome To Our Studio!",
@@ -144,6 +145,7 @@
       "name" : "Services",
       "type" : "services",
       "order" : 1,
+      "showOnDefault" : true,
       "preview_image" : "services.jpg",
       "content" : {
         "title" : "Services",
