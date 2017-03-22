@@ -96,6 +96,19 @@
           "required" : false
         }
       ]
+    },
+    {
+      "group" : "Images",
+      "settings" : [
+        {
+          "id": "logo_image",
+          "label": "Logo Image",
+          "type": "image",
+          "placeholder": "",
+          "value": "https://s3.amazonaws.com/belch.io/themes/tempo/img/logo.jpg",
+          "required": false
+        }
+      ]
     }
   ],
   "blocks": [
