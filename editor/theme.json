@@ -43,8 +43,8 @@
           "id" : "main_nav",
           "label" : "Main Navigation",
           "type" : "menu",
-          "placeholder" : "Default",
-          "value" : "Default",
+          "placeholder" : "default",
+          "value" : "default",
           "required" : false
         },
         {
