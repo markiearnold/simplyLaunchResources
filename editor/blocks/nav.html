@@ -31,7 +31,7 @@
 			<div settings show-if="show_main_nav" class="collapse navbar-collapse" id="myNavbar">
 			    <div menu content="main_nav" label="Navigation Menu">
 			        {{ind = getSetting(block, "main_nav")}}
-			         {{livemenu[ind].html}}
+			         {{livemenu[getSetting(block, "main_nav")].html}}
 			    </div>
 			</div>
 		  </div>
