@@ -30,7 +30,7 @@
 			</div>
 			<div settings show-if="show_main_nav" class="collapse navbar-collapse" id="myNavbar">
 			    <div menu content="main_nav" label="Navigation Menu">
-			         <var>{{hubspotMenuChoices[2]['livemenu']}}</var>
+			         <var ng-bind-html-unsafe="hubspotMenuChoices[2]['livemenu']"></var>
                     <div class="hs-menu-wrapper active-branch hs-menu-flow-horizontal" role="navigation">
                         <ul>
                             <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children">
