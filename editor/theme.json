@@ -98,6 +98,7 @@
       "type" : "nav",
       "order" : 0,
       "multiple" : false,
+      "showOnDefault" : true,
       "preview_image" : "nav.jpg",
       "content" : {},
       "block_settings": [
@@ -120,6 +121,7 @@
       "name" : "Header",
       "type" : "header",
       "order" : 1,
+      "showOnDefault" : true,
       "preview_image" : "header.jpg",
       "content" : {
         "text" : "New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!",
@@ -208,6 +210,7 @@
       "name" : "Download",
       "type" : "download",
       "order" : 2,
+      "showOnDefault" : true,
       "preview_image" : "download.jpg",
       "content" : {
         "title" : "Discover what all the buzz is about!",
@@ -241,6 +244,7 @@
       "name" : "Features",
       "type" : "features",
       "order" : 3,
+      "showOnDefault" : true,
       "preview_image" : "features.jpg",
       "content" : {
         "title" : "Unlimited Features, Unlimited Fun",
@@ -282,6 +286,7 @@
       "name" : "CTA",
       "type" : "cta",
       "order" : 5,
+      "showOnDefault" : true,
       "preview_image" : "cta.jpg",
       "content" : {
         "title" : "Stop waiting.<br>Start building."
@@ -340,6 +345,7 @@
       "name" : "Contact",
       "type" : "contact",
       "order" : 6,
+      "showOnDefault" : true,
       "preview_image" : "contact.jpg",
       "content" : {
         "title" : "We love new friends!"
@@ -364,6 +370,7 @@
       "name" : "Footer",
       "type" : "footer",
       "order" : 7,
+      "showOnDefault" : true,
       "preview_image" : "footer.jpg",
       "content" : {},
       "block_settings" : []
