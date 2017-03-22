@@ -29,8 +29,7 @@
 			  <div logo image="logo_image" height="40"><img image-element label="Logo Image" content="logo_image" height="40"></div>
 			</div>
 			<div settings show-if="show_main_nav" class="collapse navbar-collapse" id="myNavbar">
-			    <div menu content="main_nav" label="Navigation Menu">
-			         <var ng-bind-html="livemenu[getSetting(block, 'main_nav')].html"></var>
+			    <div menu content="main_nav" label="Navigation Menu" ng-bind-html="livemenu[getSetting(block, 'main_nav')].html">
 			    </div>
 			</div>
 		  </div>
