@@ -265,7 +265,7 @@
       "showOnDefault" : true,
       "preview_image": "callout.jpg",
       "content": {
-        "callout_header": "Say Hey to Tempo!!",
+        "callout_header": "Say Hey to Pesky!!",
         "callout_subtitle": "Full Responsive HTML5 Bootstrap Template."
       },
       "block_settings": [
@@ -320,6 +320,141 @@
               "type": "checkbox",
               "placeholder": "",
               "value": true,
+              "required": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "About",
+      "type": "about",
+      "showOnDefault" : true,
+      "preview_image": "about.jpg",
+      "content": {
+        "content": "<h3>About Pesky</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br/>incididunt ut labore et dolore magna aliqua.</p>"
+      },
+      "block_settings": [
+        {
+          "group": "Background",
+          "settings": [
+            {
+              "id": "background_image",
+              "label": "About Background Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/pesky/img/placeholder.jpg",
+              "required": false
+            },
+            {
+              "id": "background_overlay_color",
+              "label": "Background Overlay Color",
+              "type": "color",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
+              "required": false
+            },
+            {
+              "id" : "background_overlay_opacity",
+              "label" : "Background Overlay Opacity",
+              "type" : "range",
+              "placeholder" : "1",
+              "value" : 1,
+              "options" : {
+                "min" : 0,
+                "max" : 1,
+                "step" : 0.1
+              },
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Icons",
+          "settings": [
+            {
+              "id": "icon_color",
+              "label": "Icons Color",
+              "type": "color",
+              "placeholder": "#1d1d1d",
+              "value": "#1d1d1d",
+              "required": false
+            },
+            {
+              "id": "icon_background_color",
+              "label": "Icons Background Color",
+              "type": "color",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
+              "required": false
+            },
+            {
+              "id": "icon_border_color",
+              "label": "Icons Border Color",
+              "type": "color",
+              "placeholder": "#e9e9e9",
+              "value": "#e9e9e9",
+              "required": false
+            },
+            {
+              "id": "service1_icon",
+              "label": "First Icon",
+              "type": "icon",
+              "placeholder": "fa-picture-o",
+              "value": "fa-picture-o",
+              "required": false
+            },
+            {
+              "id": "service2_icon",
+              "label": "Second Icon",
+              "type": "icon",
+              "placeholder": "fa-code",
+              "value": "fa-code",
+              "required": false
+            },
+            {
+              "id": "service3_icon",
+              "label": "Third Icon",
+              "type": "icon",
+              "placeholder": "fa-diamond",
+              "value": "fa-diamond",
+              "required": false
+            }
+          ]
+        },
+        {
+          "group": "Content",
+          "settings": [
+            {
+              "id": "show_header_section",
+              "label": "Show Header Text",
+              "type": "checkbox",
+              "placeholder": "",
+              "value": true,
+              "required": false
+            },
+            {
+              "id": "service_header_text_color",
+              "label": "Services Header Text Color",
+              "type": "color",
+              "placeholder": "#333333",
+              "value": "#333333",
+              "required": false
+            },
+            {
+              "id": "service_line_color",
+              "label": "Design Line Color",
+              "type": "color",
+              "placeholder": "#1d1d1d",
+              "value": "#1d1d1d",
+              "required": false
+            },
+            {
+              "id": "service_text_color",
+              "label": "Services Text Color",
+              "type": "color",
+              "placeholder": "#333333",
+              "value": "#333333",
               "required": false
             }
           ]
