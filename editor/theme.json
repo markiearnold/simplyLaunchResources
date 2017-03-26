@@ -388,7 +388,7 @@
             {
               "id": "service1_icon",
               "label": "First Icon",
-              "type": "text",
+              "type": "icon",
               "placeholder": "fa fa-picture-o",
               "value": "fa fa-picture-o",
               "required": false
