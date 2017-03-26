@@ -146,7 +146,7 @@
       "content": {
         "header_text": "Pesky Bistro",
         "subtitle_text": "<b>DINE WITH STYLE. STAY FOR A WHILE.</b>",
-        "text_block" : "<p>Cras quam magna, volutpat at gravida at, sagittis sit amet mauris. Sed scelerisque convallis dolor, eget sagittis sapien convallis sed. Nulla gravida ante in placerat tempor.</p>"
+        "text_block" : "<p style=\"text-align:center;\">Cras quam magna, volutpat at gravida at, sagittis sit amet mauris. Sed scelerisque convallis dolor, eget sagittis sapien convallis sed. Nulla gravida ante in placerat tempor.</p>"
       },
       "block_settings": [
         {
