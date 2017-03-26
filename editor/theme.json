@@ -474,7 +474,7 @@
               "id": "service1_icon",
               "label": "First Icon",
               "type": "icon",
-              "placeholder": "fa-free-code-camp",
+              "placeholder": "fa-free-code-camp", 
               "value": "fa-picture-o",
               "required": false
             },
