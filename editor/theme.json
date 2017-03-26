@@ -482,7 +482,7 @@
               "id": "service2_icon",
               "label": "Second Icon",
               "type": "icon",
-              "placeholder": "fa-handshake-o",
+              "placeholder": "fa-handshake-o", 
               "value": "fa-code",
               "required": false
             },
