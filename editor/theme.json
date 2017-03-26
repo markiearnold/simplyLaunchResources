@@ -425,7 +425,7 @@
               "label": "Background Overlay Color",
               "type": "color",
               "placeholder": "#272727",
-              "value": "#272727",
+              "value": "#272727", 
               "required": false
             },
             {
