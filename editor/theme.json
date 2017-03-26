@@ -794,8 +794,8 @@
               "id": "cta_overlay_color",
               "label": "CTA Overlay Color",
               "type": "color",
-              "placeholder": "#1d1d1d",
-              "value": "#1d1d1d",
+              "placeholder": "#282828",
+              "value": "#282828",
               "required": false
             },
             {
