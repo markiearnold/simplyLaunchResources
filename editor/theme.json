@@ -386,32 +386,8 @@
           "group": "Content",
           "settings": [
             {
-              "id": "show_header_section",
-              "label": "Show Header Text",
-              "type": "checkbox",
-              "placeholder": "",
-              "value": true,
-              "required": false
-            },
-            {
-              "id": "service_header_text_color",
-              "label": "Services Header Text Color",
-              "type": "color",
-              "placeholder": "#333333",
-              "value": "#333333",
-              "required": false
-            },
-            {
-              "id": "service_line_color",
-              "label": "Design Line Color",
-              "type": "color",
-              "placeholder": "#1d1d1d",
-              "value": "#1d1d1d",
-              "required": false
-            },
-            {
-              "id": "service_text_color",
-              "label": "Services Text Color",
+              "id": "text_color",
+              "label": "About Text Color",
               "type": "color",
               "placeholder": "#333333",
               "value": "#333333",
