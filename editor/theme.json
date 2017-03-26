@@ -156,7 +156,7 @@
               "label": "Banner Background Image",
               "type": "image",
               "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/tempo/img/banner-bg.jpg",
+              "value": "https://s3.amazonaws.com/belch.io/themes/pesky/img/food1.jpg",
               "required": false
             },
             {
