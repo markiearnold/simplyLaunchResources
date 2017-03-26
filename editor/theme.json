@@ -628,109 +628,6 @@
       ]
     },
     {
-      "name": "CTA",
-      "type": "cta",
-      "showOnDefault" : true,
-      "preview_image": "cta.jpg",
-      "content": {
-        "cta_text": "<h3>\"Every Thing is designed. Few Things are Designed well.\" - Brian Reed</h3><p class=\"cta-sub-title\">Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. </p>"
-      },
-      "block_settings": [
-        {
-          "group": "Background",
-          "settings": [
-            {
-              "id": "cta_background_image",
-              "label": "CTA Background Image",
-              "type": "image",
-              "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/tempo/img/banner-bg.jpg",
-              "required": false
-            },
-            {
-              "id": "cta_overlay_color",
-              "label": "CTA Overlay Color",
-              "type": "color",
-              "placeholder": "#1d1d1d",
-              "value": "#1d1d1d",
-              "required": false
-            },
-            {
-              "id" : "cta_overlay_opacity",
-              "label" : "CTA Overlay Opacity",
-              "type" : "range",
-              "placeholder" : "1",
-              "value" : 1,
-              "options" : {
-                "min" : 0,
-                "max" : 1,
-                "step" : 0.1
-              },
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group": "Content",
-          "settings": [
-            {
-              "id": "cta_text_color",
-              "label": "CTA Text Color",
-              "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
-              "required": false
-            }
-          ]
-        },
-        {
-          "group": "Button",
-          "settings": [
-            {
-              "id": "button_links_to",
-              "label": "Button Links To",
-              "type": "text",
-              "placeholder": "#",
-              "value": "#",
-              "required": false
-            },
-            {
-              "id": "button_label",
-              "label": "Button Label",
-              "type": "text",
-              "placeholder": "LEARN MORE",
-              "value": "LEARN MORE",
-              "required": false
-            },
-            {
-              "id": "button_text_color",
-              "label": "Button Text Color",
-              "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
-              "required": false
-            },
-            {
-              "id": "button_hover_background_color",
-              "label": "Button Hover BG Color",
-              "type": "color",
-              "placeholder": "",
-              "value": "#ffffff",
-              "required": false
-            },
-            {
-              "id": "button_hover_text_color",
-              "label": "Button Hover Text Color",
-              "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#1d1d1d",
-              "required": false
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Contact",
       "type": "form",
       "showOnDefault" : true,
@@ -867,6 +764,109 @@
               "type": "color",
               "placeholder": "#ffffff",
               "value": "#ffffff",
+              "required": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CTA",
+      "type": "cta",
+      "showOnDefault" : true,
+      "preview_image": "cta.jpg",
+      "content": {
+        "cta_text": "<h3>\"Every Thing is designed. Few Things are Designed well.\" - Brian Reed</h3><p class=\"cta-sub-title\">Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. </p>"
+      },
+      "block_settings": [
+        {
+          "group": "Background",
+          "settings": [
+            {
+              "id": "cta_background_image",
+              "label": "CTA Background Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/tempo/img/banner-bg.jpg",
+              "required": false
+            },
+            {
+              "id": "cta_overlay_color",
+              "label": "CTA Overlay Color",
+              "type": "color",
+              "placeholder": "#1d1d1d",
+              "value": "#1d1d1d",
+              "required": false
+            },
+            {
+              "id" : "cta_overlay_opacity",
+              "label" : "CTA Overlay Opacity",
+              "type" : "range",
+              "placeholder" : "1",
+              "value" : 1,
+              "options" : {
+                "min" : 0,
+                "max" : 1,
+                "step" : 0.1
+              },
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Content",
+          "settings": [
+            {
+              "id": "cta_text_color",
+              "label": "CTA Text Color",
+              "type": "color",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
+              "required": false
+            }
+          ]
+        },
+        {
+          "group": "Button",
+          "settings": [
+            {
+              "id": "button_links_to",
+              "label": "Button Links To",
+              "type": "text",
+              "placeholder": "#",
+              "value": "#",
+              "required": false
+            },
+            {
+              "id": "button_label",
+              "label": "Button Label",
+              "type": "text",
+              "placeholder": "LEARN MORE",
+              "value": "LEARN MORE",
+              "required": false
+            },
+            {
+              "id": "button_text_color",
+              "label": "Button Text Color",
+              "type": "color",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
+              "required": false
+            },
+            {
+              "id": "button_hover_background_color",
+              "label": "Button Hover BG Color",
+              "type": "color",
+              "placeholder": "",
+              "value": "#ffffff",
+              "required": false
+            },
+            {
+              "id": "button_hover_text_color",
+              "label": "Button Hover Text Color",
+              "type": "color",
+              "placeholder": "#ffffff",
+              "value": "#1d1d1d",
               "required": false
             }
           ]
