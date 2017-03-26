@@ -17,8 +17,11 @@
 </style>
     <div style="width:100%;height:80px;" settings show-if="show_header"></div>
 	<!--HEADER START-->
-	<div class="main-navigation navbar-fixed-top" settings show-if="show_header">
-		<nav class="navbar navbar-default" settings style-setting="background-color:header_bg_color|background-color:header_bg_color">
+	<section class="main-navigation navbar-fixed-top" settings show-if="show_header">
+		<nav class="navbar navbar-default">
+            <div class="overlay-wrapper">
+                <div class="overlay" settings style-setting="background-color:header_bg_color|opacity:header_bg_opacity"></div>
+            </div>	
 			<div class="container">
 			<div class="navbar-header">
 			  <button settings show-if="show_main_nav" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -34,5 +37,5 @@
 			</div>
 		  </div>
 		</nav>
-	</div>
+	</section>
 	<!--HEADER END-->
