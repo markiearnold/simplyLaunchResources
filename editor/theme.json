@@ -145,7 +145,8 @@
       "preview_image": "header.jpg",
       "content": {
         "header_text": "Pesky Bistro",
-        "subtitle_text": "<b>DINE WITH STYLE. STAY FOR A WHILE.</b>"
+        "subtitle_text": "<b>DINE WITH STYLE. STAY FOR A WHILE.</b>",
+        "text_block" : "<p>Cras quam magna, volutpat at gravida at, sagittis sit amet mauris. Sed scelerisque convallis dolor, eget sagittis sapien convallis sed. Nulla gravida ante in placerat tempor.</p>"
       },
       "block_settings": [
         {
