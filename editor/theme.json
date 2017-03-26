@@ -284,8 +284,8 @@
               "id": "callout_overlay_color",
               "label": "Callout Overlay Color",
               "type": "color",
-              "placeholder": "#e43c5c",
-              "value": "#e43c5c",
+              "placeholder": "#1d1d1d",
+              "value": "#1d1d1d",
               "required": false
             },
             {
@@ -379,8 +379,8 @@
               "id": "icon_color",
               "label": "Icons Color",
               "type": "color",
-              "placeholder": "#e43c5c",
-              "value": "#e43c5c",
+              "placeholder": "#1d1d1d",
+              "value": "#1d1d1d",
               "required": false
             },
             {
@@ -448,8 +448,8 @@
               "id": "service_line_color",
               "label": "Design Line Color",
               "type": "color",
-              "placeholder": "#e43c5c",
-              "value": "#e43c5c",
+              "placeholder": "#1d1d1d",
+              "value": "#1d1d1d",
               "required": false
             },
             {
@@ -548,8 +548,8 @@
               "id": "team_line_color",
               "label": "Design Line Color",
               "type": "color",
-              "placeholder": "#e43c5c",
-              "value": "#e43c5c",
+              "placeholder": "#1d1d1d",
+              "value": "#1d1d1d",
               "required": false
             },
             {
@@ -596,8 +596,8 @@
               "id": "cta_overlay_color",
               "label": "CTA Overlay Color",
               "type": "color",
-              "placeholder": "#e43c5c",
-              "value": "#e43c5c",
+              "placeholder": "#1d1d1d",
+              "value": "#1d1d1d",
               "required": false
             },
             {
@@ -668,7 +668,7 @@
               "label": "Button Hover Text Color",
               "type": "color",
               "placeholder": "#ffffff",
-              "value": "#e43c5c",
+              "value": "#1d1d1d",
               "required": false
             }
           ]
@@ -749,8 +749,8 @@
               "id": "contact_line_color",
               "label": "Contact Line Color",
               "type": "color",
-              "placeholder": "#e43c5c",
-              "value": "#e43c5c",
+              "placeholder": "#1d1d1d",
+              "value": "#1d1d1d",
               "required": false
             }
           ]
@@ -770,8 +770,8 @@
               "id": "form_label_color",
               "label": "Form Label Color",
               "type": "color",
-              "placeholder": "#e43c5c",
-              "value": "#e43c5c",
+              "placeholder": "#1d1d1d",
+              "value": "#1d1d1d",
               "required": false
             },
             {
@@ -794,8 +794,8 @@
               "id": "button_background_color",
               "label": "Submit Background Color",
               "type": "color",
-              "placeholder": "#e43c5c",
-              "value": "#e43c5c",
+              "placeholder": "#1d1d1d",
+              "value": "#1d1d1d",
               "required": false
             },
             {
@@ -961,8 +961,8 @@
               "id": "overlay_color",
               "label": "Overlay Color",
               "type": "color",
-              "placeholder": "#e43c5c",
-              "value": "#e43c5c",
+              "placeholder": "#1d1d1d",
+              "value": "#1d1d1d",
               "required": false
             },
             {
