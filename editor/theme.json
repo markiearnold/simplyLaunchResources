@@ -475,7 +475,7 @@
               "label": "First Icon",
               "type": "icon",
               "placeholder": "fa-free-code-camp", 
-              "value": "fa-picture-o",
+              "value": "fa-free-code-camp",
               "required": false
             },
             {
@@ -483,7 +483,7 @@
               "label": "Second Icon",
               "type": "icon",
               "placeholder": "fa-handshake-o", 
-              "value": "fa-code",
+              "value": "fa-handshake-o",
               "required": false
             },
             {
