@@ -214,8 +214,8 @@
               "id": "button_label",
               "label": "Button Label",
               "type": "text",
-              "placeholder": "LEARN MORE",
-              "value": "LEARN MORE",
+              "placeholder": "VIEW OUR MENU",
+              "value": "VIEW OUR MENU",
               "required": false
             },
             {
