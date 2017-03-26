@@ -18,14 +18,14 @@
         <div class="container">
 			<div class="row">
 				<div class="jumbotron">
-                  <h1 
-                    rich-text label="Banner Header Text" content="header_text" 
-                    settings style-setting="color:banner_text_color"
-                    class="small"></h1>
 				  <p class="big " 
 				    rich-text label="Banner Subtitle Text" content="subtitle_text"
 				    settings style-setting="color:banner_text_color" 
 				    show-if="show_subtitle"></p>
+                  <h1 
+                    rich-text label="Banner Header Text" content="header_text" 
+                    settings style-setting="color:banner_text_color"
+                    class="small"></h1>
 				  <a settings show-if="show_button" url-link link="button_links_to" text="button_label" label="Banner CTA Link" 
 				    href="#" class="btn btn-banner button-{{$index}}"></a>
 				</div>

@@ -132,8 +132,8 @@
       "showOnDefault" : true,
       "preview_image": "header.jpg",
       "content": {
-        "header_text": "Welcome To <span class=\"bold\">Tempo</span>",
-        "subtitle_text": "<b>Multipurpose HTML5 Bootstrap template.</b>"
+        "header_text": "Pesky Bistro",
+        "subtitle_text": "<b>DINE WITH STYLE. STAY FOR A WHILE.</b>"
       },
       "block_settings": [
         {
