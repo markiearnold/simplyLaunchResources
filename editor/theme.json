@@ -133,7 +133,7 @@
       "preview_image": "header.jpg",
       "content": {
         "header_text": "Welcome To <span class=\"bold\">Tempo</span>",
-        "subtitle_text": "Multipurpose HTML5 Bootstrap template."
+        "subtitle_text": "<b>Multipurpose HTML5 Bootstrap template.</b>"
       },
       "block_settings": [
         {
