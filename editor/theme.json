@@ -80,16 +80,16 @@
           "id" : "main_menu_text_color",
           "label" : "Menu Text Color",
           "type" : "color",
-          "placeholder" : "#606060",
-          "value" : "#606060",
+          "placeholder" : "#ffffff",
+          "value" : "#ffffff",
           "required" : false
         },
         {
           "id" : "main_menu_text_hover_color",
           "label" : "Menu Text Hover Color",
           "type" : "color",
-          "placeholder" : "#e43c5c",
-          "value" : "#e43c5c",
+          "placeholder" : "#ffffff",
+          "value" : "#ffffff",
           "required" : false
         },
         {
