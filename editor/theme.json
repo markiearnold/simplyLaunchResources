@@ -163,16 +163,16 @@
               "id": "banner_overlay_color",
               "label": "Banner Overlay Color",
               "type": "color",
-              "placeholder": "#000000",
-              "value": "#000000",
+              "placeholder": "#272727",
+              "value": "#272727",
               "required": false
             },
             {
               "id" : "banner_overlay_opacity",
               "label" : "Banner Overlay Opacity",
               "type" : "range",
-              "placeholder" : "0.4",
-              "value" : 0.4,
+              "placeholder" : "0.7",
+              "value" : 0.7,
               "options" : {
                 "min" : 0,
                 "max" : 1,
