@@ -389,23 +389,23 @@
               "id": "service1_icon",
               "label": "First Icon",
               "type": "icon",
-              "placeholder": "fa fa-picture-o",
-              "value": "fa fa-picture-o",
+              "placeholder": "fa-picture-o",
+              "value": "fa-picture-o",
               "required": false
             },
             {
               "id": "service2_icon",
               "label": "Second Icon",
-              "type": "text",
-              "placeholder": "fa fa-code",
-              "value": "fa fa-code",
+              "type": "icon",
+              "placeholder": "fa-code",
+              "value": "fa-code",
               "required": false
             },
             {
               "id": "service3_icon",
               "label": "Third Icon",
-              "type": "text",
-              "placeholder": "fa fa-diamond",
+              "type": "icon",
+              "placeholder": "fa-diamond",
               "value": "fa fa-diamond",
               "required": false
             }
