@@ -404,9 +404,9 @@
       "preview_image": "services.jpg",
       "content": {
         "services_header": "<h3>Our Services</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br/>incididunt ut labore et dolore magna aliqua.</p>",
-        "service_one": "<h3>Dining</h3><p> doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>",
-        "service_two" : "<h3>Catering</h3><p> doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>",
-        "service_three" : "<h3>Carry-out</h3><p> doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>"
+        "service_one": "<h3>Dining</h3><p>doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>",
+        "service_two" : "<h3>Catering</h3><p>doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>",
+        "service_three" : "<h3>Carry-out</h3><p>doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>"
       },
       "block_settings": [
         {
