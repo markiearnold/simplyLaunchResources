@@ -406,7 +406,7 @@
               "label": "Third Icon",
               "type": "icon",
               "placeholder": "fa-diamond",
-              "value": "fa fa-diamond",
+              "value": "fa-diamond",
               "required": false
             }
           ]
