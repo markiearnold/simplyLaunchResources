@@ -424,8 +424,8 @@
               "id": "background_overlay_color",
               "label": "Background Overlay Color",
               "type": "color",
-              "placeholder": "#000000",
-              "value": "#000000",
+              "placeholder": "#272727",
+              "value": "#272727",
               "required": false
             },
             {
@@ -533,7 +533,7 @@
       "showOnDefault" : true,
       "preview_image": "team.jpg",
       "content": {
-        "team_header": "<h1>Meet Our Team</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua.</p>",
+        "team_header": "<h3>Meet Our Chefs</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua.</p>",
         "team_one": "<h3>Haris Brown</h3><p>Sr. UI Designer</p><p>Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. Nunc arcu dolor, vehicula ac dictum ut, dapibus id lacus. Duis nunc magna, imperdiet non placerat convallis, porta in ex.</p>",
         "team_two" : "<h3>Emmie Brown</h3><p>Jr. UI Designer</p><p>Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. Nunc arcu dolor, vehicula ac dictum ut, dapibus id lacus. Duis nunc magna, imperdiet non placerat convallis, porta in ex.</p>"
       },
