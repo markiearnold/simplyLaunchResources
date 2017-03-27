@@ -71,10 +71,15 @@
             {
               "id": "banner_overlay_opacity",
               "label": "Banner Overlay Opacity",
-              "type": "text",
-              "placeholder": "0.4",
-              "value": "0.4",
-              "required": false
+              "type" : "range",
+              "placeholder" : "",
+              "value" : 0.4,
+              "options" : {
+                "min" : 0,
+                "max" : 1,
+                "step" : 0.4
+              },
+              "required" : false
             }
           ]
         }
