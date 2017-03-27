@@ -97,10 +97,10 @@
             },
             {
               "id": "header_subscribe_show_description",
-              "label": "Show Header Descriptin",
-              "type": "color",
+              "label": "Show Header Description",
+              "type": "checkbox",
               "placeholder": "",
-              "value": "#ffffff",
+              "value": true,
               "required": false
             }
           ]
