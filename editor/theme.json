@@ -50,29 +50,31 @@
       },
       "block_settings": [
         {
-          "group" : "Stuff",
-          "settings" : [
+          "group": "Background",
+          "settings": [
             {
-              "id" : "test",
-              "label" : "Test Range",
-              "type" : "range",
-              "placeholder" : "",
-              "value" : 1,
-              "options" : {
-                "min" : 0,
-                "max" : 1,
-                "step" : 0.1
-              },
-              "required" : false
+              "id": "banner_background_image",
+              "label": "Banner Background Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/tempo/img/banner-bg.jpg",
+              "required": false
             },
             {
-              "id" : "test2",
-              "label" : "Test Select",
-              "type" : "select",
-              "placeholder" : "",
-              "value" : "#000000",
-              "options" : ["#ffffff", "#000000", "#ff5500"],
-              "required" : false
+              "id": "banner_overlay_color",
+              "label": "Banner Overlay Color",
+              "type": "color",
+              "placeholder": "",
+              "value": "#000",
+              "required": false
+            },
+            {
+              "id": "banner_overlay_opacity",
+              "label": "Banner Overlay Opacity",
+              "type": "text",
+              "placeholder": "0.4",
+              "value": "0.4",
+              "required": false
             }
           ]
         }
