@@ -7,6 +7,7 @@
   },
   "assets" : {
     "css" : [
+      "http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic",
       "https://s3.amazonaws.com/belch.io/themes/backyard/css/bootstrap.min.css",
       "https://s3.amazonaws.com/belch.io/themes/backyard/css/font-awesome.min.css",
       "https://s3.amazonaws.com/belch.io/themes/backyard/fonts/icon-7-stroke/css/pe-icon-7-stroke.css",
@@ -14,7 +15,7 @@
       "https://s3.amazonaws.com/belch.io/themes/backyard/css/owl.theme.css",
       "https://s3.amazonaws.com/belch.io/themes/backyard/css/owl.carousel.css",
       "https://s3.amazonaws.com/belch.io/themes/backyard/css/css-index.css",
-      "http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic"
+      "https://s3.amazonaws.com/belch.io/belch-base-css/v1/belch-defaults.css"
     ],
     "js" : [
       "https://s3.amazonaws.com/belch.io/themes/backyard/js/jquery.js",
