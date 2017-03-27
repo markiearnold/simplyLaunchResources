@@ -83,6 +83,27 @@
               "required" : false
             }
           ]
+        },
+        {
+          "group": "Content",
+          "settings": [
+            {
+              "id": "header_subscribe_title_color",
+              "label": "Header Text Color",
+              "type": "color",
+              "placeholder": "",
+              "value": "#ffffff",
+              "required": false
+            },
+            {
+              "id": "header_subscribe_show_description",
+              "label": "Show Header Descriptin",
+              "type": "color",
+              "placeholder": "",
+              "value": "#ffffff",
+              "required": false
+            }
+          ]
         }
       ]
     },
