@@ -6,9 +6,6 @@
         <div class="row">
             <div class="col-md-10 col-md-offset-1 text-center">
 
-                <!-- /.logo -->
-                <div class="logo wow fadeInDown"> <a logo href=""><img src="https://s3.amazonaws.com/belch.io/themes/backyard/images/logo.png" alt="logo"></a></div>
-
                 <!-- /.main title -->
                 <h1
                   rich-text
@@ -23,10 +20,10 @@
                   label="Header Subscribe Description"
                   content="header_subscribe_description"
                   class="landing-text wow fadeInLeft"
-                  settings style-setting="color:header_subscribe_title_color" show-if="header_subscribe_show_description"></div>
+                  settings style-setting="color:header_subscribe_description_color" show-if="header_subscribe_show_description"></div>
 
                 <!-- /.subscribe form -->
-                <div form class="subscribe-form wow fadeInUp">
+                <div form class="subscribe-form wow fadeInUp" settings show-if="header_subscribe_show_form">
                     <form class="news-letter mailchimp" action="http://moxdesign.us10.list-manage.com/subscribe/post" role="form" method="POST">
                         <input type="hidden" name="u" value="503bdae81fde8612ff4944435">
                         <input type="hidden" name="id" value="bfdba52708">

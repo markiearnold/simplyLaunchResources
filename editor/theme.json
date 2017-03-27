@@ -96,8 +96,29 @@
               "required": false
             },
             {
+              "id": "header_subscribe_description_color",
+              "label": "Header Description Color",
+              "type": "color",
+              "placeholder": "",
+              "value": "#ffffff",
+              "required": false
+            },
+            {
               "id": "header_subscribe_show_description",
               "label": "Show Header Description",
+              "type": "checkbox",
+              "placeholder": "",
+              "value": true,
+              "required": false
+            }
+          ]
+        },
+        {
+          "group": "Form",
+          "settings": [
+            {
+              "id": "header_subscribe_show_form",
+              "label": "Show Header Form",
               "type": "checkbox",
               "placeholder": "",
               "value": true,
