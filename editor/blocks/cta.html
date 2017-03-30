@@ -11,11 +11,12 @@
     }
 </style>
 	<!--CTA2 START-->
-	<section class="cta2" image-background label="CTA Background Image" content="cta_background_image">
+	<section class="cta-super-wrapper" image-background label="CTA Background Image" content="background_image">
         <div class="overlay-wrapper">
-            <div class="overlay" settings style-setting="background:cta_overlay_color|opacity:cta_overlay_opacity"></div>
+            <div class="overlay" settings style-setting="background:overlay_color|opacity:overlay_opacity"></div>
         </div>		
 		<div class="container">
+            <div class="clearfix" style="margin-top:{{getSetting(block, 'vertical_padding_top')}}px"></div>
 			<div class="row text-center"
 			 settings style-setting="color:cta_text_color" 
 			 rich-block label="CTA Text Block" content="cta_text"
@@ -25,6 +26,7 @@
     			  <a settings url-link link="button_links_to" text="button_label" label="CTA Link" 
     			    href="#" class="btn btn-banner button-{{$index}}"></a>
 			</div>
+            <div class="clearfix" style="margin-top:{{getSetting(block, 'vertical_padding_bottom')}}px"></div>
 		</div>
 	</div>
 	<!--CTA2 END-->
