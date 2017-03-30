@@ -987,7 +987,7 @@
               "options" : {
                 "min" : 0,
                 "max" : 400,
-                "step" : 10
+                "step" : 5
               },
               "required" : false
             }
