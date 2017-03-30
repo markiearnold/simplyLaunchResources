@@ -11,12 +11,12 @@
     }
 </style>
 	<!--BANNER START-->
-	<section id="banner" class="section-padding" image-background label="Banner Background Image" content="banner_background_image">
+	<section id="banner" class="section-padding" image-background label="Banner Background Image" content="background_image">
         <div class="overlay-wrapper">
-            <div class="overlay" settings style-setting="background:banner_overlay_color|opacity:banner_overlay_opacity"></div>
+            <div class="overlay" settings style-setting="background:overlay_color|opacity:overlay_opacity"></div>
         </div>	
-        <div class="clearfix" style="margin-top:100px;"></div>	
         <div class="container">
+            <div class="clearfix" style="margin-top:{{getSetting(block, 'vertical_padding_top')}}px"></div>
 			<div class="row">
 				<div class="jumbotron">
 				  <p class="big " 
@@ -39,6 +39,7 @@
                   </div>
 				</div>
 			</div>
+            <div class="clearfix" style="margin-top:{{getSetting(block, 'vertical_padding_bottom')}}px"></div>
 		</div>
         <div class="clearfix" style="margin-top:100px;"></div>	
 	</section>
