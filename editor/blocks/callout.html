@@ -1,13 +1,15 @@
 	<!--CTA1 START-->
-	<section class="cta-1" image-background label="Callout Background Image" content="callout_background_image">
+	<section class="callout-super-container" image-background label="Callout Background Image" content="background_image">
         <div class="overlay-wrapper">
-            <div class="overlay" settings style-setting="background:callout_overlay_color|opacity:callout_overlay_opacity"></div>
+            <div class="overlay" settings style-setting="background:overlay_color|opacity:overlay_opacity"></div>
         </div>		
 		<div class="container">
+            <div class="clearfix" style="margin-top:{{getSetting(block, 'vertical_padding_top')}}px"></div>
 			<div class="row text-center white">
 				<h1 class="cta-title" rich-text label="Callout Text" content="callout_header" settings style-setting="color:callout_text_color"></h1>
 				<p class="cta-sub-title" settings show-if="show_subtitle" rich-text label="Callout Text" content="callout_subtitle" settings style-setting="color:callout_text_color"></p>
 			</div>
+            <div class="clearfix" style="margin-top:{{getSetting(block, 'vertical_padding_bottom')}}px"></div>
 		</div>
 	</section>
 	<!--CTA1 END-->
