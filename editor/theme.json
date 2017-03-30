@@ -731,14 +731,6 @@
           "group": "Content",
           "settings": [
             {
-              "id": "show_second_column",
-              "label": "Show Second Section",
-              "type": "checkbox",
-              "placeholder": "",
-              "value": true,
-              "required": false
-            },
-            {
               "id": "team1_image",
               "label": "Team Member Image",
               "type": "image",
@@ -757,6 +749,14 @@
             {
               "id": "show_header_section",
               "label": "Team Header Text",
+              "type": "checkbox",
+              "placeholder": "",
+              "value": true,
+              "required": false
+            },
+            {
+              "id": "show_second_column",
+              "label": "Show Second Section",
               "type": "checkbox",
               "placeholder": "",
               "value": true,
@@ -803,24 +803,24 @@
           "group": "Background",
           "settings": [
             {
-              "id": "contact_background_image",
-              "label": "Contact Background Image",
+              "id": "background_image",
+              "label": "Background Image",
               "type": "image",
               "placeholder": "",
               "value": "https://s3.amazonaws.com/belch.io/themes/pesky/img/food1.jpg",
               "required": false
             },
             {
-              "id": "contact_overlay_color",
-              "label": "Contact Overlay Color",
+              "id": "overlay_color",
+              "label": "Overlay Color",
               "type": "color",
               "placeholder": "#ffffff",
               "value": "#ffffff",
               "required": false
             },
             {
-              "id" : "contact_overlay_opacity",
-              "label" : "Contact Overlay Opacity",
+              "id" : "overlay_opacity",
+              "label" : "Overlay Opacity",
               "type" : "range",
               "placeholder" : "1",
               "value" : 1,
@@ -828,6 +828,37 @@
                 "min" : 0,
                 "max" : 1,
                 "step" : 0.1
+              },
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Spacing",
+          "settings": [
+            {
+              "id" : "vertical_padding_top",
+              "label" : "Top Padding",
+              "type" : "range",
+              "placeholder" : "65",
+              "value" : 65,
+              "options" : {
+                "min" : 0,
+                "max" : 400,
+                "step" : 5
+              },
+              "required" : false
+            },
+            {
+              "id" : "vertical_padding_bottom",
+              "label" : "Bottom Padding",
+              "type" : "range",
+              "placeholder" : "65",
+              "value" : 65,
+              "options" : {
+                "min" : 0,
+                "max" : 400,
+                "step" : 5
               },
               "required" : false
             }

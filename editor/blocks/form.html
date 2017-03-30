@@ -26,11 +26,12 @@
     }
 </style>
 	<!--CONTACT START-->
-	<section class="section-padding" image-background label="Contact Background Image" content="contact_background_image">
+	<section class="form-super-wrapper" image-background label="Contact Background Image" content="background_image">
         <div class="overlay-wrapper">
-            <div class="overlay" settings style-setting="background:contact_overlay_color|opacity:contact_overlay_opacity"></div>
+            <div class="overlay" settings style-setting="background:overlay_color|opacity:overlay_opacity"></div>
         </div>		
 		<div class="container">
+            <div class="clearfix" style="margin-top:{{getSetting(block, 'vertical_padding_top')}}px"></div>
 			<div class="row">
 				<div class="col-md-6 form-sec">
 				    <div form-module label="Form" title=" " content="contact_form" class="form-holder"></div>
@@ -42,6 +43,7 @@
         			></div>
 				</div>
 			</div>
+            <div class="clearfix" style="margin-top:{{getSetting(block, 'vertical_padding_bottom')}}px"></div>
 		</div>
 	</section>
 	<!--CONTACT END-->
