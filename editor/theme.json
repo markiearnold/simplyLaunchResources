@@ -265,8 +265,8 @@
       "showOnDefault" : true,
       "preview_image": "callout.jpg",
       "content": {
-        "callout_header": "Say Hey to Pesky!!",
-        "callout_subtitle": "Full Responsive HTML5 Bootstrap Template."
+        "callout_header": "Welcome to Pesky Bistro",
+        "callout_subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       "block_settings": [
         {
