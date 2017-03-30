@@ -315,8 +315,8 @@
               "id": "overlay_color",
               "label": "Callout Overlay Color",
               "type": "color",
-              "placeholder": "#1d1d1d",
-              "value": "#1d1d1d",
+              "placeholder": "#282828",
+              "value": "#282828",
               "required": false
             },
             {
@@ -998,8 +998,8 @@
               "id" : "vertical_padding_top",
               "label" : "Top Padding",
               "type" : "range",
-              "placeholder" : "65",
-              "value" : 65,
+              "placeholder" : "30",
+              "value" : 30,
               "options" : {
                 "min" : 0,
                 "max" : 400,
@@ -1011,8 +1011,8 @@
               "id" : "vertical_padding_bottom",
               "label" : "Bottom Padding",
               "type" : "range",
-              "placeholder" : "65",
-              "value" : 65,
+              "placeholder" : "45",
+              "value" : 45,
               "options" : {
                 "min" : 0,
                 "max" : 400,
