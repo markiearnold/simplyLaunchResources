@@ -897,8 +897,8 @@
               "id": "onecol_overlay_color",
               "label": "One Column Overlay Color",
               "type": "color",
-              "placeholder": "#2d2d2d",
-              "value": "#2d2d2d",
+              "placeholder": "#ff5e5e",
+              "value": "#ff5e5e",
               "required": false
             },
             {
