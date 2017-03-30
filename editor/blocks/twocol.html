@@ -4,7 +4,7 @@
             <div class="overlay" settings style-setting="background:twocol_overlay_color|opacity:twocol_overlay_opacity"></div>
         </div>		
         <div class="container">
-            <div class="clearfix" settings style-setting="margin-top:vertical_padding"></div>
+            <div class="clearfix" style="margin-top:{{getSetting(block, 'vertical_padding')}}px"></div>
 			<div class="row">
 			    <div class="col-md-6">
 					<div
@@ -19,7 +19,7 @@
 					 ></div>
 			    </div>
 			</div>
-            <div class="clearfix" style="margin-top:{{getSetting(block, 'vertical_padding')}}"></div>
+            <div class="clearfix" style="margin-top:{{getSetting(block, 'vertical_padding')}}px"></div>
 		</div>
 	</section>
 	<!--TWOCOL END-->
