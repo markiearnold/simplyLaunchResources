@@ -990,7 +990,7 @@
                 "step" : 10
               },
               "required" : false
-            }
+            },
             {
               "id": "twocol_text_color",
               "label": "Color",
