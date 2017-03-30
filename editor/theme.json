@@ -920,8 +920,21 @@
           "group": "Spacing",
           "settings": [
             {
-              "id" : "vertical_padding",
-              "label" : "Top / Bottom Padding",
+              "id" : "vertical_padding_top",
+              "label" : "Top Padding",
+              "type" : "range",
+              "placeholder" : "65",
+              "value" : 65,
+              "options" : {
+                "min" : 0,
+                "max" : 400,
+                "step" : 5
+              },
+              "required" : false
+            },
+            {
+              "id" : "vertical_padding_bottom",
+              "label" : "Bottom Padding",
               "type" : "range",
               "placeholder" : "65",
               "value" : 65,
@@ -997,8 +1010,21 @@
           "group": "Spacing",
           "settings": [
             {
-              "id" : "vertical_padding",
-              "label" : "Top / Bottom Padding",
+              "id" : "vertical_padding_top",
+              "label" : "Top Padding",
+              "type" : "range",
+              "placeholder" : "65",
+              "value" : 65,
+              "options" : {
+                "min" : 0,
+                "max" : 400,
+                "step" : 5
+              },
+              "required" : false
+            },
+            {
+              "id" : "vertical_padding_bottom",
+              "label" : "Bottom Padding",
               "type" : "range",
               "placeholder" : "65",
               "value" : 65,
@@ -1075,8 +1101,21 @@
           "group": "Spacing",
           "settings": [
             {
-              "id" : "vertical_padding",
-              "label" : "Top / Bottom Padding",
+              "id" : "vertical_padding_top",
+              "label" : "Top Padding",
+              "type" : "range",
+              "placeholder" : "65",
+              "value" : 65,
+              "options" : {
+                "min" : 0,
+                "max" : 400,
+                "step" : 5
+              },
+              "required" : false
+            },
+            {
+              "id" : "vertical_padding_bottom",
+              "label" : "Bottom Padding",
               "type" : "range",
               "placeholder" : "65",
               "value" : 65,
