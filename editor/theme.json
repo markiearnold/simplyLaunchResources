@@ -1408,7 +1408,7 @@
                 "step" : 5
               },
               "required" : false
-            }
+            },
             {
               "id" : "show_icon_1",
               "label" : "Show First Icon",
