@@ -1241,12 +1241,12 @@
       "showOnDefault" : true,
       "preview_image": "sixcol.jpg",
       "content": {
-        "twocolone": "<h1>HEADER</h1><h2>HEADER</h2><h3>HEADER</h3><h4>HEADER</h4><h5>HEADER</h5><p>Morbi et dolor dapibus, suscipit nisi et, eleifend libero. Vivamus eget fermentum orci. Suspendisse potenti. Donec lobortis ultrices orci, non varius felis pulvinar ornare. Vivamus lobortis aliquet tempor. Pellentesque volutpat tincidunt eros sit amet feugiat. Nam vel leo quis orci volutpat tristique gravida quis mauris. Sed tincidunt urna ut sapien tempus varius. Phasellus maximus sem ut ligula sollicitudin ultricies. Cras in volutpat augue.</p>",
-        "twocoltwo": "<h1>HEADER</h1><h2>HEADER</h2><h3>HEADER</h3><h4>HEADER</h4><h5>HEADER</h5><p>Morbi et dolor dapibus, suscipit nisi et, eleifend libero. Vivamus eget fermentum orci. Suspendisse potenti. Donec lobortis ultrices orci, non varius felis pulvinar ornare. Vivamus lobortis aliquet tempor. Pellentesque volutpat tincidunt eros sit amet feugiat. Nam vel leo quis orci volutpat tristique gravida quis mauris. Sed tincidunt urna ut sapien tempus varius. Phasellus maximus sem ut ligula sollicitudin ultricies. Cras in volutpat augue.</p>",
-        "twocolthree": "<h1>HEADER</h1><h2>HEADER</h2><h3>HEADER</h3><h4>HEADER</h4><h5>HEADER</h5><p>Morbi et dolor dapibus, suscipit nisi et, eleifend libero. Vivamus eget fermentum orci. Suspendisse potenti. Donec lobortis ultrices orci, non varius felis pulvinar ornare. Vivamus lobortis aliquet tempor. Pellentesque volutpat tincidunt eros sit amet feugiat. Nam vel leo quis orci volutpat tristique gravida quis mauris. Sed tincidunt urna ut sapien tempus varius. Phasellus maximus sem ut ligula sollicitudin ultricies. Cras in volutpat augue.</p>",
-        "twocolfour": "<h1>HEADER</h1><h2>HEADER</h2><h3>HEADER</h3><h4>HEADER</h4><h5>HEADER</h5><p>Morbi et dolor dapibus, suscipit nisi et, eleifend libero. Vivamus eget fermentum orci. Suspendisse potenti. Donec lobortis ultrices orci, non varius felis pulvinar ornare. Vivamus lobortis aliquet tempor. Pellentesque volutpat tincidunt eros sit amet feugiat. Nam vel leo quis orci volutpat tristique gravida quis mauris. Sed tincidunt urna ut sapien tempus varius. Phasellus maximus sem ut ligula sollicitudin ultricies. Cras in volutpat augue.</p>",
-        "twocolfive": "<h1>HEADER</h1><h2>HEADER</h2><h3>HEADER</h3><h4>HEADER</h4><h5>HEADER</h5><p>Morbi et dolor dapibus, suscipit nisi et, eleifend libero. Vivamus eget fermentum orci. Suspendisse potenti. Donec lobortis ultrices orci, non varius felis pulvinar ornare. Vivamus lobortis aliquet tempor. Pellentesque volutpat tincidunt eros sit amet feugiat. Nam vel leo quis orci volutpat tristique gravida quis mauris. Sed tincidunt urna ut sapien tempus varius. Phasellus maximus sem ut ligula sollicitudin ultricies. Cras in volutpat augue.</p>",
-        "twocolsix": "<h1>HEADER</h1><h2>HEADER</h2><h3>HEADER</h3><h4>HEADER</h4><h5>HEADER</h5><p>Morbi et dolor dapibus, suscipit nisi et, eleifend libero. Vivamus eget fermentum orci. Suspendisse potenti. Donec lobortis ultrices orci, non varius felis pulvinar ornare. Vivamus lobortis aliquet tempor. Pellentesque volutpat tincidunt eros sit amet feugiat. Nam vel leo quis orci volutpat tristique gravida quis mauris. Sed tincidunt urna ut sapien tempus varius. Phasellus maximus sem ut ligula sollicitudin ultricies. Cras in volutpat augue.</p>"
+        "twocolone": "<h3 style=\"text-align:center;\">Tiramisu</h3><p style=\"text-align:center;\">Morbi et dolor dapibus, suscipit nisi et, eleifend libero.</p>",
+        "twocoltwo": "<h3 style=\"text-align:center;\">Cannoli</h3><p style=\"text-align:center;\">Morbi et dolor dapibus, suscipit nisi et, eleifend libero.</p>",
+        "twocolthree": "<h3 style=\"text-align:center;\">Cheesecake</h3><p style=\"text-align:center;\">Morbi et dolor dapibus, suscipit nisi et, eleifend libero.</p>",
+        "twocolfour": "<h3 style=\"text-align:center;\">Brownie</h3><p style=\"text-align:center;\">Morbi et dolor dapibus, suscipit nisi et, eleifend libero.</p>",
+        "twocolfive": "<h3 style=\"text-align:center;\">Sundae</h3><p style=\"text-align:center;\">Morbi et dolor dapibus, suscipit nisi et, eleifend libero.</p>",
+        "twocolsix": "<h3 style=\"text-align:center;\">Cherry Pie</h3><p style=\"text-align:center;\">Morbi et dolor dapibus, suscipit nisi et, eleifend libero.</p>"
       },
       "block_settings": [
         {
@@ -1278,6 +1278,37 @@
                 "min" : 0,
                 "max" : 1,
                 "step" : 0.1
+              },
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Spacing",
+          "settings": [
+            {
+              "id" : "vertical_padding_top",
+              "label" : "Top Padding",
+              "type" : "range",
+              "placeholder" : "65",
+              "value" : 65,
+              "options" : {
+                "min" : 0,
+                "max" : 400,
+                "step" : 5
+              },
+              "required" : false
+            },
+            {
+              "id" : "vertical_padding_bottom",
+              "label" : "Bottom Padding",
+              "type" : "range",
+              "placeholder" : "65",
+              "value" : 65,
+              "options" : {
+                "min" : 0,
+                "max" : 400,
+                "step" : 5
               },
               "required" : false
             }
