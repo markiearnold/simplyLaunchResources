@@ -731,6 +731,14 @@
           "group": "Content",
           "settings": [
             {
+              "id": "show_second_column",
+              "label": "Show Second Section",
+              "type": "checkbox",
+              "placeholder": "",
+              "value": true,
+              "required": false
+            },
+            {
               "id": "team1_image",
               "label": "Team Member Image",
               "type": "image",
