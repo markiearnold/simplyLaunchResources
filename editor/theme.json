@@ -1159,7 +1159,7 @@
           "group": "Background",
           "settings": [
             {
-              "id": "onecol_background_image",
+              "id": "background_image",
               "label": "Background Image",
               "type": "image",
               "placeholder": "",
@@ -1167,7 +1167,7 @@
               "required": false
             },
             {
-              "id": "onecol_overlay_color",
+              "id": "overlay_color",
               "label": "Overlay Color",
               "type": "color",
               "placeholder": "#ff5e5e",
@@ -1175,7 +1175,7 @@
               "required": false
             },
             {
-              "id" : "onecol_overlay_opacity",
+              "id" : "overlay_opacity",
               "label" : "Overlay Opacity",
               "type" : "range",
               "placeholder" : "1",
