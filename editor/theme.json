@@ -992,7 +992,7 @@
               "required" : false
             }
           ]
-        }
+        },
         {
           "group": "Content",
           "settings": [
