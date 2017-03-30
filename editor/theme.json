@@ -1397,6 +1397,19 @@
               "required": false
             },
             {
+              "id" : "icon_size",
+              "label" : "Icon Size",
+              "type" : "range",
+              "placeholder" : "65",
+              "value" : 65,
+              "options" : {
+                "min" : 10,
+                "max" : 300,
+                "step" : 5
+              },
+              "required" : false
+            }
+            {
               "id" : "show_icon_1",
               "label" : "Show First Icon",
               "type" : "checkbox",
