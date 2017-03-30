@@ -1150,8 +1150,8 @@
       "preview_image": "fourcol.jpg",
       "content": {
         "twocolone": "<h3 style=\"text-align:center;\">Stuffed Mushrooms</h3><p style=\"text-align:center;\">Morbi et dolor dapibus, suscipit nisi et, eleifend libero. Vivamus eget fermentum orci. Suspendisse potenti. Donec lobortis ultrices orci, non varius felis pulvinar ornare.</p>",
-        "twocoltwo": "<h3 style=\"text-align:center;\">Bruschetta</h3><p style=\"text-align:center;\">Morbi et dolor dapibus, suscipit nisi et, eleifend libero. Vivamus eget fermentum orci. Suspendisse potenti. Donec lobortis ultrices orci, non varius felis pulvinar ornare.</p>",
-        "twocolthree": "<h3 style=\"text-align:center;\">Fried Calamari</h3><p style=\"text-align:center;\">Morbi et dolor dapibus, suscipit nisi et, eleifend libero. Vivamus eget fermentum orci. Suspendisse potenti. Donec lobortis ultrices orci, non varius felis pulvinar ornare.</p>",
+        "twocoltwo": "<h3 style=\"text-align:center;\">Savory Bruschetta</h3><p style=\"text-align:center;\">Morbi et dolor dapibus, suscipit nisi et, eleifend libero. Vivamus eget fermentum orci. Suspendisse potenti. Donec lobortis ultrices orci, non varius felis pulvinar ornare.</p>",
+        "twocolthree": "<h3 style=\"text-align:center;\">Pan Fried Calamari</h3><p style=\"text-align:center;\">Morbi et dolor dapibus, suscipit nisi et, eleifend libero. Vivamus eget fermentum orci. Suspendisse potenti. Donec lobortis ultrices orci, non varius felis pulvinar ornare.</p>",
         "twocolfour": "<h3 style=\"text-align:center;\">Seafood Trio Platter</h3><p style=\"text-align:center;\">Morbi et dolor dapibus, suscipit nisi et, eleifend libero. Vivamus eget fermentum orci. Suspendisse potenti. Donec lobortis ultrices orci, non varius felis pulvinar ornare.</p>"
       },
       "block_settings": [
@@ -1178,8 +1178,8 @@
               "id" : "overlay_opacity",
               "label" : "Overlay Opacity",
               "type" : "range",
-              "placeholder" : "1",
-              "value" : 1,
+              "placeholder" : "0.8",
+              "value" : 0.8,
               "options" : {
                 "min" : 0,
                 "max" : 1,
@@ -1227,8 +1227,8 @@
               "id": "text_color",
               "label": "Color",
               "type": "color",
-              "placeholder": "#606060",
-              "value": "#606060",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
               "required": false
             }
           ]
