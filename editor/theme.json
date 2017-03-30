@@ -1404,7 +1404,7 @@
               "value" : 30,
               "options" : {
                 "min" : 20,
-                "max" : 130,
+                "max" : 80,
                 "step" : 5
               },
               "required" : false
