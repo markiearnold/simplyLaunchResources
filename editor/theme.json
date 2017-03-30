@@ -976,7 +976,7 @@
           ]
         },
         {
-          "group": "Content",
+          "group": "Spacing",
           "settings": [
             {
               "id" : "vertical_padding",
@@ -990,7 +990,12 @@
                 "step" : 10
               },
               "required" : false
-            },
+            }
+          ]
+        }
+        {
+          "group": "Content",
+          "settings": [
             {
               "id": "twocol_text_color",
               "label": "Color",
