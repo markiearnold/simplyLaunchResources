@@ -164,16 +164,16 @@
               "id": "overlay_color",
               "label": "Overlay Color",
               "type": "color",
-              "placeholder": "#ff5e5e",
-              "value": "#ff5e5e",
+              "placeholder": "#272727",
+              "value": "#272727",
               "required": false
             },
             {
               "id" : "overlay_opacity",
               "label" : "Overlay Opacity",
               "type" : "range",
-              "placeholder" : "1",
-              "value" : 1,
+              "placeholder" : "0.7",
+              "value" : 0.7,
               "options" : {
                 "min" : 0,
                 "max" : 1,
