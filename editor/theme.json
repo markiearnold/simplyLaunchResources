@@ -1401,7 +1401,7 @@
               "label" : "Icon Size",
               "type" : "range",
               "placeholder" : "65",
-              "value" : 65,
+              "value" : 30,
               "options" : {
                 "min" : 20,
                 "max" : 130,
