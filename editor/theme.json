@@ -1408,7 +1408,7 @@
               "id": "icon_one",
               "label": "First Icon",
               "type": "icon",
-              "placeholder": "fa-free-code-camp", 
+              "placeholder": "fa-facebook", 
               "value": "fa-free-code-camp",
               "required": false
             },
