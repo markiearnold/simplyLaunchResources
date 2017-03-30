@@ -682,27 +682,11 @@
               "required": false
             },
             {
-              "id": "show_header_section",
-              "label": "Contact Header Text",
-              "type": "checkbox",
-              "placeholder": "",
-              "value": true,
-              "required": false
-            },
-            {
               "id": "contact_header_text_color",
-              "label": "Contact Header Text Color",
+              "label": "Contact Text Color",
               "type": "color",
               "placeholder": "#333333",
               "value": "#333333",
-              "required": false
-            },
-            {
-              "id": "contact_line_color",
-              "label": "Contact Line Color",
-              "type": "color",
-              "placeholder": "#1d1d1d",
-              "value": "#1d1d1d",
               "required": false
             }
           ]
@@ -976,7 +960,7 @@
           "group": "Background",
           "settings": [
             {
-              "id": "twocol_background_image",
+              "id": "background_image",
               "label": "Background Image",
               "type": "image",
               "placeholder": "",
@@ -984,7 +968,7 @@
               "required": false
             },
             {
-              "id": "twocol_overlay_color",
+              "id": "overlay_color",
               "label": "Overlay Color",
               "type": "color",
               "placeholder": "#ffffff",
@@ -992,7 +976,7 @@
               "required": false
             },
             {
-              "id" : "twocol_overlay_opacity",
+              "id" : "overlay_opacity",
               "label" : "Overlay Opacity",
               "type" : "range",
               "placeholder" : "1",
@@ -1323,6 +1307,117 @@
               "type": "color",
               "placeholder": "#ffffff",
               "value": "#ffffff",
+              "required": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Social",
+      "type": "social",
+      "showOnDefault" : true,
+      "preview_image": "social.jpg",
+      "content": {},
+      "block_settings": [
+        {
+          "group": "Background",
+          "settings": [
+            {
+              "id": "background_image",
+              "label": "Background Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/pesky/img/food1.jpg",
+              "required": false
+            },
+            {
+              "id": "overlay_color",
+              "label": "Overlay Color",
+              "type": "color",
+              "placeholder": "#2d2d2d",
+              "value": "#2d2d2d",
+              "required": false
+            },
+            {
+              "id" : "overlay_opacity",
+              "label" : "Overlay Opacity",
+              "type" : "range",
+              "placeholder" : "1",
+              "value" : 1,
+              "options" : {
+                "min" : 0,
+                "max" : 1,
+                "step" : 0.1
+              },
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Spacing",
+          "settings": [
+            {
+              "id" : "vertical_padding_top",
+              "label" : "Top Padding",
+              "type" : "range",
+              "placeholder" : "65",
+              "value" : 65,
+              "options" : {
+                "min" : 0,
+                "max" : 400,
+                "step" : 5
+              },
+              "required" : false
+            },
+            {
+              "id" : "vertical_padding_bottom",
+              "label" : "Bottom Padding",
+              "type" : "range",
+              "placeholder" : "65",
+              "value" : 65,
+              "options" : {
+                "min" : 0,
+                "max" : 400,
+                "step" : 5
+              },
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Content",
+          "settings": [
+            {
+              "id": "text_color",
+              "label": "Color",
+              "type": "color",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
+              "required": false
+            },
+            {
+              "id" : "show_icon_1",
+              "label" : "Show First Icon",
+              "type" : "checkbox",
+              "placeholder" : "",
+              "value" : true,
+              "required" : false
+            },
+            {
+              "id": "icon_one",
+              "label": "First Icon",
+              "type": "icon",
+              "placeholder": "fa-free-code-camp", 
+              "value": "fa-free-code-camp",
+              "required": false
+            },
+            {
+              "id": "icon_1_linksto",
+              "label": "First Links To",
+              "type": "text",
+              "placeholder": "https://facebook.com",
+              "value": "https://facebook.com",
               "required": false
             }
           ]
