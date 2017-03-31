@@ -1633,7 +1633,12 @@
                 "step" : 5
               },
               "required" : false
-            },
+            }
+          ]
+        },  
+        {
+          "group": "First Icon",
+          "settings": [
             {
               "id" : "show_icon_1",
               "label" : "Show First Icon",
