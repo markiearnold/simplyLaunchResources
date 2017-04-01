@@ -144,7 +144,7 @@
       "showOnDefault" : true,
       "preview_image": "banner.png",
       "content": {
-        "text_block" : "<h1>AMAZING STUFF HERE</h1>"
+        "text_block" : "<h1 style=\"text-align:center;\">AMAZING STUFF HERE</h1>"
       },
       "block_settings": [
         {
