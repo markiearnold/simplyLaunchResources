@@ -144,9 +144,7 @@
       "showOnDefault" : true,
       "preview_image": "banner.png",
       "content": {
-        "header_text": "Pesky Bistro",
-        "subtitle_text": "<b>DINE WITH STYLE. STAY FOR A WHILE.</b>",
-        "text_block" : "<p style=\"text-align:center;\">Cras quam magna, volutpat at gravida at, sagittis sit amet mauris. Sed scelerisque convallis dolor, eget sagittis sapien convallis sed. Nulla gravida ante in placerat tempor.</p>"
+        "text_block" : "<h1>AMAZING STUFF HERE</h1>"
       },
       "block_settings": [
         {
@@ -224,14 +222,6 @@
               "placeholder": "#333333",
               "value": "#333333",
               "required": false
-            },
-            {
-              "id": "show_subtitle",
-              "label": "Show Subtitle",
-              "type": "checkbox",
-              "placeholder": "",
-              "value": true,
-              "required": false
             }
           ]
         },
@@ -274,8 +264,8 @@
               "id": "button_hover_background_color",
               "label": "Button Hover BG Color",
               "type": "color",
-              "placeholder": "",
-              "value": "#1d1d1d",
+              "placeholder": "#333333",
+              "value": "#333333",
               "required": false
             },
             {
