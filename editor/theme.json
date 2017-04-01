@@ -144,7 +144,7 @@
       "showOnDefault" : true,
       "preview_image": "banner.png",
       "content": {
-        "text_block" : "<h1 style=\"text-align:center;\">INCREDIBLE <b>AGENCY</b></h1>"
+        "text_block" : "<h1 style=\"text-align:center;\">AGENCY <b>INCREDIBLE</b></h1>"
       },
       "block_settings": [
         {
@@ -155,7 +155,7 @@
               "label": "Background Image",
               "type": "image",
               "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock1.jpg",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
               "required": false
             },
             {
