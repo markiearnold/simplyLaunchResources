@@ -201,8 +201,8 @@
               "id" : "vertical_padding_bottom",
               "label" : "Bottom Padding",
               "type" : "range",
-              "placeholder" : "130",
-              "value" : 130,
+              "placeholder" : "260",
+              "value" : 260,
               "options" : {
                 "min" : 0,
                 "max" : 400,
@@ -257,8 +257,8 @@
               "id": "button_label",
               "label": "Button Label",
               "type": "text",
-              "placeholder": "VIEW OUR MENU",
-              "value": "VIEW OUR MENU",
+              "placeholder": "CONTACT US",
+              "value": "CONTACT US",
               "required": false
             },
             {
