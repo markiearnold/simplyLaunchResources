@@ -237,6 +237,15 @@
               "required": false
             },
             {
+              "id" : "button_position",
+              "label" : "Button Position",
+              "type" : "select",
+              "placeholder" : "center",
+              "value" : "center",
+              "options" : ["left", "center", "right"],
+              "required" : false
+            },
+            {
               "id": "button_links_to",
               "label": "Button Links To",
               "type": "text",
