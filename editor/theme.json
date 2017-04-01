@@ -170,8 +170,8 @@
               "id" : "overlay_opacity",
               "label" : "Overlay Opacity",
               "type" : "range",
-              "placeholder" : "0.6",
-              "value" : 0.6,
+              "placeholder" : "0.8",
+              "value" : 0.8,
               "options" : {
                 "min" : 0,
                 "max" : 1,
