@@ -144,7 +144,7 @@
       "showOnDefault" : true,
       "preview_image": "banner.png",
       "content": {
-        "text_block" : "<h1 style=\"text-align:center;\"><b>INCREDIBLE AGENCY</b></h1>"
+        "text_block" : "<h1 style=\"text-align:center;\"><b>INCREDIBLE AGENCY</b></h1><h3>Maecenas maximus magna odio, sed auctor tortor dapibus ut. Aenean non lacinia libero. Morbi mollis, nisi nec porttitor faucibus, dolor ligula laoreet mi, ut tristique diam lacus id felis.</h3>"
       },
       "block_settings": [
         {
@@ -188,8 +188,8 @@
               "id" : "vertical_padding_top",
               "label" : "Top Padding",
               "type" : "range",
-              "placeholder" : "260",
-              "value" : 260,
+              "placeholder" : "295",
+              "value" : 295,
               "options" : {
                 "min" : 0,
                 "max" : 400,
@@ -201,8 +201,8 @@
               "id" : "vertical_padding_bottom",
               "label" : "Bottom Padding",
               "type" : "range",
-              "placeholder" : "260",
-              "value" : 260,
+              "placeholder" : "295",
+              "value" : 295,
               "options" : {
                 "min" : 0,
                 "max" : 400,
