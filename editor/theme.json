@@ -262,6 +262,14 @@
               "required": false
             },
             {
+              "id": "button_background_color",
+              "label": "Button Hover BG Color",
+              "type": "color",
+              "placeholder": "#fb795b",
+              "value": "#fb795b",
+              "required": false
+            },
+            {
               "id": "button_text_color",
               "label": "Button Text Color",
               "type": "color",
