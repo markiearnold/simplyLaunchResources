@@ -144,7 +144,7 @@
       "showOnDefault" : true,
       "preview_image": "banner.png",
       "content": {
-        "text_block" : "<h1 style=\"text-align:center;\">AMAZING STUFF HERE</h1>"
+        "text_block" : "<h1 style=\"text-align:center;\"><b>INCREDIBLE AGENCY</b></h1>"
       },
       "block_settings": [
         {
@@ -278,6 +278,14 @@
               "required": false
             },
             {
+              "id": "button_border_color",
+              "label": "Button Border Color",
+              "type": "color",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
+              "required": false
+            },
+            {
               "id": "button_hover_background_color",
               "label": "Button Hover BG Color",
               "type": "color",
@@ -291,6 +299,14 @@
               "type": "color",
               "placeholder": "#ffffff",
               "value": "#ffffff",
+              "required": false
+            },
+            {
+              "id": "button_hover_border_color",
+              "label": "Button Hover Color",
+              "type": "color",
+              "placeholder": "#333333",
+              "value": "#333333",
               "required": false
             }
           ]
