@@ -19,17 +19,18 @@
             <div class="clearfix" style="margin-top:{{getSetting(block, 'vertical_padding_top')}}px"></div>
 			<div class="row">
 				<div class="jumbotron">
-			    <div class="col-md-10 col-md-offset-1">
-					<div
-					 settings style-setting="color:banner_text_color"  style="margin-top:60px;margin-bottom:30px;"
-					 rich-block label="Banner Text Block" content="text_block"
-					 ></div>
-			    </div>
-			    <div class="col-md-10 col-md-offset-1">
-                  <div class="text-{{getSetting(block, 'button_position')}}">  
-    				  <a settings show-if="show_button" url-link link="button_links_to" text="button_label" label="Banner CTA Link" 
-    				    href="#" class="btn btn-banner button-{{$index}}"></a>
-                  </div>
+    			    <div class="col-md-10 col-md-offset-1">
+    					<div
+    					 settings style-setting="color:banner_text_color"  style="margin-top:60px;margin-bottom:30px;"
+    					 rich-block label="Banner Text Block" content="text_block"
+    					 ></div>
+    			    </div>
+    			    <div class="col-md-10 col-md-offset-1">
+                      <div class="text-{{getSetting(block, 'button_position')}}">  
+        				  <a settings show-if="show_button" url-link link="button_links_to" text="button_label" label="Banner CTA Link" 
+        				    href="#" class="btn btn-banner button-{{$index}}"></a>
+                      </div>
+    				</div>
 				</div>
 			</div>
             <div class="clearfix" style="margin-top:{{getSetting(block, 'vertical_padding_bottom')}}px"></div>
