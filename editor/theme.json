@@ -157,7 +157,7 @@
               "label": "Background Image",
               "type": "image",
               "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/pesky/img/food1.jpg",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock1.jpg",
               "required": false
             },
             {
