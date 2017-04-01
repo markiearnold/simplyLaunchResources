@@ -144,7 +144,7 @@
       "showOnDefault" : true,
       "preview_image": "banner.png",
       "content": {
-        "text_block" : "<h1 style=\"text-align:center;\"><b>INCREDIBLE AGENCY</b></h1>"
+        "text_block" : "<h1 style=\"text-align:center;\">INCREDIBLE <b>AGENCY</b></h1>"
       },
       "block_settings": [
         {
