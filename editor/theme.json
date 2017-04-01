@@ -221,8 +221,8 @@
               "id": "banner_text_color",
               "label": "Banner Text Color",
               "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
+              "placeholder": "#333333",
+              "value": "#333333",
               "required": false
             },
             {
