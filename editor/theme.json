@@ -80,32 +80,32 @@
           "id" : "main_menu_text_color",
           "label" : "Menu Text Color",
           "type" : "color",
-          "placeholder" : "#ffffff",
-          "value" : "#ffffff",
+          "placeholder" : "#333333",
+          "value" : "#333333",
           "required" : false
         },
         {
           "id" : "main_menu_text_hover_color",
           "label" : "Menu Text Hover Color",
           "type" : "color",
-          "placeholder" : "#ffffff",
-          "value" : "#ffffff",
+          "placeholder" : "#333333",
+          "value" : "#333333",
           "required" : false
         },
         {
           "id" : "main_menu_flyout_background_color",
           "label" : "Menu Flyout BG Color",
           "type" : "color",
-          "placeholder" : "#ffffff",
-          "value" : "#ffffff",
+          "placeholder" : "#333333",
+          "value" : "#333333",
           "required" : false
         },
         {
           "id" : "main_menu_flyout_text_color",
           "label" : "Menu Flyout Text Color",
           "type" : "color",
-          "placeholder" : "#606060",
-          "value" : "#606060",
+          "placeholder" : "#ffffff",
+          "value" : "#ffffff",
           "required" : false
         }
       ]
@@ -170,8 +170,8 @@
               "id" : "overlay_opacity",
               "label" : "Overlay Opacity",
               "type" : "range",
-              "placeholder" : "0.3",
-              "value" : 0.3,
+              "placeholder" : "0.2",
+              "value" : 0.2,
               "options" : {
                 "min" : 0,
                 "max" : 1,
