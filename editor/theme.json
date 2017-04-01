@@ -281,8 +281,8 @@
               "id": "button_border_color",
               "label": "Button Border Color",
               "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
+              "placeholder": "#fb795b",
+              "value": "#fb795b",
               "required": false
             },
             {
