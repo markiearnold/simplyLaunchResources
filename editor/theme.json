@@ -118,7 +118,7 @@
           "label": "Logo Image",
           "type": "image",
           "placeholder": "",
-          "value": "https://s3.amazonaws.com/belch.io/themes/pesky/img/bistro-icon.png",
+          "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-logo.png",
           "required": false
         }
       ]
