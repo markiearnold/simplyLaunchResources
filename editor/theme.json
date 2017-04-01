@@ -12,7 +12,7 @@
     "css": [
       "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
       "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
-      "https://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic",
+      "https://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:400,400i,700,700i,800,800i,900,900i|Crete+Round:400italic",
       "https://fonts.googleapis.com/css?family=Pacifico&amp;subset=latin-ext",
       "https://s3.amazonaws.com/belch.io/themes/minimalist/css/style.css",
       "https://s3.amazonaws.com/belch.io/belch-base-css/v1/belch-defaults.css",
@@ -164,16 +164,16 @@
               "id": "overlay_color",
               "label": "Overlay Color",
               "type": "color",
-              "placeholder": "#272727",
-              "value": "#272727",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
               "required": false
             },
             {
               "id" : "overlay_opacity",
               "label" : "Overlay Opacity",
               "type" : "range",
-              "placeholder" : "0.7",
-              "value" : 0.7,
+              "placeholder" : "0.3",
+              "value" : 0.3,
               "options" : {
                 "min" : 0,
                 "max" : 1,
