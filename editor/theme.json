@@ -872,7 +872,7 @@
               "label": "Contact Form",
               "type": "form",
               "placeholder": "Default",
-              "value": "Default",
+              "value": null,
               "required": false
             },
             {
