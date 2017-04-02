@@ -395,8 +395,8 @@
               "id" : "col_count",
               "label" : "Column Count",
               "type" : "select",
-              "placeholder" : "3",
-              "value" : "3",
+              "placeholder" : "4",
+              "value" : "4",
               "options" : ["2", "3", "4"],
               "required" : false
             },
