@@ -338,8 +338,8 @@
               "id": "overlay_color",
               "label": "Overlay Color",
               "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
+              "placeholder": "#f9f9f9",
+              "value": "#f9f9f9",
               "required": false
             },
             {
@@ -401,20 +401,17 @@
               "required" : false
             },
             {
-              "id": "callout_text_color",
-              "label": "Callout Text Color",
-              "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
-              "required": false
-            },
-            {
-              "id": "show_subtitle",
-              "label": "Show Callout Subtitle",
-              "type": "checkbox",
-              "placeholder": "",
-              "value": true,
-              "required": false
+              "id" : "row_height",
+              "label" : "Row Height",
+              "type" : "range",
+              "placeholder" : "250",
+              "value" : 250,
+              "options" : {
+                "min" : 150,
+                "max" : 700,
+                "step" : 10
+              },
+              "required" : false
             }
           ]
         }
