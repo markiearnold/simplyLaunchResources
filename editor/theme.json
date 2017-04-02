@@ -414,6 +414,142 @@
               "required" : false
             }
           ]
+        },
+        {
+          "group": "First Gallery Image",
+          "settings": [
+            {
+              "id": "gal1_background_image",
+              "label": "Gallery Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/gal1.jpg", 
+              "required": false
+            },
+            {
+              "id": "gal1_overlay_color",
+              "label": "Overlay Color",
+              "type": "color",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
+              "required": false
+            },
+            {
+              "id" : "gal1_overlay_opacity",
+              "label" : "Overlay Opacity",
+              "type" : "range",
+              "placeholder" : "0.6",
+              "value" : 0.6,
+              "options" : {
+                "min" : 0,
+                "max" : 1,
+                "step" : 0.1
+              },
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Second Gallery Image",
+          "settings": [
+            {
+              "id": "gal2_background_image",
+              "label": "Gallery Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/gal2.jpg", 
+              "required": false
+            },
+            {
+              "id": "gal2_overlay_color",
+              "label": "Overlay Color",
+              "type": "color",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
+              "required": false
+            },
+            {
+              "id" : "gal2_overlay_opacity",
+              "label" : "Overlay Opacity",
+              "type" : "range",
+              "placeholder" : "0.6",
+              "value" : 0.6,
+              "options" : {
+                "min" : 0,
+                "max" : 1,
+                "step" : 0.1
+              },
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Third Gallery Image",
+          "settings": [
+            {
+              "id": "gal3_background_image",
+              "label": "Gallery Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/gal3.jpg", 
+              "required": false
+            },
+            {
+              "id": "gal3_overlay_color",
+              "label": "Overlay Color",
+              "type": "color",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
+              "required": false
+            },
+            {
+              "id" : "gal3_overlay_opacity",
+              "label" : "Overlay Opacity",
+              "type" : "range",
+              "placeholder" : "0.6",
+              "value" : 0.6,
+              "options" : {
+                "min" : 0,
+                "max" : 1,
+                "step" : 0.1
+              },
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Fourth Gallery Image",
+          "settings": [
+            {
+              "id": "gal4_background_image",
+              "label": "Gallery Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/gal4.jpg", 
+              "required": false
+            },
+            {
+              "id": "gal4_overlay_color",
+              "label": "Overlay Color",
+              "type": "color",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
+              "required": false
+            },
+            {
+              "id" : "gal4_overlay_opacity",
+              "label" : "Overlay Opacity",
+              "type" : "range",
+              "placeholder" : "0.6",
+              "value" : 0.6,
+              "options" : {
+                "min" : 0,
+                "max" : 1,
+                "step" : 0.1
+              },
+              "required" : false
+            }
+          ]
         }
       ]
     },
