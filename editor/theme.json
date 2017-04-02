@@ -45,7 +45,7 @@
           "label" : "Main Navigation",
           "type" : "menu",
           "placeholder" : "default",
-          "value" : "default",
+          "value" : null,
           "required" : false
         },
         {
@@ -308,7 +308,7 @@
               "label": "Callout Background Image",
               "type": "image",
               "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/pesky/img/food1.jpg", 
+              "value": "https://s3.amazonaws.com/belch.io/themes/pesky/img/food1.jpg",
               "required": false
             },
             {
@@ -518,7 +518,7 @@
               "label": "Background Overlay Color",
               "type": "color",
               "placeholder": "#272727",
-              "value": "#272727", 
+              "value": "#272727",
               "required": false
             },
             {
@@ -598,7 +598,7 @@
               "id": "service1_icon",
               "label": "First Icon",
               "type": "icon",
-              "placeholder": "fa-free-code-camp", 
+              "placeholder": "fa-free-code-camp",
               "value": "fa-free-code-camp",
               "required": false
             },
@@ -606,7 +606,7 @@
               "id": "service2_icon",
               "label": "Second Icon",
               "type": "icon",
-              "placeholder": "fa-handshake-o", 
+              "placeholder": "fa-handshake-o",
               "value": "fa-handshake-o",
               "required": false
             },
@@ -1635,7 +1635,7 @@
               "required" : false
             }
           ]
-        },  
+        },
         {
           "group": "First Icon",
           "settings": [
@@ -1651,7 +1651,7 @@
               "id": "icon_one",
               "label": "First Icon",
               "type": "icon",
-              "placeholder": "fa-facebook", 
+              "placeholder": "fa-facebook",
               "value": "fa-facebook",
               "required": false
             },
@@ -1664,7 +1664,7 @@
               "required": false
             }
           ]
-        },  
+        },
         {
           "group": "Second Icon",
           "settings": [
@@ -1680,7 +1680,7 @@
               "id": "icon_two",
               "label": "Second Icon",
               "type": "icon",
-              "placeholder": "fa-twitter", 
+              "placeholder": "fa-twitter",
               "value": "fa-twitter",
               "required": false
             },
@@ -1693,7 +1693,7 @@
               "required": false
             }
           ]
-        },  
+        },
         {
           "group": "Third Icon",
           "settings": [
@@ -1709,7 +1709,7 @@
               "id": "icon_three",
               "label": "Third Icon",
               "type": "icon",
-              "placeholder": "fa-linkedin", 
+              "placeholder": "fa-linkedin",
               "value": "fa-linkedin",
               "required": false
             },
@@ -1722,7 +1722,7 @@
               "required": false
             }
           ]
-        },  
+        },
         {
           "group": "Fourth Icon",
           "settings": [
@@ -1738,7 +1738,7 @@
               "id": "icon_four",
               "label": "Fourth Icon",
               "type": "icon",
-              "placeholder": "fa-youtube", 
+              "placeholder": "fa-youtube",
               "value": "fa-youtube",
               "required": false
             },
@@ -1751,7 +1751,7 @@
               "required": false
             }
           ]
-        },  
+        },
         {
           "group": "Fifth Icon",
           "settings": [
@@ -1767,7 +1767,7 @@
               "id": "icon_five",
               "label": "Fifth Icon",
               "type": "icon",
-              "placeholder": "fa-intagram", 
+              "placeholder": "fa-intagram",
               "value": "fa-instagram",
               "required": false
             },
@@ -1780,7 +1780,7 @@
               "required": false
             }
           ]
-        },  
+        },
         {
           "group": "Sixth Icon",
           "settings": [
@@ -1796,7 +1796,7 @@
               "id": "icon_six",
               "label": "Sixth Icon",
               "type": "icon",
-              "placeholder": "fa-amazon", 
+              "placeholder": "fa-amazon",
               "value": "fa-amazon",
               "required": false
             },
