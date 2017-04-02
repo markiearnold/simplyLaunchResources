@@ -404,8 +404,8 @@
               "id" : "row_height",
               "label" : "Row Height",
               "type" : "range",
-              "placeholder" : "250",
-              "value" : 250,
+              "placeholder" : "270",
+              "value" : 270,
               "options" : {
                 "min" : 150,
                 "max" : 700,
