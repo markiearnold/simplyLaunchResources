@@ -338,8 +338,8 @@
               "id": "overlay_color",
               "label": "Overlay Color",
               "type": "color",
-              "placeholder": "#282828",
-              "value": "#282828",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
               "required": false
             },
             {
