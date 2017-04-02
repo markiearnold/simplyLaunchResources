@@ -170,7 +170,7 @@
               "id" : "overlay_opacity",
               "label" : "Overlay Opacity",
               "type" : "range",
-              "placeholder" : "0.8",
+              "placeholder" : "0.",
               "value" : 0.8,
               "options" : {
                 "min" : 0,
@@ -314,10 +314,10 @@
       ]
     },
     {
-      "name": "Callout",
-      "type": "callout",
+      "name": "Gallery",
+      "type": "gallery",
       "showOnDefault" : true,
-      "preview_image": "callout.png",
+      "preview_image": "gallery.png",
       "content": {
         "callout_header": "Welcome to Pesky Bistro",
         "callout_subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -328,15 +328,15 @@
           "settings": [
             {
               "id": "background_image",
-              "label": "Callout Background Image",
+              "label": "Background Image",
               "type": "image",
               "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/pesky/img/food1.jpg", 
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg", 
               "required": false
             },
             {
               "id": "overlay_color",
-              "label": "Callout Overlay Color",
+              "label": "Overlay Color",
               "type": "color",
               "placeholder": "#282828",
               "value": "#282828",
@@ -344,7 +344,7 @@
             },
             {
               "id" : "overlay_opacity",
-              "label" : "Callout Overlay Opacity",
+              "label" : "Overlay Opacity",
               "type" : "range",
               "placeholder" : "1",
               "value" : 1,
@@ -364,8 +364,8 @@
               "id" : "vertical_padding_top",
               "label" : "Top Padding",
               "type" : "range",
-              "placeholder" : "30",
-              "value" : 30,
+              "placeholder" : "0",
+              "value" : 0,
               "options" : {
                 "min" : 0,
                 "max" : 400,
@@ -377,8 +377,8 @@
               "id" : "vertical_padding_bottom",
               "label" : "Bottom Padding",
               "type" : "range",
-              "placeholder" : "45",
-              "value" : 45,
+              "placeholder" : "0",
+              "value" : 0,
               "options" : {
                 "min" : 0,
                 "max" : 400,
@@ -391,6 +391,15 @@
         {
           "group": "Content",
           "settings": [
+            {
+              "id" : "col_count",
+              "label" : "Column Count",
+              "type" : "select",
+              "placeholder" : "3",
+              "value" : "3",
+              "options" : ["2", "3", "4"],
+              "required" : false
+            },
             {
               "id": "callout_text_color",
               "label": "Callout Text Color",
@@ -428,7 +437,7 @@
               "label": "About Background Image",
               "type": "image",
               "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/pesky/img/placeholder.jpg",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
               "required": false
             },
             {
@@ -533,7 +542,7 @@
               "label": "About Background Image",
               "type": "image",
               "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/pesky/img/placeholder.jpg",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
               "required": false
             },
             {
@@ -693,7 +702,7 @@
               "label": "Background Image",
               "type": "image",
               "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/pesky/img/placeholder.jpg",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
               "required": false
             },
             {
@@ -830,7 +839,7 @@
               "label": "Background Image",
               "type": "image",
               "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/pesky/img/food1.jpg",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
               "required": false
             },
             {
@@ -988,7 +997,7 @@
               "label": "Background Image",
               "type": "image",
               "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/pesky/img/food1.jpg",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
               "required": false
             },
             {
@@ -1122,7 +1131,7 @@
               "label": "Background Image",
               "type": "image",
               "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/pesky/img/food1.jpg",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
               "required": false
             },
             {
@@ -1212,7 +1221,7 @@
               "label": "Background Image",
               "type": "image",
               "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/pesky/img/food1.jpg",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
               "required": false
             },
             {
@@ -1303,7 +1312,7 @@
               "label": "Background Image",
               "type": "image",
               "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/pesky/img/food1.jpg",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
               "required": false
             },
             {
@@ -1395,7 +1404,7 @@
               "label": "Background Image",
               "type": "image",
               "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/pesky/img/food1.jpg",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
               "required": false
             },
             {
@@ -1489,7 +1498,7 @@
               "label": "Background Image",
               "type": "image",
               "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/pesky/img/food1.jpg",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
               "required": false
             },
             {
@@ -1576,7 +1585,7 @@
               "label": "Background Image",
               "type": "image",
               "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/pesky/img/food1.jpg",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
               "required": false
             },
             {
