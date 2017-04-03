@@ -799,23 +799,23 @@
           "settings": [
             {
               "id": "background_image",
-              "label": "About Background Image",
+              "label": "Background Image",
               "type": "image",
               "placeholder": "",
               "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
               "required": false
             },
             {
-              "id": "background_overlay_color",
-              "label": "Background Overlay Color",
+              "id": "overlay_color",
+              "label": "Overlay Color",
               "type": "color",
               "placeholder": "#ffffff",
               "value": "#ffffff",
               "required": false
             },
             {
-              "id" : "background_overlay_opacity",
-              "label" : "Background Overlay Opacity",
+              "id" : "overlay_opacity",
+              "label" : "Overlay Opacity",
               "type" : "range",
               "placeholder" : "1",
               "value" : 1,
@@ -875,6 +875,15 @@
         {
           "group": "Content",
           "settings": [
+            {
+              "id" : "img_position",
+              "label" : "Image Position",
+              "type" : "select",
+              "placeholder" : "right",
+              "value" : "right",
+              "options" : ["left", "right"],
+              "required" : false
+            },
             {
               "id": "text_color",
               "label": "About Text Color",
