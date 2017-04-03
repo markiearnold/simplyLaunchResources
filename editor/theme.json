@@ -702,9 +702,7 @@
       "preview_image": "services.png",
       "content": {
         "services_header": "<h3>Our Services</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br/>incididunt ut labore et dolore magna aliqua.</p>",
-        "service_text_block": "<h3>Dining</h3><p>doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>",
-        "service_two" : "<h3>Catering</h3><p>doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>",
-        "service_three" : "<h3>Carry-out</h3><p>doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>"
+        "service_text_block": "<h3>Donec venenatis</h3><p>Ut ultrices dictum vehicula. Quisque congue maximus velit, nec scelerisque urna aliquam non.</p>"
       },
       "block_settings": [
         {
