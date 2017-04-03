@@ -976,6 +976,15 @@
           "group": "Content",
           "settings": [
             {
+              "id" : "img_position",
+              "label" : "Image Position",
+              "type" : "select",
+              "placeholder" : "right",
+              "value" : "right",
+              "options" : ["left", "center", "right"],
+              "required" : false
+            },
+            {
               "id": "team1_image",
               "label": "Team Member Image",
               "type": "image",

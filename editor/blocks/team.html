@@ -15,8 +15,8 @@
 				<div>
 					<div class="col-md-6">
 						<div class="team-info">
-						    <div class="team-img-wrapper center-block">
-								<img image-element label="Team Member Image" content="team1_image" class="img-responsive">
+						    <div class="team-img-wrapper">
+								<img image-element label="Team Member Image" content="team1_image" class="img-responsive center-block pull-{{getSetting(block, 'img_position')}}">
 						    </div>
 							<div class="fig-caption"
 							 settings style-setting="color:team_text_color"
@@ -27,8 +27,8 @@
 					</div>
 					<div class="col-md-6" settings show-if="show_second_column">
 						<div class="team-info">
-    						  <div class="team-img-wrapper center-block">
-    						      <img image-element label="Team Member Image" content="team2_image" class="img-responsive">
+    						  <div class="team-img-wrapper">
+    						      <img image-element label="Team Member Image" content="team2_image" class="img-responsive center-block">
     						  </div>
     							<div class="fig-caption"
     							 settings style-setting="color:team_text_color"
