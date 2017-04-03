@@ -702,7 +702,7 @@
       "preview_image": "services.png",
       "content": {
         "services_header": "<h3>Our Services</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br/>incididunt ut labore et dolore magna aliqua.</p>",
-        "service_one": "<h3>Dining</h3><p>doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>",
+        "service_text_block": "<h3>Dining</h3><p>doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>",
         "service_two" : "<h3>Catering</h3><p>doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>",
         "service_three" : "<h3>Carry-out</h3><p>doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>"
       },
@@ -722,16 +722,16 @@
               "id": "overlay_color",
               "label": "Overlay Color",
               "type": "color",
-              "placeholder": "#272727",
-              "value": "#272727", 
+              "placeholder": "#ffffff",
+              "value": "#ffffff", 
               "required": false
             },
             {
               "id" : "overlay_opacity",
               "label" : "Overlay Opacity",
               "type" : "range",
-              "placeholder" : "0.7",
-              "value" : 0.7,
+              "placeholder" : "1",
+              "value" : 1,
               "options" : {
                 "min" : 0,
                 "max" : 1,
@@ -779,8 +779,8 @@
               "id" : "col_count",
               "label" : "Column Count",
               "type" : "select",
-              "placeholder" : "3",
-              "value" : "3",
+              "placeholder" : "4",
+              "value" : "4",
               "options" : ["1", "2", "3", "4"],
               "required" : false
             },
@@ -796,32 +796,32 @@
               "id": "service_header_text_color",
               "label": "Header Text Color",
               "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
+              "placeholder": "#333333",
+              "value": "#333333",
               "required": false
             },
             {
               "id": "service_text_color",
               "label": "Text Color",
               "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
+              "placeholder": "#333333",
+              "value": "#333333",
               "required": false
             },
             {
               "id": "icon_color",
               "label": "Icons Color",
               "type": "color",
-              "placeholder": "#1d1d1d",
-              "value": "#1d1d1d",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
               "required": false
             },
             {
               "id": "icon_background_color",
               "label": "Icons Background Color",
               "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
+              "placeholder": "#333333",
+              "value": "#333333",
               "required": false
             },
             {
