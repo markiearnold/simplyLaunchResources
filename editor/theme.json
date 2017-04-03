@@ -340,7 +340,7 @@
       "showOnDefault" : true,
       "preview_image": "gallery.png",
       "content": {
-        "gal1_text_block": "<h3>BEAUTIFUL<br>DESIGNS</h3><a href=\"#\" style=\"color:#ffffff;\"><b>LEARN MORE</b></a>",
+        "gal1_text_block": "<h3>SOME OF OUR<br>BEAUTIFUL<br>DESIGNS</h3><a href=\"#\" style=\"color:#ffffff;\"><b>LEARN MORE</b></a>",
         "gal2_text_block": "",
         "gal3_text_block": "",
         "gal4_text_block": ""
@@ -437,7 +437,7 @@
               "label" : "Row Height",
               "type" : "range",
               "placeholder" : "420",
-              "value" : 320,
+              "value" : 420,
               "options" : {
                 "min" : 150,
                 "max" : 700,
@@ -479,7 +479,7 @@
               "label" : "Overlay Opacity",
               "type" : "range",
               "placeholder" : "0.9",
-              "value" : 0.8,
+              "value" : 0.9,
               "options" : {
                 "min" : 0,
                 "max" : 1,
