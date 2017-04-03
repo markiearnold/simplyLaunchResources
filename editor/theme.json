@@ -341,9 +341,9 @@
       "preview_image": "gallery.png",
       "content": {
         "gal1_text_block": "<h3>BEAUTIFUL<br>DESIGNS</h3><a href=\"#\" style=\"color:#fb795b;\"><b>LEARN MORE</b></a>",
-        "gal2_text_block": "<h3>WEBSITE<br>DEVELOPMENT</h3><a href=\"#\" style=\"color:#fb795b;\"><b>LEARN MORE</b></a>",
-        "gal3_text_block": "<h3>SOCIAL MEDIA<br>MARKETING</h3><a href=\"#\" style=\"color:#fb795b;\"><b>LEARN MORE</b></a>",
-        "gal4_text_block": "<h3>CONTENT<br>WRITING</h3><a href=\"#\" style=\"color:#fb795b;\"><b>LEARN MORE</b></a>"
+        "gal2_text_block": "",
+        "gal3_text_block": "",
+        "gal4_text_block": ""
       },
       "block_settings": [
         {
@@ -436,7 +436,7 @@
               "id" : "row_height",
               "label" : "Row Height",
               "type" : "range",
-              "placeholder" : "320",
+              "placeholder" : "420",
               "value" : 320,
               "options" : {
                 "min" : 150,
@@ -470,15 +470,15 @@
               "id": "gal1_overlay_color",
               "label": "Overlay Color",
               "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
+              "placeholder": "#fb795b",
+              "value": "#fb795b",
               "required": false
             },
             {
               "id" : "gal1_overlay_opacity",
               "label" : "Overlay Opacity",
               "type" : "range",
-              "placeholder" : "0.8",
+              "placeholder" : "0.9",
               "value" : 0.8,
               "options" : {
                 "min" : 0,
@@ -512,8 +512,8 @@
               "id" : "gal2_overlay_opacity",
               "label" : "Overlay Opacity",
               "type" : "range",
-              "placeholder" : "0.8",
-              "value" : 0.8,
+              "placeholder" : "0",
+              "value" : 0,
               "options" : {
                 "min" : 0,
                 "max" : 1,
@@ -546,8 +546,8 @@
               "id" : "gal3_overlay_opacity",
               "label" : "Overlay Opacity",
               "type" : "range",
-              "placeholder" : "0.8",
-              "value" : 0.8,
+              "placeholder" : "0",
+              "value" : 0,
               "options" : {
                 "min" : 0,
                 "max" : 1,
@@ -580,8 +580,8 @@
               "id" : "gal4_overlay_opacity",
               "label" : "Overlay Opacity",
               "type" : "range",
-              "placeholder" : "0.8",
-              "value" : 0.8,
+              "placeholder" : "0",
+              "value" : 0,
               "options" : {
                 "min" : 0,
                 "max" : 1,
