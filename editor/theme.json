@@ -791,7 +791,7 @@
       "showOnDefault" : true,
       "preview_image": "about.png",
       "content": {
-        "content": "<h3 class='text-right'><br><br>About Agency Incredible</h3><p class='text-right'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Maecenas lorem est, mattis sit amet pretium id, scelerisque a ex. Morbi venenatis nulla vel erat placerat, sit amet sodales enim lobortis. Morbi mollis finibus sem, nec sollicitudin diam venenatis vitae.</p>"
+        "content": "<h3 class='text-right'>About Agency Incredible</h3><p class='text-right'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Maecenas lorem est, mattis sit amet pretium id, scelerisque a ex. Morbi venenatis nulla vel erat placerat, sit amet sodales enim lobortis. Morbi mollis finibus sem, nec sollicitudin diam venenatis vitae.</p>"
       },
       "block_settings": [
         {
@@ -867,7 +867,7 @@
               "label": "About Image",
               "type": "image",
               "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/pesky/img/food2.jpg",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock-about.jpg",
               "required": false
             }
           ]
