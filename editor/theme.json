@@ -836,11 +836,11 @@
               "id" : "icon_size",
               "label" : "Icon Size",
               "type" : "range",
-              "placeholder" : "35",
-              "value" : 35,
+              "placeholder" : "25",
+              "value" : 25,
               "options" : {
                 "min" : 10,
-                "max" : 100,
+                "max" : 45,
                 "step" : 3
               },
               "required" : false
