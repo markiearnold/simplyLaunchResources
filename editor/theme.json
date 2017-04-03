@@ -440,6 +440,15 @@
               "required" : false
             },
             {
+              "id" : "content_position",
+              "label" : "Content Position",
+              "type" : "select",
+              "placeholder" : "center",
+              "value" : "center",
+              "options" : ["left", "center", "right"],
+              "required" : false
+            },
+            {
               "id" : "row_height",
               "label" : "Row Height",
               "type" : "range",
