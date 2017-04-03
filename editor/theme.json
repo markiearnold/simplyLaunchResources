@@ -1011,16 +1011,16 @@
               "id": "team_header_text_color",
               "label": "Team Header Text Color",
               "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
+              "placeholder": "#333333",
+              "value": "#333333",
               "required": false
             },
             {
               "id": "team_text_color",
               "label": "Team Text Color",
               "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
+              "placeholder": "#333333",
+              "value": "#333333",
               "required": false
             },
             {
