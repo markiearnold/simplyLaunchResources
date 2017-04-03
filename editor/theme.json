@@ -716,8 +716,8 @@
               "id": "icon_background_color",
               "label": "Icons Background Color",
               "type": "color",
-              "placeholder": "#333333",
-              "value": "#333333",
+              "placeholder": "#f0f0f0",
+              "value": "#f0f0f0",
               "required": false
             },
             {
