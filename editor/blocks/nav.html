@@ -1,4 +1,17 @@
 <style class="belch-compile">
+    h1,h2,h3,h4,h5,body {
+        color: {{getSetting(block, "body_color")}} !important;
+    }
+    p {
+        color: {{getSetting(block, "p_color")}} !important;
+    }
+    a {
+        color: {{getSetting(block, "link_color")}} !important;
+    }
+    a:hover {
+        color: {{getSetting(block, "link_hover_color")}} !important;
+    }
+    
     nav.navbar .hs-menu-wrapper ul li a {
         color: {{getSetting(block, "main_menu_text_color")}} !important;
     }

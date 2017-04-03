@@ -122,6 +122,43 @@
           "required": false
         }
       ]
+    },
+    {
+      "group" : "Global Colors",
+      "settings" : [
+        {
+          "id": "body_color",
+          "label": "Body / Headers Text Color",
+          "type": "color",
+          "placeholder": "#333333",
+          "value": "#333333",
+          "required": false
+        },
+        {
+          "id": "p_color",
+          "label": "Paragraph Text Color",
+          "type": "color",
+          "placeholder": "#333333",
+          "value": "#333333",
+          "required": false
+        },
+        {
+          "id": "link_color",
+          "label": "Link Text Color",
+          "type": "color",
+          "placeholder": "#fb795b",
+          "value": "#fb795b",
+          "required": false
+        }
+        {
+          "id": "link_hover_color",
+          "label": "Link Hover Text Color",
+          "type": "color",
+          "placeholder": "#ff5f3b",
+          "value": "#ff5f3b",
+          "required": false
+        }
+      ]
     }
   ],
   "blocks": [
@@ -319,8 +356,10 @@
       "showOnDefault" : true,
       "preview_image": "gallery.png",
       "content": {
-        "callout_header": "Welcome to Pesky Bistro",
-        "callout_subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "gal1_text_block": "<h3>BEAUTIFUL<br>DESIGNS</h3><a href=\"#\" style=\"color:#fb795b;\"><b>LEARN MORE</b></a>",
+        "gal2_text_block": "<h3>WEBSITE<br>DEVELOPMENT</h3><a href=\"#\" style=\"color:#fb795b;\"><b>LEARN MORE</b></a>",
+        "gal3_text_block": "<h3>SOCIAL MEDIA<br>MARKETING</h3><a href=\"#\" style=\"color:#fb795b;\"><b>LEARN MORE</b></a>",
+        "gal4_text_block": "<h3>CONTENT<br>WRITING</h3><a href=\"#\" style=\"color:#fb795b;\"><b>LEARN MORE</b></a>",
       },
       "block_settings": [
         {
@@ -412,7 +451,15 @@
                 "step" : 10
               },
               "required" : false
-            }
+            },
+            {
+              "id": "text_color",
+              "label": "Text Color",
+              "type": "color",
+              "placeholder": "#333333",
+              "value": "#333333",
+              "required": false
+            },
           ]
         },
         {
