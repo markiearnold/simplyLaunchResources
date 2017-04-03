@@ -855,7 +855,7 @@
               "label": "First Icon",
               "type": "icon",
               "placeholder": "fa-pencil", 
-              "value": "fa-facebook",
+              "value": "fa-pencil",
               "required": false
             },
             {
@@ -863,7 +863,7 @@
               "label": "Second Icon",
               "type": "icon",
               "placeholder": "fa-paint-brush", 
-              "value": "fa-facebook",
+              "value": "fa-paint-brush",
               "required": false
             },
             {
@@ -871,7 +871,7 @@
               "label": "Third Icon",
               "type": "icon",
               "placeholder": "fa-file-image-o", 
-              "value": "fa-facebook",
+              "value": "fa-file-image-o",
               "required": false
             },
             {
@@ -879,7 +879,7 @@
               "label": "Fourth Icon",
               "type": "icon",
               "placeholder": "fa-camera", 
-              "value": "fa-facebook",
+              "value": "fa-camera",
               "required": false
             }
           ]
