@@ -902,7 +902,7 @@
       "showOnDefault" : true,
       "preview_image": "team.png",
       "content": {
-        "team_header": "<h3>Meet Our Chefs</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua.</p>",
+        "team_header": "<h3>Our Amazing Team</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua.</p>",
         "team_one": "<h3>Haris Brown</h3><p>Master Chef</p><p>Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. Nunc arcu dolor, vehicula ac dictum ut, dapibus id lacus. Duis nunc magna, imperdiet non placerat convallis, porta in ex.</p>",
         "team_two" : "<h3>Caleb Brown</h3><p>Sous Chef</p><p>Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. Nunc arcu dolor, vehicula ac dictum ut, dapibus id lacus. Duis nunc magna, imperdiet non placerat convallis, porta in ex.</p>"
       },
@@ -922,8 +922,8 @@
               "id": "overlay_color",
               "label": "Overlay Color",
               "type": "color",
-              "placeholder": "#282828",
-              "value": "#282828",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
               "required": false
             },
             {
