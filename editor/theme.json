@@ -708,8 +708,8 @@
               "id": "icon_color",
               "label": "Icons Color",
               "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
+              "placeholder": "#fb795b",
+              "value": "#fb795b",
               "required": false
             },
             {
@@ -724,8 +724,8 @@
               "id": "icon_border_color",
               "label": "Icons Border Color",
               "type": "color",
-              "placeholder": "#e9e9e9",
-              "value": "#e9e9e9",
+              "placeholder": "#fb795b",
+              "value": "#fb795b",
               "required": false
             },
             {
