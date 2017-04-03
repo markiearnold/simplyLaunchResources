@@ -149,7 +149,7 @@
           "placeholder": "#fb795b",
           "value": "#fb795b",
           "required": false
-        }
+        },
         {
           "id": "link_hover_color",
           "label": "Link Hover Text Color",
