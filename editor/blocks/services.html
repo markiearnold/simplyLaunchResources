@@ -1,8 +1,4 @@
 	<!--SERVICE START-->
-	
-	{{colmd = 6}}
-	
-	
 	<section class="services-super-wrapper" image-background label="Services Background Image" content="background_image">
         <div class="overlay-wrapper">
             <div class="overlay" settings style-setting="background:background_overlay_color|opacity:background_overlay_opacity"></div>
@@ -17,46 +13,54 @@
     				>
     				</div>
 				</div>
-				<div class="col-md-4">
-					<div class="feature-box fbox-effect">
-						<div class="fbox-icon" settings style-setting="background:icon_background_color|border-color:icon_border_color">
-							<i  settings 
-					          class-setting="icon_six"
-					          style="color:{{getSetting(block, 'text_color')}};font-size:{{getSetting(block, 'icon_size')}}px" 
-					          class="fa"></i>
-						</div>
-						<h3>Responsive Layout {{colmd}}</h3>
-						<p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
-					</div>
+				
+				<div show-if="col_count" show-if-condition="==4">
+    				<div class="col-md-4">
+    					<div class="feature-box fbox-effect">
+    						<div class="fbox-icon" settings style-setting="background:icon_background_color|border-color:icon_border_color">
+    							<i  settings 
+    					          class-setting="icon_one"
+    					          style="color:{{getSetting(block, 'icon_color')}};font-size:{{getSetting(block, 'icon_size')}}px" 
+    					          class="fa"></i>
+    						</div>
+                            <div
+        					 settings style-setting="color:text_color" 
+        					 rich-block label="First Service Item Text Block" content="service_text_block"
+        					 ></div>
+    					</div>
+    				</div>
+    				<div class="col-md-4">
+    					<div class="service-box">
+    						<div class="servic-icon-container">
+        						<div class="service-icon" settings style-setting="background:icon_background_color|border-color:icon_border_color">
+        						  <i settings class-setting="service2_icon" style-setting="color:icon_color" class="fa"></i>
+        				        </div>
+    						</div>
+            				<div class="service-text-full"
+            				settings style-setting="color:service_text_color" 
+            				rich-block label="Service Text Block" content="service_two"
+            				>
+            				</div>
+    					</div>
+    				</div>
+    				<div class="col-md-4">
+    					<div class="service-box">
+    						<div class="servic-icon-container">
+        						<div class="service-icon" settings style-setting="background:icon_background_color|border-color:icon_border_color">
+        						  <i settings class-setting="service3_icon" style-setting="color:icon_color" class="fa" ></i>
+        				        </div>
+    						</div>
+            				<div class="service-text-full"
+            				settings style-setting="color:service_text_color" 
+            				rich-block label="Service Text Block" content="service_three"
+            				>
+            				</div>
+    					</div>
+    				</div>
 				</div>
-				<div class="col-md-4">
-					<div class="service-box">
-						<div class="servic-icon-container">
-    						<div class="service-icon" settings style-setting="background:icon_background_color|border-color:icon_border_color">
-    						  <i settings class-setting="service2_icon" style-setting="color:icon_color" class="fa"></i>
-    				        </div>
-						</div>
-        				<div class="service-text-full"
-        				settings style-setting="color:service_text_color" 
-        				rich-block label="Service Text Block" content="service_two"
-        				>
-        				</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="service-box">
-						<div class="servic-icon-container">
-    						<div class="service-icon" settings style-setting="background:icon_background_color|border-color:icon_border_color">
-    						  <i settings class-setting="service3_icon" style-setting="color:icon_color" class="fa" ></i>
-    				        </div>
-						</div>
-        				<div class="service-text-full"
-        				settings style-setting="color:service_text_color" 
-        				rich-block label="Service Text Block" content="service_three"
-        				>
-        				</div>
-					</div>
-				</div>
+				
+				
+				
 			</div>
             <div class="clearfix" style="margin-top:{{getSetting(block, 'vertical_padding_bottom')}}px"></div>
 		</div>
