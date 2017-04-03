@@ -809,8 +809,8 @@
               "id": "overlay_color",
               "label": "Overlay Color",
               "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
+              "placeholder": "#f9f9f9",
+              "value": "#f9f9f9",
               "required": false
             },
             {
