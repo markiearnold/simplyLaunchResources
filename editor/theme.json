@@ -434,8 +434,8 @@
               "id" : "col_count",
               "label" : "Column Count",
               "type" : "select",
-              "placeholder" : "4",
-              "value" : "4",
+              "placeholder" : "3",
+              "value" : "3",
               "options" : ["2", "3", "4"],
               "required" : false
             },
@@ -443,8 +443,8 @@
               "id" : "content_position",
               "label" : "Content Position",
               "type" : "select",
-              "placeholder" : "center",
-              "value" : "center",
+              "placeholder" : "left",
+              "value" : "left",
               "options" : ["left", "center", "right"],
               "required" : false
             },
@@ -452,8 +452,8 @@
               "id" : "row_height",
               "label" : "Row Height",
               "type" : "range",
-              "placeholder" : "270",
-              "value" : 270,
+              "placeholder" : "320",
+              "value" : 320,
               "options" : {
                 "min" : 150,
                 "max" : 700,
