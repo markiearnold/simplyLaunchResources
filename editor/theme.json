@@ -904,7 +904,8 @@
       "content": {
         "team_header": "<h3>Our Amazing Team</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua.</p>",
         "team_one": "<h3 class='text-center'>Haris Brown</h3><p class='text-center'>Master Chef</p><p class='text-center'>Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. Nunc arcu dolor, vehicula ac dictum ut, dapibus id lacus. Duis nunc magna, imperdiet non placerat convallis, porta in ex.</p>",
-        "team_two" : "<h3 class='text-center'>Caleb Brown</h3><p class='text-center'>Sous Chef</p><p class='text-center'>Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. Nunc arcu dolor, vehicula ac dictum ut, dapibus id lacus. Duis nunc magna, imperdiet non placerat convallis, porta in ex.</p>"
+        "team_two" : "<h3 class='text-center'>Caleb Brown</h3><p class='text-center'>Sous Chef</p><p class='text-center'>Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. Nunc arcu dolor, vehicula ac dictum ut, dapibus id lacus. Duis nunc magna, imperdiet non placerat convallis, porta in ex.</p>",
+        "team_three" : "<h3 class='text-center'>Caleb Brown</h3><p class='text-center'>Sous Chef</p><p class='text-center'>Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. Nunc arcu dolor, vehicula ac dictum ut, dapibus id lacus. Duis nunc magna, imperdiet non placerat convallis, porta in ex.</p>"
       },
       "block_settings": [
         {
@@ -998,6 +999,14 @@
               "type": "image",
               "placeholder": "",
               "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-teama2.jpg",
+              "required": false
+            },
+            {
+              "id": "team3_image",
+              "label": "Team Member Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-teama3.jpg",
               "required": false
             },
             {
