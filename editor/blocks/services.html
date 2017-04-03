@@ -1,4 +1,8 @@
 	<!--SERVICE START-->
+	
+	{{colmd = 6}}
+	
+	
 	<section class="services-super-wrapper" image-background label="Services Background Image" content="background_image">
         <div class="overlay-wrapper">
             <div class="overlay" settings style-setting="background:background_overlay_color|opacity:background_overlay_opacity"></div>
@@ -16,9 +20,12 @@
 				<div class="col-md-4">
 					<div class="feature-box fbox-effect">
 						<div class="fbox-icon" settings style-setting="background:icon_background_color|border-color:icon_border_color">
-							<i settings class-setting="service2_icon" style-setting="color:icon_color" class="fa"></i>
+							<i  settings 
+					          class-setting="icon_six"
+					          style="color:{{getSetting(block, 'text_color')}};font-size:{{getSetting(block, 'icon_size')}}px" 
+					          class="fa"></i>
 						</div>
-						<h3>Responsive Layout</h3>
+						<h3>Responsive Layout {{colmd}}</h3>
 						<p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
 					</div>
 				</div>
