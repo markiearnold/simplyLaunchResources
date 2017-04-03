@@ -599,7 +599,7 @@
       "showOnDefault" : true,
       "preview_image": "services.png",
       "content": {
-        "services_header": "<h3>Our Services</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br/>incididunt ut labore et dolore magna aliqua.</p>",
+        "services_header": "<h3>Our <b>Services</b></h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br/>incididunt ut labore et dolore magna aliqua.</p>",
         "service_text_block1": "<h3>Content</h3><p>Ut ultrices dictum vehicula. Quisque congue maximus velit, nec scelerisque urna aliquam non.</p>",
         "service_text_block2": "<h3>Design</h3><p>Ut ultrices dictum vehicula. Quisque congue maximus velit, nec scelerisque urna aliquam non.</p>",
         "service_text_block3": "<h3>Media</h3><p>Ut ultrices dictum vehicula. Quisque congue maximus velit, nec scelerisque urna aliquam non.</p>",
@@ -791,7 +791,7 @@
       "showOnDefault" : true,
       "preview_image": "about.png",
       "content": {
-        "content": "<h3 class='text-right'>About Agency Incredible</h3><p class='text-right'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Maecenas lorem est, mattis sit amet pretium id, scelerisque a ex. Morbi venenatis nulla vel erat placerat, sit amet sodales enim lobortis. Morbi mollis finibus sem, nec sollicitudin diam venenatis vitae.</p>"
+        "content": "<h3 class='text-right'>About Agency <b>Incredible</b></h3><p class='text-right'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Maecenas lorem est, mattis sit amet pretium id, scelerisque a ex. Morbi venenatis nulla vel erat placerat, sit amet sodales enim lobortis. Morbi mollis finibus sem, nec sollicitudin diam venenatis vitae.</p>"
       },
       "block_settings": [
         {
@@ -902,7 +902,7 @@
       "showOnDefault" : true,
       "preview_image": "team.png",
       "content": {
-        "team_header": "<h3>Our Amazing Team</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua.</p>",
+        "team_header": "<h3>Our <b>Amazing</b> Team</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua.</p>",
         "team_one": "<h3 class='text-center'>ALEX MASTERS</h3><p class='text-center'><b>CFO</b></p><p class='text-center'>Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. Nunc arcu dolor, vehicula ac dictum ut, dapibus id lacus. Duis nunc magna, imperdiet non placerat convallis, porta in ex.</p>",
         "team_two" : "<h3 class='text-center'>JOHN CANDELSON</h3><p class='text-center'><b>PROJECT MANAGER</b></p><p class='text-center'>Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. Nunc arcu dolor, vehicula ac dictum ut, dapibus id lacus. Duis nunc magna, imperdiet non placerat convallis, porta in ex.</p>",
         "team_three" : "<h3 class='text-center'>JEFF KINNESON</h3><p class='text-center'><b>LEAD ENGINEER</b></p><p class='text-center'>Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. Nunc arcu dolor, vehicula ac dictum ut, dapibus id lacus. Duis nunc magna, imperdiet non placerat convallis, porta in ex.</p>"
@@ -977,6 +977,15 @@
           "group": "Content",
           "settings": [
             {
+              "id" : "col_count",
+              "label" : "People Count",
+              "type" : "select",
+              "placeholder" : "3",
+              "value" : "3",
+              "options" : ["2", "3"],
+              "required" : false
+            },
+            {
               "id" : "img_position",
               "label" : "Image Position",
               "type" : "select",
@@ -986,40 +995,8 @@
               "required" : false
             },
             {
-              "id": "team1_image",
-              "label": "Team Member Image",
-              "type": "image",
-              "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-teama1.jpg",
-              "required": false
-            },
-            {
-              "id": "team2_image",
-              "label": "Team Member Image",
-              "type": "image",
-              "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-teama2.jpg",
-              "required": false
-            },
-            {
-              "id": "team3_image",
-              "label": "Team Member Image",
-              "type": "image",
-              "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-teama4.jpg",
-              "required": false
-            },
-            {
               "id": "show_header_section",
               "label": "Team Header Text",
-              "type": "checkbox",
-              "placeholder": "",
-              "value": true,
-              "required": false
-            },
-            {
-              "id": "show_second_column",
-              "label": "Show Second Section",
               "type": "checkbox",
               "placeholder": "",
               "value": true,
@@ -1042,11 +1019,27 @@
               "required": false
             },
             {
-              "id": "team_border_color",
-              "label": "Team Border Color",
-              "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
+              "id": "team1_image",
+              "label": "Person One Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-teama1.jpg",
+              "required": false
+            },
+            {
+              "id": "team2_image",
+              "label": "Person Two Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-teama2.jpg",
+              "required": false
+            },
+            {
+              "id": "team3_image",
+              "label": "Person Three Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-teama4.jpg",
               "required": false
             }
           ]
