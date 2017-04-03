@@ -989,7 +989,7 @@
               "label": "Team Member Image",
               "type": "image",
               "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/pesky/img/chef1.jpg",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-teama1.jpg",
               "required": false
             },
             {
@@ -997,7 +997,7 @@
               "label": "Team Member Image",
               "type": "image",
               "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/pesky/img/chef2.jpg",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-teama2.jpg",
               "required": false
             },
             {
