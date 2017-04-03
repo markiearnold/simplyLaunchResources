@@ -127,22 +127,6 @@
       "group" : "Global Colors",
       "settings" : [
         {
-          "id": "body_color",
-          "label": "Body / Headers Text Color",
-          "type": "color",
-          "placeholder": "#333333",
-          "value": "#333333",
-          "required": false
-        },
-        {
-          "id": "p_color",
-          "label": "Paragraph Text Color",
-          "type": "color",
-          "placeholder": "#333333",
-          "value": "#333333",
-          "required": false
-        },
-        {
           "id": "link_color",
           "label": "Link Text Color",
           "type": "color",
