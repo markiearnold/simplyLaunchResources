@@ -1006,7 +1006,7 @@
               "label": "Team Member Image",
               "type": "image",
               "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-teama3.jpg",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-teama4.jpg",
               "required": false
             },
             {
