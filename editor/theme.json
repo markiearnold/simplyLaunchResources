@@ -459,7 +459,7 @@
               "placeholder": "#333333",
               "value": "#333333",
               "required": false
-            },
+            }
           ]
         },
         {
