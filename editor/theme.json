@@ -594,108 +594,6 @@
       ]
     },
     {
-      "name": "About",
-      "type": "about",
-      "showOnDefault" : true,
-      "preview_image": "about.png",
-      "content": {
-        "content": "<h3><br><br>About Pesky</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Maecenas lorem est, mattis sit amet pretium id, scelerisque a ex. Morbi venenatis nulla vel erat placerat, sit amet sodales enim lobortis. Morbi mollis finibus sem, nec sollicitudin diam venenatis vitae.</p>"
-      },
-      "block_settings": [
-        {
-          "group": "Background",
-          "settings": [
-            {
-              "id": "background_image",
-              "label": "About Background Image",
-              "type": "image",
-              "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
-              "required": false
-            },
-            {
-              "id": "background_overlay_color",
-              "label": "Background Overlay Color",
-              "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
-              "required": false
-            },
-            {
-              "id" : "background_overlay_opacity",
-              "label" : "Background Overlay Opacity",
-              "type" : "range",
-              "placeholder" : "1",
-              "value" : 1,
-              "options" : {
-                "min" : 0,
-                "max" : 1,
-                "step" : 0.1
-              },
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group": "Spacing",
-          "settings": [
-            {
-              "id" : "vertical_padding_top",
-              "label" : "Top Padding",
-              "type" : "range",
-              "placeholder" : "65",
-              "value" : 65,
-              "options" : {
-                "min" : 0,
-                "max" : 400,
-                "step" : 5
-              },
-              "required" : false
-            },
-            {
-              "id" : "vertical_padding_bottom",
-              "label" : "Bottom Padding",
-              "type" : "range",
-              "placeholder" : "65",
-              "value" : 65,
-              "options" : {
-                "min" : 0,
-                "max" : 400,
-                "step" : 5
-              },
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group": "Image",
-          "settings": [
-            {
-              "id": "image",
-              "label": "About Image",
-              "type": "image",
-              "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/pesky/img/food2.jpg",
-              "required": false
-            }
-          ]
-        },
-        {
-          "group": "Content",
-          "settings": [
-            {
-              "id": "text_color",
-              "label": "About Text Color",
-              "type": "color",
-              "placeholder": "#333333",
-              "value": "#333333",
-              "required": false
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Services",
       "type": "services",
       "showOnDefault" : true,
@@ -878,6 +776,108 @@
               "type": "icon",
               "placeholder": "fa-camera", 
               "value": "fa-camera",
+              "required": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "About",
+      "type": "about",
+      "showOnDefault" : true,
+      "preview_image": "about.png",
+      "content": {
+        "content": "<h3><br><br>About Pesky</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Maecenas lorem est, mattis sit amet pretium id, scelerisque a ex. Morbi venenatis nulla vel erat placerat, sit amet sodales enim lobortis. Morbi mollis finibus sem, nec sollicitudin diam venenatis vitae.</p>"
+      },
+      "block_settings": [
+        {
+          "group": "Background",
+          "settings": [
+            {
+              "id": "background_image",
+              "label": "About Background Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
+              "required": false
+            },
+            {
+              "id": "background_overlay_color",
+              "label": "Background Overlay Color",
+              "type": "color",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
+              "required": false
+            },
+            {
+              "id" : "background_overlay_opacity",
+              "label" : "Background Overlay Opacity",
+              "type" : "range",
+              "placeholder" : "1",
+              "value" : 1,
+              "options" : {
+                "min" : 0,
+                "max" : 1,
+                "step" : 0.1
+              },
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Spacing",
+          "settings": [
+            {
+              "id" : "vertical_padding_top",
+              "label" : "Top Padding",
+              "type" : "range",
+              "placeholder" : "65",
+              "value" : 65,
+              "options" : {
+                "min" : 0,
+                "max" : 400,
+                "step" : 5
+              },
+              "required" : false
+            },
+            {
+              "id" : "vertical_padding_bottom",
+              "label" : "Bottom Padding",
+              "type" : "range",
+              "placeholder" : "65",
+              "value" : 65,
+              "options" : {
+                "min" : 0,
+                "max" : 400,
+                "step" : 5
+              },
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Image",
+          "settings": [
+            {
+              "id": "image",
+              "label": "About Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/pesky/img/food2.jpg",
+              "required": false
+            }
+          ]
+        },
+        {
+          "group": "Content",
+          "settings": [
+            {
+              "id": "text_color",
+              "label": "About Text Color",
+              "type": "color",
+              "placeholder": "#333333",
+              "value": "#333333",
               "required": false
             }
           ]
