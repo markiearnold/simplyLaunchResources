@@ -1052,7 +1052,7 @@
       "showOnDefault" : true,
       "preview_image": "form.png",
       "content": {
-        "contact_header": "<h3>REACH OUT</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br><h3>Location</h3><p>AGENCY<strong>INCREDIBLE</strong><br>612 Main St.<br>Manhattan NYC 42584<br><br>(800) 555 - 2121<br>us@peskybistro.com</p>"
+        "contact_header": "<h4>REACH OUT</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br><h4>LOCATION</h4><p>AGENCY <strong>INCREDIBLE</strong><br>612 Main St.<br>Manhattan NYC 42584<br><br>(800) 555 - 2121<br>us@peskybistro.com</p>"
       },
       "block_settings": [
         {
