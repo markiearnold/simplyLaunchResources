@@ -903,8 +903,8 @@
       "preview_image": "team.png",
       "content": {
         "team_header": "<h3>Our Amazing Team</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua.</p>",
-        "team_one": "<h3>Haris Brown</h3><p>Master Chef</p><p>Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. Nunc arcu dolor, vehicula ac dictum ut, dapibus id lacus. Duis nunc magna, imperdiet non placerat convallis, porta in ex.</p>",
-        "team_two" : "<h3>Caleb Brown</h3><p>Sous Chef</p><p>Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. Nunc arcu dolor, vehicula ac dictum ut, dapibus id lacus. Duis nunc magna, imperdiet non placerat convallis, porta in ex.</p>"
+        "team_one": "<h3 class='text-center'>Haris Brown</h3><p class='text-center'>Master Chef</p><p class='text-center'>Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. Nunc arcu dolor, vehicula ac dictum ut, dapibus id lacus. Duis nunc magna, imperdiet non placerat convallis, porta in ex.</p>",
+        "team_two" : "<h3 class='text-center'>Caleb Brown</h3><p class='text-center'>Sous Chef</p><p class='text-center'>Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. Nunc arcu dolor, vehicula ac dictum ut, dapibus id lacus. Duis nunc magna, imperdiet non placerat convallis, porta in ex.</p>"
       },
       "block_settings": [
         {
@@ -979,8 +979,8 @@
               "id" : "img_position",
               "label" : "Image Position",
               "type" : "select",
-              "placeholder" : "right",
-              "value" : "right",
+              "placeholder" : "center",
+              "value" : "center",
               "options" : ["left", "center", "right"],
               "required" : false
             },
