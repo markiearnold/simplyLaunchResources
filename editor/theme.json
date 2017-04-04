@@ -691,7 +691,7 @@
               "required": false
             },
             {
-              "id": "service_text_color",
+              "id": "text_color",
               "label": "Text Color",
               "type": "color",
               "placeholder": "#333333",
