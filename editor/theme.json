@@ -1433,8 +1433,8 @@
               "id": "text_color",
               "label": "Color",
               "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
+              "placeholder": "#333333",
+              "value": "#333333",
               "required": false
             }
           ]
