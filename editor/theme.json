@@ -1344,9 +1344,9 @@
       "showOnDefault" : true,
       "preview_image": "utility.png",
       "content": {
-        "colone": "col 1",
-        "coltwo": "col 2",
-        "colthree": "col 3",
+        "colone": "<h3 class='text-right'>Adaptive<br>Design</h3><p class='text-right'>Proin finibus nunc sed nunc interdum consectetur. Proin porta placerat turpis at pulvinar. Curabitur sem purus, aliquam quis tincidunt at, faucibus a turpis.</p>",
+        "coltwo": "<img src='https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-utility.jpg' class='block-center' />",
+        "colthree": "<h3>Responsive<br>Development</h3><p>Proin finibus nunc sed nunc interdum consectetur. Proin porta placerat turpis at pulvinar. Curabitur sem purus, aliquam quis tincidunt at, faucibus a turpis.</p>",
         "colfour": "col 4",
         "colfive": "col 5",
         "colsix": " col 6"
