@@ -902,7 +902,7 @@
       "showOnDefault" : true,
       "preview_image": "team.png",
       "content": {
-        "team_header": "<h3>Our <b>Amazing</b> Team</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua.</p>",
+        "team_header": "<h3>Our <b>Super-duper</b> Team</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua.</p>",
         "team_one": "<h3 class='text-center'>ALEX MASTERS</h3><p class='text-center'><b>CFO</b></p><p class='text-center'>Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. Nunc arcu dolor, vehicula ac dictum ut, dapibus id lacus. Duis nunc magna, imperdiet non placerat convallis, porta in ex.</p>",
         "team_two" : "<h3 class='text-center'>JOHN CANDELSON</h3><p class='text-center'><b>PROJECT MANAGER</b></p><p class='text-center'>Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. Nunc arcu dolor, vehicula ac dictum ut, dapibus id lacus. Duis nunc magna, imperdiet non placerat convallis, porta in ex.</p>",
         "team_three" : "<h3 class='text-center'>JEFF KINNESON</h3><p class='text-center'><b>LEAD ENGINEER</b></p><p class='text-center'>Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. Nunc arcu dolor, vehicula ac dictum ut, dapibus id lacus. Duis nunc magna, imperdiet non placerat convallis, porta in ex.</p>"
@@ -1210,7 +1210,7 @@
       "showOnDefault" : true,
       "preview_image": "cta.png",
       "content": {
-        "cta_text": "<h3>\"Good design adds value faster than it adds cost.\" - Thomas C. Gale</h3><p class=\"cta-sub-title\">Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. </p>"
+        "cta_text": "<h3>\"Good design adds value faster than it adds cost.\" - Thomas C. Gale</h3><p class=\"cta-sub-title\">Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor.<br></p>"
       },
       "block_settings": [
         {
@@ -1881,8 +1881,8 @@
               "id" : "icon_size",
               "label" : "Icon Size",
               "type" : "range",
-              "placeholder" : "65",
-              "value" : 30,
+              "placeholder" : "25",
+              "value" : 25,
               "options" : {
                 "min" : 20,
                 "max" : 80,
