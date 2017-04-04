@@ -1210,7 +1210,7 @@
       "showOnDefault" : true,
       "preview_image": "cta.png",
       "content": {
-        "cta_text": "<h3>\"Good design adds value faster than it adds cost.\" - Thomas C. Gale</h3><p class=\"cta-sub-title\">Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor.<br></p>"
+        "cta_text": "<h3>\"Good design adds value faster than it adds cost.\" - Thomas C. Gale</h3><p class=\"cta-sub-title\">Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor.<br></p><br>"
       },
       "block_settings": [
         {
