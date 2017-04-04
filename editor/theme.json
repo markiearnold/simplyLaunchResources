@@ -1070,8 +1070,8 @@
               "id": "overlay_color",
               "label": "Overlay Color",
               "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
+              "placeholder": "#f9f9f9",
+              "value": "#f9f9f9",
               "required": false
             },
             {
@@ -1210,7 +1210,7 @@
       "showOnDefault" : true,
       "preview_image": "cta.png",
       "content": {
-        "cta_text": "<h3>\"We sell heat, not fire. The sizzle, not the steak. experience it.\" - Caleb Brown</h3><p class=\"cta-sub-title\">Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. </p>"
+        "cta_text": "<h3>\"Good design adds value faster than it adds cost.\" - Thomas C. Gale</h3><p class=\"cta-sub-title\">Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. </p>"
       },
       "block_settings": [
         {
@@ -1236,8 +1236,8 @@
               "id" : "overlay_opacity",
               "label" : "Overlay Opacity",
               "type" : "range",
-              "placeholder" : "1",
-              "value" : 1,
+              "placeholder" : "0.8",
+              "value" : 0.8,
               "options" : {
                 "min" : 0,
                 "max" : 1,
