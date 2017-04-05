@@ -107,6 +107,14 @@
           "placeholder" : "#ffffff",
           "value" : "#ffffff",
           "required" : false
+        },
+        {
+          "id" : "main_menu_hamburger_color",
+          "label" : "Mobile Hamburger Color",
+          "type" : "color",
+          "placeholder" : "#333",
+          "value" : "#333",
+          "required" : false
         }
       ]
     },

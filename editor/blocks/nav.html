@@ -50,6 +50,15 @@
         nav.navbar .hs-menu-wrapper ul ul a, nav.navbar .hs-menu-wrapper ul li a, nav.navbar .hs-menu-wrapper ul li a {
             color: #333 !important;
         }
+        .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+            background-color: transparent;
+        }
+        .navbar-default .navbar-toggle {
+            border-color: transparent;
+        }
+        .navbar-default .navbar-toggle .icon-bar {
+            background-color: {{getSetting(block, "mobile_hamburger_color")}} !important;
+        }
     }
 </style>
 <!--     <div style="width:100%;height:80px;" settings show-if="show_header"></div> -->
