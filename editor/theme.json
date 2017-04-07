@@ -148,14 +148,41 @@
         "subtitle_text": "<b>DINE WITH STYLE. STAY FOR A WHILE.</b>",
         "text_block" : "<p style=\"text-align:center;\">Cras quam magna, volutpat at gravida at, sagittis sit amet mauris. Sed scelerisque convallis dolor, eget sagittis sapien convallis sed. Nulla gravida ante in placerat tempor.</p>"
       },
-      "default_settings" : {
-        "background" : {
-          "image" : "https://s3.amazonaws.com/belch.io/themes/pesky/img/food1.jpg",
-          "overlay_color" : "#272727",
-          "overlay_opacity" : 0.7
-        }
-      },
       "block_settings": [
+        {
+          "group": "Background",
+          "settings": [
+            {
+              "id": "background_image",
+              "label": "Background Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/pesky/img/food1.jpg",
+              "required": false
+            },
+            {
+              "id": "overlay_color",
+              "label": "Overlay Color",
+              "type": "color",
+              "placeholder": "#272727",
+              "value": "#272727",
+              "required": false
+            },
+            {
+              "id" : "overlay_opacity",
+              "label" : "Overlay Opacity",
+              "type" : "range",
+              "placeholder" : "0.7",
+              "value" : 0.7,
+              "options" : {
+                "min" : 0,
+                "max" : 1,
+                "step" : 0.1
+              },
+              "required" : false
+            }
+          ]
+        },
         {
           "group": "Spacing",
           "settings": [
