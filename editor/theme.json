@@ -156,6 +156,14 @@
            "required" : false
         },
         {
+          "id" : "body_font_size_desktop",
+          "label" : "Font Size (Desktop px)",
+          "type" : "text",
+          "placeholder" : "16",
+          "value" : 16,
+          "required" : false
+        },
+        {
           "id" : "body_font_size_tablet",
           "label" : "Font Size (Tablet px)",
           "type" : "text",
