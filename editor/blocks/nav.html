@@ -6,7 +6,16 @@
         line-height: {{getSetting(block, "body_line_height")}}em;
         font-weight: {{getSetting(block, "body_font_weight")}};
     }
-
+    @media screen and (max-width:992px) {
+        .belch-page-wrapper section p, .belch-page-wrapper section li, .belch-page-wrapper section a, .belch-page-wrapper section  {
+            font-size: {{getSetting(block, "body_font_size_tablet")}}px;
+        }
+    }
+    @media screen and (max-width:768px) {
+        .belch-page-wrapper section p, .belch-page-wrapper section li, .belch-page-wrapper section a, .belch-page-wrapper section  {
+            font-size: {{getSetting(block, "body_font_size_mobile")}}px;
+        }
+    }
 
 
     .belch-page-wrapper a {
