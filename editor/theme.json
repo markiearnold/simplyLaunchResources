@@ -148,7 +148,7 @@
       "group" : "Body & Paragraph",
       "settings" : [
         {
-           "id" : "font-family",
+           "id" : "font-family<br /> ex: font-family: 'Source Sans Pro', sans-serif;",
            "label" : "Font Family",
            "type" : "text",
            "placeholder" : "font-family: 'Source Sans Pro', sans-serif;",
