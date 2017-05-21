@@ -1,4 +1,14 @@
 <style class="belch-compile">
+    {{getSetting(block, "imports")}}
+    body, p {
+        {{getSetting(block, "body_font_family")}}
+        font-size: {{getSetting(block, "body_font_size_desktop")}}px;
+        line-height: {{getSetting(block, "body_line_height")}}em;
+        font-weight: {{getSetting(block, "body_font_weight")}};
+    }
+
+
+
     .belch-page-wrapper a {
         color: {{getSetting(block, "link_color")}};
     }
