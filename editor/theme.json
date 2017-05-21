@@ -157,7 +157,7 @@
         },
         {
           "id" : "body_font_size_desktop",
-          "label" : "font size (Desktop)",
+          "label" : "font size (Desktop px)",
           "type" : "range",
           "placeholder" : "16",
           "value" : 16,
@@ -170,7 +170,7 @@
         },
         {
           "id" : "body_font_size_tablet",
-          "label" : "font size (Tablet)",
+          "label" : "font size (Tablet px)",
           "type" : "range",
           "placeholder" : "16",
           "value" : 16,
@@ -183,7 +183,7 @@
         },
         {
           "id" : "body_font_size_mobile",
-          "label" : "font size (Mobile)",
+          "label" : "font size (Mobile px)",
           "type" : "range",
           "placeholder" : "16",
           "value" : 16,
@@ -191,6 +191,19 @@
             "min" : 8,
             "max" : 92,
             "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id" : "body_line_height",
+          "label" : "line height (em)",
+          "type" : "range",
+          "placeholder" : "1.66",
+          "value" : 1.66,
+          "options" : {
+            "min" : 0.9,
+            "max" : 3.0,
+            "step" : 0.05
           },
           "required" : false
         }
