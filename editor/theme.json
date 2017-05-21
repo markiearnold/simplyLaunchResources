@@ -148,7 +148,7 @@
       "group" : "Body & Paragraph",
       "settings" : [
         {
-           "id" : "font-family",
+           "id" : "body_font_family",
            "label" : "Font Family",
            "type" : "text",
            "placeholder" : "font-family: 'Source Sans Pro', sans-serif;",
@@ -226,7 +226,7 @@
       "group" : "H1",
       "settings" : [
         {
-           "id" : "font-family",
+           "id" : "h1_font_family",
            "label" : "Font Family",
            "type" : "text",
            "placeholder" : "",
@@ -237,8 +237,8 @@
           "id" : "h1_font_size_desktop",
           "label" : "Font Size (Desktop px)",
           "type" : "range",
-          "placeholder" : "16",
-          "value" : 16,
+          "placeholder" : "62",
+          "value" : 62,
           "options" : {
             "min" : 8,
             "max" : 92,
@@ -276,8 +276,8 @@
           "id" : "h1_line_height",
           "label" : "Line Height (em)",
           "type" : "range",
-          "placeholder" : "1.66",
-          "value" : 1.66,
+          "placeholder" : "1.2",
+          "value" : 1.2,
           "options" : {
             "min" : 0.9,
             "max" : 3.0,
@@ -287,6 +287,396 @@
         },
         {
           "id" : "h1_font_weight",
+          "label" : "Font Weight",
+          "type" : "range",
+          "placeholder" : "400",
+          "value" : 400,
+          "options" : {
+            "min" : 100,
+            "max" : 900,
+            "step" : 100
+          },
+          "required" : false
+        }
+      ]
+    },
+    {
+      "group" : "H2",
+      "settings" : [
+        {
+           "id" : "h2_font_family",
+           "label" : "Font Family",
+           "type" : "text",
+           "placeholder" : "",
+           "value" : "",
+           "required" : false
+        },
+        {
+          "id" : "h2_font_size_desktop",
+          "label" : "Font Size (Desktop px)",
+          "type" : "range",
+          "placeholder" : "62",
+          "value" : 62,
+          "options" : {
+            "min" : 8,
+            "max" : 92,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id" : "h2_font_size_tablet",
+          "label" : "Font Size (Tablet px)",
+          "type" : "range",
+          "placeholder" : "16",
+          "value" : 16,
+          "options" : {
+            "min" : 8,
+            "max" : 92,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id" : "h2_font_size_mobile",
+          "label" : "Font Size (Mobile px)",
+          "type" : "range",
+          "placeholder" : "16",
+          "value" : 16,
+          "options" : {
+            "min" : 8,
+            "max" : 92,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id" : "h2_line_height",
+          "label" : "Line Height (em)",
+          "type" : "range",
+          "placeholder" : "1.2",
+          "value" : 1.2,
+          "options" : {
+            "min" : 0.9,
+            "max" : 3.0,
+            "step" : 0.03
+          },
+          "required" : false
+        },
+        {
+          "id" : "h2_font_weight",
+          "label" : "Font Weight",
+          "type" : "range",
+          "placeholder" : "400",
+          "value" : 400,
+          "options" : {
+            "min" : 100,
+            "max" : 900,
+            "step" : 100
+          },
+          "required" : false
+        }
+      ]
+    },
+    {
+      "group" : "H3",
+      "settings" : [
+        {
+           "id" : "h3_font_family",
+           "label" : "Font Family",
+           "type" : "text",
+           "placeholder" : "",
+           "value" : "",
+           "required" : false
+        },
+        {
+          "id" : "h3_font_size_desktop",
+          "label" : "Font Size (Desktop px)",
+          "type" : "range",
+          "placeholder" : "62",
+          "value" : 62,
+          "options" : {
+            "min" : 8,
+            "max" : 92,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id" : "h3_font_size_tablet",
+          "label" : "Font Size (Tablet px)",
+          "type" : "range",
+          "placeholder" : "16",
+          "value" : 16,
+          "options" : {
+            "min" : 8,
+            "max" : 92,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id" : "h3_font_size_mobile",
+          "label" : "Font Size (Mobile px)",
+          "type" : "range",
+          "placeholder" : "16",
+          "value" : 16,
+          "options" : {
+            "min" : 8,
+            "max" : 92,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id" : "h3_line_height",
+          "label" : "Line Height (em)",
+          "type" : "range",
+          "placeholder" : "1.2",
+          "value" : 1.2,
+          "options" : {
+            "min" : 0.9,
+            "max" : 3.0,
+            "step" : 0.03
+          },
+          "required" : false
+        },
+        {
+          "id" : "h3_font_weight",
+          "label" : "Font Weight",
+          "type" : "range",
+          "placeholder" : "400",
+          "value" : 400,
+          "options" : {
+            "min" : 100,
+            "max" : 900,
+            "step" : 100
+          },
+          "required" : false
+        }
+      ]
+    },
+    {
+      "group" : "H4",
+      "settings" : [
+        {
+           "id" : "h4_font_family",
+           "label" : "Font Family",
+           "type" : "text",
+           "placeholder" : "",
+           "value" : "",
+           "required" : false
+        },
+        {
+          "id" : "h4_font_size_desktop",
+          "label" : "Font Size (Desktop px)",
+          "type" : "range",
+          "placeholder" : "62",
+          "value" : 62,
+          "options" : {
+            "min" : 8,
+            "max" : 92,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id" : "h4_font_size_tablet",
+          "label" : "Font Size (Tablet px)",
+          "type" : "range",
+          "placeholder" : "16",
+          "value" : 16,
+          "options" : {
+            "min" : 8,
+            "max" : 92,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id" : "h4_font_size_mobile",
+          "label" : "Font Size (Mobile px)",
+          "type" : "range",
+          "placeholder" : "16",
+          "value" : 16,
+          "options" : {
+            "min" : 8,
+            "max" : 92,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id" : "h4_line_height",
+          "label" : "Line Height (em)",
+          "type" : "range",
+          "placeholder" : "1.2",
+          "value" : 1.2,
+          "options" : {
+            "min" : 0.9,
+            "max" : 3.0,
+            "step" : 0.03
+          },
+          "required" : false
+        },
+        {
+          "id" : "h4_font_weight",
+          "label" : "Font Weight",
+          "type" : "range",
+          "placeholder" : "400",
+          "value" : 400,
+          "options" : {
+            "min" : 100,
+            "max" : 900,
+            "step" : 100
+          },
+          "required" : false
+        }
+      ]
+    },
+    {
+      "group" : "H5",
+      "settings" : [
+        {
+           "id" : "h5_font_family",
+           "label" : "Font Family",
+           "type" : "text",
+           "placeholder" : "",
+           "value" : "",
+           "required" : false
+        },
+        {
+          "id" : "h5_font_size_desktop",
+          "label" : "Font Size (Desktop px)",
+          "type" : "range",
+          "placeholder" : "62",
+          "value" : 62,
+          "options" : {
+            "min" : 8,
+            "max" : 92,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id" : "h5_font_size_tablet",
+          "label" : "Font Size (Tablet px)",
+          "type" : "range",
+          "placeholder" : "16",
+          "value" : 16,
+          "options" : {
+            "min" : 8,
+            "max" : 92,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id" : "h5_font_size_mobile",
+          "label" : "Font Size (Mobile px)",
+          "type" : "range",
+          "placeholder" : "16",
+          "value" : 16,
+          "options" : {
+            "min" : 8,
+            "max" : 92,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id" : "h5_line_height",
+          "label" : "Line Height (em)",
+          "type" : "range",
+          "placeholder" : "1.2",
+          "value" : 1.2,
+          "options" : {
+            "min" : 0.9,
+            "max" : 3.0,
+            "step" : 0.03
+          },
+          "required" : false
+        },
+        {
+          "id" : "h5_font_weight",
+          "label" : "Font Weight",
+          "type" : "range",
+          "placeholder" : "400",
+          "value" : 400,
+          "options" : {
+            "min" : 100,
+            "max" : 900,
+            "step" : 100
+          },
+          "required" : false
+        }
+      ]
+    },
+    {
+      "group" : "H6",
+      "settings" : [
+        {
+           "id" : "h6_font_family",
+           "label" : "Font Family",
+           "type" : "text",
+           "placeholder" : "",
+           "value" : "",
+           "required" : false
+        },
+        {
+          "id" : "h6_font_size_desktop",
+          "label" : "Font Size (Desktop px)",
+          "type" : "range",
+          "placeholder" : "62",
+          "value" : 62,
+          "options" : {
+            "min" : 8,
+            "max" : 92,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id" : "h6_font_size_tablet",
+          "label" : "Font Size (Tablet px)",
+          "type" : "range",
+          "placeholder" : "16",
+          "value" : 16,
+          "options" : {
+            "min" : 8,
+            "max" : 92,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id" : "h6_font_size_mobile",
+          "label" : "Font Size (Mobile px)",
+          "type" : "range",
+          "placeholder" : "16",
+          "value" : 16,
+          "options" : {
+            "min" : 8,
+            "max" : 92,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id" : "h6_line_height",
+          "label" : "Line Height (em)",
+          "type" : "range",
+          "placeholder" : "1.2",
+          "value" : 1.2,
+          "options" : {
+            "min" : 0.9,
+            "max" : 3.0,
+            "step" : 0.03
+          },
+          "required" : false
+        },
+        {
+          "id" : "h6_font_weight",
           "label" : "Font Weight",
           "type" : "range",
           "placeholder" : "400",
