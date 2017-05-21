@@ -149,7 +149,7 @@
       "settings" : [
         {
            "id" : "font-family",
-           "label" : "font-family",
+           "label" : "Font Family,
            "type" : "text",
            "placeholder" : "font-family: 'Source Sans Pro', sans-serif;",
            "value" : "",
@@ -157,7 +157,7 @@
         },
         {
           "id" : "body_font_size_desktop",
-          "label" : "font size (Desktop px)",
+          "label" : "Font Size (Desktop px)",
           "type" : "range",
           "placeholder" : "16",
           "value" : 16,
@@ -170,7 +170,7 @@
         },
         {
           "id" : "body_font_size_tablet",
-          "label" : "font size (Tablet px)",
+          "label" : "Font Size (Tablet px)",
           "type" : "range",
           "placeholder" : "16",
           "value" : 16,
@@ -183,7 +183,7 @@
         },
         {
           "id" : "body_font_size_mobile",
-          "label" : "font size (Mobile px)",
+          "label" : "Font Size (Mobile px)",
           "type" : "range",
           "placeholder" : "16",
           "value" : 16,
@@ -196,7 +196,7 @@
         },
         {
           "id" : "body_line_height",
-          "label" : "line height (em)",
+          "label" : "Line Height (em)",
           "type" : "range",
           "placeholder" : "1.66",
           "value" : 1.66,
@@ -206,7 +206,20 @@
             "step" : 0.05
           },
           "required" : false
-        }
+        },
+        {
+          "id" : "body_font_weight",
+          "label" : "Font Weight",
+          "type" : "range",
+          "placeholder" : "400",
+          "value" : 400,
+          "options" : {
+            "min" : 100,
+            "max" : 900,
+            "step" : 100
+          },
+          "required" : false
+        },
       ]
     }
   ],
