@@ -156,42 +156,19 @@
            "required" : false
         },
         {
-          "id" : "body_font_size_desktop",
-          "label" : "Font Size (Desktop px)",
-          "type" : "range",
-          "placeholder" : "16",
-          "value" : 16,
-          "options" : {
-            "min" : 8,
-            "max" : 92,
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
           "id" : "body_font_size_tablet",
           "label" : "Font Size (Tablet px)",
-          "type" : "range",
+          "type" : "text",
           "placeholder" : "16",
           "value" : 16,
-          "options" : {
-            "min" : 8,
-            "max" : 92,
-            "step" : 1
-          },
           "required" : false
         },
         {
           "id" : "body_font_size_mobile",
           "label" : "Font Size (Mobile px)",
-          "type" : "range",
+          "type" : "text",
           "placeholder" : "16",
           "value" : 16,
-          "options" : {
-            "min" : 8,
-            "max" : 92,
-            "step" : 1
-          },
           "required" : false
         },
         {
