@@ -156,25 +156,40 @@
         {
           "id" : "body_font_size_desktop",
           "label" : "Font Size (Desktop px)",
-          "type" : "text",
-          "placeholder" : "16px",
-          "value" : "16px",
+          "type" : "range",
+          "placeholder" : "16",
+          "value" : "16",
+          "options" : {
+            "min" : 8,
+            "max" : 96,
+            "step" : 1
+          },
           "required" : false
         },
         {
           "id" : "body_font_size_tablet",
           "label" : "Font Size (Tablet px)",
-          "type" : "text",
-          "placeholder" : "16px",
-          "value" : "16px",
+          "type" : "range",
+          "placeholder" : "16",
+          "value" : "16",
+          "options" : {
+            "min" : 8,
+            "max" : 96,
+            "step" : 1
+          },
           "required" : false
         },
         {
           "id" : "body_font_size_mobile",
           "label" : "Font Size (Mobile px)",
-          "type" : "text",
-          "placeholder" : "16px",
-          "value" : "16px",
+          "type" : "range",
+          "placeholder" : "16",
+          "value" : "16",
+          "options" : {
+            "min" : 8,
+            "max" : 96,
+            "step" : 1
+          },
           "required" : false
         },
         {
@@ -232,25 +247,40 @@
         {
           "id" : "h1_font_size_desktop",
           "label" : "Font Size (Desktop px)",
-          "type" : "text",
-          "placeholder" : "62px",
-          "value" : "62px",
+          "type" : "range",
+          "placeholder" : "62",
+          "value" : "62",
+          "options" : {
+            "min" : 8,
+            "max" : 96,
+            "step" : 1
+          },
           "required" : false
         },
         {
           "id" : "h1_font_size_tablet",
           "label" : "Font Size (Tablet px)",
-          "type" : "text",
-          "placeholder" : "62px",
-          "value" : "62px",
+          "type" : "range",
+          "placeholder" : "62",
+          "value" : "62",
+          "options" : {
+            "min" : 8,
+            "max" : 96,
+            "step" : 1
+          },
           "required" : false
         },
         {
           "id" : "h1_font_size_mobile",
           "label" : "Font Size (Mobile px)",
-          "type" : "text",
-          "placeholder" : "30px",
-          "value" : "30px",
+          "type" : "range",
+          "placeholder" : "30",
+          "value" : "30",
+          "options" : {
+            "min" : 8,
+            "max" : 96,
+            "step" : 1
+          },
           "required" : false
         },
         {
@@ -308,25 +338,40 @@
         {
           "id" : "h2_font_size_desktop",
           "label" : "Font Size (Desktop px)",
-          "type" : "text",
-          "placeholder" : "42px",
-          "value" : "42px",
+          "type" : "range",
+          "placeholder" : "42",
+          "value" : "42",
+          "options" : {
+            "min" : 8,
+            "max" : 96,
+            "step" : 1
+          },
           "required" : false
         },
         {
           "id" : "h2_font_size_tablet",
           "label" : "Font Size (Tablet px)",
-          "type" : "text",
-          "placeholder" : "42px",
-          "value" : "42px",
+          "type" : "range",
+          "placeholder" : "42",
+          "value" : "42",
+          "options" : {
+            "min" : 8,
+            "max" : 96,
+            "step" : 1
+          },
           "required" : false
         },
         {
           "id" : "h2_font_size_mobile",
           "label" : "Font Size (Mobile px)",
-          "type" : "text",
-          "placeholder" : "26px",
-          "value" : "26px",
+          "type" : "range",
+          "placeholder" : "26",
+          "value" : "26",
+          "options" : {
+            "min" : 8,
+            "max" : 96,
+            "step" : 1
+          },
           "required" : false
         },
         {
@@ -384,25 +429,40 @@
         {
           "id" : "h3_font_size_desktop",
           "label" : "Font Size (Desktop px)",
-          "type" : "text",
-          "placeholder" : "34px",
-          "value" : "34px",
+          "type" : "range",
+          "placeholder" : "34",
+          "value" : "34",
+          "options" : {
+            "min" : 8,
+            "max" : 96,
+            "step" : 1
+          },
           "required" : false
         },
         {
           "id" : "h3_font_size_tablet",
           "label" : "Font Size (Tablet px)",
-          "type" : "text",
-          "placeholder" : "34px",
-          "value" : "34px",
+          "type" : "range",
+          "placeholder" : "34",
+          "value" : "34",
+          "options" : {
+            "min" : 8,
+            "max" : 96,
+            "step" : 1
+          },
           "required" : false
         },
         {
           "id" : "h3_font_size_mobile",
           "label" : "Font Size (Mobile px)",
-          "type" : "text",
-          "placeholder" : "22px",
-          "value" : "22px",
+          "type" : "range",
+          "placeholder" : "22",
+          "value" : "22",
+          "options" : {
+            "min" : 8,
+            "max" : 96,
+            "step" : 1
+          },
           "required" : false
         },
         {
@@ -460,25 +520,40 @@
         {
           "id" : "h4_font_size_desktop",
           "label" : "Font Size (Desktop px)",
-          "type" : "text",
-          "placeholder" : "25px",
-          "value" : "25px",
+          "type" : "range",
+          "placeholder" : "25",
+          "value" : "25",
+          "options" : {
+            "min" : 8,
+            "max" : 96,
+            "step" : 1
+          },
           "required" : false
         },
         {
           "id" : "h4_font_size_tablet",
           "label" : "Font Size (Tablet px)",
-          "type" : "text",
-          "placeholder" : "25px",
-          "value" : "25px",
+          "type" : "range",
+          "placeholder" : "25",
+          "value" : "25",
+          "options" : {
+            "min" : 8,
+            "max" : 96,
+            "step" : 1
+          },
           "required" : false
         },
         {
           "id" : "h4_font_size_mobile",
           "label" : "Font Size (Mobile px)",
-          "type" : "text",
-          "placeholder" : "16px",
-          "value" : "16px",
+          "type" : "range",
+          "placeholder" : "16",
+          "value" : "16",
+          "options" : {
+            "min" : 8,
+            "max" : 96,
+            "step" : 1
+          },
           "required" : false
         },
         {
@@ -536,25 +611,40 @@
         {
           "id" : "h5_font_size_desktop",
           "label" : "Font Size (Desktop px)",
-          "type" : "text",
-          "placeholder" : "20px",
-          "value" : "20px",
+          "type" : "range",
+          "placeholder" : "20",
+          "value" : "20",
+          "options" : {
+            "min" : 8,
+            "max" : 96,
+            "step" : 1
+          },
           "required" : false
         },
         {
           "id" : "h5_font_size_tablet",
           "label" : "Font Size (Tablet px)",
-          "type" : "text",
-          "placeholder" : "20px",
-          "value" : "20px",
+          "type" : "range",
+          "placeholder" : "20",
+          "value" : "20",
+          "options" : {
+            "min" : 8,
+            "max" : 96,
+            "step" : 1
+          },
           "required" : false
         },
         {
           "id" : "h5_font_size_mobile",
           "label" : "Font Size (Mobile px)",
-          "type" : "text",
-          "placeholder" : "20px",
-          "value" : "20px",
+          "type" : "range",
+          "placeholder" : "20",
+          "value" : "20",
+          "options" : {
+            "min" : 8,
+            "max" : 96,
+            "step" : 1
+          },
           "required" : false
         },
         {
@@ -612,25 +702,35 @@
         {
           "id" : "h6_font_size_desktop",
           "label" : "Font Size (Desktop px)",
-          "type" : "text",
-          "placeholder" : "14px",
-          "value" : "14px",
+          "type" : "range",
+          "placeholder" : "14",
+          "value" : "14",
+          "options" : {
+            "min" : 8,
+            "max" : 96,
+            "step" : 1
+          },
           "required" : false
         },
         {
           "id" : "h6_font_size_tablet",
           "label" : "Font Size (Tablet px)",
-          "type" : "text",
-          "placeholder" : "14px",
-          "value" : "14px",
+          "type" : "range",
+          "placeholder" : "14",
+          "value" : "14",
           "required" : false
         },
         {
           "id" : "h6_font_size_mobile",
           "label" : "Font Size (Mobile px)",
-          "type" : "text",
-          "placeholder" : "14px",
-          "value" : "14px",
+          "type" : "range",
+          "placeholder" : "14",
+          "value" : "14",
+          "options" : {
+            "min" : 8,
+            "max" : 96,
+            "step" : 1
+          },
           "required" : false
         },
         {
