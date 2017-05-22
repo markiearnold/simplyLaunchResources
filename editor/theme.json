@@ -149,8 +149,8 @@
            "id" : "body_font_family",
            "label" : "Font Family",
            "type" : "text",
-           "placeholder" : "font-family: 'Source Sans Pro', sans-serif;",
-           "value" : "",
+           "placeholder" : "font-family: 'Lato', sans-serif;",
+           "value" : "font-family: 'Lato', sans-serif;",
            "required" : false
         },
         {
@@ -191,6 +191,19 @@
           "required" : false
         },
         {
+          "id" : "body_letter_spacing",
+          "label" : "Letter Spacing",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : 0,
+          "options" : {
+            "min" : -5,
+            "max" : 10,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
           "id" : "body_font_weight",
           "label" : "Font Weight",
           "type" : "range",
@@ -212,32 +225,32 @@
            "id" : "h1_font_family",
            "label" : "Font Family",
            "type" : "text",
-           "placeholder" : "",
-           "value" : "",
+           "placeholder" : "font-family: 'Raleway', sans-serif;",
+           "value" : "font-family: 'Raleway', sans-serif;",
            "required" : false
         },
         {
           "id" : "h1_font_size_desktop",
           "label" : "Font Size (Desktop px)",
           "type" : "text",
-          "placeholder" : "16px",
-          "value" : "16px",
+          "placeholder" : "62px",
+          "value" : "62px",
           "required" : false
         },
         {
           "id" : "h1_font_size_tablet",
           "label" : "Font Size (Tablet px)",
           "type" : "text",
-          "placeholder" : "16px",
-          "value" : "16px",
+          "placeholder" : "62px",
+          "value" : "62px",
           "required" : false
         },
         {
           "id" : "h1_font_size_mobile",
           "label" : "Font Size (Mobile px)",
           "type" : "text",
-          "placeholder" : "16px",
-          "value" : "16px",
+          "placeholder" : "30px",
+          "value" : "30px",
           "required" : false
         },
         {
@@ -254,11 +267,24 @@
           "required" : false
         },
         {
+          "id" : "h1_letter_spacing",
+          "label" : "Letter Spacing",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : 0,
+          "options" : {
+            "min" : -5,
+            "max" : 10,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
           "id" : "h1_font_weight",
           "label" : "Font Weight",
           "type" : "range",
-          "placeholder" : "400",
-          "value" : 400,
+          "placeholder" : "500",
+          "value" : 500,
           "options" : {
             "min" : 100,
             "max" : 900,
@@ -275,32 +301,32 @@
            "id" : "h2_font_family",
            "label" : "Font Family",
            "type" : "text",
-           "placeholder" : "",
-           "value" : "",
+           "placeholder" : "font-family: 'Raleway', sans-serif;",
+           "value" : "font-family: 'Raleway', sans-serif;",
            "required" : false
         },
         {
           "id" : "h2_font_size_desktop",
           "label" : "Font Size (Desktop px)",
           "type" : "text",
-          "placeholder" : "16px",
-          "value" : "16px",
+          "placeholder" : "42px",
+          "value" : "42px",
           "required" : false
         },
         {
           "id" : "h2_font_size_tablet",
           "label" : "Font Size (Tablet px)",
           "type" : "text",
-          "placeholder" : "16px",
-          "value" : "16px",
+          "placeholder" : "42px",
+          "value" : "42px",
           "required" : false
         },
         {
           "id" : "h2_font_size_mobile",
           "label" : "Font Size (Mobile px)",
           "type" : "text",
-          "placeholder" : "16px",
-          "value" : "16px",
+          "placeholder" : "26px",
+          "value" : "26px",
           "required" : false
         },
         {
@@ -317,11 +343,24 @@
           "required" : false
         },
         {
+          "id" : "h2_letter_spacing",
+          "label" : "Letter Spacing",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : 0,
+          "options" : {
+            "min" : -5,
+            "max" : 10,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
           "id" : "h2_font_weight",
           "label" : "Font Weight",
           "type" : "range",
-          "placeholder" : "400",
-          "value" : 400,
+          "placeholder" : "500",
+          "value" : 500,
           "options" : {
             "min" : 100,
             "max" : 900,
@@ -338,32 +377,32 @@
            "id" : "h3_font_family",
            "label" : "Font Family",
            "type" : "text",
-           "placeholder" : "",
-           "value" : "",
+           "placeholder" : "font-family: 'Raleway', sans-serif;",
+           "value" : "font-family: 'Raleway', sans-serif;",
            "required" : false
         },
         {
           "id" : "h3_font_size_desktop",
           "label" : "Font Size (Desktop px)",
           "type" : "text",
-          "placeholder" : "16px",
-          "value" : "16px",
+          "placeholder" : "34px",
+          "value" : "34px",
           "required" : false
         },
         {
           "id" : "h3_font_size_tablet",
           "label" : "Font Size (Tablet px)",
           "type" : "text",
-          "placeholder" : "16px",
-          "value" : "16px",
+          "placeholder" : "34px",
+          "value" : "34px",
           "required" : false
         },
         {
           "id" : "h3_font_size_mobile",
           "label" : "Font Size (Mobile px)",
           "type" : "text",
-          "placeholder" : "16px",
-          "value" : "16px",
+          "placeholder" : "22px",
+          "value" : "22px",
           "required" : false
         },
         {
@@ -376,6 +415,19 @@
             "min" : 0.9,
             "max" : 3.0,
             "step" : 0.03
+          },
+          "required" : false
+        },
+        {
+          "id" : "h3_letter_spacing",
+          "label" : "Letter Spacing",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : 0,
+          "options" : {
+            "min" : -5,
+            "max" : 10,
+            "step" : 1
           },
           "required" : false
         },
@@ -401,24 +453,24 @@
            "id" : "h4_font_family",
            "label" : "Font Family",
            "type" : "text",
-           "placeholder" : "",
-           "value" : "",
+           "placeholder" : "font-family: 'Raleway', sans-serif;",
+           "value" : "font-family: 'Raleway', sans-serif;",
            "required" : false
         },
         {
           "id" : "h4_font_size_desktop",
           "label" : "Font Size (Desktop px)",
           "type" : "text",
-          "placeholder" : "16px",
-          "value" : "16px",
+          "placeholder" : "25px",
+          "value" : "25px",
           "required" : false
         },
         {
           "id" : "h4_font_size_tablet",
           "label" : "Font Size (Tablet px)",
           "type" : "text",
-          "placeholder" : "16px",
-          "value" : "16px",
+          "placeholder" : "25px",
+          "value" : "25px",
           "required" : false
         },
         {
@@ -439,6 +491,19 @@
             "min" : 0.9,
             "max" : 3.0,
             "step" : 0.03
+          },
+          "required" : false
+        },
+        {
+          "id" : "h4_letter_spacing",
+          "label" : "Letter Spacing",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : 0,
+          "options" : {
+            "min" : -5,
+            "max" : 10,
+            "step" : 1
           },
           "required" : false
         },
@@ -464,32 +529,32 @@
            "id" : "h5_font_family",
            "label" : "Font Family",
            "type" : "text",
-           "placeholder" : "",
-           "value" : "",
+           "placeholder" : "font-family: 'Lato', sans-serif;",
+           "value" : "font-family: 'Lato', sans-serif;",
            "required" : false
         },
         {
           "id" : "h5_font_size_desktop",
           "label" : "Font Size (Desktop px)",
           "type" : "text",
-          "placeholder" : "16px",
-          "value" : "16px",
+          "placeholder" : "20px",
+          "value" : "20px",
           "required" : false
         },
         {
           "id" : "h5_font_size_tablet",
           "label" : "Font Size (Tablet px)",
           "type" : "text",
-          "placeholder" : "16px",
-          "value" : "16px",
+          "placeholder" : "20px",
+          "value" : "20px",
           "required" : false
         },
         {
           "id" : "h5_font_size_mobile",
           "label" : "Font Size (Mobile px)",
           "type" : "text",
-          "placeholder" : "16px",
-          "value" : "16px",
+          "placeholder" : "20px",
+          "value" : "20px",
           "required" : false
         },
         {
@@ -506,11 +571,24 @@
           "required" : false
         },
         {
+          "id" : "h5_letter_spacing",
+          "label" : "Letter Spacing",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : 0,
+          "options" : {
+            "min" : -5,
+            "max" : 10,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
           "id" : "h5_font_weight",
           "label" : "Font Weight",
           "type" : "range",
-          "placeholder" : "400",
-          "value" : 400,
+          "placeholder" : "700",
+          "value" : 700,
           "options" : {
             "min" : 100,
             "max" : 900,
@@ -527,32 +605,32 @@
            "id" : "h6_font_family",
            "label" : "Font Family",
            "type" : "text",
-           "placeholder" : "",
-           "value" : "",
+           "placeholder" : "font-family: 'Raleway', sans-serif;",
+           "value" : "font-family: 'Raleway', sans-serif;",
            "required" : false
         },
         {
           "id" : "h6_font_size_desktop",
           "label" : "Font Size (Desktop px)",
           "type" : "text",
-          "placeholder" : "16px",
-          "value" : "16px",
+          "placeholder" : "14px",
+          "value" : "14px",
           "required" : false
         },
         {
           "id" : "h6_font_size_tablet",
           "label" : "Font Size (Tablet px)",
           "type" : "text",
-          "placeholder" : "16px",
-          "value" : "16px",
+          "placeholder" : "14px",
+          "value" : "14px",
           "required" : false
         },
         {
           "id" : "h6_font_size_mobile",
           "label" : "Font Size (Mobile px)",
           "type" : "text",
-          "placeholder" : "16px",
-          "value" : "16px",
+          "placeholder" : "14px",
+          "value" : "14px",
           "required" : false
         },
         {
@@ -569,11 +647,24 @@
           "required" : false
         },
         {
+          "id" : "h6_letter_spacing",
+          "label" : "Letter Spacing",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : 0,
+          "options" : {
+            "min" : -5,
+            "max" : 10,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
           "id" : "h6_font_weight",
           "label" : "Font Weight",
           "type" : "range",
-          "placeholder" : "400",
-          "value" : 400,
+          "placeholder" : "300",
+          "value" : 300,
           "options" : {
             "min" : 100,
             "max" : 900,
