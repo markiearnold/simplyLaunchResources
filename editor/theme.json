@@ -1131,14 +1131,6 @@
                 "step" : 10
               },
               "required" : false
-            },
-            {
-              "id": "text_color",
-              "label": "Text Color",
-              "type": "color",
-              "placeholder": "#333333",
-              "value": "#333333",
-              "required": false
             }
           ]
         },
@@ -1376,22 +1368,6 @@
               "type": "checkbox",
               "placeholder": "",
               "value": true,
-              "required": false
-            },
-            {
-              "id": "service_header_text_color",
-              "label": "Header Text Color",
-              "type": "color",
-              "placeholder": "#333333",
-              "value": "#333333",
-              "required": false
-            },
-            {
-              "id": "text_color",
-              "label": "Text Color",
-              "type": "color",
-              "placeholder": "#333333",
-              "value": "#333333",
               "required": false
             },
             {
