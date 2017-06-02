@@ -1965,14 +1965,6 @@
               "value" : "container",
               "options" : ["container", "container-fluid"],
               "required" : false
-            },
-            {
-              "id": "cta_text_color",
-              "label": "CTA Text Color",
-              "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
-              "required": false
             }
           ]
         },
@@ -2122,14 +2114,6 @@
               "value" : "3",
               "options" : ["1", "2", "3", "4", "6"],
               "required" : false
-            },
-            {
-              "id": "text_color",
-              "label": "Color",
-              "type": "color",
-              "placeholder": "#333333",
-              "value": "#333333",
-              "required": false
             }
           ]
         }
