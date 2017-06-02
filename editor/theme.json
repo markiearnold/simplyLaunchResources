@@ -235,8 +235,8 @@
           "id": "body_color",
           "label": "Color",
           "type": "color",
-          "placeholder": "#666666",
-          "value": "#666666",
+          "placeholder": "#333333",
+          "value": "#333333",
           "required": false
         }
       ]
@@ -334,8 +334,8 @@
           "id": "h1_color",
           "label": "Color",
           "type": "color",
-          "placeholder": "#666666",
-          "value": "#666666",
+          "placeholder": "#333333",
+          "value": "#333333",
           "required": false
         }
       ]
@@ -433,8 +433,8 @@
           "id": "h2_color",
           "label": "Color",
           "type": "color",
-          "placeholder": "#666666",
-          "value": "#666666",
+          "placeholder": "#333333",
+          "value": "#333333",
           "required": false
         }
       ]
@@ -532,8 +532,8 @@
           "id": "h3_color",
           "label": "Color",
           "type": "color",
-          "placeholder": "#666666",
-          "value": "#666666",
+          "placeholder": "#333333",
+          "value": "#333333",
           "required": false
         }
       ]
@@ -631,8 +631,8 @@
           "id": "h4_color",
           "label": "Color",
           "type": "color",
-          "placeholder": "#666666",
-          "value": "#666666",
+          "placeholder": "#333333",
+          "value": "#333333",
           "required": false
         }
       ]
@@ -730,8 +730,8 @@
           "id": "h5_color",
           "label": "Color",
           "type": "color",
-          "placeholder": "#666666",
-          "value": "#666666",
+          "placeholder": "#333333",
+          "value": "#333333",
           "required": false
         }
       ]
@@ -824,8 +824,8 @@
           "id": "h6_color",
           "label": "Color",
           "type": "color",
-          "placeholder": "#666666",
-          "value": "#666666",
+          "placeholder": "#333333",
+          "value": "#333333",
           "required": false
         }
       ]
@@ -1564,14 +1564,6 @@
               "value" : "right",
               "options" : ["left", "right"],
               "required" : false
-            },
-            {
-              "id": "text_color",
-              "label": "About Text Color",
-              "type": "color",
-              "placeholder": "#333333",
-              "value": "#333333",
-              "required": false
             }
           ]
         }
@@ -1690,22 +1682,6 @@
               "type": "checkbox",
               "placeholder": "",
               "value": true,
-              "required": false
-            },
-            {
-              "id": "team_header_text_color",
-              "label": "Team Header Text Color",
-              "type": "color",
-              "placeholder": "#333333",
-              "value": "#333333",
-              "required": false
-            },
-            {
-              "id": "team_text_color",
-              "label": "Team Text Color",
-              "type": "color",
-              "placeholder": "#333333",
-              "value": "#333333",
               "required": false
             },
             {
@@ -1837,14 +1813,6 @@
               "type": "form",
               "placeholder": "Default",
               "value": "Default",
-              "required": false
-            },
-            {
-              "id": "contact_header_text_color",
-              "label": "Contact Text Color",
-              "type": "color",
-              "placeholder": "#333333",
-              "value": "#333333",
               "required": false
             }
           ]
