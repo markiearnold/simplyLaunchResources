@@ -34,7 +34,7 @@
           "required" : false
         },
         {
-          "id" : "in_grid",
+          "id" : "header_in_grid",
           "label" : "Content In Grid?",
           "type" : "select",
           "placeholder" : "container",
