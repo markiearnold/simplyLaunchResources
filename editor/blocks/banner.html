@@ -8,15 +8,15 @@
         background: {{getSetting(block, "button_hover_background_color")}} !important;
         border-color: {{getSetting(block, "button_hover_border_color")}} !important;
         color: {{getSetting(block, "button_hover_text_color")}} !important;
-        
+
     }
 </style>
 	<!--BANNER START-->
 	<section class="banner-super-wrapper" image-background label="Banner Background Image" content="background_image">
         <div class="overlay-wrapper">
             <div class="overlay" settings style-setting="background:overlay_color|opacity:overlay_opacity"></div>
-        </div>	
-        <div class="container">
+        </div>
+        <div class="{{getSetting(block, 'in_grid')}}">
             <div class="clearfix" style="margin-top:{{getSetting(block, 'vertical_padding_top')}}px"></div>
 			<div class="row">
 				<div class="jumbotron-off">
@@ -27,8 +27,8 @@
     					 ></div>
     			    </div>
     			    <div class="col-md-10 col-md-offset-1">
-                      <div class="text-{{getSetting(block, 'button_position')}}">  
-        				  <a settings show-if="show_button" url-link link="button_links_to" text="button_label" label="Banner CTA Link" 
+                      <div class="text-{{getSetting(block, 'button_position')}}">
+        				  <a settings show-if="show_button" url-link link="button_links_to" text="button_label" label="Banner CTA Link"
         				    href="#" class="btn btn-banner button-{{$index}}"></a>
                       </div>
     				</div>

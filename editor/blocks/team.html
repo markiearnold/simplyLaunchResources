@@ -3,7 +3,7 @@
         <div class="overlay-wrapper">
             <div class="overlay" settings style-setting="background:overlay_color|opacity:overlay_opacity"></div>
         </div>
-		<div class="container">
+		<div class="{{getSetting(block, 'in_grid')}}">
             <div class="clearfix" style="margin-top:{{getSetting(block, 'vertical_padding_top')}}px"></div>
 			<div class="row">
 			    <div settings show-if="show_header_section">
@@ -44,13 +44,13 @@
     						  </div>
     							<div class="fig-caption"
     							 settings style-setting="color:team_text_color"
-    							 rich-block label="Team Member Text Block" content="team_three" 
+    							 rich-block label="Team Member Text Block" content="team_three"
     							 >
     							</div>
 						</div>
 					</div>
 				</div>
-			
+
 				<div settings show-if="col_count" show-if-condition="==2">
 					<div class="col-md-6">
 						<div class="team-info">

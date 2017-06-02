@@ -867,6 +867,15 @@
           "group": "Content",
           "settings": [
             {
+              "id" : "in_grid",
+              "label" : "Content In Grid?",
+              "type" : "select",
+              "placeholder" : "container",
+              "value" : "container",
+              "options" : ["container", "container-fluid"],
+              "required" : false
+            },
+            {
               "id": "banner_text_color",
               "label": "Banner Text Color",
               "type": "color",
@@ -1515,6 +1524,15 @@
           "group": "Content",
           "settings": [
             {
+              "id" : "in_grid",
+              "label" : "Content In Grid?",
+              "type" : "select",
+              "placeholder" : "container",
+              "value" : "container",
+              "options" : ["container", "container-fluid"],
+              "required" : false
+            },
+            {
               "id" : "img_position",
               "label" : "Image Position",
               "type" : "select",
@@ -1615,6 +1633,15 @@
         {
           "group": "Content",
           "settings": [
+            {
+              "id" : "in_grid",
+              "label" : "Content In Grid?",
+              "type" : "select",
+              "placeholder" : "container",
+              "value" : "container",
+              "options" : ["container", "container-fluid"],
+              "required" : false
+            },
             {
               "id" : "col_count",
               "label" : "People Count",
@@ -1762,6 +1789,15 @@
         {
           "group": "Content",
           "settings": [
+            {
+              "id" : "in_grid",
+              "label" : "Content In Grid?",
+              "type" : "select",
+              "placeholder" : "container",
+              "value" : "container",
+              "options" : ["container", "container-fluid"],
+              "required" : false
+            },
             {
               "id": "contact_form",
               "label": "Contact Form",
@@ -1921,6 +1957,15 @@
           "group": "Content",
           "settings": [
             {
+              "id" : "in_grid",
+              "label" : "Content In Grid?",
+              "type" : "select",
+              "placeholder" : "container",
+              "value" : "container",
+              "options" : ["container", "container-fluid"],
+              "required" : false
+            },
+            {
               "id": "cta_text_color",
               "label": "CTA Text Color",
               "type": "color",
@@ -2059,6 +2104,15 @@
         {
           "group": "Content",
           "settings": [
+            {
+              "id" : "in_grid",
+              "label" : "Content In Grid?",
+              "type" : "select",
+              "placeholder" : "container",
+              "value" : "container",
+              "options" : ["container", "container-fluid"],
+              "required" : false
+            },
             {
               "id" : "col_count",
               "label" : "Column Count",

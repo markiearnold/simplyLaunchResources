@@ -1,22 +1,22 @@
 <style class="belch-compile">
     .hs-form label {
-        color: {{getSetting(block, "form_label_color")}} !important; 
+        color: {{getSetting(block, "form_label_color")}} !important;
         font-weight: bold;
         margin-bottom: 6px;
     }
     .hs-form input[type=date], .hs-form input[type=datetime], .hs-form input[type=datetime-local], .hs-form input[type=email], .hs-form input[type=month], input[type=number], .hs-form input[type=password], .hs-form input[type=range], .hs-form input[type=search], .hs-form input[type=tel], .hs-form input[type=text], .hs-form input[type=time], .hs-form input[type=url], .hs-form input[type=week], .hs-form .input textarea,.hs-form .hs-input textarea,.hs-form textarea, .hs-form .input select, .hs-form .hs-input select, .hs-form select {
-        border-color: {{getSetting(block, "form_border_color")}} !important; 
-        color: {{getSetting(block, "form_text_color")}} !important; 
+        border-color: {{getSetting(block, "form_border_color")}} !important;
+        color: {{getSetting(block, "form_text_color")}} !important;
         padding: 13px;
     }
     .hs-form button, .hs-form input[type=button], .hs-form input[type=reset], .hs-form input[type=submit] {
-        background: {{getSetting(block, "button_background_color")}} !important; 
+        background: {{getSetting(block, "button_background_color")}} !important;
         color: {{getSetting(block, "button_text_color")}} !important;
         padding: 13px 65px;
         font-size: 16px;
     }
     .hs-form button:hover, .hs-form input[type=button]:hover, .hs-form input[type=reset]:hover, .hs-form input[type=submit]:hover {
-        background: {{getSetting(block, "button_hover_background_color")}} !important; 
+        background: {{getSetting(block, "button_hover_background_color")}} !important;
         color: {{getSetting(block, "button_hover_text_color")}} !important;
     }
     .hs-form {
@@ -28,8 +28,8 @@
 	<section class="form-super-wrapper" image-background label="Contact Background Image" content="background_image">
         <div class="overlay-wrapper">
             <div class="overlay" settings style-setting="background:overlay_color|opacity:overlay_opacity"></div>
-        </div>		
-		<div class="container">
+        </div>
+		<div class="{{getSetting(block, 'in_grid')}}">
             <div class="clearfix" style="margin-top:{{getSetting(block, 'vertical_padding_top')}}px"></div>
 			<div class="row">
 				<div class="col-md-6 form-sec">
@@ -37,7 +37,7 @@
                 </div>
 			    <div class="col-md-6">
     				<div class="page-title text-left"
-    				settings style-setting="color:contact_header_text_color" 
+    				settings style-setting="color:contact_header_text_color"
         			rich-block label="Contact Text Block" content="contact_header"
         			></div>
 				</div>
