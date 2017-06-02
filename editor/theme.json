@@ -1305,6 +1305,15 @@
           "group": "Content",
           "settings": [
             {
+              "id" : "in_grid",
+              "label" : "Content In Grid?",
+              "type" : "select",
+              "placeholder" : "container",
+              "value" : "container",
+              "options" : ["container", "container-fluid"],
+              "required" : false
+            },
+            {
               "id": "show_header_section",
               "label": "Show Header Text",
               "type": "checkbox",

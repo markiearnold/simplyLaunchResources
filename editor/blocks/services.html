@@ -3,7 +3,7 @@
         <div class="overlay-wrapper">
             <div class="overlay" settings style-setting="background:overlay_color|opacity:overlay_opacity"></div>
         </div>
-		<div class="container-fluid">
+		<div class="{{getSetting(block, 'in_grid')}}">
             <div class="clearfix" style="margin-top:{{getSetting(block, 'vertical_padding_top')}}px"></div>
 			<div class="row">
 			    <div settings show-if="show_header_section">
