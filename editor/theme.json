@@ -32,6 +32,15 @@
           "placeholder" : "",
           "value" : true,
           "required" : false
+        },
+        {
+          "id" : "in_grid",
+          "label" : "Content In Grid?",
+          "type" : "select",
+          "placeholder" : "container",
+          "value" : "container",
+          "options" : ["container", "container-fluid"],
+          "required" : false
         }
       ]
     },
