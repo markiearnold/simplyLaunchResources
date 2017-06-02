@@ -126,7 +126,7 @@
       ]
     },
     {
-      "group" : "Images",
+      "group" : "Logo",
       "settings" : [
         {
           "id": "logo_image",
@@ -135,7 +135,20 @@
           "placeholder": "",
           "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-logo.png",
           "required": false
-        }
+        },
+        {
+          "id" : "logo_height",
+          "label" : "Logo Height",
+          "type" : "range",
+          "placeholder" : "40",
+          "value" : "40",
+          "options" : {
+            "min" : 8,
+            "max" : 200,
+            "step" : 1
+          },
+          "required" : false
+        },
       ]
     },
     {
