@@ -1790,6 +1790,15 @@
           "group": "Content",
           "settings": [
             {
+              "id" : "lcr",
+              "label" : "Form Position",
+              "type" : "select",
+              "placeholder" : "left",
+              "value" : "left",
+              "options" : ["left", "right", "center"],
+              "required" : false
+            },
+            {
               "id" : "in_grid",
               "label" : "Content In Grid?",
               "type" : "select",
