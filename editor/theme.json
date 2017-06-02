@@ -84,6 +84,19 @@
           }
         },
         {
+          "id" : "menu_padding_top",
+          "label" : "Menu Top Padding",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "0",
+          "options" : {
+            "min" : 0,
+            "max" : 150,
+            "step" : 1
+          },
+          "required" : false
+      },
+        {
           "id" : "main_menu_text_color",
           "label" : "Menu Text Color",
           "type" : "color",
