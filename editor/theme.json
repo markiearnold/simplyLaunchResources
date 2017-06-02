@@ -930,14 +930,6 @@
               "value" : "container",
               "options" : ["container", "container-fluid"],
               "required" : false
-            },
-            {
-              "id": "banner_text_color",
-              "label": "Banner Text Color",
-              "type": "color",
-              "placeholder": "#333333",
-              "value": "#333333",
-              "required": false
             }
           ]
         },
