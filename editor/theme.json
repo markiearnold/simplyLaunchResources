@@ -1006,7 +1006,7 @@
             },
             {
               "id": "button_background_color",
-              "label": "Button Hover BG Color",
+              "label": "Button BG Color",
               "type": "color",
               "placeholder": "#fb795b",
               "value": "#fb795b",
