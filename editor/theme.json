@@ -903,22 +903,9 @@
               "id": "overlay_color",
               "label": "Overlay Color",
               "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
+              "placeholder": "rgba(255,255,255,0.8)",
+              "value": "rgba(255,255,255,0.8)",
               "required": false
-            },
-            {
-              "id" : "overlay_opacity",
-              "label" : "Overlay Opacity",
-              "type" : "range",
-              "placeholder" : "0.",
-              "value" : 0.8,
-              "options" : {
-                "min" : 0,
-                "max" : 1,
-                "step" : 0.1
-              },
-              "required" : false
             }
           ]
         },
@@ -1085,19 +1072,6 @@
               "placeholder": "#f9f9f9",
               "value": "#f9f9f9",
               "required": false
-            },
-            {
-              "id" : "overlay_opacity",
-              "label" : "Overlay Opacity",
-              "type" : "range",
-              "placeholder" : "1",
-              "value" : 1,
-              "options" : {
-                "min" : 0,
-                "max" : 1,
-                "step" : 0.1
-              },
-              "required" : false
             }
           ]
         },
@@ -1183,22 +1157,9 @@
               "id": "gal1_overlay_color",
               "label": "Overlay Color",
               "type": "color",
-              "placeholder": "#fb795b",
-              "value": "#fb795b",
+              "placeholder": "rgba(251,121,91,0.9)",
+              "value": "rgba(251,121,91,0.9)",
               "required": false
-            },
-            {
-              "id" : "gal1_overlay_opacity",
-              "label" : "Overlay Opacity",
-              "type" : "range",
-              "placeholder" : "0.9",
-              "value" : 0.9,
-              "options" : {
-                "min" : 0,
-                "max" : 1,
-                "step" : 0.1
-              },
-              "required" : false
             }
           ]
         },
@@ -1217,22 +1178,9 @@
               "id": "gal2_overlay_color",
               "label": "Overlay Color",
               "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
+              "placeholder": "rgba(255,255,255,0)",
+              "value": "rgba(255,255,255,0)",
               "required": false
-            },
-            {
-              "id" : "gal2_overlay_opacity",
-              "label" : "Overlay Opacity",
-              "type" : "range",
-              "placeholder" : "0",
-              "value" : 0,
-              "options" : {
-                "min" : 0,
-                "max" : 1,
-                "step" : 0.1
-              },
-              "required" : false
             }
           ]
         },
@@ -1251,22 +1199,9 @@
               "id": "gal3_overlay_color",
               "label": "Overlay Color",
               "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
+              "placeholder": "rgba(255,255,255,0)",
+              "value": "rgba(255,255,255,0)",
               "required": false
-            },
-            {
-              "id" : "gal3_overlay_opacity",
-              "label" : "Overlay Opacity",
-              "type" : "range",
-              "placeholder" : "0",
-              "value" : 0,
-              "options" : {
-                "min" : 0,
-                "max" : 1,
-                "step" : 0.1
-              },
-              "required" : false
             }
           ]
         },
