@@ -1656,19 +1656,6 @@
               "placeholder": "#f9f9f9",
               "value": "#f9f9f9",
               "required": false
-            },
-            {
-              "id" : "overlay_opacity",
-              "label" : "Overlay Opacity",
-              "type" : "range",
-              "placeholder" : "1",
-              "value" : 1,
-              "options" : {
-                "min" : 0,
-                "max" : 1,
-                "step" : 0.1
-              },
-              "required" : false
             }
           ]
         },
@@ -1821,22 +1808,9 @@
               "id": "overlay_color",
               "label": "Overlay Color",
               "type": "color",
-              "placeholder": "#282828",
-              "value": "#282828",
+              "placeholder": "rgba(255,255,255,0.8)",
+              "value": "rgba(255,255,255,0.8)",
               "required": false
-            },
-            {
-              "id" : "overlay_opacity",
-              "label" : "Overlay Opacity",
-              "type" : "range",
-              "placeholder" : "0.8",
-              "value" : 0.8,
-              "options" : {
-                "min" : 0,
-                "max" : 1,
-                "step" : 0.1
-              },
-              "required" : false
             }
           ]
         },
@@ -1964,19 +1938,6 @@
               "placeholder": "#f9f9f9",
               "value": "#f9f9f9",
               "required": false
-            },
-            {
-              "id" : "overlay_opacity",
-              "label" : "Overlay Opacity",
-              "type" : "range",
-              "placeholder" : "1",
-              "value" : 1,
-              "options" : {
-                "min" : 0,
-                "max" : 1,
-                "step" : 0.1
-              },
-              "required" : false
             }
           ]
         },
@@ -2061,19 +2022,6 @@
               "placeholder": "#ffffff",
               "value": "#ffffff",
               "required": false
-            },
-            {
-              "id" : "overlay_opacity",
-              "label" : "Overlay Opacity",
-              "type" : "range",
-              "placeholder" : "1",
-              "value" : 1,
-              "options" : {
-                "min" : 0,
-                "max" : 1,
-                "step" : 0.1
-              },
-              "required" : false
             }
           ]
         },
