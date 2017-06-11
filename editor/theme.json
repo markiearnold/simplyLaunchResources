@@ -84,6 +84,17 @@
           }
         },
         {
+          "id" : "padding_example",
+          "label" : "Padding",
+          "type" : "box",
+          "placeholder" : "",
+          "value" : "0px 0px 0px 0px",
+          "options" : {
+            "step" : 10
+          },
+          "required" : false
+        },
+        {
           "id" : "menu_padding_top",
           "label" : "Menu Top Padding",
           "type" : "range",
