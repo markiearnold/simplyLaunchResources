@@ -67,21 +67,9 @@
           "id" : "header_bg_color",
           "label" : "Header Background Color",
           "type" : "color",
-          "placeholder" : "#ffffff",
-          "value" : "#ffffff",
+          "placeholder" : "rgba(255,255,255,0.8)",
+          "value" : "rgba(255,255,255,0.8)",
           "required" : false
-        },
-        {
-          "id" : "header_bg_opacity",
-          "label" : "Header Background Opacity",
-          "type" : "range",
-          "placeholder" : "0.4",
-          "value" : 0.4,
-          "options" : {
-            "min" : 0,
-            "max" : 1,
-            "step" : 0.1
-          }
         },
         {
           "id" : "padding_example",
