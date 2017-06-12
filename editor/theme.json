@@ -77,10 +77,10 @@
           "type" : "box",
           "placeholder" : "",
           "value" : {
-            "top" : "0px",
+            "top" : null,
             "right" : "0px",
             "bottom" : "0px",
-            "left" : "0px"
+            "left" : null
           },
           "options" : {
             "step" : 10
