@@ -77,9 +77,9 @@
           "type" : "box",
           "placeholder" : "",
           "value" : {
-            "top" : null,
-            "right" : "0px",
-            "bottom" : "0px",
+            "top" : "0px",
+            "right" : null,
+            "bottom" : null,
             "left" : null
           },
           "options" : {
