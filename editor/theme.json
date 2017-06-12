@@ -94,6 +94,7 @@
           "placeholder" : "0",
           "value" : "0",
           "options" : {
+            "cssAttr" : "padding",
             "min" : 0,
             "max" : 150,
             "step" : 1
