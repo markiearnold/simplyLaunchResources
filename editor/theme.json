@@ -903,31 +903,18 @@
           "group": "Spacing",
           "settings": [
             {
-              "id" : "vertical_padding_top",
+              "id" : "vertical_padding",
               "label" : "Top Padding",
               "type" : "box",
               "placeholder" : "",
               "value" : {
                 "top" : "295px",
                 "right" : null,
-                "bottom" : null,
+                "bottom" : "295px",
                 "left" : null
               },
               "options" : {
                 "step" : 10
-              },
-              "required" : false
-            },
-            {
-              "id" : "vertical_padding_bottom",
-              "label" : "Bottom Padding",
-              "type" : "range",
-              "placeholder" : "295",
-              "value" : 295,
-              "options" : {
-                "min" : 0,
-                "max" : 400,
-                "step" : 5
               },
               "required" : false
             }
