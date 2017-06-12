@@ -72,22 +72,6 @@
           "required" : false
         },
         {
-          "id" : "padding_example",
-          "label" : "Padding",
-          "type" : "box",
-          "placeholder" : "",
-          "value" : {
-            "top" : "0px",
-            "right" : null,
-            "bottom" : null,
-            "left" : null
-          },
-          "options" : {
-            "step" : 10
-          },
-          "required" : false
-        },
-        {
           "id" : "menu_padding_top",
           "label" : "Menu Top Padding",
           "type" : "range",
@@ -921,13 +905,16 @@
             {
               "id" : "vertical_padding_top",
               "label" : "Top Padding",
-              "type" : "range",
-              "placeholder" : "295",
-              "value" : 295,
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "295px",
+                "right" : null,
+                "bottom" : null,
+                "left" : null
+              },
               "options" : {
-                "min" : 0,
-                "max" : 400,
-                "step" : 5
+                "step" : 10
               },
               "required" : false
             },
