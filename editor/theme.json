@@ -41,6 +41,30 @@
           "value" : "container",
           "options" : ["container", "container-fluid"],
           "required" : false
+        },
+        {
+          "id" : "header_border",
+          "label" : "Header Border",
+          "type" : "box",
+          "placeholder" : "",
+          "value" : {
+            "top" : null,
+            "right" : null,
+            "bottom" : "0px",
+            "left" : null
+          },
+          "options" : {
+            "step" : 10
+          },
+          "required" : false
+        },
+        {
+          "id" : "header_border_color",
+          "label" : "Header Border Color",
+          "type" : "color",
+          "placeholder" : "rgba(255,255,255,0)",
+          "value" : "rgba(255,255,255,0)",
+          "required" : false
         }
       ]
     },
