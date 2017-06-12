@@ -48,13 +48,13 @@
           "type" : "box",
           "placeholder" : "",
           "value" : {
-            "top" : null,
-            "right" : null,
+            "top" : "0px",
+            "right" : "0px",
             "bottom" : "0px",
-            "left" : null
+            "left" : "0px"
           },
           "options" : {
-            "step" : 10
+            "step" : 1
           },
           "required" : false
         },
