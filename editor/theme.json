@@ -66,6 +66,15 @@
           "value" : "rgba(255,255,255,0)",
           "required" : false
         }
+        {
+          "id" : "header_border_style",
+          "label" : "Header Border Style",
+          "type" : "select",
+          "placeholder" : "solid",
+          "value" : "solid",
+          "options" : ["solid", "dashed", "dotted", "double"],
+          "required" : false
+        }
       ]
     },
     {
