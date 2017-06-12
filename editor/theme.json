@@ -65,7 +65,7 @@
           "placeholder" : "rgba(255,255,255,0)",
           "value" : "rgba(255,255,255,0)",
           "required" : false
-        }
+        },
         {
           "id" : "header_border_style",
           "label" : "Header Border Style",
