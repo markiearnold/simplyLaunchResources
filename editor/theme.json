@@ -904,7 +904,7 @@
           "settings": [
             {
               "id" : "vertical_padding",
-              "label" : "Top Padding",
+              "label" : "Vertical Padding",
               "type" : "box",
               "placeholder" : "",
               "value" : {
