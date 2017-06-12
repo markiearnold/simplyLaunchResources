@@ -908,9 +908,9 @@
               "type" : "box",
               "placeholder" : "",
               "value" : {
-                "top" : "295px",
+                "top" : "290px",
                 "right" : null,
-                "bottom" : "295px",
+                "bottom" : "290px",
                 "left" : null
               },
               "options" : {
