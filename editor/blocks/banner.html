@@ -22,36 +22,37 @@
     }
 </style>
 	<!--BANNER START-->
-	<section class="banner-super-wrapper banner-section-{{$index}}" image-background label="Banner Background Image" content="background_image"
-  ng-style="{
-    'box-sizing':'border-box',
-    'border-top': '{{getSetting(block, 'banner_border', 'top')}} {{getSetting(block, 'banner_border_style')}} {{getSetting(block, 'banner_border_color')}}',
-    'border-right': '{{getSetting(block, 'banner_border', 'right')}} {{getSetting(block, 'banner_border_style')}} {{getSetting(block, 'banner_border_color')}}',
-    'border-bottom': '{{getSetting(block, 'banner_border', 'bottom')}} {{getSetting(block, 'banner_border_style')}} {{getSetting(block, 'banner_border_color')}}',
-    'border-left': '{{getSetting(block, 'banner_border', 'left')}} {{getSetting(block, 'banner_border_style')}} {{getSetting(block, 'banner_border_color')}}',
-  }">
-        <div class="overlay-wrapper">
-            <div class="overlay" settings style-setting="background:overlay_color|opacity:overlay_opacity"></div>
-        </div>
-        <div class="{{getSetting(block, 'in_grid')}}">
-            <div class="clearfix" style="margin-top:{{getSetting(block, 'header_padding', 'top')}}"></div>
-			<div class="row">
-				<div class="jumbotron-off">
-    			    <div class="col-md-12 horizontal-padding">
-    					<div
-    					 settings style="margin-top:60px;margin-bottom:30px;"
-    					 rich-block label="Banner Text Block" content="text_block"
-    					 ></div>
-    			    </div>
-    			    <div class="col-md-12">
-                      <div class="text-{{getSetting(block, 'button_position')}}">
-        				  <a settings show-if="show_button" url-link link="button_links_to" text="button_label" label="Banner CTA Link"
-        				    href="#" class="btn btn-banner button-{{$index}}"></a>
-                      </div>
-    				</div>
-				</div>
-			</div>
-            <div class="clearfix" style="margin-top:{{getSetting(block, 'header_padding', 'bottom')}}"></div>
-		</div>
-	</section>
+  <div  style="
+    box-sizing:border-box;
+    border-top:{{getSetting(block, 'banner_border', 'top')}} {{getSetting(block, 'banner_border_style')}} {{getSetting(block, 'banner_border_color')}} !important;
+    border-right:{{getSetting(block, 'banner_border', 'right')}} {{getSetting(block, 'banner_border_style')}} {{getSetting(block, 'banner_border_color')}} !important;
+    border-bottom:{{getSetting(block, 'banner_border', 'bottom')}} {{getSetting(block, 'banner_border_style')}} {{getSetting(block, 'banner_border_color')}} !important;
+    border-left:{{getSetting(block, 'banner_border', 'left')}} {{getSetting(block, 'banner_border_style')}} {{getSetting(block, 'banner_border_color')}} !important;
+  ">
+  	<section class="banner-super-wrapper banner-section-{{$index}}" image-background label="Banner Background Image" content="background_image">
+          <div class="overlay-wrapper">
+              <div class="overlay" settings style-setting="background:overlay_color|opacity:overlay_opacity"></div>
+          </div>
+          <div class="{{getSetting(block, 'in_grid')}}">
+              <div class="clearfix" style="margin-top:{{getSetting(block, 'header_padding', 'top')}}"></div>
+  			<div class="row">
+  				<div class="jumbotron-off">
+      			    <div class="col-md-12 horizontal-padding">
+      					<div
+      					 settings style="margin-top:60px;margin-bottom:30px;"
+      					 rich-block label="Banner Text Block" content="text_block"
+      					 ></div>
+      			    </div>
+      			    <div class="col-md-12">
+                        <div class="text-{{getSetting(block, 'button_position')}}">
+          				  <a settings show-if="show_button" url-link link="button_links_to" text="button_label" label="Banner CTA Link"
+          				    href="#" class="btn btn-banner button-{{$index}}"></a>
+                        </div>
+      				</div>
+  				</div>
+  			</div>
+              <div class="clearfix" style="margin-top:{{getSetting(block, 'header_padding', 'bottom')}}"></div>
+  		</div>
+  	</section>
+  </div>
 	<!--BANNER END-->
