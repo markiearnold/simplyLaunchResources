@@ -2032,7 +2032,7 @@
               "value" : "solid",
               "options" : ["solid", "dashed", "dotted", "double"],
               "required" : false
-            }
+            },
             {
               "id" : "form_border_radius",
               "label" : "Input Border Radius",
