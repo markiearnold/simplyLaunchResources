@@ -62,8 +62,8 @@
           "id" : "header_border_color",
           "label" : "Header Border Color",
           "type" : "color",
-          "placeholder" : "rgba(255,255,255,0)",
-          "value" : "rgba(255,255,255,0)",
+          "placeholder" : "rgba(255,255,255,1)",
+          "value" : "rgba(255,255,255,1)",
           "required" : false
         },
         {
