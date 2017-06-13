@@ -955,8 +955,8 @@
               "id" : "banner_border_color",
               "label" : "Banner Border Color",
               "type" : "color",
-              "placeholder" : "rgba(255,255,255,0)",
-              "value" : "rgba(255,255,255,0)",
+              "placeholder" : "rgba(255,255,255,1)",
+              "value" : "rgba(255,255,255,1)",
               "required" : false
             },
             {
@@ -1178,8 +1178,8 @@
               "id" : "gallery_border_color",
               "label" : "Gallery Border Color",
               "type" : "color",
-              "placeholder" : "rgba(255,255,255,0)",
-              "value" : "rgba(255,255,255,0)",
+              "placeholder" : "rgba(255,255,255,1)",
+              "value" : "rgba(255,255,255,1)",
               "required" : false
             },
             {
@@ -1457,8 +1457,8 @@
               "id" : "services_border_color",
               "label" : "Services Border Color",
               "type" : "color",
-              "placeholder" : "rgba(255,255,255,0)",
-              "value" : "rgba(255,255,255,0)",
+              "placeholder" : "rgba(255,255,255,1)",
+              "value" : "rgba(255,255,255,1)",
               "required" : false
             },
             {
@@ -1653,8 +1653,8 @@
               "id" : "about_border_color",
               "label" : "About Border Color",
               "type" : "color",
-              "placeholder" : "rgba(255,255,255,0)",
-              "value" : "rgba(255,255,255,0)",
+              "placeholder" : "rgba(255,255,255,1)",
+              "value" : "rgba(255,255,255,1)",
               "required" : false
             },
             {
@@ -1783,8 +1783,8 @@
               "id" : "team_border_color",
               "label" : "Team Border Color",
               "type" : "color",
-              "placeholder" : "rgba(255,255,255,0)",
-              "value" : "rgba(255,255,255,0)",
+              "placeholder" : "rgba(255,255,255,1)",
+              "value" : "rgba(255,255,255,1)",
               "required" : false
             },
             {
@@ -1938,8 +1938,8 @@
               "id" : "contact_border_color",
               "label" : "Contact Border Color",
               "type" : "color",
-              "placeholder" : "rgba(255,255,255,0)",
-              "value" : "rgba(255,255,255,0)",
+              "placeholder" : "rgba(255,255,255,1)",
+              "value" : "rgba(255,255,255,1)",
               "required" : false
             },
             {
@@ -2137,8 +2137,8 @@
               "id" : "cta_border_color",
               "label" : "CTA Border Color",
               "type" : "color",
-              "placeholder" : "rgba(255,255,255,0)",
-              "value" : "rgba(255,255,255,0)",
+              "placeholder" : "rgba(255,255,255,1)",
+              "value" : "rgba(255,255,255,1)",
               "required" : false
             },
             {
@@ -2308,8 +2308,8 @@
               "id" : "utility_border_color",
               "label" : "Utility Border Color",
               "type" : "color",
-              "placeholder" : "rgba(255,255,255,0)",
-              "value" : "rgba(255,255,255,0)",
+              "placeholder" : "rgba(255,255,255,1)",
+              "value" : "rgba(255,255,255,1)",
               "required" : false
             },
             {
@@ -2420,8 +2420,8 @@
               "id" : "social_border_color",
               "label" : "Social Border Color",
               "type" : "color",
-              "placeholder" : "rgba(255,255,255,0)",
-              "value" : "rgba(255,255,255,0)",
+              "placeholder" : "rgba(255,255,255,1)",
+              "value" : "rgba(255,255,255,1)",
               "required" : false
             },
             {
