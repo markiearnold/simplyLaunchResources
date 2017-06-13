@@ -22,7 +22,10 @@
     }
 </style>
 	<!--BANNER START-->
-	<section class="banner-super-wrapper banner-section-{{$index}}" image-background label="Banner Background Image" content="background_image" style="
+	<section class="banner-super-wrapper banner-section-{{$index}}" image-background label="Banner Background Image" content="background_image">
+  <div style="
+  position:relative;
+  display: block;
   box-sizing:border-box;
   border-top:{{getSetting(block, 'banner_border', 'top')}} {{getSetting(block, 'banner_border_style')}} {{getSetting(block, 'banner_border_color')}} !important;
   border-right:{{getSetting(block, 'banner_border', 'right')}} {{getSetting(block, 'banner_border_style')}} {{getSetting(block, 'banner_border_color')}} !important;
@@ -52,5 +55,6 @@
 			</div>
             <div class="clearfix" style="margin-top:{{getSetting(block, 'header_padding', 'bottom')}}"></div>
 		</div>
+    </div>
 	</section>
 	<!--BANNER END-->
