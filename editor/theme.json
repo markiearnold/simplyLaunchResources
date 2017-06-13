@@ -2009,6 +2009,52 @@
           "group": "Form Design",
           "settings": [
             {
+              "id" : "input_border",
+              "label" : "Input Border",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "0px",
+                "right" : "0px",
+                "bottom" : "0px",
+                "left" : "0px"
+              },
+              "options" : {
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id" : "input_border_style",
+              "label" : "Input Border Style",
+              "type" : "select",
+              "placeholder" : "solid",
+              "value" : "solid",
+              "options" : ["solid", "dashed", "dotted", "double"],
+              "required" : false
+            }
+            {
+              "id" : "form_border_radius",
+              "label" : "Input Border Radius",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : 0,
+              "options" : {
+                "min" : 0,
+                "max" : 100,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "form_border_color",
+              "label": "Form Input Border Color",
+              "type": "color",
+              "placeholder": "#CACACA",
+              "value": "#CACACA",
+              "required": false
+            },
+            {
               "id": "form_text_color",
               "label": "Form Text Color",
               "type": "color",
@@ -2023,27 +2069,6 @@
               "placeholder": "#ffffff",
               "value": "#ffffff",
               "required": false
-            },
-            {
-              "id": "form_border_color",
-              "label": "Form Input Border Color",
-              "type": "color",
-              "placeholder": "#CACACA",
-              "value": "#CACACA",
-              "required": false
-            },
-            {
-              "id" : "form_border_radius",
-              "label" : "Input Border Radius",
-              "type" : "range",
-              "placeholder" : "0",
-              "value" : 0,
-              "options" : {
-                "min" : 0,
-                "max" : 100,
-                "step" : 1
-              },
-              "required" : false
             },
             {
               "id": "form_label_color",
