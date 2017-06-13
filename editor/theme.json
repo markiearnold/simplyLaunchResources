@@ -2025,19 +2025,32 @@
               "required": false
             },
             {
-              "id": "form_label_color",
-              "label": "Form Label Color",
-              "type": "color",
-              "placeholder": "#1d1d1d",
-              "value": "#1d1d1d",
-              "required": false
-            },
-            {
               "id": "form_border_color",
               "label": "Form Input Border Color",
               "type": "color",
               "placeholder": "#CACACA",
               "value": "#CACACA",
+              "required": false
+            },
+            {
+              "id" : "form_border_radius",
+              "label" : "Input Border Radius",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : 0,
+              "options" : {
+                "min" : 0,
+                "max" : 100,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "form_label_color",
+              "label": "Form Label Color",
+              "type": "color",
+              "placeholder": "#1d1d1d",
+              "value": "#1d1d1d",
               "required": false
             },
             {
