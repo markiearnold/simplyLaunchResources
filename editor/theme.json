@@ -1090,6 +1090,19 @@
               "required": false
             },
             {
+              "id" : "button_border_radius",
+              "label" : "Button Border Radius",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : 0,
+              "options" : {
+                "min" : 0,
+                "max" : 100,
+                "step" : 5
+              },
+              "required" : false
+            },
+            {
               "id" : "header_button_padding",
               "label" : "Button Padding",
               "type" : "box",
