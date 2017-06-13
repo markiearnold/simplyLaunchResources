@@ -9,7 +9,13 @@
 	</style>
 
 	<!--ONECOL START-->
-	<section class="utility-super-wrapper utility-section-{{$index}}" image-background label="Utility Row Background Image" content="background_image">
+	<section class="utility-super-wrapper utility-section-{{$index}}" image-background label="Utility Row Background Image" content="background_image" style="
+  box-sizing:border-box;
+  border-top:{{getSetting(block, 'utility_border', 'top')}} {{getSetting(block, 'utility_border_style')}} {{getSetting(block, 'utility_border_color')}} !important;
+  border-right:{{getSetting(block, 'utility_border', 'right')}} {{getSetting(block, 'utility_border_style')}} {{getSetting(block, 'utility_border_color')}} !important;
+  border-bottom:{{getSetting(block, 'utility_border', 'bottom')}} {{getSetting(block, 'utility_border_style')}} {{getSetting(block, 'utility_border_color')}} !important;
+  border-left:{{getSetting(block, 'utility_border', 'left')}} {{getSetting(block, 'utility_border_style')}} {{getSetting(block, 'utility_border_color')}} !important;
+">
         <div class="overlay-wrapper">
             <div class="overlay" settings style-setting="background:overlay_color|opacity:overlay_opacity"></div>
         </div>

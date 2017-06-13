@@ -9,7 +9,13 @@
 	</style>
 
 	<!--TEAM START-->
-	<section class="team-super-wrapper team-section-{{$index}}" image-background label="Team Background Image" content="background_image">
+	<section class="team-super-wrapper team-section-{{$index}}" image-background label="Team Background Image" content="background_image" style="
+  box-sizing:border-box;
+  border-top:{{getSetting(block, 'team_border', 'top')}} {{getSetting(block, 'team_border_style')}} {{getSetting(block, 'team_border_color')}} !important;
+  border-right:{{getSetting(block, 'team_border', 'right')}} {{getSetting(block, 'team_border_style')}} {{getSetting(block, 'team_border_color')}} !important;
+  border-bottom:{{getSetting(block, 'team_border', 'bottom')}} {{getSetting(block, 'team_border_style')}} {{getSetting(block, 'team_border_color')}} !important;
+  border-left:{{getSetting(block, 'team_border', 'left')}} {{getSetting(block, 'team_border_style')}} {{getSetting(block, 'team_border_color')}} !important;
+">
         <div class="overlay-wrapper">
             <div class="overlay" settings style-setting="background:overlay_color|opacity:overlay_opacity"></div>
         </div>

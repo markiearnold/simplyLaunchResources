@@ -1422,6 +1422,44 @@
           ]
         },
         {
+          "group": "Border",
+          "settings": [
+            {
+              "id" : "services_border",
+              "label" : "Services Border",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "0px",
+                "right" : "0px",
+                "bottom" : "0px",
+                "left" : "0px"
+              },
+              "options" : {
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id" : "services_border_color",
+              "label" : "Services Border Color",
+              "type" : "color",
+              "placeholder" : "rgba(255,255,255,0)",
+              "value" : "rgba(255,255,255,0)",
+              "required" : false
+            },
+            {
+              "id" : "services_border_style",
+              "label" : "Services Border Style",
+              "type" : "select",
+              "placeholder" : "solid",
+              "value" : "solid",
+              "options" : ["solid", "dashed", "dotted", "double"],
+              "required" : false
+            }
+          ]
+        },
+        {
           "group": "Spacing",
           "settings": [
             {
@@ -1580,6 +1618,44 @@
           ]
         },
         {
+          "group": "Border",
+          "settings": [
+            {
+              "id" : "about_border",
+              "label" : "About Border",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "0px",
+                "right" : "0px",
+                "bottom" : "0px",
+                "left" : "0px"
+              },
+              "options" : {
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id" : "about_border_color",
+              "label" : "About Border Color",
+              "type" : "color",
+              "placeholder" : "rgba(255,255,255,0)",
+              "value" : "rgba(255,255,255,0)",
+              "required" : false
+            },
+            {
+              "id" : "about_border_style",
+              "label" : "About Border Style",
+              "type" : "select",
+              "placeholder" : "solid",
+              "value" : "solid",
+              "options" : ["solid", "dashed", "dotted", "double"],
+              "required" : false
+            }
+          ]
+        },
+        {
           "group": "Spacing",
           "settings": [
             {
@@ -1668,6 +1744,44 @@
               "placeholder": "#ffffff",
               "value": "#ffffff",
               "required": false
+            }
+          ]
+        },
+        {
+          "group": "Border",
+          "settings": [
+            {
+              "id" : "team_border",
+              "label" : "Team Border",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "0px",
+                "right" : "0px",
+                "bottom" : "0px",
+                "left" : "0px"
+              },
+              "options" : {
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id" : "team_border_color",
+              "label" : "Team Border Color",
+              "type" : "color",
+              "placeholder" : "rgba(255,255,255,0)",
+              "value" : "rgba(255,255,255,0)",
+              "required" : false
+            },
+            {
+              "id" : "team_border_style",
+              "label" : "Team Border Style",
+              "type" : "select",
+              "placeholder" : "solid",
+              "value" : "solid",
+              "options" : ["solid", "dashed", "dotted", "double"],
+              "required" : false
             }
           ]
         },
@@ -1785,6 +1899,44 @@
               "placeholder": "#f9f9f9",
               "value": "#f9f9f9",
               "required": false
+            }
+          ]
+        },
+        {
+          "group": "Border",
+          "settings": [
+            {
+              "id" : "contact_border",
+              "label" : "Contact Border",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "0px",
+                "right" : "0px",
+                "bottom" : "0px",
+                "left" : "0px"
+              },
+              "options" : {
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id" : "contact_border_color",
+              "label" : "Contact Border Color",
+              "type" : "color",
+              "placeholder" : "rgba(255,255,255,0)",
+              "value" : "rgba(255,255,255,0)",
+              "required" : false
+            },
+            {
+              "id" : "contact_border_style",
+              "label" : "Contact Border Style",
+              "type" : "select",
+              "placeholder" : "solid",
+              "value" : "solid",
+              "options" : ["solid", "dashed", "dotted", "double"],
+              "required" : false
             }
           ]
         },
@@ -1950,6 +2102,44 @@
           ]
         },
         {
+          "group": "Border",
+          "settings": [
+            {
+              "id" : "cta_border",
+              "label" : "CTA Border",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "0px",
+                "right" : "0px",
+                "bottom" : "0px",
+                "left" : "0px"
+              },
+              "options" : {
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id" : "cta_border_color",
+              "label" : "CTA Border Color",
+              "type" : "color",
+              "placeholder" : "rgba(255,255,255,0)",
+              "value" : "rgba(255,255,255,0)",
+              "required" : false
+            },
+            {
+              "id" : "cta_border_style",
+              "label" : "CTA Border Style",
+              "type" : "select",
+              "placeholder" : "solid",
+              "value" : "solid",
+              "options" : ["solid", "dashed", "dotted", "double"],
+              "required" : false
+            }
+          ]
+        },
+        {
           "group": "Spacing",
           "settings": [
             {
@@ -2083,6 +2273,44 @@
           ]
         },
         {
+          "group": "Border",
+          "settings": [
+            {
+              "id" : "utility_border",
+              "label" : "Utility Border",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "0px",
+                "right" : "0px",
+                "bottom" : "0px",
+                "left" : "0px"
+              },
+              "options" : {
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id" : "utility_border_color",
+              "label" : "Utility Border Color",
+              "type" : "color",
+              "placeholder" : "rgba(255,255,255,0)",
+              "value" : "rgba(255,255,255,0)",
+              "required" : false
+            },
+            {
+              "id" : "utility_border_style",
+              "label" : "Utility Border Style",
+              "type" : "select",
+              "placeholder" : "solid",
+              "value" : "solid",
+              "options" : ["solid", "dashed", "dotted", "double"],
+              "required" : false
+            }
+          ]
+        },
+        {
           "group": "Spacing",
           "settings": [
             {
@@ -2153,6 +2381,44 @@
               "placeholder": "#ffffff",
               "value": "#ffffff",
               "required": false
+            }
+          ]
+        },
+        {
+          "group": "Border",
+          "settings": [
+            {
+              "id" : "social_border",
+              "label" : "Social Border",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "0px",
+                "right" : "0px",
+                "bottom" : "0px",
+                "left" : "0px"
+              },
+              "options" : {
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id" : "social_border_color",
+              "label" : "Social Border Color",
+              "type" : "color",
+              "placeholder" : "rgba(255,255,255,0)",
+              "value" : "rgba(255,255,255,0)",
+              "required" : false
+            },
+            {
+              "id" : "social_border_style",
+              "label" : "Social Border Style",
+              "type" : "select",
+              "placeholder" : "solid",
+              "value" : "solid",
+              "options" : ["solid", "dashed", "dotted", "double"],
+              "required" : false
             }
           ]
         },
