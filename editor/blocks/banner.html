@@ -22,15 +22,13 @@
     }
 </style>
 	<!--BANNER START-->
-	<section class="banner-super-wrapper banner-section-{{$index}}" image-background label="Banner Background Image" content="background_image">
-    <div class="section-inner" style="
-				position: relative;
-				display: block;
-        border-top:{{getSetting(block, 'banner_border', 'top')}} {{getSetting(block, 'banner_border_style')}} {{getSetting(block, 'banner_border_color')}} !important;
-        border-right:{{getSetting(block, 'banner_border', 'right')}} {{getSetting(block, 'banner_border_style')}} {{getSetting(block, 'banner_border_color')}} !important;
-        border-bottom:{{getSetting(block, 'banner_border', 'bottom')}} {{getSetting(block, 'banner_border_style')}} {{getSetting(block, 'banner_border_color')}} !important;
-        border-left:{{getSetting(block, 'banner_border', 'left')}} {{getSetting(block, 'banner_border_style')}} {{getSetting(block, 'banner_border_color')}} !important;
-    ">
+	<section class="banner-super-wrapper banner-section-{{$index}}" image-background label="Banner Background Image" content="background_image" style="
+  box-sizing:border-box;
+  border-top:{{getSetting(block, 'banner_border', 'top')}} {{getSetting(block, 'banner_border_style')}} {{getSetting(block, 'banner_border_color')}} !important;
+  border-right:{{getSetting(block, 'banner_border', 'right')}} {{getSetting(block, 'banner_border_style')}} {{getSetting(block, 'banner_border_color')}} !important;
+  border-bottom:{{getSetting(block, 'banner_border', 'bottom')}} {{getSetting(block, 'banner_border_style')}} {{getSetting(block, 'banner_border_color')}} !important;
+  border-left:{{getSetting(block, 'banner_border', 'left')}} {{getSetting(block, 'banner_border_style')}} {{getSetting(block, 'banner_border_color')}} !important;
+">
         <div class="overlay-wrapper">
             <div class="overlay" settings style-setting="background:overlay_color|opacity:overlay_opacity"></div>
         </div>
@@ -54,6 +52,5 @@
 			</div>
             <div class="clearfix" style="margin-top:{{getSetting(block, 'header_padding', 'bottom')}}"></div>
 		</div>
-    </div>
 	</section>
 	<!--BANNER END-->
