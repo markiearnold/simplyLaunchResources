@@ -36,13 +36,14 @@
     }
 </style>
 	<!--CONTACT START-->
-	<section class="form-super-wrapper form-section-{{$index}}" image-background label="Contact Background Image" content="background_image" style="
-  box-sizing:border-box;
-  border-top:{{getSetting(block, 'contact_border', 'top')}} {{getSetting(block, 'contact_border_style')}} {{getSetting(block, 'contact_border_color')}} !important;
-  border-right:{{getSetting(block, 'contact_border', 'right')}} {{getSetting(block, 'contact_border_style')}} {{getSetting(block, 'contact_border_color')}} !important;
-  border-bottom:{{getSetting(block, 'contact_border', 'bottom')}} {{getSetting(block, 'contact_border_style')}} {{getSetting(block, 'contact_border_color')}} !important;
-  border-left:{{getSetting(block, 'contact_border', 'left')}} {{getSetting(block, 'contact_border_style')}} {{getSetting(block, 'contact_border_color')}} !important;
-">
+  <div style="
+    box-sizing:border-box;
+    border-top:{{getSetting(block, 'contact_border', 'top')}} {{getSetting(block, 'contact_border_style')}} {{getSetting(block, 'contact_border_color')}} !important;
+    border-right:{{getSetting(block, 'contact_border', 'right')}} {{getSetting(block, 'contact_border_style')}} {{getSetting(block, 'contact_border_color')}} !important;
+    border-bottom:{{getSetting(block, 'contact_border', 'bottom')}} {{getSetting(block, 'contact_border_style')}} {{getSetting(block, 'contact_border_color')}} !important;
+    border-left:{{getSetting(block, 'contact_border', 'left')}} {{getSetting(block, 'contact_border_style')}} {{getSetting(block, 'contact_border_color')}} !important;
+  ">
+	<section class="form-super-wrapper form-section-{{$index}}" image-background label="Contact Background Image" content="background_image">
         <div class="overlay-wrapper">
             <div class="overlay" settings style-setting="background:overlay_color|opacity:overlay_opacity"></div>
         </div>
@@ -85,4 +86,5 @@
             <div class="clearfix" style="margin-top:{{getSetting(block, 'contact_padding', 'bottom')}}"></div>
 		</div>
 	</section>
+  </div>
 	<!--CONTACT END-->

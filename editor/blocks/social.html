@@ -9,13 +9,14 @@
 </style>
 
 	<!--ONECOL START-->
-	<section class="onecol-super-wrapper social-section-{{$index}}" image-background label="Social Background Image" content="background_image" style="
-  box-sizing:border-box;
-  border-top:{{getSetting(block, 'social_border', 'top')}} {{getSetting(block, 'social_border_style')}} {{getSetting(block, 'social_border_color')}} !important;
-  border-right:{{getSetting(block, 'social_border', 'right')}} {{getSetting(block, 'social_border_style')}} {{getSetting(block, 'social_border_color')}} !important;
-  border-bottom:{{getSetting(block, 'social_border', 'bottom')}} {{getSetting(block, 'social_border_style')}} {{getSetting(block, 'social_border_color')}} !important;
-  border-left:{{getSetting(block, 'social_border', 'left')}} {{getSetting(block, 'social_border_style')}} {{getSetting(block, 'social_border_color')}} !important;
-">
+  <div style="
+    box-sizing:border-box;
+    border-top:{{getSetting(block, 'social_border', 'top')}} {{getSetting(block, 'social_border_style')}} {{getSetting(block, 'social_border_color')}} !important;
+    border-right:{{getSetting(block, 'social_border', 'right')}} {{getSetting(block, 'social_border_style')}} {{getSetting(block, 'social_border_color')}} !important;
+    border-bottom:{{getSetting(block, 'social_border', 'bottom')}} {{getSetting(block, 'social_border_style')}} {{getSetting(block, 'social_border_color')}} !important;
+    border-left:{{getSetting(block, 'social_border', 'left')}} {{getSetting(block, 'social_border_style')}} {{getSetting(block, 'social_border_color')}} !important;
+  ">
+	<section class="onecol-super-wrapper social-section-{{$index}}" image-background label="Social Background Image" content="background_image">
         <div class="overlay-wrapper">
             <div class="overlay" settings style-setting="background:overlay_color|overlay_opacity"></div>
         </div>
@@ -80,4 +81,5 @@
             <div class="clearfix" style="margin-top:{{getSetting(block, 'social_padding', 'bottom')}}"></div>
 		</div>
 	</section>
+  </div>
 	<!--ONCECOL END-->

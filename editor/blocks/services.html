@@ -9,13 +9,14 @@
 	</style>
 
 	<!--SERVICE START-->
-	<section class="services-super-wrapper services-section-{{$index}}" image-background label="Services Background Image" content="background_image" style="
-  box-sizing:border-box;
-  border-top:{{getSetting(block, 'services_border', 'top')}} {{getSetting(block, 'services_border_style')}} {{getSetting(block, 'services_border_color')}} !important;
-  border-right:{{getSetting(block, 'services_border', 'right')}} {{getSetting(block, 'services_border_style')}} {{getSetting(block, 'services_border_color')}} !important;
-  border-bottom:{{getSetting(block, 'services_border', 'bottom')}} {{getSetting(block, 'services_border_style')}} {{getSetting(block, 'services_border_color')}} !important;
-  border-left:{{getSetting(block, 'services_border', 'left')}} {{getSetting(block, 'services_border_style')}} {{getSetting(block, 'services_border_color')}} !important;
-">
+	<div style="
+	  box-sizing:border-box;
+	  border-top:{{getSetting(block, 'services_border', 'top')}} {{getSetting(block, 'services_border_style')}} {{getSetting(block, 'services_border_color')}} !important;
+	  border-right:{{getSetting(block, 'services_border', 'right')}} {{getSetting(block, 'services_border_style')}} {{getSetting(block, 'services_border_color')}} !important;
+	  border-bottom:{{getSetting(block, 'services_border', 'bottom')}} {{getSetting(block, 'services_border_style')}} {{getSetting(block, 'services_border_color')}} !important;
+	  border-left:{{getSetting(block, 'services_border', 'left')}} {{getSetting(block, 'services_border_style')}} {{getSetting(block, 'services_border_color')}} !important;
+	">
+	<section class="services-super-wrapper services-section-{{$index}}" image-background label="Services Background Image" content="background_image">
         <div class="overlay-wrapper">
             <div class="overlay" settings style-setting="background:overlay_color|opacity:overlay_opacity"></div>
         </div>
@@ -186,4 +187,5 @@
             <div class="clearfix" style="margin-top:{{getSetting(block, 'services_padding', 'bottom')}}"></div>
 		</div>
 	</section>
+	</div>
 	<!--SERVICE END-->
