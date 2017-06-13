@@ -1716,28 +1716,18 @@
           "group": "Spacing",
           "settings": [
             {
-              "id" : "vertical_padding_top",
-              "label" : "Top Padding",
-              "type" : "range",
-              "placeholder" : "65",
-              "value" : 65,
-              "options" : {
-                "min" : 0,
-                "max" : 400,
-                "step" : 5
+              "id" : "contact_padding",
+              "label" : "Contact Padding",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "70px",
+                "right" : "0px",
+                "bottom" : "70px",
+                "left" : "0px"
               },
-              "required" : false
-            },
-            {
-              "id" : "vertical_padding_bottom",
-              "label" : "Bottom Padding",
-              "type" : "range",
-              "placeholder" : "65",
-              "value" : 65,
               "options" : {
-                "min" : 0,
-                "max" : 400,
-                "step" : 5
+                "step" : 10
               },
               "required" : false
             }
@@ -1832,6 +1822,22 @@
               "placeholder": "#ffffff",
               "value": "#ffffff",
               "required": false
+            },
+            {
+              "id" : "form_button_padding",
+              "label" : "Button Padding",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "10px",
+                "right" : "60px",
+                "bottom" : "10px",
+                "left" : "60px"
+              },
+              "options" : {
+                "step" : 5
+              },
+              "required" : false
             }
           ]
         }
@@ -1953,7 +1959,7 @@
               "value" : {
                 "top" : "10px",
                 "right" : "40px",
-                "bottom" : "15px",
+                "bottom" : "10px",
                 "left" : "40px"
               },
               "options" : {
@@ -2004,28 +2010,18 @@
           "group": "Spacing",
           "settings": [
             {
-              "id" : "vertical_padding_top",
-              "label" : "Top Padding",
-              "type" : "range",
-              "placeholder" : "65",
-              "value" : 65,
-              "options" : {
-                "min" : 0,
-                "max" : 400,
-                "step" : 5
+              "id" : "utility_padding",
+              "label" : "Utility Padding",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "70px",
+                "right" : "0px",
+                "bottom" : "70px",
+                "left" : "0px"
               },
-              "required" : false
-            },
-            {
-              "id" : "vertical_padding_bottom",
-              "label" : "Bottom Padding",
-              "type" : "range",
-              "placeholder" : "65",
-              "value" : 65,
               "options" : {
-                "min" : 0,
-                "max" : 400,
-                "step" : 5
+                "step" : 10
               },
               "required" : false
             }
@@ -2088,27 +2084,17 @@
           "group": "Spacing",
           "settings": [
             {
-              "id" : "vertical_padding_top",
-              "label" : "Top Padding",
-              "type" : "range",
-              "placeholder" : "25",
-              "value" : 25,
-              "options" : {
-                "min" : 0,
-                "max" : 400,
-                "step" : 5
+              "id" : "social_padding",
+              "label" : "Social Padding",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "25px",
+                "right" : "0px",
+                "bottom" : "20px",
+                "left" : "0px"
               },
-              "required" : false
-            },
-            {
-              "id" : "vertical_padding_bottom",
-              "label" : "Bottom Padding",
-              "type" : "range",
-              "placeholder" : "20",
-              "value" : 20,
               "options" : {
-                "min" : 0,
-                "max" : 400,
                 "step" : 5
               },
               "required" : false
