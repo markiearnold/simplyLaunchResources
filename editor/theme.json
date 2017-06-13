@@ -2017,6 +2017,14 @@
               "required": false
             },
             {
+              "id": "form_background_color",
+              "label": "Input Background Color",
+              "type": "color",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
+              "required": false
+            },
+            {
               "id": "form_label_color",
               "label": "Form Label Color",
               "type": "color",
