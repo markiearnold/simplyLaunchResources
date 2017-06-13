@@ -2295,8 +2295,8 @@
               "id": "button_text_color",
               "label": "Button Text Color",
               "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
+              "placeholder": "#1d1d1d",
+              "value": "#1d1d1d",
               "required": false
             },
             {
