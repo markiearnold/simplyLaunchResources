@@ -1,7 +1,8 @@
 <style class="belch-compile">
     .hs-form label {
         color: {{getSetting(block, "form_label_color")}} !important;
-        font-weight: bold;
+        font-size: {{getSetting(block, "label_font_size")}} !important;
+        font-weight: {{getSetting(block, "label_font_weight")}} !important;
         margin-bottom: 6px;
     }
     .hs-form input[type=date], .hs-form input[type=datetime], .hs-form input[type=datetime-local], .hs-form input[type=email], .hs-form input[type=month], input[type=number], .hs-form input[type=password], .hs-form input[type=range], .hs-form input[type=search], .hs-form input[type=tel], .hs-form input[type=text], .hs-form input[type=time], .hs-form input[type=url], .hs-form input[type=week], .hs-form .input textarea,.hs-form .hs-input textarea,.hs-form textarea, .hs-form .input select, .hs-form .hs-input select, .hs-form select {
@@ -13,10 +14,10 @@
         -moz-border-radius: {{getSetting(block, "form_border_radius")}}px !important;
         -webkit-border-radius: {{getSetting(block, "form_border_radius")}}px !important;
         box-sizing:border-box;
-        border-top:{{getSetting(block, 'input_border', 'top')}} {{getSetting(block, 'input_border_style')}} {{getSetting(block, 'form_border_color')}} !important;
-        border-right:{{getSetting(block, 'input_border', 'right')}} {{getSetting(block, 'input_border_style')}} {{getSetting(block, 'form_border_color')}} !important;
-        border-bottom:{{getSetting(block, 'input_border', 'bottom')}} {{getSetting(block, 'input_border_style')}} {{getSetting(block, 'form_border_color')}} !important;
-        border-left:{{getSetting(block, 'input_border', 'left')}} {{getSetting(block, 'input_border_style')}} {{getSetting(block, 'form_border_color')}} !important;
+        border-top:{{getSetting(block, 'form_button_border_width', 'top')}} {{getSetting(block, 'input_border_style')}} {{getSetting(block, 'form_border_color')}} !important;
+        border-right:{{getSetting(block, 'form_button_border_width', 'right')}} {{getSetting(block, 'input_border_style')}} {{getSetting(block, 'form_border_color')}} !important;
+        border-bottom:{{getSetting(block, 'form_button_border_width', 'bottom')}} {{getSetting(block, 'input_border_style')}} {{getSetting(block, 'form_border_color')}} !important;
+        border-left:{{getSetting(block, 'form_button_border_width', 'left')}} {{getSetting(block, 'input_border_style')}} {{getSetting(block, 'form_border_color')}} !important;
     }
     .hs-form button, .hs-form input[type=button], .hs-form input[type=reset], .hs-form input[type=submit] {
         background: {{getSetting(block, "button_background_color")}} !important;
@@ -31,6 +32,11 @@
         padding-right: {{getSetting(block, 'form_button_padding', 'right')}} !important;
         padding-top: {{getSetting(block, 'form_button_padding', 'top')}} !important;
         padding-bottom: {{getSetting(block, 'form_button_padding', 'bottom')}} !important;
+
+        border-top: {{getSetting(block, "cta_button_border", "top")}} {{getSetting(block, "cta_border_style")}} {{getSetting(block, "button_border_color")}} !important;
+        border-right: {{getSetting(block, "cta_button_border", "right")}} {{getSetting(block, "cta_border_style")}} {{getSetting(block, "button_border_color")}} !important;
+        border-bottom: {{getSetting(block, "cta_button_border", "bottom")}} {{getSetting(block, "cta_border_style")}} {{getSetting(block, "button_border_color")}} !important;
+        border-left: {{getSetting(block, "cta_button_border", "left")}} {{getSetting(block, "cta_border_style")}} {{getSetting(block, "button_border_color")}} !important;
     }
     .hs-form button:hover, .hs-form input[type=button]:hover, .hs-form input[type=reset]:hover, .hs-form input[type=submit]:hover {
         background: {{getSetting(block, "button_hover_background_color")}} !important;
