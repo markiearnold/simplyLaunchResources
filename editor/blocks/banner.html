@@ -22,7 +22,13 @@
     }
 </style>
 	<!--BANNER START-->
-	<section class="banner-super-wrapper banner-section-{{$index}}" image-background label="Banner Background Image" content="background_image">
+	<section class="banner-super-wrapper banner-section-{{$index}}" image-background label="Banner Background Image" content="background_image"
+  style="
+      border-top:{{getSetting(block, 'banner_border', 'top')}} {{getSetting(block, 'banner_border_style')}} {{getSetting(block, 'banner_border_color')}} !important;
+      border-right:{{getSetting(block, 'banner_border', 'right')}} {{getSetting(block, 'banner_border_style')}} {{getSetting(block, 'banner_border_color')}} !important;
+      border-bottom:{{getSetting(block, 'banner_border', 'bottom')}} {{getSetting(block, 'banner_border_style')}} {{getSetting(block, 'banner_border_color')}} !important;
+      border-left:{{getSetting(block, 'banner_border', 'left')}} {{getSetting(block, 'banner_border_style')}} {{getSetting(block, 'banner_border_color')}} !important;
+  ">
         <div class="overlay-wrapper">
             <div class="overlay" settings style-setting="background:overlay_color|opacity:overlay_opacity"></div>
         </div>

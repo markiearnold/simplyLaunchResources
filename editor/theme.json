@@ -933,6 +933,44 @@
           ]
         },
         {
+          "group": "Border",
+          "settings": [
+            {
+              "id" : "banner_border",
+              "label" : "Banner Border",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "0px",
+                "right" : "0px",
+                "bottom" : "0px",
+                "left" : "0px"
+              },
+              "options" : {
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id" : "banner_border_color",
+              "label" : "Banner Border Color",
+              "type" : "color",
+              "placeholder" : "rgba(255,255,255,0)",
+              "value" : "rgba(255,255,255,0)",
+              "required" : false
+            },
+            {
+              "id" : "banner_border_style",
+              "label" : "Banner Border Style",
+              "type" : "select",
+              "placeholder" : "solid",
+              "value" : "solid",
+              "options" : ["solid", "dashed", "dotted", "double"],
+              "required" : false
+            }
+          ]
+        },
+        {
           "group": "Spacing",
           "settings": [
             {
@@ -1101,6 +1139,44 @@
               "placeholder": "#f9f9f9",
               "value": "#f9f9f9",
               "required": false
+            }
+          ]
+        },
+        {
+          "group": "Border",
+          "settings": [
+            {
+              "id" : "gallery_border",
+              "label" : "Gallery Border",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "0px",
+                "right" : "0px",
+                "bottom" : "0px",
+                "left" : "0px"
+              },
+              "options" : {
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id" : "gallery_border_color",
+              "label" : "Gallery Border Color",
+              "type" : "color",
+              "placeholder" : "rgba(255,255,255,0)",
+              "value" : "rgba(255,255,255,0)",
+              "required" : false
+            },
+            {
+              "id" : "gallery_border_style",
+              "label" : "Gallery Border Style",
+              "type" : "select",
+              "placeholder" : "solid",
+              "value" : "solid",
+              "options" : ["solid", "dashed", "dotted", "double"],
+              "required" : false
             }
           ]
         },

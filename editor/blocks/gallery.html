@@ -29,7 +29,13 @@
 	</style>
 
 	<!--CTA1 START-->
-	<section class="gallery-super-wrapper" image-background label="Gallery Background Image" content="background_image">
+	<section class="gallery-super-wrapper" image-background label="Gallery Background Image" content="background_image"
+	style="
+      border-top:{{getSetting(block, 'gallery_border', 'top')}} {{getSetting(block, 'gallery_border_style')}} {{getSetting(block, 'gallery_border_color')}} !important;
+      border-right:{{getSetting(block, 'gallery_border', 'right')}} {{getSetting(block, 'gallery_border_style')}} {{getSetting(block, 'gallery_border_color')}} !important;
+      border-bottom:{{getSetting(block, 'gallery_border', 'bottom')}} {{getSetting(block, 'gallery_border_style')}} {{getSetting(block, 'gallery_border_color')}} !important;
+      border-left:{{getSetting(block, 'gallery_border', 'left')}} {{getSetting(block, 'gallery_border_style')}} {{getSetting(block, 'gallery_border_color')}} !important;
+  ">
         <div class="overlay-wrapper">
             <div class="overlay" settings style-setting="background:overlay_color|opacity:overlay_opacity"></div>
         </div>
