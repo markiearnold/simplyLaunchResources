@@ -1,7 +1,16 @@
 <style class="belch-compile">
     .button-{{$index}} {
+        background: {{getSetting(block, "button_background_color")}} !important;
         color: {{getSetting(block, "button_text_color")}} !important;
-        border-color: {{getSetting(block, "button_text_color")}} !important;
+        border-top: {{getSetting(block, "cta_button_border", "top")}} {{getSetting(block, "cta_border_style")}} {{getSetting(block, "button_border_color")}} !important;
+        border-right: {{getSetting(block, "cta_button_border", "right")}} {{getSetting(block, "cta_border_style")}} {{getSetting(block, "button_border_color")}} !important;
+        border-bottom: {{getSetting(block, "cta_button_border", "bottom")}} {{getSetting(block, "cta_border_style")}} {{getSetting(block, "button_border_color")}} !important;
+        border-left: {{getSetting(block, "cta_button_border", "left")}} {{getSetting(block, "cta_border_style")}} {{getSetting(block, "button_border_color")}} !important;
+        font-size: {{getSetting(block, "button_font_size")}}px !important;
+        font-weight: {{getSetting(block, "button_font_weight")}} !important;
+        border-radius: {{getSetting(block, "button_border_radius")}}px !important;
+        -moz-border-radius: {{getSetting(block, "button_border_radius")}}px !important;
+        -webkit-border-radius: {{getSetting(block, "button_border_radius")}}px !important;
         padding-left: {{getSetting(block, 'cta_button_padding', 'left')}} !important;
         padding-right: {{getSetting(block, 'cta_button_padding', 'right')}} !important;
         padding-top: {{getSetting(block, 'cta_button_padding', 'top')}} !important;
@@ -9,7 +18,7 @@
     }
     .button-{{$index}}:hover {
         background: {{getSetting(block, "button_hover_background_color")}} !important;
-        border-color: {{getSetting(block, "button_hover_background_color")}} !important;
+        border-color: {{getSetting(block, "button_hover_border_color")}} !important;
         color: {{getSetting(block, "button_hover_text_color")}} !important;
     }
     @media (min-width:1025px) {
