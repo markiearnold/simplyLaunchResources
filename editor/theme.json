@@ -2179,19 +2179,6 @@
               "required" : false
             },
             {
-              "id" : "button_border_radius",
-              "label" : "Button Border Radius",
-              "type" : "range",
-              "placeholder" : "0",
-              "value" : 0,
-              "options" : {
-                "min" : 0,
-                "max" : 100,
-                "step" : 1
-              },
-              "required" : false
-            },
-            {
               "id" : "form_button_border_width",
               "label" : "Button Border Width",
               "type" : "box",
@@ -2208,13 +2195,42 @@
               "required" : false
             },
             {
-              "id" : "input_border_style",
+              "id" : "submit_button_border",
               "label" : "Input Border Style",
               "type" : "select",
               "placeholder" : "solid",
               "value" : "solid",
               "options" : ["solid", "dashed", "dotted", "double"],
               "required" : false
+            },
+            {
+              "id" : "button_border_radius",
+              "label" : "Button Border Radius",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : 0,
+              "options" : {
+                "min" : 0,
+                "max" : 100,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "submit_border_btn_color",
+              "label": "Submit Border Color",
+              "type": "color",
+              "placeholder": "rgba(255,255,255,0)",
+              "value": "rgba(255,255,255,0)",
+              "required": false
+            },
+            {
+              "id": "submit_hover_border_btn_color",
+              "label": "Submit Hover Border Color",
+              "type": "color",
+              "placeholder": "rgba(255,255,255,0)",
+              "value": "rgba(255,255,255,0)",
+              "required": false
             }
           ]
         }
