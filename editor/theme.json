@@ -2066,8 +2066,8 @@
               "id": "form_background_color",
               "label": "Input Background Color",
               "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
+              "placeholder": "rgba(255,255,255,0)",
+              "value": "rgba(255,255,255,0)",
               "required": false
             },
             {
