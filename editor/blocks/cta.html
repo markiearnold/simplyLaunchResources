@@ -2,21 +2,31 @@
     .button-{{$index}} {
         color: {{getSetting(block, "button_text_color")}} !important;
         border-color: {{getSetting(block, "button_text_color")}} !important;
+        padding-left: {{getSetting(block, 'cta_button_padding', 'left')}} !important;
+        padding-right: {{getSetting(block, 'cta_button_padding', 'right')}} !important;
+        padding-top: {{getSetting(block, 'cta_button_padding', 'top')}} !important;
+        padding-bottom: {{getSetting(block, 'cta_button_padding', 'bottom')}} !important;
     }
     .button-{{$index}}:hover {
         background: {{getSetting(block, "button_hover_background_color")}} !important;
         border-color: {{getSetting(block, "button_hover_background_color")}} !important;
         color: {{getSetting(block, "button_hover_text_color")}} !important;
-
+    }
+    @media (min-width:1025px) {
+      .cta-section-{{$index}} .horizontal-padding {
+        box-sizing: border-box;
+        padding-left: {{getSetting(block, 'cta_padding', 'left')}} !important;
+        padding-right: {{getSetting(block, 'cta_padding', 'right')}} !important;
+      }
     }
 </style>
 	<!--CTA2 START-->
-	<section class="cta-super-wrapper" image-background label="CTA Background Image" content="background_image">
+	<section class="cta-super-wrapper cta-section-{{$index}}" image-background label="CTA Background Image" content="background_image">
         <div class="overlay-wrapper">
             <div class="overlay" settings style-setting="background:overlay_color|opacity:overlay_opacity"></div>
         </div>
-		<div class="{{getSetting(block, 'in_grid')}}">
-            <div class="clearfix" style="margin-top:{{getSetting(block, 'vertical_padding_top')}}px"></div>
+		<div class="{{getSetting(block, 'in_grid')}} horizontal-padding">
+            <div class="clearfix" style="margin-top:{{getSetting(block, 'cta_padding', 'top')}}"></div>
 			<div class="row text-center"
 			 settings
 			 rich-block label="CTA Text Block" content="cta_text"
@@ -26,7 +36,7 @@
     			  <a settings url-link link="button_links_to" text="button_label" label="CTA Link"
     			    href="#" class="btn btn-banner button-{{$index}}"></a>
 			</div>
-            <div class="clearfix" style="margin-top:{{getSetting(block, 'vertical_padding_bottom')}}px"></div>
+            <div class="clearfix" style="margin-top:{{getSetting(block, 'cta_padding', 'bottom')}}"></div>
 		</div>
 	</div>
 	<!--CTA2 END-->

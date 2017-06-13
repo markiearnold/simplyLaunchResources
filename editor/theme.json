@@ -1871,28 +1871,18 @@
           "group": "Spacing",
           "settings": [
             {
-              "id" : "vertical_padding_top",
-              "label" : "Top Padding",
-              "type" : "range",
-              "placeholder" : "30",
-              "value" : 30,
-              "options" : {
-                "min" : 0,
-                "max" : 400,
-                "step" : 5
+              "id" : "cta_padding",
+              "label" : "CTA Padding",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "30px",
+                "right" : "0px",
+                "bottom" : "45px",
+                "left" : "0px"
               },
-              "required" : false
-            },
-            {
-              "id" : "vertical_padding_bottom",
-              "label" : "Bottom Padding",
-              "type" : "range",
-              "placeholder" : "45",
-              "value" : 45,
               "options" : {
-                "min" : 0,
-                "max" : 400,
-                "step" : 5
+                "step" : 10
               },
               "required" : false
             }
@@ -1954,6 +1944,22 @@
               "placeholder": "#ffffff",
               "value": "#1d1d1d",
               "required": false
+            },
+            {
+              "id" : "cta_button_padding",
+              "label" : "Button Padding",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "10px",
+                "right" : "40px",
+                "bottom" : "15px",
+                "left" : "40px"
+              },
+              "options" : {
+                "step" : 5
+              },
+              "required" : false
             }
           ]
         }
