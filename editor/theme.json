@@ -1122,32 +1122,6 @@
                 "step" : 10
               },
               "required" : false
-            },
-            {
-              "id" : "vertical_padding_top",
-              "label" : "Top Padding",
-              "type" : "range",
-              "placeholder" : "0",
-              "value" : 0,
-              "options" : {
-                "min" : 0,
-                "max" : 400,
-                "step" : 5
-              },
-              "required" : false
-            },
-            {
-              "id" : "vertical_padding_bottom",
-              "label" : "Bottom Padding",
-              "type" : "range",
-              "placeholder" : "0",
-              "value" : 0,
-              "options" : {
-                "min" : 0,
-                "max" : 400,
-                "step" : 5
-              },
-              "required" : false
             }
           ]
         },
@@ -1205,6 +1179,22 @@
               "placeholder": "rgba(251,121,91,0.9)",
               "value": "rgba(251,121,91,0.9)",
               "required": false
+            },
+            {
+              "id" : "gallery_item_padding_1",
+              "label" : "First Item Padding",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "0px",
+                "right" : "0px",
+                "bottom" : "0px",
+                "left" : "0px"
+              },
+              "options" : {
+                "step" : 10
+              },
+              "required" : false
             }
           ]
         },
@@ -1226,6 +1216,22 @@
               "placeholder": "rgba(255,255,255,0)",
               "value": "rgba(255,255,255,0)",
               "required": false
+            },
+            {
+              "id" : "gallery_item_padding_2",
+              "label" : "Second Item Padding",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "0px",
+                "right" : "0px",
+                "bottom" : "0px",
+                "left" : "0px"
+              },
+              "options" : {
+                "step" : 10
+              },
+              "required" : false
             }
           ]
         },
@@ -1247,6 +1253,22 @@
               "placeholder": "rgba(255,255,255,0)",
               "value": "rgba(255,255,255,0)",
               "required": false
+            },
+            {
+              "id" : "gallery_item_padding_3",
+              "label" : "Third Item Padding",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "0px",
+                "right" : "0px",
+                "bottom" : "0px",
+                "left" : "0px"
+              },
+              "options" : {
+                "step" : 10
+              },
+              "required" : false
             }
           ]
         },
@@ -1268,6 +1290,22 @@
               "placeholder": "rgba(255,255,255,0)",
               "value": "rgba(255,255,255,0)",
               "required": false
+            },
+            {
+              "id" : "gallery_item_padding_4",
+              "label" : "Fourth Item Padding",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "0px",
+                "right" : "0px",
+                "bottom" : "0px",
+                "left" : "0px"
+              },
+              "options" : {
+                "step" : 10
+              },
+              "required" : false
             }
           ]
         }

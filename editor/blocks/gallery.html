@@ -5,6 +5,26 @@
 	        padding-left: {{getSetting(block, 'gallery_padding', 'left')}} !important;
 	        padding-right: {{getSetting(block, 'gallery_padding', 'right')}} !important;
 	      }
+				.gallery-section-{{$index}} .gal-content-inner-wrapper.one {
+	        box-sizing: border-box;
+	        padding-left: {{getSetting(block, 'gallery_item_padding_1', 'left')}} !important;
+	        padding-right: {{getSetting(block, 'gallery_item_padding_1', 'right')}} !important;
+	      }
+				.gallery-section-{{$index}} .gal-content-inner-wrapper.two {
+	        box-sizing: border-box;
+	        padding-left: {{getSetting(block, 'gallery_item_padding_2', 'left')}} !important;
+	        padding-right: {{getSetting(block, 'gallery_item_padding_2', 'right')}} !important;
+	      }
+				.gallery-section-{{$index}} .gal-content-inner-wrapper.three {
+	        box-sizing: border-box;
+	        padding-left: {{getSetting(block, 'gallery_item_padding_3', 'left')}} !important;
+	        padding-right: {{getSetting(block, 'gallery_item_padding_3', 'right')}} !important;
+	      }
+				.gallery-section-{{$index}} .gal-content-inner-wrapper.four {
+	        box-sizing: border-box;
+	        padding-left: {{getSetting(block, 'gallery_item_padding_4', 'left')}} !important;
+	        padding-right: {{getSetting(block, 'gallery_item_padding_4', 'right')}} !important;
+	      }
 	    }
 	</style>
 
@@ -22,7 +42,7 @@
                         <div class="overlay" settings style-setting="background:gal1_overlay_color|opacity:gal1_overlay_opacity"></div>
                     </div>
                     <div class="gal-content flex-box">
-                        <div class="gal-content-inner-wrapper flex-box">
+                        <div class="gal-content-inner-wrapper one flex-box" style="padding-top:{{getSetting(block, 'gallery_item_padding_1', 'top')}};padding-bottom:{{getSetting(block, 'gallery_item_padding_1', 'bottom')}};">
                             <div class="content-padding text-{{getSetting(block, 'content_position')}}">
                                 <div
             					 settings
@@ -38,8 +58,8 @@
                         <div class="overlay" settings style-setting="background:gal2_overlay_color|opacity:gal2_overlay_opacity"></div>
                     </div>
                     <div class="gal-content flex-box">
-                        <div class="gal-content-inner-wrapper flex-box">
-                            <div class="content-padding text-{{getSetting(block, 'content_position')}}">
+											<div class="gal-content-inner-wrapper two flex-box" style="padding-top:{{getSetting(block, 'gallery_item_padding_2', 'top')}};padding-bottom:{{getSetting(block, 'gallery_item_padding_2', 'bottom')}};">
+													<div class="content-padding text-{{getSetting(block, 'content_position')}}">
                                 <div
             					 settings
             					 rich-block label="Second Gallery Item Text Block" content="gal2_text_block"
@@ -54,8 +74,8 @@
                         <div class="overlay" settings style-setting="background:gal3_overlay_color|opacity:gal3_overlay_opacity"></div>
                     </div>
                     <div class="gal-content flex-box">
-                        <div class="gal-content-inner-wrapper flex-box">
-                            <div class="content-padding text-{{getSetting(block, 'content_position')}}">
+											<div class="gal-content-inner-wrapper three flex-box" style="padding-top:{{getSetting(block, 'gallery_item_padding_3', 'top')}};padding-bottom:{{getSetting(block, 'gallery_item_padding_3', 'bottom')}};">
+													<div class="content-padding text-{{getSetting(block, 'content_position')}}">
                                 <div
             					 settings
             					 rich-block label="Third Gallery Item Text Block" content="gal3_text_block"
@@ -70,8 +90,8 @@
                         <div class="overlay" settings style-setting="background:gal4_overlay_color|opacity:gal4_overlay_opacity"></div>
                     </div>
                     <div class="gal-content flex-box">
-                        <div class="gal-content-inner-wrapper flex-box">
-                            <div class="content-padding text-{{getSetting(block, 'content_position')}}">
+											<div class="gal-content-inner-wrapper four flex-box" style="padding-top:{{getSetting(block, 'gallery_item_padding_4', 'top')}};padding-bottom:{{getSetting(block, 'gallery_item_padding_4', 'bottom')}};">
+													<div class="content-padding text-{{getSetting(block, 'content_position')}}">
                                 <div
             					 settings
             					 rich-block label="Fourth Gallery Item Text Block" content="gal4_text_block"
@@ -89,8 +109,8 @@
                         <div class="overlay" settings style-setting="background:gal1_overlay_color|opacity:gal1_overlay_opacity"></div>
                     </div>
                     <div class="gal-content flex-box">
-                        <div class="gal-content-inner-wrapper flex-box">
-                            <div class="content-padding text-{{getSetting(block, 'content_position')}}">
+											<div class="gal-content-inner-wrapper one flex-box" style="padding-top:{{getSetting(block, 'gallery_item_padding_1', 'top')}};padding-bottom:{{getSetting(block, 'gallery_item_padding_1', 'bottom')}};">
+													<div class="content-padding text-{{getSetting(block, 'content_position')}}">
                                 <div
             					 settings
             					 rich-block label="First Gallery Item Text Block" content="gal1_text_block"
@@ -105,8 +125,8 @@
                         <div class="overlay" settings style-setting="background:gal2_overlay_color|opacity:gal2_overlay_opacity"></div>
                     </div>
                     <div class="gal-content flex-box">
-                        <div class="gal-content-inner-wrapper flex-box">
-                            <div class="content-padding text-{{getSetting(block, 'content_position')}}">
+											<div class="gal-content-inner-wrapper two flex-box" style="padding-top:{{getSetting(block, 'gallery_item_padding_2', 'top')}};padding-bottom:{{getSetting(block, 'gallery_item_padding_2', 'bottom')}};">
+													<div class="content-padding text-{{getSetting(block, 'content_position')}}">
                                 <div
             					 settings
             					 rich-block label="Second Gallery Item Text Block" content="gal2_text_block"
@@ -121,8 +141,8 @@
                         <div class="overlay" settings style-setting="background:gal3_overlay_color|opacity:gal3_overlay_opacity"></div>
                     </div>
                     <div class="gal-content flex-box">
-                        <div class="gal-content-inner-wrapper flex-box">
-                            <div class="content-padding text-{{getSetting(block, 'content_position')}}">
+											<div class="gal-content-inner-wrapper three flex-box" style="padding-top:{{getSetting(block, 'gallery_item_padding_3', 'top')}};padding-bottom:{{getSetting(block, 'gallery_item_padding_3', 'bottom')}};">
+													<div class="content-padding text-{{getSetting(block, 'content_position')}}">
                                 <div
             					 settings
             					 rich-block label="Third Gallery Item Text Block" content="gal3_text_block"
@@ -140,8 +160,8 @@
                         <div class="overlay" settings style-setting="background:gal1_overlay_color|opacity:gal1_overlay_opacity"></div>
                     </div>
                     <div class="gal-content flex-box">
-                        <div class="gal-content-inner-wrapper flex-box">
-                            <div class="content-padding text-{{getSetting(block, 'content_position')}}">
+											<div class="gal-content-inner-wrapper one flex-box" style="padding-top:{{getSetting(block, 'gallery_item_padding_1', 'top')}};padding-bottom:{{getSetting(block, 'gallery_item_padding_1', 'bottom')}};">
+													<div class="content-padding text-{{getSetting(block, 'content_position')}}">
                                 <div
             					 settings
             					 rich-block label="First Gallery Item Text Block" content="gal1_text_block"
@@ -156,8 +176,8 @@
                         <div class="overlay" settings style-setting="background:gal2_overlay_color|opacity:gal2_overlay_opacity"></div>
                     </div>
                     <div class="gal-content flex-box">
-                        <div class="gal-content-inner-wrapper flex-box">
-                            <div class="content-padding text-{{getSetting(block, 'content_position')}}">
+											<div class="gal-content-inner-wrapper two flex-box" style="padding-top:{{getSetting(block, 'gallery_item_padding_2', 'top')}};padding-bottom:{{getSetting(block, 'gallery_item_padding_2', 'bottom')}};">
+													<div class="content-padding text-{{getSetting(block, 'content_position')}}">
                                 <div
             					 settings
             					 rich-block label="Second Gallery Item Text Block" content="gal2_text_block"
