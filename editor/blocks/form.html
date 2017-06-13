@@ -27,10 +27,15 @@
         padding-right: {{getSetting(block, 'form_button_padding', 'right')}} !important;
         padding-top: {{getSetting(block, 'form_button_padding', 'top')}} !important;
         padding-bottom: {{getSetting(block, 'form_button_padding', 'bottom')}} !important;
+        border-top: {{getSetting(block, "form_button_border_width", "top")}} {{getSetting(block, "submit_button_border")}} {{getSetting(block, "submit_border_btn_color")}} !important;
+        border-right: {{getSetting(block, "form_button_border_width", "right")}} {{getSetting(block, "submit_button_border")}} {{getSetting(block, "submit_border_btn_color")}} !important;
+        border-bottom: {{getSetting(block, "form_button_border_width", "bottom")}} {{getSetting(block, "submit_button_border")}} {{getSetting(block, "submit_border_btn_color")}} !important;
+        border-left: {{getSetting(block, "form_button_border_width", "left")}} {{getSetting(block, "submit_button_border")}} {{getSetting(block, "submit_border_btn_color")}} !important;
     }
     .hs-form button:hover, .hs-form input[type=button]:hover, .hs-form input[type=reset]:hover, .hs-form input[type=submit]:hover {
         background: {{getSetting(block, "button_hover_background_color")}} !important;
         color: {{getSetting(block, "button_hover_text_color")}} !important;
+        border-color: {{getSetting(block, "submit_hover_border_btn_color")}} !important;
     }
     .hs-form {
         max-width: 650px;
