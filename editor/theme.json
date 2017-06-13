@@ -2016,7 +2016,7 @@
               "value" : {
                 "top" : "0px",
                 "right" : "0px",
-                "bottom" : "0px",
+                "bottom" : "1px",
                 "left" : "0px"
               },
               "options" : {
