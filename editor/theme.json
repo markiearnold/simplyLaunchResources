@@ -2316,6 +2316,45 @@
               "required": false
             },
             {
+              "id" : "button_border_radius",
+              "label" : "Button Border Radius",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : 0,
+              "options" : {
+                "min" : 0,
+                "max" : 100,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id" : "button_font_size",
+              "label" : "Button Font Size",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : 16,
+              "options" : {
+                "min" : 0,
+                "max" : 72,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id" : "button_font_weight",
+              "label" : "Button Font Weight",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : 300,
+              "options" : {
+                "min" : 100,
+                "max" : 900,
+                "step" : 100
+              },
+              "required" : false
+            },
+            {
               "id" : "cta_button_padding",
               "label" : "Button Padding",
               "type" : "box",
