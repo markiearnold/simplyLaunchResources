@@ -2111,6 +2111,32 @@
               "required": false
             },
             {
+              "id" : "button_border_radius",
+              "label" : "Button Border Radius",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : 0,
+              "options" : {
+                "min" : 0,
+                "max" : 100,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id" : "button_font_size",
+              "label" : "Button Font Size",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : 16,
+              "options" : {
+                "min" : 0,
+                "max" : 72,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
               "id" : "form_button_padding",
               "label" : "Button Padding",
               "type" : "box",
