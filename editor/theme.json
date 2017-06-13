@@ -1050,6 +1050,22 @@
               "placeholder": "#333333",
               "value": "#333333",
               "required": false
+            },
+            {
+              "id" : "header_button_padding",
+              "label" : "Button Padding",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "12px",
+                "right" : "40px",
+                "bottom" : "12px",
+                "left" : "40px"
+              },
+              "options" : {
+                "step" : 5
+              },
+              "required" : false
             }
           ]
         }
