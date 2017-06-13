@@ -1,9 +1,19 @@
-	<section class="about-super-wrapper" image-background label="About Background Image" content="background_image">
+	<style class="belch-compile">
+	    @media (min-width:1025px) {
+	      .about-section-{{$index}} .horizontal-padding {
+	        box-sizing: border-box;
+	        padding-left: {{getSetting(block, 'about_padding', 'left')}} !important;
+	        padding-right: {{getSetting(block, 'about_padding', 'right')}} !important;
+	      }
+	    }
+	</style>
+
+	<section class="about-super-wrapper about-section-{{$index}}" image-background label="About Background Image" content="background_image">
         <div class="overlay-wrapper">
             <div class="overlay" settings style-setting="background:overlay_color|opacity:overlay_opacity"></div>
         </div>
-		<div class="{{getSetting(block, 'in_grid')}}">
-            <div class="clearfix" style="margin-top:{{getSetting(block, 'vertical_padding_top')}}px"></div>
+		<div class="{{getSetting(block, 'in_grid')}} horizontal-padding">
+            <div class="clearfix" style="margin-top:{{getSetting(block, 'about_padding', 'top')}}"></div>
 			<div class="row">
 
 		        <div settings show-if="img_position" show-if-condition="=='right'">
@@ -38,6 +48,6 @@
 		        </div>
 
 			</div>
-            <div class="clearfix" style="margin-top:{{getSetting(block, 'vertical_padding_bottom')}}px"></div>
+            <div class="clearfix" style="margin-top:{{getSetting(block, 'about_padding', 'bottom')}}"></div>
 		</div>
 	</section>
