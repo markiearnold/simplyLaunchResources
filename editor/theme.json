@@ -2300,6 +2300,22 @@
               "required": false
             },
             {
+              "id": "button_hover_text_color",
+              "label": "Button Hover Text Color",
+              "type": "color",
+              "placeholder": "#ffffff",
+              "value": "#1d1d1d",
+              "required": false
+            },
+            {
+              "id": "button_background_color",
+              "label": "Button BG Color",
+              "type": "color",
+              "placeholder": "",
+              "value": "rgba(255, 255, 255, 0)",
+              "required": false
+            },
+            {
               "id": "button_hover_background_color",
               "label": "Button Hover BG Color",
               "type": "color",
@@ -2308,11 +2324,19 @@
               "required": false
             },
             {
-              "id": "button_hover_text_color",
-              "label": "Button Hover Text Color",
+              "id": "button_border_color",
+              "label": "Button Border Color",
               "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#1d1d1d",
+              "placeholder": "#000000",
+              "value": "#000000",
+              "required": false
+            },
+            {
+              "id": "button_hover_border_color",
+              "label": "Button Hover Border Color",
+              "type": "color",
+              "placeholder": "#000000",
+              "value": "#000000",
               "required": false
             },
             {
@@ -2367,6 +2391,31 @@
               },
               "options" : {
                 "step" : 5
+              },
+              "required" : false
+            },
+            {
+              "id" : "cta_border_style",
+              "label" : "CTA Border Style",
+              "type" : "select",
+              "placeholder" : "solid",
+              "value" : "solid",
+              "options" : ["solid", "dashed", "dotted", "double"],
+              "required" : false
+            },
+            {
+              "id" : "cta_button_border",
+              "label" : "Button Border",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "1px",
+                "right" : "1px",
+                "bottom" : "1px",
+                "left" : "1px"
+              },
+              "options" : {
+                "step" : 1
               },
               "required" : false
             }
