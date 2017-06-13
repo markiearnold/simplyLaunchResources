@@ -2137,6 +2137,19 @@
               "required" : false
             },
             {
+              "id" : "button_font_weight",
+              "label" : "Button Font Weight",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : 300,
+              "options" : {
+                "min" : 100,
+                "max" : 900,
+                "step" : 100
+              },
+              "required" : false
+            },
+            {
               "id" : "form_button_padding",
               "label" : "Button Padding",
               "type" : "box",
