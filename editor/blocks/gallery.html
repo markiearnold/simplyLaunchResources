@@ -1,9 +1,19 @@
+	<style class="belch-compile">\
+	    @media (min-width:1025px) {
+	      .gallery-section-{{$index}} {
+	        box-sizing: border-box;
+	        padding-left: {{getSetting(block, 'gallery_padding', 'left')}};
+	        padding-right: {{getSetting(block, 'gallery_padding', 'right')}};
+	      }
+	    }
+	</style>
+
 	<!--CTA1 START-->
 	<section class="gallery-super-wrapper" image-background label="Gallery Background Image" content="background_image">
         <div class="overlay-wrapper">
             <div class="overlay" settings style-setting="background:overlay_color|opacity:overlay_opacity"></div>
         </div>
-		<div class="container-fluid tight-gallery-container" style="min-height:{{getSetting(block, 'row_height')}}px; padding-top:{{getSetting(block, 'vertical_padding_top')}}px;padding-bottom:{{getSetting(block, 'vertical_padding_bottom')}}px">
+		<div class="container-fluid tight-gallery-container gallery-section-{{$index}}" style="min-height:{{getSetting(block, 'row_height')}}px; padding-top:{{getSetting(block, 'gallery_padding', 'top')}};padding-bottom:{{getSetting(block, 'gallery_padding', 'bottom')}};">
 
 			<div class="row gallery-row" settings show-if="col_count" show-if-condition="==4">
 			   <div class="col-md-3 gallery-item" style="height:{{getSetting(block, 'row_height')}}px;position:relative;">
@@ -31,7 +41,7 @@
                         <div class="gal-content-inner-wrapper flex-box">
                             <div class="content-padding text-{{getSetting(block, 'content_position')}}">
                                 <div
-            					 settings  
+            					 settings
             					 rich-block label="Second Gallery Item Text Block" content="gal2_text_block"
             					 ></div>
                             </div>

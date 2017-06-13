@@ -1108,6 +1108,22 @@
           "group": "Spacing",
           "settings": [
             {
+              "id" : "gallery_padding",
+              "label" : "Gallery Padding",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "0px",
+                "right" : "0px",
+                "bottom" : "0px",
+                "left" : "0px"
+              },
+              "options" : {
+                "step" : 10
+              },
+              "required" : false
+            },
+            {
               "id" : "vertical_padding_top",
               "label" : "Top Padding",
               "type" : "range",
