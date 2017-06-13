@@ -936,15 +936,15 @@
           "group": "Spacing",
           "settings": [
             {
-              "id" : "vertical_padding",
-              "label" : "Vertical Padding",
+              "id" : "header_padding",
+              "label" : "Header Padding",
               "type" : "box",
               "placeholder" : "",
               "value" : {
                 "top" : "290px",
-                "right" : null,
+                "right" : "0px",
                 "bottom" : "290px",
-                "left" : null
+                "left" : "0px"
               },
               "options" : {
                 "step" : 10
