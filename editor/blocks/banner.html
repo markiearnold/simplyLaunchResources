@@ -3,15 +3,15 @@
         color: {{getSetting(block, "button_text_color")}} !important;
         border-color: {{getSetting(block, "button_border_color")}} !important;
         background: {{getSetting(block, "button_background_color")}} !important;
+        padding-left: {{getSetting(block, 'header_button_padding', 'left')}} !important;
+        padding-right: {{getSetting(block, 'header_button_padding', 'right')}} !important;
+        padding-top: {{getSetting(block, 'header_button_padding', 'top')}} !important;
+        padding-bottom: {{getSetting(block, 'header_button_padding', 'bottom')}} !important;
     }
     .button-{{$index}}:hover {
         background: {{getSetting(block, "button_hover_background_color")}} !important;
         border-color: {{getSetting(block, "button_hover_border_color")}} !important;
-        color: {{getSetting(block, "button_hover_text_color")}} !important;
-        padding-left: {{getSetting(block, 'header_button_padding', 'left')}};
-        padding-right: {{getSetting(block, 'header_button_padding', 'right')}};
-        padding-top: {{getSetting(block, 'header_button_padding', 'top')}};
-        padding-bottom: {{getSetting(block, 'header_button_padding', 'bottom')}};
+        color: {{getSetting(block, "button_hover_text_color")}} !important;\
     }
     @media (min-width:1025px) {
       .banner-section-{{$index}} .horizontal-padding {
