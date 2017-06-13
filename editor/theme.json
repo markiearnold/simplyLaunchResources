@@ -2163,22 +2163,6 @@
               "required": false
             },
             {
-              "id" : "form_button_padding",
-              "label" : "Button Padding",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "10px",
-                "right" : "60px",
-                "bottom" : "10px",
-                "left" : "60px"
-              },
-              "options" : {
-                "step" : 5
-              },
-              "required" : false
-            },
-            {
               "id" : "form_button_border_width",
               "label" : "Button Border Width",
               "type" : "box",
@@ -2220,17 +2204,33 @@
               "id": "submit_border_btn_color",
               "label": "Submit Border Color",
               "type": "color",
-              "placeholder": "rgba(255,255,255,0)",
-              "value": "rgba(255,255,255,0)",
+              "placeholder": "rgba(255,255,255,1)",
+              "value": "rgba(255,255,255,1)",
               "required": false
             },
             {
               "id": "submit_hover_border_btn_color",
               "label": "Submit Hover Border Color",
               "type": "color",
-              "placeholder": "rgba(255,255,255,0)",
-              "value": "rgba(255,255,255,0)",
+              "placeholder": "rgba(255,255,255,1)",
+              "value": "rgba(255,255,255,1)",
               "required": false
+            },
+            {
+              "id" : "form_button_padding",
+              "label" : "Button Padding",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "10px",
+                "right" : "60px",
+                "bottom" : "10px",
+                "left" : "60px"
+              },
+              "options" : {
+                "step" : 5
+              },
+              "required" : false
             }
           ]
         }
