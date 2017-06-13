@@ -2125,6 +2125,19 @@
                 "step" : 5
               },
               "required" : false
+            },
+            {
+              "id" : "form_button_radius",
+              "label" : "Button Border Radius",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : 0,
+              "options" : {
+                "min" : 0,
+                "max" : 100,
+                "step" : 1
+              },
+              "required" : false
             }
           ]
         }

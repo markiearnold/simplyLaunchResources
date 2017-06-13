@@ -27,6 +27,9 @@
         padding-right: {{getSetting(block, 'form_button_padding', 'right')}} !important;
         padding-top: {{getSetting(block, 'form_button_padding', 'top')}} !important;
         padding-bottom: {{getSetting(block, 'form_button_padding', 'bottom')}} !important;
+        border-radius: {{getSetting(block, "form_button_radius")}}px !important;
+        -moz-border-radius: {{getSetting(block, "form_button_radius")}}px !important;
+        -webkit-border-radius: {{getSetting(block, "form_button_radius")}}px !important;
     }
     .hs-form button:hover, .hs-form input[type=button]:hover, .hs-form input[type=reset]:hover, .hs-form input[type=submit]:hover {
         background: {{getSetting(block, "button_hover_background_color")}} !important;
