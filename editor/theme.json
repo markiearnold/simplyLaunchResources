@@ -117,7 +117,20 @@
             "step" : 1
           },
           "required" : false
-      },
+        },
+        {
+          "id" : "main_menu_font_size",
+          "label" : "Menu Font Size",
+          "type" : "range",
+          "placeholder" : "16",
+          "value" : "16",
+          "options" : {
+            "min" : 8,
+            "max" : 90,
+            "step" : 1
+          },
+          "required" : false
+        },
         {
           "id" : "main_menu_text_color",
           "label" : "Menu Text Color",
@@ -2048,7 +2061,7 @@
             },
             {
               "id": "form_border_color",
-              "label": "Form Input Border Color",
+              "label": "Input Border Color",
               "type": "color",
               "placeholder": "#CACACA",
               "value": "#CACACA",
@@ -2056,7 +2069,7 @@
             },
             {
               "id": "form_text_color",
-              "label": "Form Text Color",
+              "label": "Input Text Color",
               "type": "color",
               "placeholder": "#666666",
               "value": "#666666",
@@ -2066,9 +2079,35 @@
               "id": "form_background_color",
               "label": "Input Background Color",
               "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
+              "placeholder": "rgba(255,255,255,0)",
+              "value": "rgba(255,255,255,0)",
               "required": false
+            },
+            {
+              "id" : "label_font_size",
+              "label" : "Form Label Font Size",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : 13,
+              "options" : {
+                "min" : 0,
+                "max" : 72,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id" : "label_font_weight",
+              "label" : "Form Label Font Weight",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : 500,
+              "options" : {
+                "min" : 100,
+                "max" : 900,
+                "step" : 100
+              },
+              "required" : false
             },
             {
               "id": "form_label_color",
@@ -2079,8 +2118,42 @@
               "required": false
             },
             {
+              "id" : "button_font_size",
+              "label" : "Button Font Size",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : 16,
+              "options" : {
+                "min" : 0,
+                "max" : 72,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id" : "button_font_weight",
+              "label" : "Button Font Weight",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : 300,
+              "options" : {
+                "min" : 100,
+                "max" : 900,
+                "step" : 100
+              },
+              "required" : false
+            },
+            {
               "id": "button_text_color",
-              "label": "Submit Text Color",
+              "label": "Button Text Color",
+              "type": "color",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
+              "required": false
+            },
+            {
+              "id": "button_hover_text_color",
+              "label": "Button Hover Text Color",
               "type": "color",
               "placeholder": "#ffffff",
               "value": "#ffffff",
@@ -2088,7 +2161,7 @@
             },
             {
               "id": "button_background_color",
-              "label": "Submit Background Color",
+              "label": "Button Background Color",
               "type": "color",
               "placeholder": "#1d1d1d",
               "value": "#1d1d1d",
@@ -2096,35 +2169,11 @@
             },
             {
               "id": "button_hover_background_color",
-              "label": "Submit Hover BG Color",
+              "label": "Button Hover BG Color",
               "type": "color",
               "placeholder": "#e47596",
               "value": "#e47596",
               "required": false
-            },
-            {
-              "id": "button_hover_text_color",
-              "label": "Submit Hover Text Color",
-              "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
-              "required": false
-            },
-            {
-              "id" : "form_button_padding",
-              "label" : "Button Padding",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "10px",
-                "right" : "60px",
-                "bottom" : "10px",
-                "left" : "60px"
-              },
-              "options" : {
-                "step" : 5
-              },
-              "required" : false
             },
             {
               "id" : "form_button_border_width",
@@ -2168,17 +2217,33 @@
               "id": "submit_border_btn_color",
               "label": "Submit Border Color",
               "type": "color",
-              "placeholder": "rgba(255,255,255,0)",
-              "value": "rgba(255,255,255,0)",
+              "placeholder": "rgba(255,255,255,1)",
+              "value": "rgba(255,255,255,1)",
               "required": false
             },
             {
               "id": "submit_hover_border_btn_color",
               "label": "Submit Hover Border Color",
               "type": "color",
-              "placeholder": "rgba(255,255,255,0)",
-              "value": "rgba(255,255,255,0)",
+              "placeholder": "rgba(255,255,255,1)",
+              "value": "rgba(255,255,255,1)",
               "required": false
+            },
+            {
+              "id" : "form_button_padding",
+              "label" : "Button Padding",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "10px",
+                "right" : "60px",
+                "bottom" : "10px",
+                "left" : "60px"
+              },
+              "options" : {
+                "step" : 5
+              },
+              "required" : false
             }
           ]
         }
@@ -2310,8 +2375,24 @@
               "id": "button_text_color",
               "label": "Button Text Color",
               "type": "color",
+              "placeholder": "#1d1d1d",
+              "value": "#1d1d1d",
+              "required": false
+            },
+            {
+              "id": "button_hover_text_color",
+              "label": "Button Hover Text Color",
+              "type": "color",
               "placeholder": "#ffffff",
-              "value": "#ffffff",
+              "value": "#1d1d1d",
+              "required": false
+            },
+            {
+              "id": "button_background_color",
+              "label": "Button BG Color",
+              "type": "color",
+              "placeholder": "",
+              "value": "rgba(255, 255, 255, 0)",
               "required": false
             },
             {
@@ -2323,12 +2404,59 @@
               "required": false
             },
             {
-              "id": "button_hover_text_color",
-              "label": "Button Hover Text Color",
+              "id": "button_border_color",
+              "label": "Button Border Color",
               "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#1d1d1d",
+              "placeholder": "#000000",
+              "value": "#000000",
               "required": false
+            },
+            {
+              "id": "button_hover_border_color",
+              "label": "Button Hover Border Color",
+              "type": "color",
+              "placeholder": "#000000",
+              "value": "#000000",
+              "required": false
+            },
+            {
+              "id" : "button_border_radius",
+              "label" : "Button Border Radius",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : 0,
+              "options" : {
+                "min" : 0,
+                "max" : 100,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id" : "button_font_size",
+              "label" : "Button Font Size",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : 16,
+              "options" : {
+                "min" : 0,
+                "max" : 72,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id" : "button_font_weight",
+              "label" : "Button Font Weight",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : 300,
+              "options" : {
+                "min" : 100,
+                "max" : 900,
+                "step" : 100
+              },
+              "required" : false
             },
             {
               "id" : "cta_button_padding",
@@ -2343,6 +2471,31 @@
               },
               "options" : {
                 "step" : 5
+              },
+              "required" : false
+            },
+            {
+              "id" : "cta_border_style",
+              "label" : "CTA Border Style",
+              "type" : "select",
+              "placeholder" : "solid",
+              "value" : "solid",
+              "options" : ["solid", "dashed", "dotted", "double"],
+              "required" : false
+            },
+            {
+              "id" : "cta_button_border",
+              "label" : "Button Border",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "1px",
+                "right" : "1px",
+                "bottom" : "1px",
+                "left" : "1px"
+              },
+              "options" : {
+                "step" : 1
               },
               "required" : false
             }

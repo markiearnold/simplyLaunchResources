@@ -1,7 +1,8 @@
 <style class="belch-compile">
     .hs-form label {
         color: {{getSetting(block, "form_label_color")}} !important;
-        font-weight: bold;
+        font-size: {{getSetting(block, "label_font_size")}}px !important;
+        font-weight: {{getSetting(block, "label_font_weight")}} !important;
         margin-bottom: 6px;
     }
     .hs-form input[type=date], .hs-form input[type=datetime], .hs-form input[type=datetime-local], .hs-form input[type=email], .hs-form input[type=month], input[type=number], .hs-form input[type=password], .hs-form input[type=range], .hs-form input[type=search], .hs-form input[type=tel], .hs-form input[type=text], .hs-form input[type=time], .hs-form input[type=url], .hs-form input[type=week], .hs-form .input textarea,.hs-form .hs-input textarea,.hs-form textarea, .hs-form .input select, .hs-form .hs-input select, .hs-form select {
@@ -21,8 +22,12 @@
     .hs-form button, .hs-form input[type=button], .hs-form input[type=reset], .hs-form input[type=submit] {
         background: {{getSetting(block, "button_background_color")}} !important;
         color: {{getSetting(block, "button_text_color")}} !important;
-        font-size: 16px;
+        font-size: {{getSetting(block, 'button_font_size')}}px !important;
+        font-weight: {{getSetting(block, 'button_font_weight')}} !important;
         margin-left: 10px;
+        border-radius: {{getSetting(block, "button_border_radius")}}px !important;
+        -moz-border-radius: {{getSetting(block, "button_border_radius")}}px !important;
+        -webkit-border-radius: {{getSetting(block, "button_border_radius")}}px !important;
         padding-left: {{getSetting(block, 'form_button_padding', 'left')}} !important;
         padding-right: {{getSetting(block, 'form_button_padding', 'right')}} !important;
         padding-top: {{getSetting(block, 'form_button_padding', 'top')}} !important;
