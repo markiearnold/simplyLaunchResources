@@ -206,8 +206,8 @@
           "required": false
         },
         {
-          "id" : "logo_width",
-          "label" : "Logo Width",
+          "id" : "logo_height",
+          "label" : "Logo Height",
           "type" : "range",
           "placeholder" : "40",
           "value" : "40",
