@@ -119,7 +119,7 @@
           "required" : false
         },
         {
-          "id" : "main_menu_font_size",
+          "id" : "main_menu_font_size", 
           "label" : "Menu Font Size",
           "type" : "range",
           "placeholder" : "16",
