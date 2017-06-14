@@ -119,7 +119,7 @@
           "required" : false
         },
         {
-          "id" : "main_menu_font_size", 
+          "id" : "main_menu_font_size",
           "label" : "Menu Font Size",
           "type" : "range",
           "placeholder" : "16",
@@ -161,6 +161,14 @@
           "type" : "color",
           "placeholder" : "#ffffff",
           "value" : "#ffffff",
+          "required" : false
+        },
+        {
+          "id" : "main_menu_flyout_text_hover_color",
+          "label" : "Menu Flyout Text Color",
+          "type" : "color",
+          "placeholder" : "#f3f3f3",
+          "value" : "#f3f3f3",
           "required" : false
         },
         {
