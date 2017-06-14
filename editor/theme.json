@@ -132,6 +132,19 @@
           "required" : false
         },
         {
+          "id" : "main_menu_font_weight",
+          "label" : "Menu Font Weight",
+          "type" : "range",
+          "placeholder" : "600",
+          "value" : "600",
+          "options" : {
+            "min" : 100,
+            "max" : 900,
+            "step" : 100
+          },
+          "required" : false
+        },
+        {
           "id" : "main_menu_text_color",
           "label" : "Menu Text Color",
           "type" : "color",
