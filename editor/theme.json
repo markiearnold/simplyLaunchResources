@@ -1,2936 +1,2240 @@
 {
-  "info": {
-    "name": "Minimalist",
-    "meta": "minimalist",
-    "version": "1.0",
-    "type": "page"
-  },
-  "settings": {
+   "info":{
+      "name":"Coming Soon",
+      "meta":"coming-soon",
+      "version":"1.0",
+      "type":"page"
+   },
+   "settings":[
+      {
+         "group":"Header",
+         "settings":[
+            {
+               "id":"show_header",
+               "label":"Show Header",
+               "type":"checkbox",
+               "placeholder":"",
+               "value":false,
+               "required":false,
+               "$$hashKey":"object:1794"
+            },
+            {
+               "id":"header_in_grid",
+               "label":"Content In Grid?",
+               "type":"select",
+               "placeholder":"container",
+               "value":"container",
+               "options":[
+                  "container",
+                  "container-fluid"
+               ],
+               "required":false,
+               "$$hashKey":"object:1795"
+            },
+            {
+               "id":"header_border",
+               "label":"Header Border",
+               "type":"box",
+               "placeholder":"",
+               "value":{
+                  "top":"0px",
+                  "right":"0px",
+                  "bottom":"0px",
+                  "left":"0px"
+               },
+               "options":{
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:1796"
+            },
+            {
+               "id":"header_border_color",
+               "label":"Header Border Color",
+               "type":"color",
+               "placeholder":"rgba(255,255,255,1)",
+               "value":"rgba(255,255,255,1)",
+               "required":false,
+               "$$hashKey":"object:1797"
+            },
+            {
+               "id":"header_border_style",
+               "label":"Header Border Style",
+               "type":"select",
+               "placeholder":"solid",
+               "value":"solid",
+               "options":[
+                  "solid",
+                  "dashed",
+                  "dotted",
+                  "double"
+               ],
+               "required":false,
+               "$$hashKey":"object:1798"
+            }
+         ],
+         "$$hashKey":"object:1757"
+      },
+      {
+         "group":"Menus",
+         "settings":[
+            {
+               "id":"main_nav",
+               "label":"Main Navigation",
+               "type":"menu",
+               "placeholder":"default",
+               "value":"default",
+               "required":false,
+               "$$hashKey":"object:1846"
+            },
+            {
+               "id":"show_main_nav",
+               "label":"Show Main Nav",
+               "type":"checkbox",
+               "placeholder":"",
+               "value":true,
+               "required":false,
+               "$$hashKey":"object:1847"
+            },
+            {
+               "id":"header_bg_color",
+               "label":"Header Background Color",
+               "type":"color",
+               "placeholder":"rgba(255,255,255,0.8)",
+               "value":"rgba(255,255,255,0.8)",
+               "required":false,
+               "$$hashKey":"object:1848"
+            },
+            {
+               "id":"menu_padding_top",
+               "label":"Menu Top Padding",
+               "type":"range",
+               "placeholder":"0",
+               "value":"0",
+               "options":{
+                  "cssAttr":"padding",
+                  "min":0,
+                  "max":150,
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:1849"
+            },
+            {
+               "id":"main_menu_font_size",
+               "label":"Menu Font Size",
+               "type":"range",
+               "placeholder":"16",
+               "value":"16",
+               "options":{
+                  "min":8,
+                  "max":90,
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:1850"
+            },
+            {
+               "id":"main_menu_font_weight",
+               "label":"Menu Font Weight",
+               "type":"range",
+               "placeholder":"600",
+               "value":"600",
+               "options":{
+                  "min":100,
+                  "max":900,
+                  "step":100
+               },
+               "required":false,
+               "$$hashKey":"object:1851"
+            },
+            {
+               "id":"main_menu_text_color",
+               "label":"Menu Text Color",
+               "type":"color",
+               "placeholder":"#333333",
+               "value":"#333333",
+               "required":false,
+               "$$hashKey":"object:1852"
+            },
+            {
+               "id":"main_menu_text_hover_color",
+               "label":"Menu Text Hover Color",
+               "type":"color",
+               "placeholder":"#333333",
+               "value":"#333333",
+               "required":false,
+               "$$hashKey":"object:1853"
+            },
+            {
+               "id":"main_menu_flyout_background_color",
+               "label":"Menu Flyout BG Color",
+               "type":"color",
+               "placeholder":"#333333",
+               "value":"#333333",
+               "required":false,
+               "$$hashKey":"object:1854"
+            },
+            {
+               "id":"main_menu_flyout_text_color",
+               "label":"Menu Flyout Text Color",
+               "type":"color",
+               "placeholder":"#ffffff",
+               "value":"#ffffff",
+               "required":false,
+               "$$hashKey":"object:1855"
+            },
+            {
+               "id":"main_menu_flyout_text_hover_color",
+               "label":"Menu Flyout Text Color",
+               "type":"color",
+               "placeholder":"#f3f3f3",
+               "value":"#f3f3f3",
+               "required":false,
+               "$$hashKey":"object:1856"
+            },
+            {
+               "id":"main_menu_hamburger_color",
+               "label":"Mobile Hamburger Color",
+               "type":"color",
+               "placeholder":"#333",
+               "value":"#333",
+               "required":false,
+               "$$hashKey":"object:1857"
+            }
+         ],
+         "$$hashKey":"object:1758"
+      },
+      {
+         "group":"Logo",
+         "settings":[
+            {
+               "id":"logo_image",
+               "label":"Logo Image",
+               "type":"image",
+               "placeholder":"",
+               "value":"https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-logo.png",
+               "required":false,
+               "$$hashKey":"object:2095"
+            },
+            {
+               "id":"logo_height",
+               "label":"Logo Height",
+               "type":"range",
+               "placeholder":"40",
+               "value":"40",
+               "options":{
+                  "min":8,
+                  "max":200,
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:2096"
+            }
+         ],
+         "$$hashKey":"object:1759"
+      },
+      {
+         "group":"Typography",
+         "settings":[
+            {
+               "id":"imports",
+               "label":"Google Font @import",
+               "type":"text",
+               "placeholder":"@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i|Raleway:400,400i,700,700i,800,800i,900,900i|Crete+Round:400italic');",
+               "value":"@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i|Raleway:400,400i,700,700i,800,800i,900,900i|Crete+Round:400italic');",
+               "required":false,
+               "$$hashKey":"object:2107"
+            }
+         ],
+         "$$hashKey":"object:1760"
+      },
+      {
+         "group":"Body & Paragraph",
+         "settings":[
+            {
+               "id":"body_font_family",
+               "label":"Font Family",
+               "type":"text",
+               "placeholder":"font-family: 'Lato', sans-serif;",
+               "value":"font-family: 'Lato', sans-serif;",
+               "required":false,
+               "$$hashKey":"object:2112"
+            },
+            {
+               "id":"body_font_size_desktop",
+               "label":"Font Size (Desktop px)",
+               "type":"range",
+               "placeholder":"16",
+               "value":"16",
+               "options":{
+                  "min":8,
+                  "max":96,
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:2113"
+            },
+            {
+               "id":"body_font_size_tablet",
+               "label":"Font Size (Tablet px)",
+               "type":"range",
+               "placeholder":"16",
+               "value":"16",
+               "options":{
+                  "min":8,
+                  "max":96,
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:2114"
+            },
+            {
+               "id":"body_font_size_mobile",
+               "label":"Font Size (Mobile px)",
+               "type":"range",
+               "placeholder":"16",
+               "value":"16",
+               "options":{
+                  "min":8,
+                  "max":96,
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:2115"
+            },
+            {
+               "id":"body_line_height",
+               "label":"Line Height (em)",
+               "type":"range",
+               "placeholder":"1.66",
+               "value":1.66,
+               "options":{
+                  "min":0.9,
+                  "max":3,
+                  "step":0.03
+               },
+               "required":false,
+               "$$hashKey":"object:2116"
+            },
+            {
+               "id":"body_letter_spacing",
+               "label":"Letter Spacing",
+               "type":"range",
+               "placeholder":"0",
+               "value":0,
+               "options":{
+                  "min":-5,
+                  "max":10,
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:2117"
+            },
+            {
+               "id":"body_font_weight",
+               "label":"Font Weight",
+               "type":"range",
+               "placeholder":"400",
+               "value":400,
+               "options":{
+                  "min":100,
+                  "max":900,
+                  "step":100
+               },
+               "required":false,
+               "$$hashKey":"object:2118"
+            },
+            {
+               "id":"body_color",
+               "label":"Color",
+               "type":"color",
+               "placeholder":"#333333",
+               "value":"rgba(255,255,255,0.85)",
+               "required":false,
+               "$$hashKey":"object:2119"
+            }
+         ],
+         "$$hashKey":"object:1761"
+      },
+      {
+         "group":"H1",
+         "settings":[
+            {
+               "id":"h1_font_family",
+               "label":"Font Family",
+               "type":"text",
+               "placeholder":"font-family: 'Raleway', sans-serif;",
+               "value":"font-family: 'Raleway', sans-serif;",
+               "required":false,
+               "$$hashKey":"object:2179"
+            },
+            {
+               "id":"h1_font_size_desktop",
+               "label":"Font Size (Desktop px)",
+               "type":"range",
+               "placeholder":"62",
+               "value":"52",
+               "options":{
+                  "min":8,
+                  "max":96,
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:2180"
+            },
+            {
+               "id":"h1_font_size_tablet",
+               "label":"Font Size (Tablet px)",
+               "type":"range",
+               "placeholder":"62",
+               "value":"52",
+               "options":{
+                  "min":8,
+                  "max":96,
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:2181"
+            },
+            {
+               "id":"h1_font_size_mobile",
+               "label":"Font Size (Mobile px)",
+               "type":"range",
+               "placeholder":"30",
+               "value":"30",
+               "options":{
+                  "min":8,
+                  "max":96,
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:2182"
+            },
+            {
+               "id":"h1_line_height",
+               "label":"Line Height (em)",
+               "type":"range",
+               "placeholder":"1.2",
+               "value":"1.05",
+               "options":{
+                  "min":0.9,
+                  "max":3,
+                  "step":0.03
+               },
+               "required":false,
+               "$$hashKey":"object:2183"
+            },
+            {
+               "id":"h1_letter_spacing",
+               "label":"Letter Spacing",
+               "type":"range",
+               "placeholder":"0",
+               "value":0,
+               "options":{
+                  "min":-5,
+                  "max":10,
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:2184"
+            },
+            {
+               "id":"h1_font_weight",
+               "label":"Font Weight",
+               "type":"range",
+               "placeholder":"500",
+               "value":"600",
+               "options":{
+                  "min":100,
+                  "max":900,
+                  "step":100
+               },
+               "required":false,
+               "$$hashKey":"object:2185"
+            },
+            {
+               "id":"h1_color",
+               "label":"Color",
+               "type":"color",
+               "placeholder":"#333333",
+               "value":"#fff",
+               "required":false,
+               "$$hashKey":"object:2186"
+            }
+         ],
+         "$$hashKey":"object:1762"
+      },
+      {
+         "group":"H2",
+         "settings":[
+            {
+               "id":"h2_font_family",
+               "label":"Font Family",
+               "type":"text",
+               "placeholder":"font-family: 'Raleway', sans-serif;",
+               "value":"font-family: 'Raleway', sans-serif;",
+               "required":false,
+               "$$hashKey":"object:2246"
+            },
+            {
+               "id":"h2_font_size_desktop",
+               "label":"Font Size (Desktop px)",
+               "type":"range",
+               "placeholder":"42",
+               "value":"42",
+               "options":{
+                  "min":8,
+                  "max":96,
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:2247"
+            },
+            {
+               "id":"h2_font_size_tablet",
+               "label":"Font Size (Tablet px)",
+               "type":"range",
+               "placeholder":"42",
+               "value":"42",
+               "options":{
+                  "min":8,
+                  "max":96,
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:2248"
+            },
+            {
+               "id":"h2_font_size_mobile",
+               "label":"Font Size (Mobile px)",
+               "type":"range",
+               "placeholder":"26",
+               "value":"26",
+               "options":{
+                  "min":8,
+                  "max":96,
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:2249"
+            },
+            {
+               "id":"h2_line_height",
+               "label":"Line Height (em)",
+               "type":"range",
+               "placeholder":"1.2",
+               "value":1.2,
+               "options":{
+                  "min":0.9,
+                  "max":3,
+                  "step":0.03
+               },
+               "required":false,
+               "$$hashKey":"object:2250"
+            },
+            {
+               "id":"h2_letter_spacing",
+               "label":"Letter Spacing",
+               "type":"range",
+               "placeholder":"0",
+               "value":0,
+               "options":{
+                  "min":-5,
+                  "max":10,
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:2251"
+            },
+            {
+               "id":"h2_font_weight",
+               "label":"Font Weight",
+               "type":"range",
+               "placeholder":"500",
+               "value":500,
+               "options":{
+                  "min":100,
+                  "max":900,
+                  "step":100
+               },
+               "required":false,
+               "$$hashKey":"object:2252"
+            },
+            {
+               "id":"h2_color",
+               "label":"Color",
+               "type":"color",
+               "placeholder":"#333333",
+               "value":"#333333",
+               "required":false,
+               "$$hashKey":"object:2253"
+            }
+         ],
+         "$$hashKey":"object:1763"
+      },
+      {
+         "group":"H3",
+         "settings":[
+            {
+               "id":"h3_font_family",
+               "label":"Font Family",
+               "type":"text",
+               "placeholder":"font-family: 'Raleway', sans-serif;",
+               "value":"font-family: 'Raleway', sans-serif;",
+               "required":false,
+               "$$hashKey":"object:2313"
+            },
+            {
+               "id":"h3_font_size_desktop",
+               "label":"Font Size (Desktop px)",
+               "type":"range",
+               "placeholder":"34",
+               "value":"34",
+               "options":{
+                  "min":8,
+                  "max":96,
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:2314"
+            },
+            {
+               "id":"h3_font_size_tablet",
+               "label":"Font Size (Tablet px)",
+               "type":"range",
+               "placeholder":"34",
+               "value":"34",
+               "options":{
+                  "min":8,
+                  "max":96,
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:2315"
+            },
+            {
+               "id":"h3_font_size_mobile",
+               "label":"Font Size (Mobile px)",
+               "type":"range",
+               "placeholder":"22",
+               "value":"22",
+               "options":{
+                  "min":8,
+                  "max":96,
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:2316"
+            },
+            {
+               "id":"h3_line_height",
+               "label":"Line Height (em)",
+               "type":"range",
+               "placeholder":"1.2",
+               "value":1.2,
+               "options":{
+                  "min":0.9,
+                  "max":3,
+                  "step":0.03
+               },
+               "required":false,
+               "$$hashKey":"object:2317"
+            },
+            {
+               "id":"h3_letter_spacing",
+               "label":"Letter Spacing",
+               "type":"range",
+               "placeholder":"0",
+               "value":0,
+               "options":{
+                  "min":-5,
+                  "max":10,
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:2318"
+            },
+            {
+               "id":"h3_font_weight",
+               "label":"Font Weight",
+               "type":"range",
+               "placeholder":"400",
+               "value":400,
+               "options":{
+                  "min":100,
+                  "max":900,
+                  "step":100
+               },
+               "required":false,
+               "$$hashKey":"object:2319"
+            },
+            {
+               "id":"h3_color",
+               "label":"Color",
+               "type":"color",
+               "placeholder":"#333333",
+               "value":"#333333",
+               "required":false,
+               "$$hashKey":"object:2320"
+            }
+         ],
+         "$$hashKey":"object:1764"
+      },
+      {
+         "group":"H4",
+         "settings":[
+            {
+               "id":"h4_font_family",
+               "label":"Font Family",
+               "type":"text",
+               "placeholder":"font-family: 'Raleway', sans-serif;",
+               "value":"font-family: 'Raleway', sans-serif;",
+               "required":false,
+               "$$hashKey":"object:2380"
+            },
+            {
+               "id":"h4_font_size_desktop",
+               "label":"Font Size (Desktop px)",
+               "type":"range",
+               "placeholder":"25",
+               "value":"18",
+               "options":{
+                  "min":8,
+                  "max":96,
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:2381"
+            },
+            {
+               "id":"h4_font_size_tablet",
+               "label":"Font Size (Tablet px)",
+               "type":"range",
+               "placeholder":"25",
+               "value":"19",
+               "options":{
+                  "min":8,
+                  "max":96,
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:2382"
+            },
+            {
+               "id":"h4_font_size_mobile",
+               "label":"Font Size (Mobile px)",
+               "type":"range",
+               "placeholder":"16",
+               "value":"14",
+               "options":{
+                  "min":8,
+                  "max":96,
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:2383"
+            },
+            {
+               "id":"h4_line_height",
+               "label":"Line Height (em)",
+               "type":"range",
+               "placeholder":"1.2",
+               "value":1.2,
+               "options":{
+                  "min":0.9,
+                  "max":3,
+                  "step":0.03
+               },
+               "required":false,
+               "$$hashKey":"object:2384"
+            },
+            {
+               "id":"h4_letter_spacing",
+               "label":"Letter Spacing",
+               "type":"range",
+               "placeholder":"0",
+               "value":"2",
+               "options":{
+                  "min":-5,
+                  "max":10,
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:2385"
+            },
+            {
+               "id":"h4_font_weight",
+               "label":"Font Weight",
+               "type":"range",
+               "placeholder":"400",
+               "value":"800",
+               "options":{
+                  "min":100,
+                  "max":900,
+                  "step":100
+               },
+               "required":false,
+               "$$hashKey":"object:2386"
+            },
+            {
+               "id":"h4_color",
+               "label":"Color",
+               "type":"color",
+               "placeholder":"#333333",
+               "value":"#fff",
+               "required":false,
+               "$$hashKey":"object:2387"
+            }
+         ],
+         "$$hashKey":"object:1765"
+      },
+      {
+         "group":"H5",
+         "settings":[
+            {
+               "id":"h5_font_family",
+               "label":"Font Family",
+               "type":"text",
+               "placeholder":"font-family: 'Lato', sans-serif;",
+               "value":"font-family: 'Lato', sans-serif;",
+               "required":false,
+               "$$hashKey":"object:2447"
+            },
+            {
+               "id":"h5_font_size_desktop",
+               "label":"Font Size (Desktop px)",
+               "type":"range",
+               "placeholder":"20",
+               "value":"20",
+               "options":{
+                  "min":8,
+                  "max":96,
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:2448"
+            },
+            {
+               "id":"h5_font_size_tablet",
+               "label":"Font Size (Tablet px)",
+               "type":"range",
+               "placeholder":"20",
+               "value":"20",
+               "options":{
+                  "min":8,
+                  "max":96,
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:2449"
+            },
+            {
+               "id":"h5_font_size_mobile",
+               "label":"Font Size (Mobile px)",
+               "type":"range",
+               "placeholder":"20",
+               "value":"20",
+               "options":{
+                  "min":8,
+                  "max":96,
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:2450"
+            },
+            {
+               "id":"h5_line_height",
+               "label":"Line Height (em)",
+               "type":"range",
+               "placeholder":"1.2",
+               "value":1.2,
+               "options":{
+                  "min":0.9,
+                  "max":3,
+                  "step":0.03
+               },
+               "required":false,
+               "$$hashKey":"object:2451"
+            },
+            {
+               "id":"h5_letter_spacing",
+               "label":"Letter Spacing",
+               "type":"range",
+               "placeholder":"0",
+               "value":0,
+               "options":{
+                  "min":-5,
+                  "max":10,
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:2452"
+            },
+            {
+               "id":"h5_font_weight",
+               "label":"Font Weight",
+               "type":"range",
+               "placeholder":"700",
+               "value":700,
+               "options":{
+                  "min":100,
+                  "max":900,
+                  "step":100
+               },
+               "required":false,
+               "$$hashKey":"object:2453"
+            },
+            {
+               "id":"h5_color",
+               "label":"Color",
+               "type":"color",
+               "placeholder":"#333333",
+               "value":"#333333",
+               "required":false,
+               "$$hashKey":"object:2454"
+            }
+         ],
+         "$$hashKey":"object:1766"
+      },
+      {
+         "group":"H6",
+         "settings":[
+            {
+               "id":"h6_font_family",
+               "label":"Font Family",
+               "type":"text",
+               "placeholder":"font-family: 'Raleway', sans-serif;",
+               "value":"font-family: 'Raleway', sans-serif;",
+               "required":false,
+               "$$hashKey":"object:2514"
+            },
+            {
+               "id":"h6_font_size_desktop",
+               "label":"Font Size (Desktop px)",
+               "type":"range",
+               "placeholder":"14",
+               "value":"14",
+               "options":{
+                  "min":8,
+                  "max":96,
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:2515"
+            },
+            {
+               "id":"h6_font_size_tablet",
+               "label":"Font Size (Tablet px)",
+               "type":"range",
+               "placeholder":"14",
+               "value":"14",
+               "required":false,
+               "$$hashKey":"object:2516"
+            },
+            {
+               "id":"h6_font_size_mobile",
+               "label":"Font Size (Mobile px)",
+               "type":"range",
+               "placeholder":"14",
+               "value":"14",
+               "options":{
+                  "min":8,
+                  "max":96,
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:2517"
+            },
+            {
+               "id":"h6_line_height",
+               "label":"Line Height (em)",
+               "type":"range",
+               "placeholder":"1.2",
+               "value":1.2,
+               "options":{
+                  "min":0.9,
+                  "max":3,
+                  "step":0.03
+               },
+               "required":false,
+               "$$hashKey":"object:2518"
+            },
+            {
+               "id":"h6_letter_spacing",
+               "label":"Letter Spacing",
+               "type":"range",
+               "placeholder":"0",
+               "value":0,
+               "options":{
+                  "min":-5,
+                  "max":10,
+                  "step":1
+               },
+               "required":false,
+               "$$hashKey":"object:2519"
+            },
+            {
+               "id":"h6_font_weight",
+               "label":"Font Weight",
+               "type":"range",
+               "placeholder":"300",
+               "value":300,
+               "options":{
+                  "min":100,
+                  "max":900,
+                  "step":100
+               },
+               "required":false,
+               "$$hashKey":"object:2520"
+            },
+            {
+               "id":"h6_color",
+               "label":"Color",
+               "type":"color",
+               "placeholder":"#333333",
+               "value":"#333333",
+               "required":false,
+               "$$hashKey":"object:2521"
+            }
+         ],
+         "$$hashKey":"object:1767"
+      }
+   ],
+   "assets":{
+      "css":[
+         "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
+         "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+         "https://s3.amazonaws.com/belch.io/themes/minimalist/css/style.css",
+         "https://s3.amazonaws.com/belch.io/belch-base-css/v1/belch-defaults.css",
+         "https://s3.amazonaws.com/belch.io/themes/minimalist/css/overrides.css"
+      ],
+      "js":[
+         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.0/jquery.js",
+         "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      ]
+   },
+   "blocks":[
+      {
+         "name":"Nav",
+         "type":"nav",
+         "order":0,
+         "multiple":false,
+         "showOnDefault":true,
+         "preview_image":"nav.png",
+         "content":{
 
-  },
-  "assets": {
-    "css": [
-      "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
-      "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
-      "https://s3.amazonaws.com/belch.io/themes/minimalist/css/style.css",
-      "https://s3.amazonaws.com/belch.io/belch-base-css/v1/belch-defaults.css",
-      "https://s3.amazonaws.com/belch.io/themes/minimalist/css/overrides.css"
-    ],
-    "js": [
-      "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.0/jquery.js",
-      "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-    ]
-  },
-  "settings":[
-    {
-      "group" : "Header",
-      "settings" : [
-        {
-          "id" : "show_header",
-          "label" : "Show Header",
-          "type" : "checkbox",
-          "placeholder" : "",
-          "value" : true,
-          "required" : false
-        },
-        {
-          "id" : "header_in_grid",
-          "label" : "Content In Grid?",
-          "type" : "select",
-          "placeholder" : "container",
-          "value" : "container",
-          "options" : ["container", "container-fluid"],
-          "required" : false
-        },
-        {
-          "id" : "header_border",
-          "label" : "Header Border",
-          "type" : "box",
-          "placeholder" : "",
-          "value" : {
-            "top" : "0px",
-            "right" : "0px",
-            "bottom" : "0px",
-            "left" : "0px"
-          },
-          "options" : {
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
-          "id" : "header_border_color",
-          "label" : "Header Border Color",
-          "type" : "color",
-          "placeholder" : "rgba(255,255,255,1)",
-          "value" : "rgba(255,255,255,1)",
-          "required" : false
-        },
-        {
-          "id" : "header_border_style",
-          "label" : "Header Border Style",
-          "type" : "select",
-          "placeholder" : "solid",
-          "value" : "solid",
-          "options" : ["solid", "dashed", "dotted", "double"],
-          "required" : false
-        }
-      ]
-    },
-    {
-      "group" : "Menus",
-      "settings" : [
-        {
-          "id" : "main_nav",
-          "label" : "Main Navigation",
-          "type" : "menu",
-          "placeholder" : "default",
-          "value" : "default",
-          "required" : false
-        },
-        {
-          "id" : "show_main_nav",
-          "label" : "Show Main Nav",
-          "type" : "checkbox",
-          "placeholder" : "",
-          "value" : true,
-          "required" : false
-        },
-        {
-          "id" : "header_bg_color",
-          "label" : "Header Background Color",
-          "type" : "color",
-          "placeholder" : "rgba(255,255,255,0.8)",
-          "value" : "rgba(255,255,255,0.8)",
-          "required" : false
-        },
-        {
-          "id" : "menu_padding_top",
-          "label" : "Menu Top Padding",
-          "type" : "range",
-          "placeholder" : "0",
-          "value" : "0",
-          "options" : {
-            "cssAttr" : "padding",
-            "min" : 0,
-            "max" : 150,
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
-          "id" : "main_menu_font_size",
-          "label" : "Menu Font Size",
-          "type" : "range",
-          "placeholder" : "16",
-          "value" : "16",
-          "options" : {
-            "min" : 8,
-            "max" : 90,
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
-          "id" : "main_menu_font_weight",
-          "label" : "Menu Font Weight",
-          "type" : "range",
-          "placeholder" : "600",
-          "value" : "600",
-          "options" : {
-            "min" : 100,
-            "max" : 900,
-            "step" : 100
-          },
-          "required" : false
-        },
-        {
-          "id" : "main_menu_text_color",
-          "label" : "Menu Text Color",
-          "type" : "color",
-          "placeholder" : "#333333",
-          "value" : "#333333",
-          "required" : false
-        },
-        {
-          "id" : "main_menu_text_hover_color",
-          "label" : "Menu Text Hover Color",
-          "type" : "color",
-          "placeholder" : "#333333",
-          "value" : "#333333",
-          "required" : false
-        },
-        {
-          "id" : "main_menu_flyout_background_color",
-          "label" : "Menu Flyout BG Color",
-          "type" : "color",
-          "placeholder" : "#333333",
-          "value" : "#333333",
-          "required" : false
-        },
-        {
-          "id" : "main_menu_flyout_text_color",
-          "label" : "Menu Flyout Text Color",
-          "type" : "color",
-          "placeholder" : "#ffffff",
-          "value" : "#ffffff",
-          "required" : false
-        },
-        {
-          "id" : "main_menu_flyout_text_hover_color",
-          "label" : "Menu Flyout Text Color",
-          "type" : "color",
-          "placeholder" : "#f3f3f3",
-          "value" : "#f3f3f3",
-          "required" : false
-        },
-        {
-          "id" : "main_menu_hamburger_color",
-          "label" : "Mobile Hamburger Color",
-          "type" : "color",
-          "placeholder" : "#333",
-          "value" : "#333",
-          "required" : false
-        }
-      ]
-    },
-    {
-      "group" : "Logo",
-      "settings" : [
-        {
-          "id": "logo_image",
-          "label": "Logo Image",
-          "type": "image",
-          "placeholder": "",
-          "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-logo.png",
-          "required": false
-        },
-        {
-          "id" : "logo_height",
-          "label" : "Logo Height",
-          "type" : "range",
-          "placeholder" : "40",
-          "value" : "40",
-          "options" : {
-            "min" : 8,
-            "max" : 200,
-            "step" : 1
-          },
-          "required" : false
-        }
-      ]
-    },
-    {
-      "group" : "Typography",
-      "settings" : [
-        {
-           "id" : "imports",
-           "label" : "Google Font @import",
-           "type" : "text",
-           "placeholder" : "@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i|Raleway:400,400i,700,700i,800,800i,900,900i|Crete+Round:400italic');",
-           "value" : "@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i|Raleway:400,400i,700,700i,800,800i,900,900i|Crete+Round:400italic');",
-           "required" : false
-        }
-      ]
-    },
-    {
-      "group" : "Body & Paragraph",
-      "settings" : [
-        {
-           "id" : "body_font_family",
-           "label" : "Font Family",
-           "type" : "text",
-           "placeholder" : "font-family: 'Lato', sans-serif;",
-           "value" : "font-family: 'Lato', sans-serif;",
-           "required" : false
-        },
-        {
-          "id" : "body_font_size_desktop",
-          "label" : "Font Size (Desktop px)",
-          "type" : "range",
-          "placeholder" : "16",
-          "value" : "16",
-          "options" : {
-            "min" : 8,
-            "max" : 96,
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
-          "id" : "body_font_size_tablet",
-          "label" : "Font Size (Tablet px)",
-          "type" : "range",
-          "placeholder" : "16",
-          "value" : "16",
-          "options" : {
-            "min" : 8,
-            "max" : 96,
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
-          "id" : "body_font_size_mobile",
-          "label" : "Font Size (Mobile px)",
-          "type" : "range",
-          "placeholder" : "16",
-          "value" : "16",
-          "options" : {
-            "min" : 8,
-            "max" : 96,
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
-          "id" : "body_line_height",
-          "label" : "Line Height (em)",
-          "type" : "range",
-          "placeholder" : "1.66",
-          "value" : 1.66,
-          "options" : {
-            "min" : 0.9,
-            "max" : 3.0,
-            "step" : 0.03
-          },
-          "required" : false
-        },
-        {
-          "id" : "body_letter_spacing",
-          "label" : "Letter Spacing",
-          "type" : "range",
-          "placeholder" : "0",
-          "value" : 0,
-          "options" : {
-            "min" : -5,
-            "max" : 10,
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
-          "id" : "body_font_weight",
-          "label" : "Font Weight",
-          "type" : "range",
-          "placeholder" : "400",
-          "value" : 400,
-          "options" : {
-            "min" : 100,
-            "max" : 900,
-            "step" : 100
-          },
-          "required" : false
-        },
-        {
-          "id": "body_color",
-          "label": "Color",
-          "type": "color",
-          "placeholder": "#333333",
-          "value": "#333333",
-          "required": false
-        }
-      ]
-    },
-    {
-      "group" : "H1",
-      "settings" : [
-        {
-           "id" : "h1_font_family",
-           "label" : "Font Family",
-           "type" : "text",
-           "placeholder" : "font-family: 'Raleway', sans-serif;",
-           "value" : "font-family: 'Raleway', sans-serif;",
-           "required" : false
-        },
-        {
-          "id" : "h1_font_size_desktop",
-          "label" : "Font Size (Desktop px)",
-          "type" : "range",
-          "placeholder" : "62",
-          "value" : "62",
-          "options" : {
-            "min" : 8,
-            "max" : 96,
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
-          "id" : "h1_font_size_tablet",
-          "label" : "Font Size (Tablet px)",
-          "type" : "range",
-          "placeholder" : "62",
-          "value" : "62",
-          "options" : {
-            "min" : 8,
-            "max" : 96,
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
-          "id" : "h1_font_size_mobile",
-          "label" : "Font Size (Mobile px)",
-          "type" : "range",
-          "placeholder" : "30",
-          "value" : "30",
-          "options" : {
-            "min" : 8,
-            "max" : 96,
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
-          "id" : "h1_line_height",
-          "label" : "Line Height (em)",
-          "type" : "range",
-          "placeholder" : "1.2",
-          "value" : 1.2,
-          "options" : {
-            "min" : 0.9,
-            "max" : 3.0,
-            "step" : 0.03
-          },
-          "required" : false
-        },
-        {
-          "id" : "h1_letter_spacing",
-          "label" : "Letter Spacing",
-          "type" : "range",
-          "placeholder" : "0",
-          "value" : 0,
-          "options" : {
-            "min" : -5,
-            "max" : 10,
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
-          "id" : "h1_font_weight",
-          "label" : "Font Weight",
-          "type" : "range",
-          "placeholder" : "500",
-          "value" : 500,
-          "options" : {
-            "min" : 100,
-            "max" : 900,
-            "step" : 100
-          },
-          "required" : false
-        },
-        {
-          "id": "h1_color",
-          "label": "Color",
-          "type": "color",
-          "placeholder": "#333333",
-          "value": "#333333",
-          "required": false
-        }
-      ]
-    },
-    {
-      "group" : "H2",
-      "settings" : [
-        {
-           "id" : "h2_font_family",
-           "label" : "Font Family",
-           "type" : "text",
-           "placeholder" : "font-family: 'Raleway', sans-serif;",
-           "value" : "font-family: 'Raleway', sans-serif;",
-           "required" : false
-        },
-        {
-          "id" : "h2_font_size_desktop",
-          "label" : "Font Size (Desktop px)",
-          "type" : "range",
-          "placeholder" : "42",
-          "value" : "42",
-          "options" : {
-            "min" : 8,
-            "max" : 96,
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
-          "id" : "h2_font_size_tablet",
-          "label" : "Font Size (Tablet px)",
-          "type" : "range",
-          "placeholder" : "42",
-          "value" : "42",
-          "options" : {
-            "min" : 8,
-            "max" : 96,
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
-          "id" : "h2_font_size_mobile",
-          "label" : "Font Size (Mobile px)",
-          "type" : "range",
-          "placeholder" : "26",
-          "value" : "26",
-          "options" : {
-            "min" : 8,
-            "max" : 96,
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
-          "id" : "h2_line_height",
-          "label" : "Line Height (em)",
-          "type" : "range",
-          "placeholder" : "1.2",
-          "value" : 1.2,
-          "options" : {
-            "min" : 0.9,
-            "max" : 3.0,
-            "step" : 0.03
-          },
-          "required" : false
-        },
-        {
-          "id" : "h2_letter_spacing",
-          "label" : "Letter Spacing",
-          "type" : "range",
-          "placeholder" : "0",
-          "value" : 0,
-          "options" : {
-            "min" : -5,
-            "max" : 10,
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
-          "id" : "h2_font_weight",
-          "label" : "Font Weight",
-          "type" : "range",
-          "placeholder" : "500",
-          "value" : 500,
-          "options" : {
-            "min" : 100,
-            "max" : 900,
-            "step" : 100
-          },
-          "required" : false
-        },
-        {
-          "id": "h2_color",
-          "label": "Color",
-          "type": "color",
-          "placeholder": "#333333",
-          "value": "#333333",
-          "required": false
-        }
-      ]
-    },
-    {
-      "group" : "H3",
-      "settings" : [
-        {
-           "id" : "h3_font_family",
-           "label" : "Font Family",
-           "type" : "text",
-           "placeholder" : "font-family: 'Raleway', sans-serif;",
-           "value" : "font-family: 'Raleway', sans-serif;",
-           "required" : false
-        },
-        {
-          "id" : "h3_font_size_desktop",
-          "label" : "Font Size (Desktop px)",
-          "type" : "range",
-          "placeholder" : "34",
-          "value" : "34",
-          "options" : {
-            "min" : 8,
-            "max" : 96,
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
-          "id" : "h3_font_size_tablet",
-          "label" : "Font Size (Tablet px)",
-          "type" : "range",
-          "placeholder" : "34",
-          "value" : "34",
-          "options" : {
-            "min" : 8,
-            "max" : 96,
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
-          "id" : "h3_font_size_mobile",
-          "label" : "Font Size (Mobile px)",
-          "type" : "range",
-          "placeholder" : "22",
-          "value" : "22",
-          "options" : {
-            "min" : 8,
-            "max" : 96,
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
-          "id" : "h3_line_height",
-          "label" : "Line Height (em)",
-          "type" : "range",
-          "placeholder" : "1.2",
-          "value" : 1.2,
-          "options" : {
-            "min" : 0.9,
-            "max" : 3.0,
-            "step" : 0.03
-          },
-          "required" : false
-        },
-        {
-          "id" : "h3_letter_spacing",
-          "label" : "Letter Spacing",
-          "type" : "range",
-          "placeholder" : "0",
-          "value" : 0,
-          "options" : {
-            "min" : -5,
-            "max" : 10,
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
-          "id" : "h3_font_weight",
-          "label" : "Font Weight",
-          "type" : "range",
-          "placeholder" : "400",
-          "value" : 400,
-          "options" : {
-            "min" : 100,
-            "max" : 900,
-            "step" : 100
-          },
-          "required" : false
-        },
-        {
-          "id": "h3_color",
-          "label": "Color",
-          "type": "color",
-          "placeholder": "#333333",
-          "value": "#333333",
-          "required": false
-        }
-      ]
-    },
-    {
-      "group" : "H4",
-      "settings" : [
-        {
-           "id" : "h4_font_family",
-           "label" : "Font Family",
-           "type" : "text",
-           "placeholder" : "font-family: 'Raleway', sans-serif;",
-           "value" : "font-family: 'Raleway', sans-serif;",
-           "required" : false
-        },
-        {
-          "id" : "h4_font_size_desktop",
-          "label" : "Font Size (Desktop px)",
-          "type" : "range",
-          "placeholder" : "25",
-          "value" : "25",
-          "options" : {
-            "min" : 8,
-            "max" : 96,
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
-          "id" : "h4_font_size_tablet",
-          "label" : "Font Size (Tablet px)",
-          "type" : "range",
-          "placeholder" : "25",
-          "value" : "25",
-          "options" : {
-            "min" : 8,
-            "max" : 96,
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
-          "id" : "h4_font_size_mobile",
-          "label" : "Font Size (Mobile px)",
-          "type" : "range",
-          "placeholder" : "16",
-          "value" : "16",
-          "options" : {
-            "min" : 8,
-            "max" : 96,
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
-          "id" : "h4_line_height",
-          "label" : "Line Height (em)",
-          "type" : "range",
-          "placeholder" : "1.2",
-          "value" : 1.2,
-          "options" : {
-            "min" : 0.9,
-            "max" : 3.0,
-            "step" : 0.03
-          },
-          "required" : false
-        },
-        {
-          "id" : "h4_letter_spacing",
-          "label" : "Letter Spacing",
-          "type" : "range",
-          "placeholder" : "0",
-          "value" : 0,
-          "options" : {
-            "min" : -5,
-            "max" : 10,
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
-          "id" : "h4_font_weight",
-          "label" : "Font Weight",
-          "type" : "range",
-          "placeholder" : "400",
-          "value" : 400,
-          "options" : {
-            "min" : 100,
-            "max" : 900,
-            "step" : 100
-          },
-          "required" : false
-        },
-        {
-          "id": "h4_color",
-          "label": "Color",
-          "type": "color",
-          "placeholder": "#333333",
-          "value": "#333333",
-          "required": false
-        }
-      ]
-    },
-    {
-      "group" : "H5",
-      "settings" : [
-        {
-           "id" : "h5_font_family",
-           "label" : "Font Family",
-           "type" : "text",
-           "placeholder" : "font-family: 'Lato', sans-serif;",
-           "value" : "font-family: 'Lato', sans-serif;",
-           "required" : false
-        },
-        {
-          "id" : "h5_font_size_desktop",
-          "label" : "Font Size (Desktop px)",
-          "type" : "range",
-          "placeholder" : "20",
-          "value" : "20",
-          "options" : {
-            "min" : 8,
-            "max" : 96,
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
-          "id" : "h5_font_size_tablet",
-          "label" : "Font Size (Tablet px)",
-          "type" : "range",
-          "placeholder" : "20",
-          "value" : "20",
-          "options" : {
-            "min" : 8,
-            "max" : 96,
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
-          "id" : "h5_font_size_mobile",
-          "label" : "Font Size (Mobile px)",
-          "type" : "range",
-          "placeholder" : "20",
-          "value" : "20",
-          "options" : {
-            "min" : 8,
-            "max" : 96,
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
-          "id" : "h5_line_height",
-          "label" : "Line Height (em)",
-          "type" : "range",
-          "placeholder" : "1.2",
-          "value" : 1.2,
-          "options" : {
-            "min" : 0.9,
-            "max" : 3.0,
-            "step" : 0.03
-          },
-          "required" : false
-        },
-        {
-          "id" : "h5_letter_spacing",
-          "label" : "Letter Spacing",
-          "type" : "range",
-          "placeholder" : "0",
-          "value" : 0,
-          "options" : {
-            "min" : -5,
-            "max" : 10,
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
-          "id" : "h5_font_weight",
-          "label" : "Font Weight",
-          "type" : "range",
-          "placeholder" : "700",
-          "value" : 700,
-          "options" : {
-            "min" : 100,
-            "max" : 900,
-            "step" : 100
-          },
-          "required" : false
-        },
-        {
-          "id": "h5_color",
-          "label": "Color",
-          "type": "color",
-          "placeholder": "#333333",
-          "value": "#333333",
-          "required": false
-        }
-      ]
-    },
-    {
-      "group" : "H6",
-      "settings" : [
-        {
-           "id" : "h6_font_family",
-           "label" : "Font Family",
-           "type" : "text",
-           "placeholder" : "font-family: 'Raleway', sans-serif;",
-           "value" : "font-family: 'Raleway', sans-serif;",
-           "required" : false
-        },
-        {
-          "id" : "h6_font_size_desktop",
-          "label" : "Font Size (Desktop px)",
-          "type" : "range",
-          "placeholder" : "14",
-          "value" : "14",
-          "options" : {
-            "min" : 8,
-            "max" : 96,
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
-          "id" : "h6_font_size_tablet",
-          "label" : "Font Size (Tablet px)",
-          "type" : "range",
-          "placeholder" : "14",
-          "value" : "14",
-          "required" : false
-        },
-        {
-          "id" : "h6_font_size_mobile",
-          "label" : "Font Size (Mobile px)",
-          "type" : "range",
-          "placeholder" : "14",
-          "value" : "14",
-          "options" : {
-            "min" : 8,
-            "max" : 96,
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
-          "id" : "h6_line_height",
-          "label" : "Line Height (em)",
-          "type" : "range",
-          "placeholder" : "1.2",
-          "value" : 1.2,
-          "options" : {
-            "min" : 0.9,
-            "max" : 3.0,
-            "step" : 0.03
-          },
-          "required" : false
-        },
-        {
-          "id" : "h6_letter_spacing",
-          "label" : "Letter Spacing",
-          "type" : "range",
-          "placeholder" : "0",
-          "value" : 0,
-          "options" : {
-            "min" : -5,
-            "max" : 10,
-            "step" : 1
-          },
-          "required" : false
-        },
-        {
-          "id" : "h6_font_weight",
-          "label" : "Font Weight",
-          "type" : "range",
-          "placeholder" : "300",
-          "value" : 300,
-          "options" : {
-            "min" : 100,
-            "max" : 900,
-            "step" : 100
-          },
-          "required" : false
-        },
-        {
-          "id": "h6_color",
-          "label": "Color",
-          "type": "color",
-          "placeholder": "#333333",
-          "value": "#333333",
-          "required": false
-        }
-      ]
-    }
-  ],
-  "blocks": [
-    {
-      "name" : "Nav",
-      "type" : "nav",
-      "order" : 0,
-      "multiple" : false,
-      "showOnDefault" : true,
-      "preview_image" : "nav.png",
-      "content" : {},
-      "block_settings": [
-        {
-        }
-      ]
-    },
-    {
-      "name": "Banner",
-      "type": "banner",
-      "showOnDefault" : true,
-      "preview_image": "banner.png",
-      "content": {
-        "text_block" : "<h1 style=\"text-align:center;\">AGENCY <b>INCREDIBLE</b></h1>"
+         },
+         "block_settings":[
+            {
+
+            }
+         ]
       },
-      "block_settings": [
-        {
-          "group": "Background",
-          "settings": [
+      {
+         "name":"Gallery",
+         "type":"gallery",
+         "showOnDefault":true,
+         "preview_image":"gallery.png",
+         "content":{
+            "gal1_text_block":"<h2 class=\"mid animated fadeInUp\"><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: #ffffff;\">Edison's Bookstore</span></h2><h1 class=\"mid animated fadeInUp mb30 medium-heading  fw700\">Stay tuned. We're launching soon.</h1><p>&nbsp;<br></p><h4>LOCATION</h4><p>EDISON'S BOOKSTORE<br>612 Main St.<br>Manhattan NYC 42584</p><p></p>",
+            "gal2_text_block":"",
+            "gal3_text_block":"",
+            "gal4_text_block":""
+         },
+         "block_settings":[
             {
-              "id": "background_image",
-              "label": "Background Image",
-              "type": "image",
-              "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
-              "required": false
+               "group":"Background",
+               "settings":[
+                  {
+                     "id":"background_image",
+                     "label":"Background Image",
+                     "type":"image",
+                     "placeholder":"",
+                     "value":"https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
+                     "required":false,
+                     "$$hashKey":"object:2606"
+                  },
+                  {
+                     "id":"overlay_color",
+                     "label":"Overlay Color",
+                     "type":"color",
+                     "placeholder":"#f9f9f9",
+                     "value":"#01BAEF",
+                     "required":false,
+                     "$$hashKey":"object:2607"
+                  }
+               ],
+               "$$hashKey":"object:2582"
             },
             {
-              "id": "overlay_color",
-              "label": "Overlay Color",
-              "type": "color",
-              "placeholder": "rgba(255,255,255,0.8)",
-              "value": "rgba(255,255,255,0.8)",
-              "required": false
+               "group":"Border",
+               "settings":[
+                  {
+                     "id":"gallery_border",
+                     "label":"Gallery Border",
+                     "type":"box",
+                     "placeholder":"",
+                     "value":{
+                        "top":"0px",
+                        "right":"0px",
+                        "bottom":"0px",
+                        "left":"0px"
+                     },
+                     "options":{
+                        "step":1
+                     },
+                     "required":false,
+                     "$$hashKey":"object:2645"
+                  },
+                  {
+                     "id":"gallery_border_color",
+                     "label":"Gallery Border Color",
+                     "type":"color",
+                     "placeholder":"rgba(255,255,255,1)",
+                     "value":"rgba(255,255,255,1)",
+                     "required":false,
+                     "$$hashKey":"object:2646"
+                  },
+                  {
+                     "id":"gallery_border_style",
+                     "label":"Gallery Border Style",
+                     "type":"select",
+                     "placeholder":"solid",
+                     "value":"solid",
+                     "options":[
+                        "solid",
+                        "dashed",
+                        "dotted",
+                        "double"
+                     ],
+                     "required":false,
+                     "$$hashKey":"object:2647"
+                  }
+               ],
+               "$$hashKey":"object:2583"
+            },
+            {
+               "group":"Spacing",
+               "settings":[
+                  {
+                     "id":"gallery_padding",
+                     "label":"Gallery Padding",
+                     "type":"box",
+                     "placeholder":"",
+                     "value":{
+                        "top":"0px",
+                        "right":"0px",
+                        "bottom":"0px",
+                        "left":"0px"
+                     },
+                     "options":{
+                        "step":10
+                     },
+                     "required":false,
+                     "$$hashKey":"object:2687"
+                  }
+               ],
+               "$$hashKey":"object:2584"
+            },
+            {
+               "group":"Content",
+               "settings":[
+                  {
+                     "id":"col_count",
+                     "label":"Column Count",
+                     "type":"select",
+                     "placeholder":"3",
+                     "value":"2",
+                     "options":[
+                        "2",
+                        "3",
+                        "4"
+                     ],
+                     "required":false,
+                     "$$hashKey":"object:2692"
+                  },
+                  {
+                     "id":"content_position",
+                     "label":"Content Position",
+                     "type":"select",
+                     "placeholder":"left",
+                     "value":"left",
+                     "options":[
+                        "left",
+                        "center",
+                        "right"
+                     ],
+                     "required":false,
+                     "$$hashKey":"object:2693"
+                  },
+                  {
+                     "id":"row_height",
+                     "label":"Row Height",
+                     "type":"range",
+                     "placeholder":"420",
+                     "value":"850",
+                     "options":{
+                        "min":150,
+                        "max":1500,
+                        "step":10
+                     },
+                     "required":false,
+                     "$$hashKey":"object:2694"
+                  }
+               ],
+               "$$hashKey":"object:2585"
+            },
+            {
+               "group":"First Gallery Image",
+               "settings":[
+                  {
+                     "id":"gal1_background_image",
+                     "label":"Gallery Image",
+                     "type":"image",
+                     "placeholder":"",
+                     "value":"https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/photo1466583985723b74122659346jpg.jpeg",
+                     "required":false,
+                     "$$hashKey":"object:2707"
+                  },
+                  {
+                     "id":"gal1_overlay_color",
+                     "label":"Overlay Color",
+                     "type":"color",
+                     "placeholder":"rgba(251,121,91,0.9)",
+                     "value":"#01BAEF",
+                     "required":false,
+                     "$$hashKey":"object:2708"
+                  },
+                  {
+                     "id":"gallery_item_padding_1",
+                     "label":"First Item Padding",
+                     "type":"box",
+                     "placeholder":"",
+                     "value":{
+                        "top":"0px",
+                        "right":"60px",
+                        "bottom":"0px",
+                        "left":"60px"
+                     },
+                     "options":{
+                        "step":10
+                     },
+                     "required":false,
+                     "$$hashKey":"object:2709"
+                  }
+               ],
+               "$$hashKey":"object:2586"
+            },
+            {
+               "group":"Second Gallery Image",
+               "settings":[
+                  {
+                     "id":"gal2_background_image",
+                     "label":"Gallery Image",
+                     "type":"image",
+                     "placeholder":"",
+                     "value":"https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/photo1466583985723b74122659346jpg-1.jpeg",
+                     "required":false,
+                     "$$hashKey":"object:2751"
+                  },
+                  {
+                     "id":"gal2_overlay_color",
+                     "label":"Overlay Color",
+                     "type":"color",
+                     "placeholder":"rgba(255,255,255,0)",
+                     "value":"rgba(255,255,255,0)",
+                     "required":false,
+                     "$$hashKey":"object:2752"
+                  },
+                  {
+                     "id":"gallery_item_padding_2",
+                     "label":"Second Item Padding",
+                     "type":"box",
+                     "placeholder":"",
+                     "value":{
+                        "top":"0px",
+                        "right":"0px",
+                        "bottom":"0px",
+                        "left":"0px"
+                     },
+                     "options":{
+                        "step":10
+                     },
+                     "required":false,
+                     "$$hashKey":"object:2753"
+                  }
+               ],
+               "$$hashKey":"object:2587"
+            },
+            {
+               "group":"Third Gallery Image",
+               "settings":[
+                  {
+                     "id":"gal3_background_image",
+                     "label":"Gallery Image",
+                     "type":"image",
+                     "placeholder":"",
+                     "value":"https://s3.amazonaws.com/belch.io/themes/minimalist/img/gal3.jpg",
+                     "required":false,
+                     "$$hashKey":"object:2795"
+                  },
+                  {
+                     "id":"gal3_overlay_color",
+                     "label":"Overlay Color",
+                     "type":"color",
+                     "placeholder":"rgba(255,255,255,0)",
+                     "value":"rgba(255,255,255,0)",
+                     "required":false,
+                     "$$hashKey":"object:2796"
+                  },
+                  {
+                     "id":"gallery_item_padding_3",
+                     "label":"Third Item Padding",
+                     "type":"box",
+                     "placeholder":"",
+                     "value":{
+                        "top":"0px",
+                        "right":"0px",
+                        "bottom":"0px",
+                        "left":"0px"
+                     },
+                     "options":{
+                        "step":10
+                     },
+                     "required":false,
+                     "$$hashKey":"object:2797"
+                  }
+               ],
+               "$$hashKey":"object:2588"
+            },
+            {
+               "group":"Fourth Gallery Image",
+               "settings":[
+                  {
+                     "id":"gal4_background_image",
+                     "label":"Gallery Image",
+                     "type":"image",
+                     "placeholder":"",
+                     "value":"https://s3.amazonaws.com/belch.io/themes/minimalist/img/gal4.jpg",
+                     "required":false,
+                     "$$hashKey":"object:2839"
+                  },
+                  {
+                     "id":"gal4_overlay_color",
+                     "label":"Overlay Color",
+                     "type":"color",
+                     "placeholder":"rgba(255,255,255,0)",
+                     "value":"rgba(255,255,255,0)",
+                     "required":false,
+                     "$$hashKey":"object:2840"
+                  },
+                  {
+                     "id":"gallery_item_padding_4",
+                     "label":"Fourth Item Padding",
+                     "type":"box",
+                     "placeholder":"",
+                     "value":{
+                        "top":"0px",
+                        "right":"0px",
+                        "bottom":"0px",
+                        "left":"0px"
+                     },
+                     "options":{
+                        "step":10
+                     },
+                     "required":false,
+                     "$$hashKey":"object:2841"
+                  }
+               ],
+               "$$hashKey":"object:2589"
             }
-          ]
-        },
-        {
-          "group": "Border",
-          "settings": [
-            {
-              "id" : "banner_border",
-              "label" : "Banner Border",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "0px",
-                "right" : "0px",
-                "bottom" : "0px",
-                "left" : "0px"
-              },
-              "options" : {
-                "step" : 1
-              },
-              "required" : false
-            },
-            {
-              "id" : "banner_border_color",
-              "label" : "Banner Border Color",
-              "type" : "color",
-              "placeholder" : "rgba(255,255,255,1)",
-              "value" : "rgba(255,255,255,1)",
-              "required" : false
-            },
-            {
-              "id" : "banner_border_style",
-              "label" : "Banner Border Style",
-              "type" : "select",
-              "placeholder" : "solid",
-              "value" : "solid",
-              "options" : ["solid", "dashed", "dotted", "double"],
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group": "Spacing",
-          "settings": [
-            {
-              "id" : "header_padding",
-              "label" : "Header Padding",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "290px",
-                "right" : "0px",
-                "bottom" : "290px",
-                "left" : "0px"
-              },
-              "options" : {
-                "step" : 10
-              },
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group": "Content",
-          "settings": [
-            {
-              "id" : "in_grid",
-              "label" : "Content In Grid?",
-              "type" : "select",
-              "placeholder" : "container",
-              "value" : "container",
-              "options" : ["container", "container-fluid"],
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group": "Button",
-          "settings": [
-            {
-              "id": "show_button",
-              "label": "Show Button",
-              "type": "checkbox",
-              "placeholder": "",
-              "value": true,
-              "required": false
-            },
-            {
-              "id" : "button_position",
-              "label" : "Button Position",
-              "type" : "select",
-              "placeholder" : "center",
-              "value" : "center",
-              "options" : ["left", "center", "right"],
-              "required" : false
-            },
-            {
-              "id": "button_links_to",
-              "label": "Button Links To",
-              "type": "text",
-              "placeholder": "#",
-              "value": "#",
-              "required": false
-            },
-            {
-              "id": "button_label",
-              "label": "Button Label",
-              "type": "text",
-              "placeholder": "CONTACT US",
-              "value": "CONTACT US",
-              "required": false
-            },
-            {
-              "id": "button_background_color",
-              "label": "Button BG Color",
-              "type": "color",
-              "placeholder": "#fb795b",
-              "value": "#fb795b",
-              "required": false
-            },
-            {
-              "id": "button_text_color",
-              "label": "Button Text Color",
-              "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
-              "required": false
-            },
-            {
-              "id": "button_border_color",
-              "label": "Button Border Color",
-              "type": "color",
-              "placeholder": "#fb795b",
-              "value": "#fb795b",
-              "required": false
-            },
-            {
-              "id": "button_hover_background_color",
-              "label": "Button Hover BG Color",
-              "type": "color",
-              "placeholder": "#333333",
-              "value": "#333333",
-              "required": false
-            },
-            {
-              "id": "button_hover_text_color",
-              "label": "Button Hover Text Color",
-              "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
-              "required": false
-            },
-            {
-              "id": "button_hover_border_color",
-              "label": "Button Hover Color",
-              "type": "color",
-              "placeholder": "#333333",
-              "value": "#333333",
-              "required": false
-            },
-            {
-              "id" : "button_border_radius",
-              "label" : "Button Border Radius",
-              "type" : "range",
-              "placeholder" : "0",
-              "value" : 0,
-              "options" : {
-                "min" : 0,
-                "max" : 100,
-                "step" : 5
-              },
-              "required" : false
-            },
-            {
-              "id" : "header_button_padding",
-              "label" : "Button Padding",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "10px",
-                "right" : "40px",
-                "bottom" : "10px",
-                "left" : "40px"
-              },
-              "options" : {
-                "step" : 5
-              },
-              "required" : false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Gallery",
-      "type": "gallery",
-      "showOnDefault" : true,
-      "preview_image": "gallery.png",
-      "content": {
-        "gal1_text_block": "<h3>SOME OF OUR<br>BEAUTIFUL<br>DESIGNS</h3><a href=\"#\" style=\"color:#ffffff;\"><b>LEARN MORE</b></a>",
-        "gal2_text_block": "",
-        "gal3_text_block": "",
-        "gal4_text_block": ""
+         ]
       },
-      "block_settings": [
-        {
-          "group": "Background",
-          "settings": [
+      {
+         "name":"Contact",
+         "type":"form",
+         "showOnDefault":true,
+         "preview_image":"form.png",
+         "content":{
+            "contact_header":"<h4>REACH OUT</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p><br></p><h4>LOCATION</h4><p>AGENCY <strong>INCREDIBLE</strong><br>612 Main St.<br>Manhattan NYC 42584<br><br>(800) 555 - 2121<br>us@BELCH.io</p>"
+         },
+         "block_settings":[
             {
-              "id": "background_image",
-              "label": "Background Image",
-              "type": "image",
-              "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
-              "required": false
+               "group":"Background",
+               "settings":[
+                  {
+                     "id":"background_image",
+                     "label":"Background Image",
+                     "type":"image",
+                     "placeholder":"",
+                     "value":"https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
+                     "required":false,
+                     "$$hashKey":"object:1830"
+                  },
+                  {
+                     "id":"overlay_color",
+                     "label":"Overlay Color",
+                     "type":"color",
+                     "placeholder":"#f9f9f9",
+                     "value":"#fff",
+                     "required":false,
+                     "$$hashKey":"object:1831"
+                  }
+               ],
+               "$$hashKey":"object:1814"
             },
             {
-              "id": "overlay_color",
-              "label": "Overlay Color",
-              "type": "color",
-              "placeholder": "#f9f9f9",
-              "value": "#f9f9f9",
-              "required": false
+               "group":"Border",
+               "settings":[
+                  {
+                     "id":"contact_border",
+                     "label":"Contact Border",
+                     "type":"box",
+                     "placeholder":"",
+                     "value":{
+                        "top":"0px",
+                        "right":"0px",
+                        "bottom":"0px",
+                        "left":"0px"
+                     },
+                     "options":{
+                        "step":1
+                     },
+                     "required":false,
+                     "$$hashKey":"object:1869"
+                  },
+                  {
+                     "id":"contact_border_color",
+                     "label":"Contact Border Color",
+                     "type":"color",
+                     "placeholder":"rgba(255,255,255,1)",
+                     "value":"rgba(255,255,255,1)",
+                     "required":false,
+                     "$$hashKey":"object:1870"
+                  },
+                  {
+                     "id":"contact_border_style",
+                     "label":"Contact Border Style",
+                     "type":"select",
+                     "placeholder":"solid",
+                     "value":"solid",
+                     "options":[
+                        "solid",
+                        "dashed",
+                        "dotted",
+                        "double"
+                     ],
+                     "required":false,
+                     "$$hashKey":"object:1871"
+                  }
+               ],
+               "$$hashKey":"object:1815"
+            },
+            {
+               "group":"Spacing",
+               "settings":[
+                  {
+                     "id":"contact_padding",
+                     "label":"Contact Padding",
+                     "type":"box",
+                     "placeholder":"",
+                     "value":{
+                        "top":"70px",
+                        "right":"0px",
+                        "bottom":"70px",
+                        "left":"0px"
+                     },
+                     "options":{
+                        "step":10
+                     },
+                     "required":false,
+                     "$$hashKey":"object:1911"
+                  }
+               ],
+               "$$hashKey":"object:1816"
+            },
+            {
+               "group":"Content",
+               "settings":[
+                  {
+                     "id":"lcr",
+                     "label":"Form Position",
+                     "type":"select",
+                     "placeholder":"left",
+                     "value":"center",
+                     "options":[
+                        "left",
+                        "right",
+                        "center"
+                     ],
+                     "required":false,
+                     "$$hashKey":"object:1916"
+                  },
+                  {
+                     "id":"in_grid",
+                     "label":"Content In Grid?",
+                     "type":"select",
+                     "placeholder":"container",
+                     "value":"container",
+                     "options":[
+                        "container",
+                        "container-fluid"
+                     ],
+                     "required":false,
+                     "$$hashKey":"object:1917"
+                  },
+                  {
+                     "id":"contact_form",
+                     "label":"Contact Form",
+                     "type":"form",
+                     "placeholder":"Default",
+                     "value":"46783ffe-4dbe-4aa5-8e5d-6dcf76dfdde8",
+                     "required":false,
+                     "$$hashKey":"object:1918"
+                  }
+               ],
+               "$$hashKey":"object:1817"
+            },
+            {
+               "group":"Form Design",
+               "settings":[
+                  {
+                     "id":"input_border",
+                     "label":"Input Border",
+                     "type":"box",
+                     "placeholder":"",
+                     "value":{
+                        "top":"0px",
+                        "right":"0px",
+                        "bottom":"1px",
+                        "left":"0px"
+                     },
+                     "options":{
+                        "step":1
+                     },
+                     "required":false,
+                     "$$hashKey":"object:1931"
+                  },
+                  {
+                     "id":"input_border_style",
+                     "label":"Input Border Style",
+                     "type":"select",
+                     "placeholder":"solid",
+                     "value":"solid",
+                     "options":[
+                        "solid",
+                        "dashed",
+                        "dotted",
+                        "double"
+                     ],
+                     "required":false,
+                     "$$hashKey":"object:1932"
+                  },
+                  {
+                     "id":"form_border_radius",
+                     "label":"Input Border Radius",
+                     "type":"range",
+                     "placeholder":"0",
+                     "value":0,
+                     "options":{
+                        "min":0,
+                        "max":100,
+                        "step":1
+                     },
+                     "required":false,
+                     "$$hashKey":"object:1933"
+                  },
+                  {
+                     "id":"form_border_color",
+                     "label":"Input Border Color",
+                     "type":"color",
+                     "placeholder":"#CACACA",
+                     "value":"#CACACA",
+                     "required":false,
+                     "$$hashKey":"object:1934"
+                  },
+                  {
+                     "id":"form_text_color",
+                     "label":"Input Text Color",
+                     "type":"color",
+                     "placeholder":"#666666",
+                     "value":"#666666",
+                     "required":false,
+                     "$$hashKey":"object:1935"
+                  },
+                  {
+                     "id":"form_background_color",
+                     "label":"Input Background Color",
+                     "type":"color",
+                     "placeholder":"rgba(255,255,255,0)",
+                     "value":"rgba(255,255,255,0)",
+                     "required":false,
+                     "$$hashKey":"object:1936"
+                  },
+                  {
+                     "id":"label_font_size",
+                     "label":"Form Label Font Size",
+                     "type":"range",
+                     "placeholder":"0",
+                     "value":13,
+                     "options":{
+                        "min":0,
+                        "max":72,
+                        "step":1
+                     },
+                     "required":false,
+                     "$$hashKey":"object:1937"
+                  },
+                  {
+                     "id":"label_font_weight",
+                     "label":"Form Label Font Weight",
+                     "type":"range",
+                     "placeholder":"0",
+                     "value":500,
+                     "options":{
+                        "min":100,
+                        "max":900,
+                        "step":100
+                     },
+                     "required":false,
+                     "$$hashKey":"object:1938"
+                  },
+                  {
+                     "id":"form_label_color",
+                     "label":"Form Label Color",
+                     "type":"color",
+                     "placeholder":"#1d1d1d",
+                     "value":"#1d1d1d",
+                     "required":false,
+                     "$$hashKey":"object:1939"
+                  },
+                  {
+                     "id":"button_font_size",
+                     "label":"Button Font Size",
+                     "type":"range",
+                     "placeholder":"0",
+                     "value":16,
+                     "options":{
+                        "min":0,
+                        "max":72,
+                        "step":1
+                     },
+                     "required":false,
+                     "$$hashKey":"object:1940"
+                  },
+                  {
+                     "id":"button_font_weight",
+                     "label":"Button Font Weight",
+                     "type":"range",
+                     "placeholder":"0",
+                     "value":"400",
+                     "options":{
+                        "min":100,
+                        "max":900,
+                        "step":100
+                     },
+                     "required":false,
+                     "$$hashKey":"object:1941"
+                  },
+                  {
+                     "id":"button_text_color",
+                     "label":"Button Text Color",
+                     "type":"color",
+                     "placeholder":"#ffffff",
+                     "value":"#ffffff",
+                     "required":false,
+                     "$$hashKey":"object:1942"
+                  },
+                  {
+                     "id":"button_hover_text_color",
+                     "label":"Button Hover Text Color",
+                     "type":"color",
+                     "placeholder":"#ffffff",
+                     "value":"#ffffff",
+                     "required":false,
+                     "$$hashKey":"object:1943"
+                  },
+                  {
+                     "id":"button_background_color",
+                     "label":"Button Background Color",
+                     "type":"color",
+                     "placeholder":"#1d1d1d",
+                     "value":"#01BAEF",
+                     "required":false,
+                     "$$hashKey":"object:1944"
+                  },
+                  {
+                     "id":"button_hover_background_color",
+                     "label":"Button Hover BG Color",
+                     "type":"color",
+                     "placeholder":"#e47596",
+                     "value":"#00a6d5",
+                     "required":false,
+                     "$$hashKey":"object:1945"
+                  },
+                  {
+                     "id":"form_button_border_width",
+                     "label":"Button Border Width",
+                     "type":"box",
+                     "placeholder":"",
+                     "value":{
+                        "top":"0px",
+                        "right":"0px",
+                        "bottom":"0px",
+                        "left":"0px"
+                     },
+                     "options":{
+                        "step":1
+                     },
+                     "required":false,
+                     "$$hashKey":"object:1946"
+                  },
+                  {
+                     "id":"submit_button_border",
+                     "label":"Input Border Style",
+                     "type":"select",
+                     "placeholder":"solid",
+                     "value":"solid",
+                     "options":[
+                        "solid",
+                        "dashed",
+                        "dotted",
+                        "double"
+                     ],
+                     "required":false,
+                     "$$hashKey":"object:1947"
+                  },
+                  {
+                     "id":"button_border_radius",
+                     "label":"Button Border Radius",
+                     "type":"range",
+                     "placeholder":"0",
+                     "value":"5",
+                     "options":{
+                        "min":0,
+                        "max":100,
+                        "step":1
+                     },
+                     "required":false,
+                     "$$hashKey":"object:1948"
+                  },
+                  {
+                     "id":"submit_border_btn_color",
+                     "label":"Submit Border Color",
+                     "type":"color",
+                     "placeholder":"rgba(255,255,255,1)",
+                     "value":"rgba(255,255,255,1)",
+                     "required":false,
+                     "$$hashKey":"object:1949"
+                  },
+                  {
+                     "id":"submit_hover_border_btn_color",
+                     "label":"Submit Hover Border Color",
+                     "type":"color",
+                     "placeholder":"rgba(255,255,255,1)",
+                     "value":"rgba(255,255,255,1)",
+                     "required":false,
+                     "$$hashKey":"object:1950"
+                  },
+                  {
+                     "id":"form_button_padding",
+                     "label":"Button Padding",
+                     "type":"box",
+                     "placeholder":"",
+                     "value":{
+                        "top":"15px",
+                        "right":"40px",
+                        "bottom":"15px",
+                        "left":"40px"
+                     },
+                     "options":{
+                        "step":5
+                     },
+                     "required":false,
+                     "$$hashKey":"object:1951"
+                  }
+               ],
+               "$$hashKey":"object:1818"
             }
-          ]
-        },
-        {
-          "group": "Border",
-          "settings": [
-            {
-              "id" : "gallery_border",
-              "label" : "Gallery Border",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "0px",
-                "right" : "0px",
-                "bottom" : "0px",
-                "left" : "0px"
-              },
-              "options" : {
-                "step" : 1
-              },
-              "required" : false
-            },
-            {
-              "id" : "gallery_border_color",
-              "label" : "Gallery Border Color",
-              "type" : "color",
-              "placeholder" : "rgba(255,255,255,1)",
-              "value" : "rgba(255,255,255,1)",
-              "required" : false
-            },
-            {
-              "id" : "gallery_border_style",
-              "label" : "Gallery Border Style",
-              "type" : "select",
-              "placeholder" : "solid",
-              "value" : "solid",
-              "options" : ["solid", "dashed", "dotted", "double"],
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group": "Spacing",
-          "settings": [
-            {
-              "id" : "gallery_padding",
-              "label" : "Gallery Padding",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "0px",
-                "right" : "0px",
-                "bottom" : "0px",
-                "left" : "0px"
-              },
-              "options" : {
-                "step" : 10
-              },
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group": "Content",
-          "settings": [
-            {
-              "id" : "col_count",
-              "label" : "Column Count",
-              "type" : "select",
-              "placeholder" : "3",
-              "value" : "3",
-              "options" : ["2", "3", "4"],
-              "required" : false
-            },
-            {
-              "id" : "content_position",
-              "label" : "Content Position",
-              "type" : "select",
-              "placeholder" : "left",
-              "value" : "left",
-              "options" : ["left", "center", "right"],
-              "required" : false
-            },
-            {
-              "id" : "row_height",
-              "label" : "Row Height",
-              "type" : "range",
-              "placeholder" : "420",
-              "value" : 420,
-              "options" : {
-                "min" : 150,
-                "max" : 1000,
-                "step" : 10
-              },
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group": "First Gallery Image",
-          "settings": [
-            {
-              "id": "gal1_background_image",
-              "label": "Gallery Image",
-              "type": "image",
-              "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/gal1.jpg",
-              "required": false
-            },
-            {
-              "id": "gal1_overlay_color",
-              "label": "Overlay Color",
-              "type": "color",
-              "placeholder": "rgba(251,121,91,0.9)",
-              "value": "rgba(251,121,91,0.9)",
-              "required": false
-            },
-            {
-              "id" : "gallery_item_padding_1",
-              "label" : "First Item Padding",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "0px",
-                "right" : "0px",
-                "bottom" : "0px",
-                "left" : "0px"
-              },
-              "options" : {
-                "step" : 10
-              },
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group": "Second Gallery Image",
-          "settings": [
-            {
-              "id": "gal2_background_image",
-              "label": "Gallery Image",
-              "type": "image",
-              "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/gal2.jpg",
-              "required": false
-            },
-            {
-              "id": "gal2_overlay_color",
-              "label": "Overlay Color",
-              "type": "color",
-              "placeholder": "rgba(255,255,255,0)",
-              "value": "rgba(255,255,255,0)",
-              "required": false
-            },
-            {
-              "id" : "gallery_item_padding_2",
-              "label" : "Second Item Padding",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "0px",
-                "right" : "0px",
-                "bottom" : "0px",
-                "left" : "0px"
-              },
-              "options" : {
-                "step" : 10
-              },
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group": "Third Gallery Image",
-          "settings": [
-            {
-              "id": "gal3_background_image",
-              "label": "Gallery Image",
-              "type": "image",
-              "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/gal3.jpg",
-              "required": false
-            },
-            {
-              "id": "gal3_overlay_color",
-              "label": "Overlay Color",
-              "type": "color",
-              "placeholder": "rgba(255,255,255,0)",
-              "value": "rgba(255,255,255,0)",
-              "required": false
-            },
-            {
-              "id" : "gallery_item_padding_3",
-              "label" : "Third Item Padding",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "0px",
-                "right" : "0px",
-                "bottom" : "0px",
-                "left" : "0px"
-              },
-              "options" : {
-                "step" : 10
-              },
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group": "Fourth Gallery Image",
-          "settings": [
-            {
-              "id": "gal4_background_image",
-              "label": "Gallery Image",
-              "type": "image",
-              "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/gal4.jpg",
-              "required": false
-            },
-            {
-              "id": "gal4_overlay_color",
-              "label": "Overlay Color",
-              "type": "color",
-              "placeholder": "rgba(255,255,255,0)",
-              "value": "rgba(255,255,255,0)",
-              "required": false
-            },
-            {
-              "id" : "gallery_item_padding_4",
-              "label" : "Fourth Item Padding",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "0px",
-                "right" : "0px",
-                "bottom" : "0px",
-                "left" : "0px"
-              },
-              "options" : {
-                "step" : 10
-              },
-              "required" : false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Services",
-      "type": "services",
-      "showOnDefault" : true,
-      "preview_image": "services.png",
-      "content": {
-        "services_header": "<h3>Our <b>Services</b></h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br/>incididunt ut labore et dolore magna aliqua.</p>",
-        "service_text_block1": "<h3>Content</h3><p>Ut ultrices dictum vehicula. Quisque congue maximus velit, nec scelerisque urna aliquam non.</p>",
-        "service_text_block2": "<h3>Design</h3><p>Ut ultrices dictum vehicula. Quisque congue maximus velit, nec scelerisque urna aliquam non.</p>",
-        "service_text_block3": "<h3>Media</h3><p>Ut ultrices dictum vehicula. Quisque congue maximus velit, nec scelerisque urna aliquam non.</p>",
-        "service_text_block4": "<h3>Imagery</h3><p>Ut ultrices dictum vehicula. Quisque congue maximus velit, nec scelerisque urna aliquam non.</p>"
+         ]
       },
-      "block_settings": [
-        {
-          "group": "Background",
-          "settings": [
+      {
+         "name":"Social",
+         "type":"social",
+         "showOnDefault":true,
+         "preview_image":"social.png",
+         "content":{
+
+         },
+         "block_settings":[
             {
-              "id": "background_image",
-              "label": "Background Image",
-              "type": "image",
-              "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
-              "required": false
+               "group":"Background",
+               "settings":[
+                  {
+                     "id":"background_image",
+                     "label":"Background Image",
+                     "type":"image",
+                     "placeholder":"",
+                     "value":"https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
+                     "required":false,
+                     "$$hashKey":"object:2342"
+                  },
+                  {
+                     "id":"overlay_color",
+                     "label":"Overlay Color",
+                     "type":"color",
+                     "placeholder":"#ffffff",
+                     "value":"#ffffff",
+                     "required":false,
+                     "$$hashKey":"object:2343"
+                  }
+               ],
+               "$$hashKey":"object:2312"
             },
             {
-              "id": "overlay_color",
-              "label": "Overlay Color",
-              "type": "color",
-              "placeholder": "rgba(255,255,255,1)",
-              "value": "rgba(255,255,255,1)",
-              "required": false
+               "group":"Border",
+               "settings":[
+                  {
+                     "id":"social_border",
+                     "label":"Social Border",
+                     "type":"box",
+                     "placeholder":"",
+                     "value":{
+                        "top":"1px",
+                        "right":"0px",
+                        "bottom":"0px",
+                        "left":"0px"
+                     },
+                     "options":{
+                        "step":1
+                     },
+                     "required":false,
+                     "$$hashKey":"object:2381"
+                  },
+                  {
+                     "id":"social_border_color",
+                     "label":"Social Border Color",
+                     "type":"color",
+                     "placeholder":"rgba(255,255,255,1)",
+                     "value":"rgba(232,232,232,0.79)",
+                     "required":false,
+                     "$$hashKey":"object:2382"
+                  },
+                  {
+                     "id":"social_border_style",
+                     "label":"Social Border Style",
+                     "type":"select",
+                     "placeholder":"solid",
+                     "value":"solid",
+                     "options":[
+                        "solid",
+                        "dashed",
+                        "dotted",
+                        "double"
+                     ],
+                     "required":false,
+                     "$$hashKey":"object:2383"
+                  }
+               ],
+               "$$hashKey":"object:2313"
+            },
+            {
+               "group":"Spacing",
+               "settings":[
+                  {
+                     "id":"social_padding",
+                     "label":"Social Padding",
+                     "type":"box",
+                     "placeholder":"",
+                     "value":{
+                        "top":"35px",
+                        "right":"0px",
+                        "bottom":"0px",
+                        "left":"0px"
+                     },
+                     "options":{
+                        "step":5
+                     },
+                     "required":false,
+                     "$$hashKey":"object:2423"
+                  }
+               ],
+               "$$hashKey":"object:2314"
+            },
+            {
+               "group":"Content",
+               "settings":[
+                  {
+                     "id":"text_color",
+                     "label":"Color",
+                     "type":"color",
+                     "placeholder":"#2d2d2d",
+                     "value":"#ababab",
+                     "required":false,
+                     "$$hashKey":"object:2428"
+                  },
+                  {
+                     "id":"icon_size",
+                     "label":"Icon Size",
+                     "type":"range",
+                     "placeholder":"25",
+                     "value":"20",
+                     "options":{
+                        "min":20,
+                        "max":80,
+                        "step":5
+                     },
+                     "required":false,
+                     "$$hashKey":"object:2429"
+                  }
+               ],
+               "$$hashKey":"object:2315"
+            },
+            {
+               "group":"First Icon",
+               "settings":[
+                  {
+                     "id":"show_icon_1",
+                     "label":"Show First Icon",
+                     "type":"checkbox",
+                     "placeholder":"",
+                     "value":true,
+                     "required":false,
+                     "$$hashKey":"object:2465"
+                  },
+                  {
+                     "id":"icon_one",
+                     "label":"First Icon",
+                     "type":"icon",
+                     "placeholder":"fa-facebook",
+                     "value":"fa-facebook",
+                     "required":false,
+                     "$$hashKey":"object:2466"
+                  },
+                  {
+                     "id":"icon_1_linksto",
+                     "label":"First Icon Links To",
+                     "type":"text",
+                     "placeholder":"https://facebook.com",
+                     "value":"https://facebook.com",
+                     "required":false,
+                     "$$hashKey":"object:2467"
+                  }
+               ],
+               "$$hashKey":"object:2316"
+            },
+            {
+               "group":"Second Icon",
+               "settings":[
+                  {
+                     "id":"show_icon_2",
+                     "label":"Show Second Icon",
+                     "type":"checkbox",
+                     "placeholder":"",
+                     "value":true,
+                     "required":false,
+                     "$$hashKey":"object:2480"
+                  },
+                  {
+                     "id":"icon_two",
+                     "label":"Second Icon",
+                     "type":"icon",
+                     "placeholder":"fa-twitter",
+                     "value":"fa-twitter",
+                     "required":false,
+                     "$$hashKey":"object:2481"
+                  },
+                  {
+                     "id":"icon_2_linksto",
+                     "label":"Second Icon Links To",
+                     "type":"text",
+                     "placeholder":"https://twitter.com",
+                     "value":"https://twitter.com",
+                     "required":false,
+                     "$$hashKey":"object:2482"
+                  }
+               ],
+               "$$hashKey":"object:2317"
+            },
+            {
+               "group":"Third Icon",
+               "settings":[
+                  {
+                     "id":"show_icon_3",
+                     "label":"Show Third Icon",
+                     "type":"checkbox",
+                     "placeholder":"",
+                     "value":true,
+                     "required":false,
+                     "$$hashKey":"object:2495"
+                  },
+                  {
+                     "id":"icon_three",
+                     "label":"Third Icon",
+                     "type":"icon",
+                     "placeholder":"fa-linkedin",
+                     "value":"fa-linkedin",
+                     "required":false,
+                     "$$hashKey":"object:2496"
+                  },
+                  {
+                     "id":"icon_3_linksto",
+                     "label":"Third Icon Links To",
+                     "type":"text",
+                     "placeholder":"https://linkedin.com",
+                     "value":"https://linkedin.com",
+                     "required":false,
+                     "$$hashKey":"object:2497"
+                  }
+               ],
+               "$$hashKey":"object:2318"
+            },
+            {
+               "group":"Fourth Icon",
+               "settings":[
+                  {
+                     "id":"show_icon_4",
+                     "label":"Show Fourth Icon",
+                     "type":"checkbox",
+                     "placeholder":"",
+                     "value":true,
+                     "required":false,
+                     "$$hashKey":"object:2510"
+                  },
+                  {
+                     "id":"icon_four",
+                     "label":"Fourth Icon",
+                     "type":"icon",
+                     "placeholder":"fa-youtube",
+                     "value":"fa-youtube",
+                     "required":false,
+                     "$$hashKey":"object:2511"
+                  },
+                  {
+                     "id":"icon_4_linksto",
+                     "label":"Fourth Icon Links To",
+                     "type":"text",
+                     "placeholder":"https://youtube.com",
+                     "value":"https://youtube.com",
+                     "required":false,
+                     "$$hashKey":"object:2512"
+                  }
+               ],
+               "$$hashKey":"object:2319"
+            },
+            {
+               "group":"Fifth Icon",
+               "settings":[
+                  {
+                     "id":"show_icon_5",
+                     "label":"Show Fifth Icon",
+                     "type":"checkbox",
+                     "placeholder":"",
+                     "value":true,
+                     "required":false,
+                     "$$hashKey":"object:2525"
+                  },
+                  {
+                     "id":"icon_five",
+                     "label":"Fifth Icon",
+                     "type":"icon",
+                     "placeholder":"fa-intagram",
+                     "value":"fa-instagram",
+                     "required":false,
+                     "$$hashKey":"object:2526"
+                  },
+                  {
+                     "id":"icon_5_linksto",
+                     "label":"Fifth Icon Links To",
+                     "type":"text",
+                     "placeholder":"https://instagram.com",
+                     "value":"https://instagram.com",
+                     "required":false,
+                     "$$hashKey":"object:2527"
+                  }
+               ],
+               "$$hashKey":"object:2320"
+            },
+            {
+               "group":"Sixth Icon",
+               "settings":[
+                  {
+                     "id":"show_icon_6",
+                     "label":"Show Sixth Icon",
+                     "type":"checkbox",
+                     "placeholder":"",
+                     "value":true,
+                     "required":false,
+                     "$$hashKey":"object:2540"
+                  },
+                  {
+                     "id":"icon_six",
+                     "label":"Sixth Icon",
+                     "type":"icon",
+                     "placeholder":"fa-amazon",
+                     "value":"fa-amazon",
+                     "required":false,
+                     "$$hashKey":"object:2541"
+                  },
+                  {
+                     "id":"icon_6_linksto",
+                     "label":"Sixth Icon Links To",
+                     "type":"text",
+                     "placeholder":"https://amazon.com",
+                     "value":"https://amazon.com",
+                     "required":false,
+                     "$$hashKey":"object:2542"
+                  }
+               ],
+               "$$hashKey":"object:2321"
             }
-          ]
-        },
-        {
-          "group": "Border",
-          "settings": [
-            {
-              "id" : "services_border",
-              "label" : "Services Border",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "0px",
-                "right" : "0px",
-                "bottom" : "0px",
-                "left" : "0px"
-              },
-              "options" : {
-                "step" : 1
-              },
-              "required" : false
-            },
-            {
-              "id" : "services_border_color",
-              "label" : "Services Border Color",
-              "type" : "color",
-              "placeholder" : "rgba(255,255,255,1)",
-              "value" : "rgba(255,255,255,1)",
-              "required" : false
-            },
-            {
-              "id" : "services_border_style",
-              "label" : "Services Border Style",
-              "type" : "select",
-              "placeholder" : "solid",
-              "value" : "solid",
-              "options" : ["solid", "dashed", "dotted", "double"],
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group": "Spacing",
-          "settings": [
-            {
-              "id" : "services_padding",
-              "label" : "Services Padding",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "70px",
-                "right" : "0px",
-                "bottom" : "70px",
-                "left" : "0px"
-              },
-              "options" : {
-                "step" : 10
-              },
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group": "Content",
-          "settings": [
-            {
-              "id" : "in_grid",
-              "label" : "Content In Grid?",
-              "type" : "select",
-              "placeholder" : "container",
-              "value" : "container",
-              "options" : ["container", "container-fluid"],
-              "required" : false
-            },
-            {
-              "id": "show_header_section",
-              "label": "Show Header Text",
-              "type": "checkbox",
-              "placeholder": "",
-              "value": true,
-              "required": false
-            },
-            {
-              "id" : "col_count",
-              "label" : "Column Count",
-              "type" : "select",
-              "placeholder" : "3",
-              "value" : "3",
-              "options" : ["1", "2", "3", "4"],
-              "required" : false
-            },
-            {
-              "id": "icon_color",
-              "label": "Icons Color",
-              "type": "color",
-              "placeholder": "#fb795b",
-              "value": "#fb795b",
-              "required": false
-            },
-            {
-              "id": "icon_background_color",
-              "label": "Icons Background Color",
-              "type": "color",
-              "placeholder": "#f6f6f6",
-              "value": "#f6f6f6",
-              "required": false
-            },
-            {
-              "id": "icon_border_color",
-              "label": "Icons Border Color",
-              "type": "color",
-              "placeholder": "#fb795b",
-              "value": "#fb795b",
-              "required": false
-            },
-            {
-              "id" : "icon_size",
-              "label" : "Icon Size",
-              "type" : "range",
-              "placeholder" : "25",
-              "value" : 25,
-              "options" : {
-                "min" : 10,
-                "max" : 45,
-                "step" : 3
-              },
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group": "Icons",
-          "settings": [
-            {
-              "id": "icon_one",
-              "label": "First Icon",
-              "type": "icon",
-              "placeholder": "fa-pencil",
-              "value": "fa-pencil",
-              "required": false
-            },
-            {
-              "id": "icon_two",
-              "label": "Second Icon",
-              "type": "icon",
-              "placeholder": "fa-paint-brush",
-              "value": "fa-paint-brush",
-              "required": false
-            },
-            {
-              "id": "icon_three",
-              "label": "Third Icon",
-              "type": "icon",
-              "placeholder": "fa-file-image-o",
-              "value": "fa-file-image-o",
-              "required": false
-            },
-            {
-              "id": "icon_four",
-              "label": "Fourth Icon",
-              "type": "icon",
-              "placeholder": "fa-camera",
-              "value": "fa-camera",
-              "required": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "About",
-      "type": "about",
-      "showOnDefault" : true,
-      "preview_image": "about.png",
-      "content": {
-        "content": "<h3 class='text-right'>About Agency <b>Incredible</b></h3><p class='text-right'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Maecenas lorem est, mattis sit amet pretium id, scelerisque a ex. Morbi venenatis nulla vel erat placerat, sit amet sodales enim lobortis. Morbi mollis finibus sem, nec sollicitudin diam venenatis vitae.</p>"
+         ]
       },
-      "block_settings": [
-        {
-          "group": "Background",
-          "settings": [
+      {
+         "name":"Utility Column",
+         "type":"utility",
+         "showOnDefault":true,
+         "preview_image":"utility.png",
+         "content":{
+            "colone":"<p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span style=\"color: rgb(161, 161, 161);\" data-mce-style=\"color: #a1a1a1;\">Made with <span style=\"color: rgb(1, 186, 239);\" data-mce-style=\"color: #01baef;\"><a href=\"http://belch.io\" data-mce-href=\"http://belch.io\" style=\"color: rgb(1, 186, 239);\" data-mce-style=\"color: #01baef;\">BELCH.IO</a></span></span></p>",
+            "coltwo":"<img src='https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-utility.jpg' class='block-center' />",
+            "colthree":"<h3>Responsive<br>Development</h3><p>Proin finibus nunc sed nunc interdum consectetur. Proin porta placerat turpis at pulvinar. Curabitur sem purus, aliquam quis tincidunt at, faucibus a turpis.</p>",
+            "colfour":"<p class='text-right'>Proin finibus nunc sed nunc interdum consectetur. Proin porta placerat turpis at pulvinar. Curabitur sem purus, aliquam quis tincidunt at, faucibus a turpis.</p>",
+            "colfive":"<p class='text-right'>Proin finibus nunc sed nunc interdum consectetur. Proin porta placerat turpis at pulvinar. Curabitur sem purus, aliquam quis tincidunt at, faucibus a turpis.</p>",
+            "colsix":" <p class='text-right'>Proin finibus nunc sed nunc interdum consectetur. Proin porta placerat turpis at pulvinar. Curabitur sem purus, aliquam quis tincidunt at, faucibus a turpis.</p>"
+         },
+         "block_settings":[
             {
-              "id": "background_image",
-              "label": "Background Image",
-              "type": "image",
-              "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
-              "required": false
+               "group":"Background",
+               "settings":[
+                  {
+                     "id":"background_image",
+                     "label":"Background Image",
+                     "type":"image",
+                     "placeholder":"",
+                     "value":"https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
+                     "required":false,
+                     "$$hashKey":"object:2631"
+                  },
+                  {
+                     "id":"overlay_color",
+                     "label":"Overlay Color",
+                     "type":"color",
+                     "placeholder":"#f9f9f9",
+                     "value":"#fff",
+                     "required":false,
+                     "$$hashKey":"object:2632"
+                  }
+               ],
+               "$$hashKey":"object:2619"
             },
             {
-              "id": "overlay_color",
-              "label": "Overlay Color",
-              "type": "color",
-              "placeholder": "#f9f9f9",
-              "value": "#f9f9f9",
-              "required": false
+               "group":"Border",
+               "settings":[
+                  {
+                     "id":"utility_border",
+                     "label":"Utility Border",
+                     "type":"box",
+                     "placeholder":"",
+                     "value":{
+                        "top":"0px",
+                        "right":"0px",
+                        "bottom":"0px",
+                        "left":"0px"
+                     },
+                     "options":{
+                        "step":1
+                     },
+                     "required":false,
+                     "$$hashKey":"object:2670"
+                  },
+                  {
+                     "id":"utility_border_color",
+                     "label":"Utility Border Color",
+                     "type":"color",
+                     "placeholder":"rgba(255,255,255,1)",
+                     "value":"rgba(255,255,255,1)",
+                     "required":false,
+                     "$$hashKey":"object:2671"
+                  },
+                  {
+                     "id":"utility_border_style",
+                     "label":"Utility Border Style",
+                     "type":"select",
+                     "placeholder":"solid",
+                     "value":"solid",
+                     "options":[
+                        "solid",
+                        "dashed",
+                        "dotted",
+                        "double"
+                     ],
+                     "required":false,
+                     "$$hashKey":"object:2672"
+                  }
+               ],
+               "$$hashKey":"object:2620"
+            },
+            {
+               "group":"Spacing",
+               "settings":[
+                  {
+                     "id":"utility_padding",
+                     "label":"Utility Padding",
+                     "type":"box",
+                     "placeholder":"",
+                     "value":{
+                        "top":"0px",
+                        "right":"0px",
+                        "bottom":"30px",
+                        "left":"0px"
+                     },
+                     "options":{
+                        "step":10
+                     },
+                     "required":false,
+                     "$$hashKey":"object:2712"
+                  }
+               ],
+               "$$hashKey":"object:2621"
+            },
+            {
+               "group":"Content",
+               "settings":[
+                  {
+                     "id":"in_grid",
+                     "label":"Content In Grid?",
+                     "type":"select",
+                     "placeholder":"container",
+                     "value":"container",
+                     "options":[
+                        "container",
+                        "container-fluid"
+                     ],
+                     "required":false,
+                     "$$hashKey":"object:2717"
+                  },
+                  {
+                     "id":"col_count",
+                     "label":"Column Count",
+                     "type":"select",
+                     "placeholder":"3",
+                     "value":"1",
+                     "options":[
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "6"
+                     ],
+                     "required":false,
+                     "$$hashKey":"object:2718"
+                  }
+               ],
+               "$$hashKey":"object:2622"
             }
-          ]
-        },
-        {
-          "group": "Border",
-          "settings": [
-            {
-              "id" : "about_border",
-              "label" : "About Border",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "0px",
-                "right" : "0px",
-                "bottom" : "0px",
-                "left" : "0px"
-              },
-              "options" : {
-                "step" : 1
-              },
-              "required" : false
-            },
-            {
-              "id" : "about_border_color",
-              "label" : "About Border Color",
-              "type" : "color",
-              "placeholder" : "rgba(255,255,255,1)",
-              "value" : "rgba(255,255,255,1)",
-              "required" : false
-            },
-            {
-              "id" : "about_border_style",
-              "label" : "About Border Style",
-              "type" : "select",
-              "placeholder" : "solid",
-              "value" : "solid",
-              "options" : ["solid", "dashed", "dotted", "double"],
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group": "Spacing",
-          "settings": [
-            {
-              "id" : "about_padding",
-              "label" : "About Padding",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "70px",
-                "right" : "0px",
-                "bottom" : "70px",
-                "left" : "0px"
-              },
-              "options" : {
-                "step" : 10
-              },
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group": "Image",
-          "settings": [
-            {
-              "id": "image",
-              "label": "About Image",
-              "type": "image",
-              "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock-about.jpg",
-              "required": false
-            }
-          ]
-        },
-        {
-          "group": "Content",
-          "settings": [
-            {
-              "id" : "in_grid",
-              "label" : "Content In Grid?",
-              "type" : "select",
-              "placeholder" : "container",
-              "value" : "container",
-              "options" : ["container", "container-fluid"],
-              "required" : false
-            },
-            {
-              "id" : "img_position",
-              "label" : "Image Position",
-              "type" : "select",
-              "placeholder" : "right",
-              "value" : "right",
-              "options" : ["left", "right"],
-              "required" : false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Team",
-      "type": "team",
-      "showOnDefault" : true,
-      "preview_image": "team.png",
-      "content": {
-        "team_header": "<h3>Our <b>Super-duper</b> Team</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua.</p>",
-        "team_one": "<h3 class='text-center'>ALEX MASTERS</h3><p class='text-center'><b>CFO</b></p><p class='text-center'>Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. Nunc arcu dolor, vehicula ac dictum ut, dapibus id lacus. Duis nunc magna, imperdiet non placerat convallis, porta in ex.</p>",
-        "team_two" : "<h3 class='text-center'>JOHN CANDELSON</h3><p class='text-center'><b>PROJECT MANAGER</b></p><p class='text-center'>Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. Nunc arcu dolor, vehicula ac dictum ut, dapibus id lacus. Duis nunc magna, imperdiet non placerat convallis, porta in ex.</p>",
-        "team_three" : "<h3 class='text-center'>JEFF KINNESON</h3><p class='text-center'><b>LEAD ENGINEER</b></p><p class='text-center'>Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. Nunc arcu dolor, vehicula ac dictum ut, dapibus id lacus. Duis nunc magna, imperdiet non placerat convallis, porta in ex.</p>"
-      },
-      "block_settings": [
-        {
-          "group": "Background",
-          "settings": [
-            {
-              "id": "background_image",
-              "label": "Background Image",
-              "type": "image",
-              "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
-              "required": false
-            },
-            {
-              "id": "overlay_color",
-              "label": "Overlay Color",
-              "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
-              "required": false
-            }
-          ]
-        },
-        {
-          "group": "Border",
-          "settings": [
-            {
-              "id" : "team_border",
-              "label" : "Team Border",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "0px",
-                "right" : "0px",
-                "bottom" : "0px",
-                "left" : "0px"
-              },
-              "options" : {
-                "step" : 1
-              },
-              "required" : false
-            },
-            {
-              "id" : "team_border_color",
-              "label" : "Team Border Color",
-              "type" : "color",
-              "placeholder" : "rgba(255,255,255,1)",
-              "value" : "rgba(255,255,255,1)",
-              "required" : false
-            },
-            {
-              "id" : "team_border_style",
-              "label" : "Team Border Style",
-              "type" : "select",
-              "placeholder" : "solid",
-              "value" : "solid",
-              "options" : ["solid", "dashed", "dotted", "double"],
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group": "Spacing",
-          "settings": [
-            {
-              "id" : "team_padding",
-              "label" : "Team Padding",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "70px",
-                "right" : "0px",
-                "bottom" : "70px",
-                "left" : "0px"
-              },
-              "options" : {
-                "step" : 10
-              },
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group": "Content",
-          "settings": [
-            {
-              "id" : "in_grid",
-              "label" : "Content In Grid?",
-              "type" : "select",
-              "placeholder" : "container",
-              "value" : "container",
-              "options" : ["container", "container-fluid"],
-              "required" : false
-            },
-            {
-              "id" : "col_count",
-              "label" : "People Count",
-              "type" : "select",
-              "placeholder" : "3",
-              "value" : "3",
-              "options" : ["2", "3"],
-              "required" : false
-            },
-            {
-              "id" : "img_position",
-              "label" : "Image Position",
-              "type" : "select",
-              "placeholder" : "center",
-              "value" : "center",
-              "options" : ["left", "center", "right"],
-              "required" : false
-            },
-            {
-              "id": "show_header_section",
-              "label": "Team Header Text",
-              "type": "checkbox",
-              "placeholder": "",
-              "value": true,
-              "required": false
-            },
-            {
-              "id": "team1_image",
-              "label": "Person One Image",
-              "type": "image",
-              "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-teama1.jpg",
-              "required": false
-            },
-            {
-              "id": "team2_image",
-              "label": "Person Two Image",
-              "type": "image",
-              "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-teama2.jpg",
-              "required": false
-            },
-            {
-              "id": "team3_image",
-              "label": "Person Three Image",
-              "type": "image",
-              "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-teama4.jpg",
-              "required": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Contact",
-      "type": "form",
-      "showOnDefault" : true,
-      "preview_image": "form.png",
-      "content": {
-        "contact_header": "<h4>REACH OUT</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br><h4>LOCATION</h4><p>AGENCY <strong>INCREDIBLE</strong><br>612 Main St.<br>Manhattan NYC 42584<br><br>(800) 555 - 2121<br>us@BELCH.io</p>"
-      },
-      "block_settings": [
-        {
-          "group": "Background",
-          "settings": [
-            {
-              "id": "background_image",
-              "label": "Background Image",
-              "type": "image",
-              "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
-              "required": false
-            },
-            {
-              "id": "overlay_color",
-              "label": "Overlay Color",
-              "type": "color",
-              "placeholder": "#f9f9f9",
-              "value": "#f9f9f9",
-              "required": false
-            }
-          ]
-        },
-        {
-          "group": "Border",
-          "settings": [
-            {
-              "id" : "contact_border",
-              "label" : "Contact Border",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "0px",
-                "right" : "0px",
-                "bottom" : "0px",
-                "left" : "0px"
-              },
-              "options" : {
-                "step" : 1
-              },
-              "required" : false
-            },
-            {
-              "id" : "contact_border_color",
-              "label" : "Contact Border Color",
-              "type" : "color",
-              "placeholder" : "rgba(255,255,255,1)",
-              "value" : "rgba(255,255,255,1)",
-              "required" : false
-            },
-            {
-              "id" : "contact_border_style",
-              "label" : "Contact Border Style",
-              "type" : "select",
-              "placeholder" : "solid",
-              "value" : "solid",
-              "options" : ["solid", "dashed", "dotted", "double"],
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group": "Spacing",
-          "settings": [
-            {
-              "id" : "contact_padding",
-              "label" : "Contact Padding",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "70px",
-                "right" : "0px",
-                "bottom" : "70px",
-                "left" : "0px"
-              },
-              "options" : {
-                "step" : 10
-              },
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group": "Content",
-          "settings": [
-            {
-              "id" : "lcr",
-              "label" : "Form Position",
-              "type" : "select",
-              "placeholder" : "left",
-              "value" : "left",
-              "options" : ["left", "right", "center"],
-              "required" : false
-            },
-            {
-              "id" : "in_grid",
-              "label" : "Content In Grid?",
-              "type" : "select",
-              "placeholder" : "container",
-              "value" : "container",
-              "options" : ["container", "container-fluid"],
-              "required" : false
-            },
-            {
-              "id": "contact_form",
-              "label": "Contact Form",
-              "type": "form",
-              "placeholder": "Default",
-              "value": "Default",
-              "required": false
-            }
-          ]
-        },
-        {
-          "group": "Form Design",
-          "settings": [
-            {
-              "id" : "input_border",
-              "label" : "Input Border",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "0px",
-                "right" : "0px",
-                "bottom" : "1px",
-                "left" : "0px"
-              },
-              "options" : {
-                "step" : 1
-              },
-              "required" : false
-            },
-            {
-              "id" : "input_border_style",
-              "label" : "Input Border Style",
-              "type" : "select",
-              "placeholder" : "solid",
-              "value" : "solid",
-              "options" : ["solid", "dashed", "dotted", "double"],
-              "required" : false
-            },
-            {
-              "id" : "form_border_radius",
-              "label" : "Input Border Radius",
-              "type" : "range",
-              "placeholder" : "0",
-              "value" : 0,
-              "options" : {
-                "min" : 0,
-                "max" : 100,
-                "step" : 1
-              },
-              "required" : false
-            },
-            {
-              "id": "form_border_color",
-              "label": "Input Border Color",
-              "type": "color",
-              "placeholder": "#CACACA",
-              "value": "#CACACA",
-              "required": false
-            },
-            {
-              "id": "form_text_color",
-              "label": "Input Text Color",
-              "type": "color",
-              "placeholder": "#666666",
-              "value": "#666666",
-              "required": false
-            },
-            {
-              "id": "form_background_color",
-              "label": "Input Background Color",
-              "type": "color",
-              "placeholder": "rgba(255,255,255,0)",
-              "value": "rgba(255,255,255,0)",
-              "required": false
-            },
-            {
-              "id" : "label_font_size",
-              "label" : "Form Label Font Size",
-              "type" : "range",
-              "placeholder" : "0",
-              "value" : 13,
-              "options" : {
-                "min" : 0,
-                "max" : 72,
-                "step" : 1
-              },
-              "required" : false
-            },
-            {
-              "id" : "label_font_weight",
-              "label" : "Form Label Font Weight",
-              "type" : "range",
-              "placeholder" : "0",
-              "value" : 500,
-              "options" : {
-                "min" : 100,
-                "max" : 900,
-                "step" : 100
-              },
-              "required" : false
-            },
-            {
-              "id": "form_label_color",
-              "label": "Form Label Color",
-              "type": "color",
-              "placeholder": "#1d1d1d",
-              "value": "#1d1d1d",
-              "required": false
-            },
-            {
-              "id" : "button_font_size",
-              "label" : "Button Font Size",
-              "type" : "range",
-              "placeholder" : "0",
-              "value" : 16,
-              "options" : {
-                "min" : 0,
-                "max" : 72,
-                "step" : 1
-              },
-              "required" : false
-            },
-            {
-              "id" : "button_font_weight",
-              "label" : "Button Font Weight",
-              "type" : "range",
-              "placeholder" : "0",
-              "value" : 300,
-              "options" : {
-                "min" : 100,
-                "max" : 900,
-                "step" : 100
-              },
-              "required" : false
-            },
-            {
-              "id": "button_text_color",
-              "label": "Button Text Color",
-              "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
-              "required": false
-            },
-            {
-              "id": "button_hover_text_color",
-              "label": "Button Hover Text Color",
-              "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
-              "required": false
-            },
-            {
-              "id": "button_background_color",
-              "label": "Button Background Color",
-              "type": "color",
-              "placeholder": "#1d1d1d",
-              "value": "#1d1d1d",
-              "required": false
-            },
-            {
-              "id": "button_hover_background_color",
-              "label": "Button Hover BG Color",
-              "type": "color",
-              "placeholder": "#e47596",
-              "value": "#e47596",
-              "required": false
-            },
-            {
-              "id" : "form_button_border_width",
-              "label" : "Button Border Width",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "0px",
-                "right" : "0px",
-                "bottom" : "0px",
-                "left" : "0px"
-              },
-              "options" : {
-                "step" : 1
-              },
-              "required" : false
-            },
-            {
-              "id" : "submit_button_border",
-              "label" : "Input Border Style",
-              "type" : "select",
-              "placeholder" : "solid",
-              "value" : "solid",
-              "options" : ["solid", "dashed", "dotted", "double"],
-              "required" : false
-            },
-            {
-              "id" : "button_border_radius",
-              "label" : "Button Border Radius",
-              "type" : "range",
-              "placeholder" : "0",
-              "value" : 0,
-              "options" : {
-                "min" : 0,
-                "max" : 100,
-                "step" : 1
-              },
-              "required" : false
-            },
-            {
-              "id": "submit_border_btn_color",
-              "label": "Submit Border Color",
-              "type": "color",
-              "placeholder": "rgba(255,255,255,1)",
-              "value": "rgba(255,255,255,1)",
-              "required": false
-            },
-            {
-              "id": "submit_hover_border_btn_color",
-              "label": "Submit Hover Border Color",
-              "type": "color",
-              "placeholder": "rgba(255,255,255,1)",
-              "value": "rgba(255,255,255,1)",
-              "required": false
-            },
-            {
-              "id" : "form_button_padding",
-              "label" : "Button Padding",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "10px",
-                "right" : "60px",
-                "bottom" : "10px",
-                "left" : "60px"
-              },
-              "options" : {
-                "step" : 5
-              },
-              "required" : false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "CTA",
-      "type": "cta",
-      "showOnDefault" : true,
-      "preview_image": "cta.png",
-      "content": {
-        "cta_text": "<h3>\"Good design adds value faster than it adds cost.\" - Thomas C. Gale</h3><p class=\"cta-sub-title\">Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor.<br></p><br>"
-      },
-      "block_settings": [
-        {
-          "group": "Background",
-          "settings": [
-            {
-              "id": "background_image",
-              "label": "Background Image",
-              "type": "image",
-              "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
-              "required": false
-            },
-            {
-              "id": "overlay_color",
-              "label": "Overlay Color",
-              "type": "color",
-              "placeholder": "rgba(255,255,255,0.8)",
-              "value": "rgba(255,255,255,0.8)",
-              "required": false
-            }
-          ]
-        },
-        {
-          "group": "Border",
-          "settings": [
-            {
-              "id" : "cta_border",
-              "label" : "CTA Border",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "0px",
-                "right" : "0px",
-                "bottom" : "0px",
-                "left" : "0px"
-              },
-              "options" : {
-                "step" : 1
-              },
-              "required" : false
-            },
-            {
-              "id" : "cta_border_color",
-              "label" : "CTA Border Color",
-              "type" : "color",
-              "placeholder" : "rgba(255,255,255,1)",
-              "value" : "rgba(255,255,255,1)",
-              "required" : false
-            },
-            {
-              "id" : "cta_border_style",
-              "label" : "CTA Border Style",
-              "type" : "select",
-              "placeholder" : "solid",
-              "value" : "solid",
-              "options" : ["solid", "dashed", "dotted", "double"],
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group": "Spacing",
-          "settings": [
-            {
-              "id" : "cta_padding",
-              "label" : "CTA Padding",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "30px",
-                "right" : "0px",
-                "bottom" : "45px",
-                "left" : "0px"
-              },
-              "options" : {
-                "step" : 10
-              },
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group": "Content",
-          "settings": [
-            {
-              "id" : "in_grid",
-              "label" : "Content In Grid?",
-              "type" : "select",
-              "placeholder" : "container",
-              "value" : "container",
-              "options" : ["container", "container-fluid"],
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group": "Button",
-          "settings": [
-            {
-              "id": "button_links_to",
-              "label": "Button Links To",
-              "type": "text",
-              "placeholder": "#",
-              "value": "#",
-              "required": false
-            },
-            {
-              "id": "button_label",
-              "label": "Button Label",
-              "type": "text",
-              "placeholder": "LEARN MORE",
-              "value": "LEARN MORE",
-              "required": false
-            },
-            {
-              "id": "button_text_color",
-              "label": "Button Text Color",
-              "type": "color",
-              "placeholder": "#1d1d1d",
-              "value": "#1d1d1d",
-              "required": false
-            },
-            {
-              "id": "button_hover_text_color",
-              "label": "Button Hover Text Color",
-              "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#1d1d1d",
-              "required": false
-            },
-            {
-              "id": "button_background_color",
-              "label": "Button BG Color",
-              "type": "color",
-              "placeholder": "",
-              "value": "rgba(255, 255, 255, 0)",
-              "required": false
-            },
-            {
-              "id": "button_hover_background_color",
-              "label": "Button Hover BG Color",
-              "type": "color",
-              "placeholder": "",
-              "value": "#ffffff",
-              "required": false
-            },
-            {
-              "id": "button_border_color",
-              "label": "Button Border Color",
-              "type": "color",
-              "placeholder": "#000000",
-              "value": "#000000",
-              "required": false
-            },
-            {
-              "id": "button_hover_border_color",
-              "label": "Button Hover Border Color",
-              "type": "color",
-              "placeholder": "#000000",
-              "value": "#000000",
-              "required": false
-            },
-            {
-              "id" : "button_border_radius",
-              "label" : "Button Border Radius",
-              "type" : "range",
-              "placeholder" : "0",
-              "value" : 0,
-              "options" : {
-                "min" : 0,
-                "max" : 100,
-                "step" : 1
-              },
-              "required" : false
-            },
-            {
-              "id" : "button_font_size",
-              "label" : "Button Font Size",
-              "type" : "range",
-              "placeholder" : "0",
-              "value" : 16,
-              "options" : {
-                "min" : 0,
-                "max" : 72,
-                "step" : 1
-              },
-              "required" : false
-            },
-            {
-              "id" : "button_font_weight",
-              "label" : "Button Font Weight",
-              "type" : "range",
-              "placeholder" : "0",
-              "value" : 300,
-              "options" : {
-                "min" : 100,
-                "max" : 900,
-                "step" : 100
-              },
-              "required" : false
-            },
-            {
-              "id" : "cta_button_padding",
-              "label" : "Button Padding",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "10px",
-                "right" : "40px",
-                "bottom" : "10px",
-                "left" : "40px"
-              },
-              "options" : {
-                "step" : 5
-              },
-              "required" : false
-            },
-            {
-              "id" : "cta_border_style",
-              "label" : "CTA Border Style",
-              "type" : "select",
-              "placeholder" : "solid",
-              "value" : "solid",
-              "options" : ["solid", "dashed", "dotted", "double"],
-              "required" : false
-            },
-            {
-              "id" : "cta_button_border",
-              "label" : "Button Border",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "1px",
-                "right" : "1px",
-                "bottom" : "1px",
-                "left" : "1px"
-              },
-              "options" : {
-                "step" : 1
-              },
-              "required" : false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Utility Column",
-      "type": "utility",
-      "showOnDefault" : true,
-      "preview_image": "utility.png",
-      "content": {
-        "colone": "<h3 class='text-right'>Adaptive<br>Design</h3><p class='text-right'>Proin finibus nunc sed nunc interdum consectetur. Proin porta placerat turpis at pulvinar. Curabitur sem purus, aliquam quis tincidunt at, faucibus a turpis.</p>",
-        "coltwo": "<img src='https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-utility.jpg' class='block-center' />",
-        "colthree": "<h3>Responsive<br>Development</h3><p>Proin finibus nunc sed nunc interdum consectetur. Proin porta placerat turpis at pulvinar. Curabitur sem purus, aliquam quis tincidunt at, faucibus a turpis.</p>",
-        "colfour": "<p class='text-right'>Proin finibus nunc sed nunc interdum consectetur. Proin porta placerat turpis at pulvinar. Curabitur sem purus, aliquam quis tincidunt at, faucibus a turpis.</p>",
-        "colfive": "<p class='text-right'>Proin finibus nunc sed nunc interdum consectetur. Proin porta placerat turpis at pulvinar. Curabitur sem purus, aliquam quis tincidunt at, faucibus a turpis.</p>",
-        "colsix": " <p class='text-right'>Proin finibus nunc sed nunc interdum consectetur. Proin porta placerat turpis at pulvinar. Curabitur sem purus, aliquam quis tincidunt at, faucibus a turpis.</p>"
-      },
-      "block_settings": [
-        {
-          "group": "Background",
-          "settings": [
-            {
-              "id": "background_image",
-              "label": "Background Image",
-              "type": "image",
-              "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
-              "required": false
-            },
-            {
-              "id": "overlay_color",
-              "label": "Overlay Color",
-              "type": "color",
-              "placeholder": "#f9f9f9",
-              "value": "#f9f9f9",
-              "required": false
-            }
-          ]
-        },
-        {
-          "group": "Border",
-          "settings": [
-            {
-              "id" : "utility_border",
-              "label" : "Utility Border",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "0px",
-                "right" : "0px",
-                "bottom" : "0px",
-                "left" : "0px"
-              },
-              "options" : {
-                "step" : 1
-              },
-              "required" : false
-            },
-            {
-              "id" : "utility_border_color",
-              "label" : "Utility Border Color",
-              "type" : "color",
-              "placeholder" : "rgba(255,255,255,1)",
-              "value" : "rgba(255,255,255,1)",
-              "required" : false
-            },
-            {
-              "id" : "utility_border_style",
-              "label" : "Utility Border Style",
-              "type" : "select",
-              "placeholder" : "solid",
-              "value" : "solid",
-              "options" : ["solid", "dashed", "dotted", "double"],
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group": "Spacing",
-          "settings": [
-            {
-              "id" : "utility_padding",
-              "label" : "Utility Padding",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "70px",
-                "right" : "0px",
-                "bottom" : "70px",
-                "left" : "0px"
-              },
-              "options" : {
-                "step" : 10
-              },
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group": "Content",
-          "settings": [
-            {
-              "id" : "in_grid",
-              "label" : "Content In Grid?",
-              "type" : "select",
-              "placeholder" : "container",
-              "value" : "container",
-              "options" : ["container", "container-fluid"],
-              "required" : false
-            },
-            {
-              "id" : "col_count",
-              "label" : "Column Count",
-              "type" : "select",
-              "placeholder" : "3",
-              "value" : "3",
-              "options" : ["1", "2", "3", "4", "6"],
-              "required" : false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Social",
-      "type": "social",
-      "showOnDefault" : true,
-      "preview_image": "social.png",
-      "content": {},
-      "block_settings": [
-        {
-          "group": "Background",
-          "settings": [
-            {
-              "id": "background_image",
-              "label": "Background Image",
-              "type": "image",
-              "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
-              "required": false
-            },
-            {
-              "id": "overlay_color",
-              "label": "Overlay Color",
-              "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
-              "required": false
-            }
-          ]
-        },
-        {
-          "group": "Border",
-          "settings": [
-            {
-              "id" : "social_border",
-              "label" : "Social Border",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "0px",
-                "right" : "0px",
-                "bottom" : "0px",
-                "left" : "0px"
-              },
-              "options" : {
-                "step" : 1
-              },
-              "required" : false
-            },
-            {
-              "id" : "social_border_color",
-              "label" : "Social Border Color",
-              "type" : "color",
-              "placeholder" : "rgba(255,255,255,1)",
-              "value" : "rgba(255,255,255,1)",
-              "required" : false
-            },
-            {
-              "id" : "social_border_style",
-              "label" : "Social Border Style",
-              "type" : "select",
-              "placeholder" : "solid",
-              "value" : "solid",
-              "options" : ["solid", "dashed", "dotted", "double"],
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group": "Spacing",
-          "settings": [
-            {
-              "id" : "social_padding",
-              "label" : "Social Padding",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "25px",
-                "right" : "0px",
-                "bottom" : "20px",
-                "left" : "0px"
-              },
-              "options" : {
-                "step" : 5
-              },
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group": "Content",
-          "settings": [
-            {
-              "id": "text_color",
-              "label": "Color",
-              "type": "color",
-              "placeholder": "#2d2d2d",
-              "value": "#2d2d2d",
-              "required": false
-            },
-            {
-              "id" : "icon_size",
-              "label" : "Icon Size",
-              "type" : "range",
-              "placeholder" : "25",
-              "value" : 25,
-              "options" : {
-                "min" : 20,
-                "max" : 80,
-                "step" : 5
-              },
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group": "First Icon",
-          "settings": [
-            {
-              "id" : "show_icon_1",
-              "label" : "Show First Icon",
-              "type" : "checkbox",
-              "placeholder" : "",
-              "value" : true,
-              "required" : false
-            },
-            {
-              "id": "icon_one",
-              "label": "First Icon",
-              "type": "icon",
-              "placeholder": "fa-facebook",
-              "value": "fa-facebook",
-              "required": false
-            },
-            {
-              "id": "icon_1_linksto",
-              "label": "First Icon Links To",
-              "type": "text",
-              "placeholder": "https://facebook.com",
-              "value": "https://facebook.com",
-              "required": false
-            }
-          ]
-        },
-        {
-          "group": "Second Icon",
-          "settings": [
-            {
-              "id" : "show_icon_2",
-              "label" : "Show Second Icon",
-              "type" : "checkbox",
-              "placeholder" : "",
-              "value" : true,
-              "required" : false
-            },
-            {
-              "id": "icon_two",
-              "label": "Second Icon",
-              "type": "icon",
-              "placeholder": "fa-twitter",
-              "value": "fa-twitter",
-              "required": false
-            },
-            {
-              "id": "icon_2_linksto",
-              "label": "Second Icon Links To",
-              "type": "text",
-              "placeholder": "https://twitter.com",
-              "value": "https://twitter.com",
-              "required": false
-            }
-          ]
-        },
-        {
-          "group": "Third Icon",
-          "settings": [
-            {
-              "id" : "show_icon_3",
-              "label" : "Show Third Icon",
-              "type" : "checkbox",
-              "placeholder" : "",
-              "value" : true,
-              "required" : false
-            },
-            {
-              "id": "icon_three",
-              "label": "Third Icon",
-              "type": "icon",
-              "placeholder": "fa-linkedin",
-              "value": "fa-linkedin",
-              "required": false
-            },
-            {
-              "id": "icon_3_linksto",
-              "label": "Third Icon Links To",
-              "type": "text",
-              "placeholder": "https://linkedin.com",
-              "value": "https://linkedin.com",
-              "required": false
-            }
-          ]
-        },
-        {
-          "group": "Fourth Icon",
-          "settings": [
-            {
-              "id" : "show_icon_4",
-              "label" : "Show Fourth Icon",
-              "type" : "checkbox",
-              "placeholder" : "",
-              "value" : true,
-              "required" : false
-            },
-            {
-              "id": "icon_four",
-              "label": "Fourth Icon",
-              "type": "icon",
-              "placeholder": "fa-youtube",
-              "value": "fa-youtube",
-              "required": false
-            },
-            {
-              "id": "icon_4_linksto",
-              "label": "Fourth Icon Links To",
-              "type": "text",
-              "placeholder": "https://youtube.com",
-              "value": "https://youtube.com",
-              "required": false
-            }
-          ]
-        },
-        {
-          "group": "Fifth Icon",
-          "settings": [
-            {
-              "id" : "show_icon_5",
-              "label" : "Show Fifth Icon",
-              "type" : "checkbox",
-              "placeholder" : "",
-              "value" : true,
-              "required" : false
-            },
-            {
-              "id": "icon_five",
-              "label": "Fifth Icon",
-              "type": "icon",
-              "placeholder": "fa-intagram",
-              "value": "fa-instagram",
-              "required": false
-            },
-            {
-              "id": "icon_5_linksto",
-              "label": "Fifth Icon Links To",
-              "type": "text",
-              "placeholder": "https://instagram.com",
-              "value": "https://instagram.com",
-              "required": false
-            }
-          ]
-        },
-        {
-          "group": "Sixth Icon",
-          "settings": [
-            {
-              "id" : "show_icon_6",
-              "label" : "Show Sixth Icon",
-              "type" : "checkbox",
-              "placeholder" : "",
-              "value" : true,
-              "required" : false
-            },
-            {
-              "id": "icon_six",
-              "label": "Sixth Icon",
-              "type": "icon",
-              "placeholder": "fa-amazon",
-              "value": "fa-amazon",
-              "required": false
-            },
-            {
-              "id": "icon_6_linksto",
-              "label": "Sixth Icon Links To",
-              "type": "text",
-              "placeholder": "https://amazon.com",
-              "value": "https://amazon.com",
-              "required": false
-            }
-          ]
-        }
-      ]
-    }
-  ]
+         ]
+      }
+   ]
 }
