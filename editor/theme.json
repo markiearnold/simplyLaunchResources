@@ -213,7 +213,7 @@
                "label":"Logo Image",
                "type":"image",
                "placeholder":"",
-               "value":"https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/logo1png.png",
+               "value":"https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/white_logo_14png.png",
                "required":false,
                "$$hashKey":"object:21071"
             },
@@ -222,7 +222,7 @@
                "label":"Logo Height",
                "type":"range",
                "placeholder":"40",
-               "value":"32",
+               "value":"45",
                "options":{
                   "min":8,
                   "max":200,
