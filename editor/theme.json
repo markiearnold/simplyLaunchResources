@@ -1277,7 +1277,7 @@
               "value" : 420,
               "options" : {
                 "min" : 150,
-                "max" : 1500,
+                "max" : 1000,
                 "step" : 10
               },
               "required" : false
