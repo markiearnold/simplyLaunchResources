@@ -185,7 +185,7 @@
                "label":"Logo Height",
                "type":"range",
                "placeholder":"40",
-               "value":"39",
+               "value":"46",
                "options":{
                   "min":8,
                   "max":200,
