@@ -1009,7 +1009,7 @@
           "settings": [
             {
               "id" : "header_padding",
-              "label" : "Header Padding",
+              "label" : "Banner Padding",
               "type" : "box",
               "placeholder" : "",
               "value" : {
