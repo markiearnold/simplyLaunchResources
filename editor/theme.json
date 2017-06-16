@@ -1260,7 +1260,7 @@
                      "options":{
                         "min":0,
                         "max":100,
-                        "step":5
+                        "step":1
                      },
                      "required":false,
                      "$$hashKey":"object:21673"
