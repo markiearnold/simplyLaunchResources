@@ -70,7 +70,7 @@
             <div class="clearfix" style="margin-top:{{getSetting(block, 'contact_padding', 'top')}}"></div>
 			<div class="row">
 
-                    {{getSetting(block, 'lcr')}}
+                    {{if (getSetting(block, 'lcr') == 'right')  }}
 
     			    <div settings show-if="lcr" show-if-condition="=='left'" class="col-md-6">
         				<div class="page-title text-left"
@@ -81,7 +81,7 @@
 
 
 
-    				<div class="col-md-6 form-sec">
+    				<div class="col-md-6 form-sec" ng-class="{'col-md-offset-3': getSetting(block, 'lcr') == 'center'} ">
     				    <div form-module label="Form" title=" " content="contact_form" class="form-holder"></div>
                     </div>
 
