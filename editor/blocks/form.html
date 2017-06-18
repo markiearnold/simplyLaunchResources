@@ -72,7 +72,7 @@
 
                     {{if (getSetting(block, 'lcr') == 'right')  }}
 
-    			    <div settings show-if="lcr" show-if-condition="=='left'" class="col-md-6">
+    			    <div settings show-if="lcr" show-if-condition="=='right'" class="col-md-6">
         				<div class="page-title text-left"
         				settings
             			rich-block label="Contact Text Block" content="contact_header"
@@ -86,7 +86,7 @@
     				    <div form-embed form-module label="Form" title=" " content="contact_form" class="form-holder" data-formid="{{getSetting(block, 'contact_form')}}"></div>
                     </div>
 
-    			    <div settings show-if="lcr" show-if-condition="=='right'" class="col-md-6">
+    			    <div settings show-if="lcr" show-if-condition="=='left'" class="col-md-6">
         				<div class="page-title text-left"
         				settings
             			rich-block label="Contact Text Block" content="contact_header"
