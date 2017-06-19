@@ -2824,6 +2824,865 @@
             }
          ]
       },
+    {
+      "name": "Gallery",
+      "type": "gallery",
+      "showOnDefault" : true,
+      "preview_image": "gallery.png",
+      "content": {
+        "gal1_text_block": "<h3>SOME OF OUR<br>BEAUTIFUL<br>DESIGNS</h3><a href=\"#\" style=\"color:#ffffff;\"><b>LEARN MORE</b></a>",
+        "gal2_text_block": "",
+        "gal3_text_block": "",
+        "gal4_text_block": ""
+      },
+      "block_settings": [
+        {
+          "group": "Background",
+          "settings": [
+            {
+              "id": "background_image",
+              "label": "Background Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
+              "required": false
+            },
+            {
+              "id": "overlay_color",
+              "label": "Overlay Color",
+              "type": "color",
+              "placeholder": "#f9f9f9",
+              "value": "#f9f9f9",
+              "required": false
+            }
+          ]
+        },
+        {
+          "group": "Border",
+          "settings": [
+            {
+              "id" : "gallery_border",
+              "label" : "Gallery Border",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "0px",
+                "right" : "0px",
+                "bottom" : "0px",
+                "left" : "0px"
+              },
+              "options" : {
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id" : "gallery_border_color",
+              "label" : "Gallery Border Color",
+              "type" : "color",
+              "placeholder" : "rgba(255,255,255,1)",
+              "value" : "rgba(255,255,255,1)",
+              "required" : false
+            },
+            {
+              "id" : "gallery_border_style",
+              "label" : "Gallery Border Style",
+              "type" : "select",
+              "placeholder" : "solid",
+              "value" : "solid",
+              "options" : ["solid", "dashed", "dotted", "double"],
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Spacing",
+          "settings": [
+            {
+              "id" : "gallery_padding",
+              "label" : "Gallery Padding",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "0px",
+                "right" : "0px",
+                "bottom" : "0px",
+                "left" : "0px"
+              },
+              "options" : {
+                "step" : 10
+              },
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Content",
+          "settings": [
+            {
+              "id" : "col_count",
+              "label" : "Column Count",
+              "type" : "select",
+              "placeholder" : "3",
+              "value" : "3",
+              "options" : ["2", "3", "4"],
+              "required" : false
+            },
+            {
+              "id" : "content_position",
+              "label" : "Content Position",
+              "type" : "select",
+              "placeholder" : "left",
+              "value" : "left",
+              "options" : ["left", "center", "right"],
+              "required" : false
+            },
+            {
+              "id" : "row_height",
+              "label" : "Row Height",
+              "type" : "range",
+              "placeholder" : "420",
+              "value" : 420,
+              "options" : {
+                "min" : 150,
+                "max" : 1000,
+                "step" : 10
+              },
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "First Gallery Image",
+          "settings": [
+            {
+              "id": "gal1_background_image",
+              "label": "Gallery Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/gal1.jpg",
+              "required": false
+            },
+            {
+              "id": "gal1_overlay_color",
+              "label": "Overlay Color",
+              "type": "color",
+              "placeholder": "rgba(251,121,91,0.9)",
+              "value": "rgba(251,121,91,0.9)",
+              "required": false
+            },
+            {
+              "id" : "gallery_item_padding_1",
+              "label" : "First Item Padding",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "0px",
+                "right" : "0px",
+                "bottom" : "0px",
+                "left" : "0px"
+              },
+              "options" : {
+                "step" : 10
+              },
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Second Gallery Image",
+          "settings": [
+            {
+              "id": "gal2_background_image",
+              "label": "Gallery Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/gal2.jpg",
+              "required": false
+            },
+            {
+              "id": "gal2_overlay_color",
+              "label": "Overlay Color",
+              "type": "color",
+              "placeholder": "rgba(255,255,255,0)",
+              "value": "rgba(255,255,255,0)",
+              "required": false
+            },
+            {
+              "id" : "gallery_item_padding_2",
+              "label" : "Second Item Padding",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "0px",
+                "right" : "0px",
+                "bottom" : "0px",
+                "left" : "0px"
+              },
+              "options" : {
+                "step" : 10
+              },
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Third Gallery Image",
+          "settings": [
+            {
+              "id": "gal3_background_image",
+              "label": "Gallery Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/gal3.jpg",
+              "required": false
+            },
+            {
+              "id": "gal3_overlay_color",
+              "label": "Overlay Color",
+              "type": "color",
+              "placeholder": "rgba(255,255,255,0)",
+              "value": "rgba(255,255,255,0)",
+              "required": false
+            },
+            {
+              "id" : "gallery_item_padding_3",
+              "label" : "Third Item Padding",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "0px",
+                "right" : "0px",
+                "bottom" : "0px",
+                "left" : "0px"
+              },
+              "options" : {
+                "step" : 10
+              },
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Fourth Gallery Image",
+          "settings": [
+            {
+              "id": "gal4_background_image",
+              "label": "Gallery Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/gal4.jpg",
+              "required": false
+            },
+            {
+              "id": "gal4_overlay_color",
+              "label": "Overlay Color",
+              "type": "color",
+              "placeholder": "rgba(255,255,255,0)",
+              "value": "rgba(255,255,255,0)",
+              "required": false
+            },
+            {
+              "id" : "gallery_item_padding_4",
+              "label" : "Fourth Item Padding",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "0px",
+                "right" : "0px",
+                "bottom" : "0px",
+                "left" : "0px"
+              },
+              "options" : {
+                "step" : 10
+              },
+              "required" : false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Services",
+      "type": "services",
+      "showOnDefault" : true,
+      "preview_image": "services.png",
+      "content": {
+        "services_header": "<h3>Our <b>Services</b></h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br/>incididunt ut labore et dolore magna aliqua.</p>",
+        "service_text_block1": "<h3>Content</h3><p>Ut ultrices dictum vehicula. Quisque congue maximus velit, nec scelerisque urna aliquam non.</p>",
+        "service_text_block2": "<h3>Design</h3><p>Ut ultrices dictum vehicula. Quisque congue maximus velit, nec scelerisque urna aliquam non.</p>",
+        "service_text_block3": "<h3>Media</h3><p>Ut ultrices dictum vehicula. Quisque congue maximus velit, nec scelerisque urna aliquam non.</p>",
+        "service_text_block4": "<h3>Imagery</h3><p>Ut ultrices dictum vehicula. Quisque congue maximus velit, nec scelerisque urna aliquam non.</p>"
+      },
+      "block_settings": [
+        {
+          "group": "Background",
+          "settings": [
+            {
+              "id": "background_image",
+              "label": "Background Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
+              "required": false
+            },
+            {
+              "id": "overlay_color",
+              "label": "Overlay Color",
+              "type": "color",
+              "placeholder": "rgba(255,255,255,1)",
+              "value": "rgba(255,255,255,1)",
+              "required": false
+            }
+          ]
+        },
+        {
+          "group": "Border",
+          "settings": [
+            {
+              "id" : "services_border",
+              "label" : "Services Border",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "0px",
+                "right" : "0px",
+                "bottom" : "0px",
+                "left" : "0px"
+              },
+              "options" : {
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id" : "services_border_color",
+              "label" : "Services Border Color",
+              "type" : "color",
+              "placeholder" : "rgba(255,255,255,1)",
+              "value" : "rgba(255,255,255,1)",
+              "required" : false
+            },
+            {
+              "id" : "services_border_style",
+              "label" : "Services Border Style",
+              "type" : "select",
+              "placeholder" : "solid",
+              "value" : "solid",
+              "options" : ["solid", "dashed", "dotted", "double"],
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Spacing",
+          "settings": [
+            {
+              "id" : "services_padding",
+              "label" : "Services Padding",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "70px",
+                "right" : "0px",
+                "bottom" : "70px",
+                "left" : "0px"
+              },
+              "options" : {
+                "step" : 10
+              },
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Content",
+          "settings": [
+            {
+              "id" : "in_grid",
+              "label" : "Content In Grid?",
+              "type" : "select",
+              "placeholder" : "container",
+              "value" : "container",
+              "options" : ["container", "container-fluid"],
+              "required" : false
+            },
+            {
+              "id": "show_header_section",
+              "label": "Show Header Text",
+              "type": "checkbox",
+              "placeholder": "",
+              "value": true,
+              "required": false
+            },
+            {
+              "id" : "col_count",
+              "label" : "Column Count",
+              "type" : "select",
+              "placeholder" : "3",
+              "value" : "3",
+              "options" : ["1", "2", "3", "4"],
+              "required" : false
+            },
+            {
+              "id": "icon_color",
+              "label": "Icons Color",
+              "type": "color",
+              "placeholder": "#fb795b",
+              "value": "#fb795b",
+              "required": false
+            },
+            {
+              "id": "icon_background_color",
+              "label": "Icons Background Color",
+              "type": "color",
+              "placeholder": "#f6f6f6",
+              "value": "#f6f6f6",
+              "required": false
+            },
+            {
+              "id": "icon_border_color",
+              "label": "Icons Border Color",
+              "type": "color",
+              "placeholder": "#fb795b",
+              "value": "#fb795b",
+              "required": false
+            },
+            {
+              "id" : "icon_size",
+              "label" : "Icon Size",
+              "type" : "range",
+              "placeholder" : "25",
+              "value" : 25,
+              "options" : {
+                "min" : 10,
+                "max" : 45,
+                "step" : 3
+              },
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Icons",
+          "settings": [
+            {
+              "id": "icon_one",
+              "label": "First Icon",
+              "type": "icon",
+              "placeholder": "fa-pencil",
+              "value": "fa-pencil",
+              "required": false
+            },
+            {
+              "id": "icon_two",
+              "label": "Second Icon",
+              "type": "icon",
+              "placeholder": "fa-paint-brush",
+              "value": "fa-paint-brush",
+              "required": false
+            },
+            {
+              "id": "icon_three",
+              "label": "Third Icon",
+              "type": "icon",
+              "placeholder": "fa-file-image-o",
+              "value": "fa-file-image-o",
+              "required": false
+            },
+            {
+              "id": "icon_four",
+              "label": "Fourth Icon",
+              "type": "icon",
+              "placeholder": "fa-camera",
+              "value": "fa-camera",
+              "required": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "About",
+      "type": "about",
+      "showOnDefault" : true,
+      "preview_image": "about.png",
+      "content": {
+        "content": "<h3 class='text-right'>About Agency <b>Incredible</b></h3><p class='text-right'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Maecenas lorem est, mattis sit amet pretium id, scelerisque a ex. Morbi venenatis nulla vel erat placerat, sit amet sodales enim lobortis. Morbi mollis finibus sem, nec sollicitudin diam venenatis vitae.</p>"
+      },
+      "block_settings": [
+        {
+          "group": "Background",
+          "settings": [
+            {
+              "id": "background_image",
+              "label": "Background Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
+              "required": false
+            },
+            {
+              "id": "overlay_color",
+              "label": "Overlay Color",
+              "type": "color",
+              "placeholder": "#f9f9f9",
+              "value": "#f9f9f9",
+              "required": false
+            }
+          ]
+        },
+        {
+          "group": "Border",
+          "settings": [
+            {
+              "id" : "about_border",
+              "label" : "About Border",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "0px",
+                "right" : "0px",
+                "bottom" : "0px",
+                "left" : "0px"
+              },
+              "options" : {
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id" : "about_border_color",
+              "label" : "About Border Color",
+              "type" : "color",
+              "placeholder" : "rgba(255,255,255,1)",
+              "value" : "rgba(255,255,255,1)",
+              "required" : false
+            },
+            {
+              "id" : "about_border_style",
+              "label" : "About Border Style",
+              "type" : "select",
+              "placeholder" : "solid",
+              "value" : "solid",
+              "options" : ["solid", "dashed", "dotted", "double"],
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Spacing",
+          "settings": [
+            {
+              "id" : "about_padding",
+              "label" : "About Padding",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "70px",
+                "right" : "0px",
+                "bottom" : "70px",
+                "left" : "0px"
+              },
+              "options" : {
+                "step" : 10
+              },
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Image",
+          "settings": [
+            {
+              "id": "image",
+              "label": "About Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock-about.jpg",
+              "required": false
+            }
+          ]
+        },
+        {
+          "group": "Content",
+          "settings": [
+            {
+              "id" : "in_grid",
+              "label" : "Content In Grid?",
+              "type" : "select",
+              "placeholder" : "container",
+              "value" : "container",
+              "options" : ["container", "container-fluid"],
+              "required" : false
+            },
+            {
+              "id" : "img_position",
+              "label" : "Image Position",
+              "type" : "select",
+              "placeholder" : "right",
+              "value" : "right",
+              "options" : ["left", "right"],
+              "required" : false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CTA",
+      "type": "cta",
+      "showOnDefault" : true,
+      "preview_image": "cta.png",
+      "content": {
+        "cta_text": "<h3>\"Good design adds value faster than it adds cost.\" - Thomas C. Gale</h3><p class=\"cta-sub-title\">Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor.<br></p><br>"
+      },
+      "block_settings": [
+        {
+          "group": "Background",
+          "settings": [
+            {
+              "id": "background_image",
+              "label": "Background Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
+              "required": false
+            },
+            {
+              "id": "overlay_color",
+              "label": "Overlay Color",
+              "type": "color",
+              "placeholder": "rgba(255,255,255,0.8)",
+              "value": "rgba(255,255,255,0.8)",
+              "required": false
+            }
+          ]
+        },
+        {
+          "group": "Border",
+          "settings": [
+            {
+              "id" : "cta_border",
+              "label" : "CTA Border",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "0px",
+                "right" : "0px",
+                "bottom" : "0px",
+                "left" : "0px"
+              },
+              "options" : {
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id" : "cta_border_color",
+              "label" : "CTA Border Color",
+              "type" : "color",
+              "placeholder" : "rgba(255,255,255,1)",
+              "value" : "rgba(255,255,255,1)",
+              "required" : false
+            },
+            {
+              "id" : "cta_border_style",
+              "label" : "CTA Border Style",
+              "type" : "select",
+              "placeholder" : "solid",
+              "value" : "solid",
+              "options" : ["solid", "dashed", "dotted", "double"],
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Spacing",
+          "settings": [
+            {
+              "id" : "cta_padding",
+              "label" : "CTA Padding",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "30px",
+                "right" : "0px",
+                "bottom" : "45px",
+                "left" : "0px"
+              },
+              "options" : {
+                "step" : 10
+              },
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Content",
+          "settings": [
+            {
+              "id" : "in_grid",
+              "label" : "Content In Grid?",
+              "type" : "select",
+              "placeholder" : "container",
+              "value" : "container",
+              "options" : ["container", "container-fluid"],
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Button",
+          "settings": [
+            {
+              "id": "button_links_to",
+              "label": "Button Links To",
+              "type": "text",
+              "placeholder": "#",
+              "value": "#",
+              "required": false
+            },
+            {
+              "id": "button_label",
+              "label": "Button Label",
+              "type": "text",
+              "placeholder": "LEARN MORE",
+              "value": "LEARN MORE",
+              "required": false
+            },
+            {
+              "id": "button_text_color",
+              "label": "Button Text Color",
+              "type": "color",
+              "placeholder": "#1d1d1d",
+              "value": "#1d1d1d",
+              "required": false
+            },
+            {
+              "id": "button_hover_text_color",
+              "label": "Button Hover Text Color",
+              "type": "color",
+              "placeholder": "#ffffff",
+              "value": "#1d1d1d",
+              "required": false
+            },
+            {
+              "id": "button_background_color",
+              "label": "Button BG Color",
+              "type": "color",
+              "placeholder": "",
+              "value": "rgba(255, 255, 255, 0)",
+              "required": false
+            },
+            {
+              "id": "button_hover_background_color",
+              "label": "Button Hover BG Color",
+              "type": "color",
+              "placeholder": "",
+              "value": "#ffffff",
+              "required": false
+            },
+            {
+              "id": "button_border_color",
+              "label": "Button Border Color",
+              "type": "color",
+              "placeholder": "#000000",
+              "value": "#000000",
+              "required": false
+            },
+            {
+              "id": "button_hover_border_color",
+              "label": "Button Hover Border Color",
+              "type": "color",
+              "placeholder": "#000000",
+              "value": "#000000",
+              "required": false
+            },
+            {
+              "id" : "button_border_radius",
+              "label" : "Button Border Radius",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : 0,
+              "options" : {
+                "min" : 0,
+                "max" : 100,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id" : "button_font_size",
+              "label" : "Button Font Size",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : 16,
+              "options" : {
+                "min" : 0,
+                "max" : 72,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id" : "button_font_weight",
+              "label" : "Button Font Weight",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : 300,
+              "options" : {
+                "min" : 100,
+                "max" : 900,
+                "step" : 100
+              },
+              "required" : false
+            },
+            {
+              "id" : "cta_button_padding",
+              "label" : "Button Padding",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "10px",
+                "right" : "40px",
+                "bottom" : "10px",
+                "left" : "40px"
+              },
+              "options" : {
+                "step" : 5
+              },
+              "required" : false
+            },
+            {
+              "id" : "cta_border_style",
+              "label" : "CTA Border Style",
+              "type" : "select",
+              "placeholder" : "solid",
+              "value" : "solid",
+              "options" : ["solid", "dashed", "dotted", "double"],
+              "required" : false
+            },
+            {
+              "id" : "cta_button_border",
+              "label" : "Button Border",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "1px",
+                "right" : "1px",
+                "bottom" : "1px",
+                "left" : "1px"
+              },
+              "options" : {
+                "step" : 1
+              },
+              "required" : false
+            }
+          ]
+        }
+      ]
+    },
       {
          "name":"Utility Column",
          "type":"utility",
