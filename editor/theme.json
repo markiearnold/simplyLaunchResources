@@ -3722,7 +3722,7 @@
               "required" : false
             }
           ]
-        },
+        }, 
         {
           "group": "Third Gallery Image",
           "settings": [
