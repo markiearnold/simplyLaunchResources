@@ -3295,302 +3295,6 @@
             }
          ]
       },
-      {
-         "name":"Social",
-         "type":"social",
-         "showOnDefault":true,
-         "preview_image":"social.png",
-         "content":{
-
-         },
-         "block_settings":[
-            {
-               "group":"Background",
-               "settings":[
-                  {
-                     "id":"background_image",
-                     "label":"Background Image",
-                     "type":"image",
-                     "placeholder":"",
-                     "value":"https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
-                     "required":false
-                  },
-                  {
-                     "id":"overlay_color",
-                     "label":"Overlay Color",
-                     "type":"color",
-                     "placeholder":"#ffffff",
-                     "value":"#ffffff",
-                     "required":false
-                  }
-               ]
-            },
-            {
-               "group":"Border",
-               "settings":[
-                  {
-                     "id":"social_border",
-                     "label":"Social Border",
-                     "type":"box",
-                     "placeholder":"",
-                     "value":{
-                        "top":"0px",
-                        "right":"0px",
-                        "bottom":"0px",
-                        "left":"0px"
-                     },
-                     "options":{
-                        "step":1
-                     },
-                     "required":false
-                  },
-                  {
-                     "id":"social_border_color",
-                     "label":"Social Border Color",
-                     "type":"color",
-                     "placeholder":"rgba(255,255,255,1)",
-                     "value":"rgba(255,255,255,1)",
-                     "required":false
-                  },
-                  {
-                     "id":"social_border_style",
-                     "label":"Social Border Style",
-                     "type":"select",
-                     "placeholder":"solid",
-                     "value":"solid",
-                     "options":[
-                        "solid",
-                        "dashed",
-                        "dotted",
-                        "double"
-                     ],
-                     "required":false
-                  }
-               ]
-            },
-            {
-               "group":"Spacing",
-               "settings":[
-                  {
-                     "id":"social_padding",
-                     "label":"Social Padding",
-                     "type":"box",
-                     "placeholder":"",
-                     "value":{
-                        "top":"25px",
-                        "right":"0px",
-                        "bottom":"20px",
-                        "left":"0px"
-                     },
-                     "options":{
-                        "step":5
-                     },
-                     "required":false
-                  }
-               ]
-            },
-            {
-               "group":"Content",
-               "settings":[
-                  {
-                     "id":"text_color",
-                     "label":"Color",
-                     "type":"color",
-                     "placeholder":"#2d2d2d",
-                     "value":"#2d2d2d",
-                     "required":false
-                  },
-                  {
-                     "id":"icon_size",
-                     "label":"Icon Size",
-                     "type":"range",
-                     "placeholder":"25",
-                     "value":25,
-                     "options":{
-                        "min":20,
-                        "max":80,
-                        "step":5
-                     },
-                     "required":false
-                  }
-               ]
-            },
-            {
-               "group":"First Icon",
-               "settings":[
-                  {
-                     "id":"show_icon_1",
-                     "label":"Show First Icon",
-                     "type":"checkbox",
-                     "placeholder":"",
-                     "value":true,
-                     "required":false
-                  },
-                  {
-                     "id":"icon_one",
-                     "label":"First Icon",
-                     "type":"icon",
-                     "placeholder":"fa-facebook",
-                     "value":"fa-facebook",
-                     "required":false
-                  },
-                  {
-                     "id":"icon_1_linksto",
-                     "label":"First Icon Links To",
-                     "type":"text",
-                     "placeholder":"https://facebook.com",
-                     "value":"https://facebook.com",
-                     "required":false
-                  }
-               ]
-            },
-            {
-               "group":"Second Icon",
-               "settings":[
-                  {
-                     "id":"show_icon_2",
-                     "label":"Show Second Icon",
-                     "type":"checkbox",
-                     "placeholder":"",
-                     "value":true,
-                     "required":false
-                  },
-                  {
-                     "id":"icon_two",
-                     "label":"Second Icon",
-                     "type":"icon",
-                     "placeholder":"fa-twitter",
-                     "value":"fa-twitter",
-                     "required":false
-                  },
-                  {
-                     "id":"icon_2_linksto",
-                     "label":"Second Icon Links To",
-                     "type":"text",
-                     "placeholder":"https://twitter.com",
-                     "value":"https://twitter.com",
-                     "required":false
-                  }
-               ]
-            },
-            {
-               "group":"Third Icon",
-               "settings":[
-                  {
-                     "id":"show_icon_3",
-                     "label":"Show Third Icon",
-                     "type":"checkbox",
-                     "placeholder":"",
-                     "value":true,
-                     "required":false
-                  },
-                  {
-                     "id":"icon_three",
-                     "label":"Third Icon",
-                     "type":"icon",
-                     "placeholder":"fa-linkedin",
-                     "value":"fa-linkedin",
-                     "required":false
-                  },
-                  {
-                     "id":"icon_3_linksto",
-                     "label":"Third Icon Links To",
-                     "type":"text",
-                     "placeholder":"https://linkedin.com",
-                     "value":"https://linkedin.com",
-                     "required":false
-                  }
-               ]
-            },
-            {
-               "group":"Fourth Icon",
-               "settings":[
-                  {
-                     "id":"show_icon_4",
-                     "label":"Show Fourth Icon",
-                     "type":"checkbox",
-                     "placeholder":"",
-                     "value":true,
-                     "required":false
-                  },
-                  {
-                     "id":"icon_four",
-                     "label":"Fourth Icon",
-                     "type":"icon",
-                     "placeholder":"fa-youtube",
-                     "value":"fa-youtube",
-                     "required":false
-                  },
-                  {
-                     "id":"icon_4_linksto",
-                     "label":"Fourth Icon Links To",
-                     "type":"text",
-                     "placeholder":"https://youtube.com",
-                     "value":"https://youtube.com",
-                     "required":false
-                  }
-               ]
-            },
-            {
-               "group":"Fifth Icon",
-               "settings":[
-                  {
-                     "id":"show_icon_5",
-                     "label":"Show Fifth Icon",
-                     "type":"checkbox",
-                     "placeholder":"",
-                     "value":true,
-                     "required":false
-                  },
-                  {
-                     "id":"icon_five",
-                     "label":"Fifth Icon",
-                     "type":"icon",
-                     "placeholder":"fa-intagram",
-                     "value":"fa-instagram",
-                     "required":false
-                  },
-                  {
-                     "id":"icon_5_linksto",
-                     "label":"Fifth Icon Links To",
-                     "type":"text",
-                     "placeholder":"https://instagram.com",
-                     "value":"https://instagram.com",
-                     "required":false
-                  }
-               ]
-            },
-            {
-               "group":"Sixth Icon",
-               "settings":[
-                  {
-                     "id":"show_icon_6",
-                     "label":"Show Sixth Icon",
-                     "type":"checkbox",
-                     "placeholder":"",
-                     "value":true,
-                     "required":false
-                  },
-                  {
-                     "id":"icon_six",
-                     "label":"Sixth Icon",
-                     "type":"icon",
-                     "placeholder":"fa-amazon",
-                     "value":"fa-amazon",
-                     "required":false
-                  },
-                  {
-                     "id":"icon_6_linksto",
-                     "label":"Sixth Icon Links To",
-                     "type":"text",
-                     "placeholder":"https://amazon.com",
-                     "value":"https://amazon.com",
-                     "required":false
-                  }
-               ]
-            }
-         ]
-      }
     {
       "name": "Services",
       "type": "services",
@@ -4448,6 +4152,302 @@
           ]
         }
       ]
-    }      
+    },
+          {
+         "name":"Social",
+         "type":"social",
+         "showOnDefault":true,
+         "preview_image":"social.png",
+         "content":{
+
+         },
+         "block_settings":[
+            {
+               "group":"Background",
+               "settings":[
+                  {
+                     "id":"background_image",
+                     "label":"Background Image",
+                     "type":"image",
+                     "placeholder":"",
+                     "value":"https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
+                     "required":false
+                  },
+                  {
+                     "id":"overlay_color",
+                     "label":"Overlay Color",
+                     "type":"color",
+                     "placeholder":"#ffffff",
+                     "value":"#ffffff",
+                     "required":false
+                  }
+               ]
+            },
+            {
+               "group":"Border",
+               "settings":[
+                  {
+                     "id":"social_border",
+                     "label":"Social Border",
+                     "type":"box",
+                     "placeholder":"",
+                     "value":{
+                        "top":"0px",
+                        "right":"0px",
+                        "bottom":"0px",
+                        "left":"0px"
+                     },
+                     "options":{
+                        "step":1
+                     },
+                     "required":false
+                  },
+                  {
+                     "id":"social_border_color",
+                     "label":"Social Border Color",
+                     "type":"color",
+                     "placeholder":"rgba(255,255,255,1)",
+                     "value":"rgba(255,255,255,1)",
+                     "required":false
+                  },
+                  {
+                     "id":"social_border_style",
+                     "label":"Social Border Style",
+                     "type":"select",
+                     "placeholder":"solid",
+                     "value":"solid",
+                     "options":[
+                        "solid",
+                        "dashed",
+                        "dotted",
+                        "double"
+                     ],
+                     "required":false
+                  }
+               ]
+            },
+            {
+               "group":"Spacing",
+               "settings":[
+                  {
+                     "id":"social_padding",
+                     "label":"Social Padding",
+                     "type":"box",
+                     "placeholder":"",
+                     "value":{
+                        "top":"25px",
+                        "right":"0px",
+                        "bottom":"20px",
+                        "left":"0px"
+                     },
+                     "options":{
+                        "step":5
+                     },
+                     "required":false
+                  }
+               ]
+            },
+            {
+               "group":"Content",
+               "settings":[
+                  {
+                     "id":"text_color",
+                     "label":"Color",
+                     "type":"color",
+                     "placeholder":"#2d2d2d",
+                     "value":"#2d2d2d",
+                     "required":false
+                  },
+                  {
+                     "id":"icon_size",
+                     "label":"Icon Size",
+                     "type":"range",
+                     "placeholder":"25",
+                     "value":25,
+                     "options":{
+                        "min":20,
+                        "max":80,
+                        "step":5
+                     },
+                     "required":false
+                  }
+               ]
+            },
+            {
+               "group":"First Icon",
+               "settings":[
+                  {
+                     "id":"show_icon_1",
+                     "label":"Show First Icon",
+                     "type":"checkbox",
+                     "placeholder":"",
+                     "value":true,
+                     "required":false
+                  },
+                  {
+                     "id":"icon_one",
+                     "label":"First Icon",
+                     "type":"icon",
+                     "placeholder":"fa-facebook",
+                     "value":"fa-facebook",
+                     "required":false
+                  },
+                  {
+                     "id":"icon_1_linksto",
+                     "label":"First Icon Links To",
+                     "type":"text",
+                     "placeholder":"https://facebook.com",
+                     "value":"https://facebook.com",
+                     "required":false
+                  }
+               ]
+            },
+            {
+               "group":"Second Icon",
+               "settings":[
+                  {
+                     "id":"show_icon_2",
+                     "label":"Show Second Icon",
+                     "type":"checkbox",
+                     "placeholder":"",
+                     "value":true,
+                     "required":false
+                  },
+                  {
+                     "id":"icon_two",
+                     "label":"Second Icon",
+                     "type":"icon",
+                     "placeholder":"fa-twitter",
+                     "value":"fa-twitter",
+                     "required":false
+                  },
+                  {
+                     "id":"icon_2_linksto",
+                     "label":"Second Icon Links To",
+                     "type":"text",
+                     "placeholder":"https://twitter.com",
+                     "value":"https://twitter.com",
+                     "required":false
+                  }
+               ]
+            },
+            {
+               "group":"Third Icon",
+               "settings":[
+                  {
+                     "id":"show_icon_3",
+                     "label":"Show Third Icon",
+                     "type":"checkbox",
+                     "placeholder":"",
+                     "value":true,
+                     "required":false
+                  },
+                  {
+                     "id":"icon_three",
+                     "label":"Third Icon",
+                     "type":"icon",
+                     "placeholder":"fa-linkedin",
+                     "value":"fa-linkedin",
+                     "required":false
+                  },
+                  {
+                     "id":"icon_3_linksto",
+                     "label":"Third Icon Links To",
+                     "type":"text",
+                     "placeholder":"https://linkedin.com",
+                     "value":"https://linkedin.com",
+                     "required":false
+                  }
+               ]
+            },
+            {
+               "group":"Fourth Icon",
+               "settings":[
+                  {
+                     "id":"show_icon_4",
+                     "label":"Show Fourth Icon",
+                     "type":"checkbox",
+                     "placeholder":"",
+                     "value":true,
+                     "required":false
+                  },
+                  {
+                     "id":"icon_four",
+                     "label":"Fourth Icon",
+                     "type":"icon",
+                     "placeholder":"fa-youtube",
+                     "value":"fa-youtube",
+                     "required":false
+                  },
+                  {
+                     "id":"icon_4_linksto",
+                     "label":"Fourth Icon Links To",
+                     "type":"text",
+                     "placeholder":"https://youtube.com",
+                     "value":"https://youtube.com",
+                     "required":false
+                  }
+               ]
+            },
+            {
+               "group":"Fifth Icon",
+               "settings":[
+                  {
+                     "id":"show_icon_5",
+                     "label":"Show Fifth Icon",
+                     "type":"checkbox",
+                     "placeholder":"",
+                     "value":true,
+                     "required":false
+                  },
+                  {
+                     "id":"icon_five",
+                     "label":"Fifth Icon",
+                     "type":"icon",
+                     "placeholder":"fa-intagram",
+                     "value":"fa-instagram",
+                     "required":false
+                  },
+                  {
+                     "id":"icon_5_linksto",
+                     "label":"Fifth Icon Links To",
+                     "type":"text",
+                     "placeholder":"https://instagram.com",
+                     "value":"https://instagram.com",
+                     "required":false
+                  }
+               ]
+            },
+            {
+               "group":"Sixth Icon",
+               "settings":[
+                  {
+                     "id":"show_icon_6",
+                     "label":"Show Sixth Icon",
+                     "type":"checkbox",
+                     "placeholder":"",
+                     "value":true,
+                     "required":false
+                  },
+                  {
+                     "id":"icon_six",
+                     "label":"Sixth Icon",
+                     "type":"icon",
+                     "placeholder":"fa-amazon",
+                     "value":"fa-amazon",
+                     "required":false
+                  },
+                  {
+                     "id":"icon_6_linksto",
+                     "label":"Sixth Icon Links To",
+                     "type":"text",
+                     "placeholder":"https://amazon.com",
+                     "value":"https://amazon.com",
+                     "required":false
+                  }
+               ]
+            }
+         ]
+      }
    ]
 }
