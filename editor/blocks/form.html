@@ -69,33 +69,31 @@
 		<div class="{{getSetting(block, 'in_grid')}} horizontal-padding">
             <div class="clearfix" style="margin-top:{{getSetting(block, 'contact_padding', 'top')}}"></div>
 			<div class="row">
-				<div settings show-if="lcr" show-if-condition="=='left'">
-    				<div class="col-md-6 form-sec">
-    				    <div form-module label="Form" title=" " content="contact_form" class="form-holder"></div>
-                    </div>
-    			    <div class="col-md-6">
+
+    			    <div settings show-if="lcr" show-if-condition="=='right'" class="col-md-6">
         				<div class="page-title text-left"
         				settings
             			rich-block label="Contact Text Block" content="contact_header"
             			></div>
     				</div>
-                </div>
-				<div settings show-if="lcr" show-if-condition="=='right'">
-    			    <div class="col-md-6">
+
+
+
+    				<div class="col-md-6 form-sec" ng-class="{'col-md-offset-3': getSetting(block, 'lcr') == 'center'} ">
+
+    				    <div form-embed form-module label="Form" title=" " content="contact_form" class="form-holder" data-formid="{{getSetting(block, 'contact_form')}}"></div>
+                    </div>
+
+    			    <div settings show-if="lcr" show-if-condition="=='left'" class="col-md-6">
         				<div class="page-title text-left"
         				settings
             			rich-block label="Contact Text Block" content="contact_header"
             			></div>
     				</div>
-    				<div class="col-md-6 form-sec">
-    				    <div form-module label="Form" title=" " content="contact_form" class="form-holder"></div>
-                    </div>
-                </div>
-				<div settings show-if="lcr" show-if-condition="=='center'">
-    				<div class="col-md-6 col-md-offset-3 form-sec">
-    				    <div form-module label="Form" title=" " content="contact_form" class="form-holder"></div>
-                    </div>
-                </div>
+
+
+
+
 
 
 
