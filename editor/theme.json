@@ -3532,7 +3532,7 @@
                 "left" : "0px"
               },
               "options" : {
-                "step" : 10
+                "step" : 5
               },
               "required" : false
             }
@@ -3731,7 +3731,7 @@
                 "left" : "0px"
               },
               "options" : {
-                "step" : 10
+                "step" : 5
               },
               "required" : false
             }
@@ -3886,7 +3886,7 @@
                 "left" : "0px"
               },
               "options" : {
-                "step" : 10
+                "step" : 5
               },
               "required" : false
             }
