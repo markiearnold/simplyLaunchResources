@@ -119,7 +119,7 @@
           "required" : false
         },
         {
-          "id" : "main_menu_font_size",
+          "id" : "menu_font_size",
           "label" : "Menu Font Size",
           "type" : "range",
           "placeholder" : "16",
@@ -132,7 +132,7 @@
           "required" : false
         },
         {
-          "id" : "main_menu_font_weight",
+          "id" : "menu_font_weight",
           "label" : "Menu Font Weight",
           "type" : "range",
           "placeholder" : "600",
@@ -141,6 +141,19 @@
             "min" : 100,
             "max" : 900,
             "step" : 100
+          },
+          "required" : false
+        },
+        {
+          "id" : "menu_letter_spacing",
+          "label" : "Menu Letter Spacing",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "0",
+          "options" : {
+            "min" : -10,
+            "max" : 20,
+            "step" : 0
           },
           "required" : false
         },
