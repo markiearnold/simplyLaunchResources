@@ -915,8 +915,21 @@
           "group": "Spacing",
           "settings": [
             {
-              "id" : "header_bottom_margin",
-              "label" : "Header Bottom Margin",
+              "id" : "top_content_spacer",
+              "label" : "Top Content Spacer",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : 30,
+              "options" : {
+                "min" : 0,
+                "max" : 100,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id" : "bottom_content_spacer",
+              "label" : "Bottom Content Spacer",
               "type" : "range",
               "placeholder" : "0",
               "value" : 30,
