@@ -912,6 +912,40 @@
           ]
         },
         {
+          "group": "Spacing",
+          "settings": [
+            {
+              "id" : "header_bottom_margin",
+              "label" : "Header Bottom Margin",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : 30,
+              "options" : {
+                "min" : 0,
+                "max" : 100,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id" : "header_padding",
+              "label" : "Banner Padding",
+              "type" : "box",
+              "placeholder" : "",
+              "value" : {
+                "top" : "290px",
+                "right" : "0px",
+                "bottom" : "290px",
+                "left" : "0px"
+              },
+              "options" : {
+                "step" : 10
+              },
+              "required" : false
+            }
+          ]
+        },
+        {
           "group": "Border",
           "settings": [
             {
@@ -945,27 +979,6 @@
               "placeholder" : "solid",
               "value" : "solid",
               "options" : ["solid", "dashed", "dotted", "double"],
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group": "Spacing",
-          "settings": [
-            {
-              "id" : "header_padding",
-              "label" : "Banner Padding",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "290px",
-                "right" : "0px",
-                "bottom" : "290px",
-                "left" : "0px"
-              },
-              "options" : {
-                "step" : 10
-              },
               "required" : false
             }
           ]
