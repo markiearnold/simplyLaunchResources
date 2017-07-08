@@ -1,0 +1,421 @@
+<style>
+  .form-input {
+    margin-bottom: 10px;
+  }
+
+
+  /* Global Typography Settings */
+  .belch-page-wrapper {
+    font-family: 'Playfair', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .belch-page-wrapper h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 75px;
+    line-height: 79px;
+  }
+  .belch-page-wrapper h2 {
+    font-family: 'Playfair', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 49px;
+  }
+  .belch-page-wrapper h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 48px;
+    letter-spacing: 2px;
+  }
+  .belch-page-wrapper p {
+    font-family: 'Playfair', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  /* Media Queries */
+  @media screen and (max-width: 768px) {
+    .belch-page-wrapper h1 {
+      font-size: 40px;
+      line-height: 44px;
+    }
+    .belch-page-wrapper h2 {
+      font-size: 25px;
+      line-height: 29px;
+    }
+    .belch-page-wrapper h3 {
+      font-size: 20px;
+      line-height: 28px;
+    }
+    .belch-page-wrapper p {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+  @media screen and (min-width: 769px) and (max-width: 992px) {
+    .belch-page-wrapper h1 {
+      font-size: 60px;
+      line-height: 64px;
+    }
+    .belch-page-wrapper h2 {
+      font-size: 35px;
+      line-height: 39px;
+    }
+    .belch-page-wrapper h3 {
+      font-size: 30px;
+      line-height: 38px;
+    }
+    .belch-page-wrapper p {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    .belch-page-wrapper h1 {
+      font-size: 60px;
+      line-height: 64px;
+    }
+    .belch-page-wrapper h2 {
+      font-size: 35px;
+      line-height: 39px;
+    }
+    .belch-page-wrapper h3 {
+      font-size: 35px;
+      line-height: 48px;
+    }
+    .belch-page-wrapper p {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+
+  /* Global Button Settings */
+  .belch-page-wrapper .belch-button,
+  .belch-page-wrapper .hs-form button,
+  .belch-page-wrapper .hs-form  input[type=button],
+  .belch-page-wrapper .hs-form input[type=reset],
+  .belch-page-wrapper .hs-form input[type=submit] {
+    padding: 0 40px;
+    box-sizing: border-box;
+    display: inline-block;
+    line-height: 44px;
+    border-radius: 22px;
+    -moz-border-radius: 22px;
+    -webkit-border-radius: 22px;
+    box-shadow: 2px 3.5px 20px rgba(50,65,87,0.9);
+    -moz-box-shadow: 2px 3.5px 20px rgba(50,65,87,0.9);
+    -webkit-box-shadow: 2px 3.5px 20px rgba(50,65,87,0.9);
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    margin: 0 5px;
+
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .belch-page-wrapper .belch-button:first-child {
+    margin-left: 0;
+  }
+  .belch-page-wrapper .belch-button:last-child {
+    margin-right: 0;
+  }
+  .belch-page-wrapper .belch-button.belch-button-default,
+  .belch-page-wrapper .hs-form button,
+  .belch-page-wrapper .hs-form  input[type=button],
+  .belch-page-wrapper .hs-form input[type=submit] {
+    background: rgba(27,139,249,1);
+    border: 1px solid rgba(27,139,249,1);
+    box-shadow: 2px 3.5px 20px rgba(50,65,87,0.9);
+    -moz-box-shadow: 2px 3.5px 20px rgba(50,65,87,0.9);
+    -webkit-box-shadow: 2px 3.5px 20px rgba(50,65,87,0.9);
+  }
+    .belch-page-wrapper .belch-button.belch-button-default:hover,
+    .belch-page-wrapper .hs-form button:hover,
+    .belch-page-wrapper .hs-form  input[type=button]:hover,
+    .belch-page-wrapper .hs-form input[type=submit]:hover {
+      background: rgba(27, 75, 249,1);
+      border: 1px solid rgba(27, 75, 249,1);
+    }
+  .belch-page-wrapper .belch-button.belch-button-secondary,
+  .belch-page-wrapper .hs-form input[type=reset] {
+    background: rgba(255, 255, 255,0);
+    border: 1px solid rgba(255, 255, 255, 1);
+    box-shadow: 2px 3.5px 20px rgba(0, 0, 0,0.4);
+    -moz-box-shadow: 2px 3.5px 20px rgba(0, 0, 0,0.4);
+    -webkit-box-shadow: 2px 3.5px 20px rgba(0, 0, 0,0.4);
+  }
+    .belch-page-wrapper .belch-button.belch-button-secondary:hover,
+    .belch-page-wrapper .hs-form input[type=reset]:hover {
+      background: rgba(255, 255, 255,0.8);
+      color: #333;
+    }
+  .belch-page-wrapper .belch-button.belch-button-tertiary {
+    background: rgba(255, 255, 255,1);
+    border: 1px solid rgba(255, 255, 255, 1);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+  }
+  @media screen and (max-width: 768px) {
+    .belch-page-wrapper .belch-button,
+    .belch-page-wrapper .hs-form button,
+    .belch-page-wrapper .hs-form  input[type=button],
+    .belch-page-wrapper .hs-form input[type=submit],
+    .belch-page-wrapper .hs-form input[type=reset] {
+      margin-bottom: 15px;
+    }
+    .belch-page-wrapper .belch-button:last-child,
+    .belch-page-wrapper .hs-form button:last-child,
+    .belch-page-wrapper .hs-form  input[type=button]:last-child,
+    .belch-page-wrapper .hs-form input[type=submit]:last-child,
+    .belch-page-wrapper .hs-form input[type=reset]:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  /* Global Block Settings */
+  html {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    display: block;
+    position: relative;
+  }
+  .belch-page-wrapper {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+  }
+  .belch-page-wrapper .belch-block {
+    position: relative;
+    display: block;
+    width: 100vw;
+    height: 100%;
+    display: block;
+    color: white;
+    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .belch-page-wrapper::after,
+  .belch-page-wrapper .belch-block::after,
+  .belch-page-wrapper .belch-block .belch-block-content::after {
+    content: '';
+    clear: both;
+    float: none;
+    width: 100%;
+    display: block;
+    visibility: hidden;
+    height: 0;
+  }
+  .belch-page-wrapper .belch-block.full-height {
+    height: 100%;
+    min-height: 100vh !important;
+  }
+  .belch-page-wrapper .belch-block .belch-background-overlay {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .belch-page-wrapper .belch-block .belch-block-content {
+    width: 100%;
+    min-height: 100%;
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    text-align: center;
+  }
+  .belch-page-wrapper .belch-block .belch-block-content .contentx {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .belch-clearfix {
+    clear: both;
+    float: none;
+    display: block;
+    width: 100%;
+  }
+
+  /* Global Form Settings */
+  ::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  ::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  :-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  :-moz-placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .belch-page-wrapper .hs-form button,
+  .belch-page-wrapper .hs-form  input[type=button],
+  .belch-page-wrapper .hs-form input[type=submit],
+  .belch-page-wrapper .hs-form input[type=reset] {
+    background: rgba(27,139,249,1);
+    border: 1px solid rgba(27,139,249,1);
+    box-shadow: 2px 3.5px 20px rgba(50,65,87,0.9);
+    -moz-box-shadow: 2px 3.5px 20px rgba(50,65,87,0.9);
+    -webkit-box-shadow: 2px 3.5px 20px rgba(50,65,87,0.9);
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    display: block;
+    width: 100%;
+    margin: 0;
+
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .belch-page-wrapper .hs-form button:hover,
+  .belch-page-wrapper .hs-form  input[type=button]:hover,
+  .belch-page-wrapper .hs-form input[type=submit]:hover {
+    background: rgba(27, 75, 249,1);
+    border: 1px solid rgba(27, 75, 249,1);
+  }
+  .belch-page-wrapper .hs-form .hs_submit {
+    margin: 5px 10px;
+  }
+
+  /* Specific Block Styles -- Non Settings */
+  .belch-page-wrapper .belch-social-bar {
+    display: block;
+    width: 100%;
+    position: relative;
+    text-align: center;
+  }
+  .belch-page-wrapper .belch-social-bar.fixed {
+    position: absolute;
+    bottom: 60px;
+    top: auto;
+    left: 0;
+    width: 100%;
+    display: block;
+    z-index: 2;
+  }
+  .belch-page-wrapper .belch-social-bar a {
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    opacity: 1;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+  }
+  .belch-page-wrapper .belch-social-bar a:first-child {
+    margin-left: 0;
+  }
+  .belch-page-wrapper .belch-social-bar a:last-child {
+    margin-right: 0;
+  }
+  .belch-page-wrapper .belch-social-bar a:hover {
+    color: white;
+    opacity: 0.7;
+  }
+
+  /* FORM STYLES */
+  input[type=date], input[type=datetime], input[type=datetime-local], input[type=email], input[type=month], input[type=number], input[type=password], input[type=range], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], .hs-form fieldset.form-columns-1 textarea.hs-input, .hs-form fieldset.form-columns-1 .input select, .hs-form input[type=date], .hs-form input[type=datetime], .hs-form input[type=datetime-local], .hs-form input[type=email], .hs-form input[type=month], input[type=number], .hs-form input[type=password], .hs-form input[type=range], .hs-form input[type=search], .hs-form input[type=tel], .hs-form input[type=text], .hs-form input[type=time], .hs-form input[type=url], .hs-form input[type=week], .hs-form .input textarea, .hs-form .hs-input textarea, .hs-form textarea, .hs-form .input select, .hs-form .hs-input select, .hs-form select, .hs-form .hs-input[type="file"] {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0);
+    line-height: 32px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+  }
+
+  input[type=date]:hover, input[type=datetime]:hover, input[type=datetime-local]:hover, input[type=email]:hover, input[type=month]:hover, input[type=number]:hover, input[type=password]:hover, input[type=range]:hover, input[type=search]:hover, input[type=tel]:hover, input[type=text]:hover, input[type=time]:hover, input[type=url]:hover, input[type=week]:hover, .hs-form fieldset.form-columns-1 textarea.hs-input:hover, .hs-form fieldset.form-columns-1 .input select:hover, .hs-form input[type=date]:hover, .hs-form input[type=datetime]:hover, .hs-form input[type=datetime-local]:hover, .hs-form input[type=email]:hover, .hs-form input[type=month]:hover, input[type=number]:hover, .hs-form input[type=password]:hover, .hs-form input[type=range]:hover, .hs-form input[type=search]:hover, .hs-form input[type=tel]:hover, .hs-form input[type=text]:hover, .hs-form input[type=time]:hover, .hs-form input[type=url]:hover, .hs-form input[type=week]:hover, .hs-form .input textarea:hover, .hs-form .hs-input textarea:hover, .hs-form textarea:hover, .hs-form .input select:hover, .hs-form .hs-input select:hover, .hs-form select:hover, .hs-form .hs-input[type="file"]:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+  }
+
+  .hs-form label {
+    color: white;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Playfair', sans-serif;
+    text-align: left;
+    display: block;
+  }
+  .hs-form .hs-error-msgs {
+    display: block;
+    margin: 0 10px 10px;
+    padding: 5px 10px;
+    background: #d66464;
+    line-height: 30px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+  }
+  .hs-form .hs-error-msgs::after {
+    content: '';
+    clear: both;
+    display: block;
+    float: none;
+    width: 100%;
+    height: 0;
+    visibility: hidden;
+  }
+</style>
+
+<section class="belch-block belch-block-{{$index}} cover--1 full-height" image-background label="Cover Background Image" content="background_image">
+  <div class="belch-background-overlay" settings style-setting="background-color:overlay_color"></div>
+  <div class="belch-block-content">
+    <div class="contentx col-xs-12 col-xs-offset-0 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+      <div class="belch-padding" style="padding-top: 25vh;"></div>
+      <div class="rich-text-block" rich-block label="Cover Text Block" content="text_block">
+        <h1>Discover a new World</h1>
+      </div>
+      <div class="belch-margin" style="margin-top: 30px;"></div>
+    </div>
+    <div class="contentx col-xs-12 col-xs-offset-0 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
+      <div class="rich-text-block">
+        <p>You were put on this earth to achieve your greatest self, to live out your purpose, and to do it courageously and simple.</p>
+      </div>
+      <div class="belch-margin" style="margin-top: 30px;"></div>
+      <a href="" class="belch-button belch-button-secondary">Learn More</a>
+      <a href="" class="belch-button belch-button-default">Take A Tour</a>
+      <div class="belch-padding" style="padding-bottom: 25vh;"></div>
+    </div>
+  </div>
+</section>

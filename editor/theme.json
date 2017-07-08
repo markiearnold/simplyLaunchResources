@@ -881,12 +881,12 @@
   ],
   "blocks": [
     {
-      "name": "Banner",
-      "type": "banner",
+      "name": "Cover 1",
+      "type": "cover__1",
       "showOnDefault" : true,
-      "preview_image": "banner.png",
+      "preview_image": "cover__1.png",
       "content": {
-        "text_block" : "<h1 style=\"text-align:center;\">AGENCY <b>INCREDIBLE</b></h1>"
+        "text_block" : "<h1>Discover a new World</h1>"
       },
       "block_settings": [
         {
@@ -897,15 +897,15 @@
               "label": "Background Image",
               "type": "image",
               "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
+              "value": "https://images.unsplash.com/photo-1490132245059-ea5370432957?dpr=2&auto=format&fit=crop&w=1500&h=1072&q=80&cs=tinysrgb&crop=&bg=",
               "required": false
             },
             {
               "id": "overlay_color",
               "label": "Overlay Color",
               "type": "color",
-              "placeholder": "rgba(255,255,255,0.8)",
-              "value": "rgba(255,255,255,0.8)",
+              "placeholder": "rgba(0, 0, 0, 0.5)",
+              "value": "rgba(0, 0, 0, 0.5)",
               "required": false
             }
           ]
