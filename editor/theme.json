@@ -886,7 +886,8 @@
       "showOnDefault" : true,
       "preview_image": "cover__1.png",
       "content": {
-        "text_block" : "<h1>Discover a new World</h1>"
+        "text_block" : "<h1>Discover a new World</h1>",
+        "text_block_2" : "<p>You were put on this earth to achieve your greatest self, to live out your purpose, and to do it courageously and simple.</p>"
       },
       "block_settings": [
         {
