@@ -412,9 +412,11 @@
     float: {{getSetting(block, 'button_position')}};
     text-align: {{getSetting(block, 'button_position')}};
   }
-  .block-content-{{$index}} {
-    padding-left: {{getSetting(block, 'cover_left_padding')}}px;
-    padding-right: {{getSetting(block, 'cover_right_padding')}}px;
+  @media screen and (min-width: 769px) and (max-width: 1200px) {
+    .block-content-{{$index}} {
+      padding-left: {{getSetting(block, 'cover_left_padding')}}px;
+      padding-right: {{getSetting(block, 'cover_right_padding')}}px;
+    }
   }
 </style>
 
