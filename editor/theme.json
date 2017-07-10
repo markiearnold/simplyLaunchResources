@@ -1085,7 +1085,7 @@
               "label": "Secondary Button Label",
               "type": "text",
               "placeholder": "Take a tour",
-              "value": "Learn More",
+              "value": "Take a tour",
               "required": false
             },
             {
