@@ -1051,8 +1051,8 @@
               "required" : false
             },
             {
-              "id" : "button_style",
-              "label" : "Button Style",
+              "id" : "primary_button_style",
+              "label" : "Primary Button Style",
               "type" : "select",
               "placeholder" : "belch-button-default",
               "value" : "belch-button-default",
