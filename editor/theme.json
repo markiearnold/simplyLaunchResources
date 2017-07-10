@@ -1007,19 +1007,18 @@
           ]
         },
         {
-          "group": "Content",
-          "settings": [
+          "group" : "Container",
+          "settings" : [
             {
-              "id" : "in_grid",
-              "label" : "Content In Grid?",
-              "type" : "select",
-              "placeholder" : "container",
-              "value" : "container",
-              "options" : ["container", "container-fluid"],
-              "required" : false
+              "id": "block_full_height",
+              "label": "Full Height",
+              "type": "checkbox",
+              "placeholder": "",
+              "value": true,
+              "required": false
             }
           ]
-        },
+        }
         {
           "group": "Button",
           "settings": [
