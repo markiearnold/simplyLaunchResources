@@ -1037,8 +1037,8 @@
               "id": "primary_button_label",
               "label": "Primary Button Label",
               "type": "text",
-              "placeholder": "Learn More",
-              "value": "Learn More",
+              "placeholder": "Take a tour",
+              "value": "Take a tour",
               "required": false
             },
             {
@@ -1084,8 +1084,8 @@
               "id": "secondary_button_label",
               "label": "Secondary Button Label",
               "type": "text",
-              "placeholder": "Take a tour",
-              "value": "Take a tour",
+              "placeholder": "Learn More",
+              "value": "Learn More",
               "required": false
             },
             {
