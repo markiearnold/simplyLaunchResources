@@ -969,11 +969,19 @@
           ]
         },
         {
-          "group": "Border",
-          "settings": [
+          "group" : "Container",
+          "settings" : [
+            {
+              "id": "block_full_height",
+              "label": "Full Height",
+              "type": "checkbox",
+              "placeholder": "",
+              "value": true,
+              "required": false
+            },
             {
               "id" : "banner_border",
-              "label" : "Banner Border",
+              "label" : "Block Border",
               "type" : "box",
               "placeholder" : "",
               "value" : {
@@ -989,7 +997,7 @@
             },
             {
               "id" : "banner_border_color",
-              "label" : "Banner Border Color",
+              "label" : "Block Border Color",
               "type" : "color",
               "placeholder" : "rgba(255,255,255,1)",
               "value" : "rgba(255,255,255,1)",
@@ -997,25 +1005,12 @@
             },
             {
               "id" : "banner_border_style",
-              "label" : "Banner Border Style",
+              "label" : "Block Border Style",
               "type" : "select",
               "placeholder" : "solid",
               "value" : "solid",
               "options" : ["solid", "dashed", "dotted", "double"],
               "required" : false
-            }
-          ]
-        },
-        {
-          "group" : "Container",
-          "settings" : [
-            {
-              "id": "block_full_height",
-              "label": "Full Height",
-              "type": "checkbox",
-              "placeholder": "",
-              "value": true,
-              "required": false
             }
           ]
         },
