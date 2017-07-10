@@ -1084,7 +1084,7 @@
               "id": "secondary_button_label",
               "label": "Secondary Button Label",
               "type": "text",
-              "placeholder": "Learn More",
+              "placeholder": "Take a tour",
               "value": "Learn More",
               "required": false
             },
