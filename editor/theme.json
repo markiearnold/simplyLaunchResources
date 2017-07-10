@@ -915,6 +915,19 @@
           "group": "Spacing",
           "settings": [
             {
+              "id" : "cover_top_spacer",
+              "label" : "Cover Top Spacer",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : 25,
+              "options" : {
+                "min" : 0,
+                "max" : 100,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
               "id" : "top_content_spacer",
               "label" : "Top Content Spacer",
               "type" : "range",
@@ -941,18 +954,15 @@
               "required" : false
             },
             {
-              "id" : "header_padding",
-              "label" : "Banner Padding",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "290px",
-                "right" : "0px",
-                "bottom" : "290px",
-                "left" : "0px"
-              },
+              "id" : "cover_bottom_spacer",
+              "label" : "Cover Bottom Spacer",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : 25,
               "options" : {
-                "step" : 10
+                "min" : 0,
+                "max" : 100,
+                "step" : 1
               },
               "required" : false
             }
