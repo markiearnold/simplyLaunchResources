@@ -1077,7 +1077,7 @@
           "settings": [
             {
               "id": "show_primary_button",
-              "label": "Show Primary Button",
+              "label": "Show Button",
               "type": "checkbox",
               "placeholder": "",
               "value": true,
@@ -1115,7 +1115,7 @@
           "settings": [
             {
               "id": "show_secondary_button",
-              "label": "Show Secondary Button",
+              "label": "Show Button",
               "type": "checkbox",
               "placeholder": "",
               "value": true,
