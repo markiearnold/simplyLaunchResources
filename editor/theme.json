@@ -1035,15 +1035,15 @@
             },
             {
               "id": "primary_button_label",
-              "label": "Button Label",
+              "label": "Primary Button Label",
               "type": "text",
               "placeholder": "Learn More",
               "value": "Learn More",
               "required": false
             },
             {
-              "id" : "button_position",
-              "label" : "Button Position",
+              "id" : "primary_button_position",
+              "label" : "Primary Button Position",
               "type" : "select",
               "placeholder" : "center",
               "value" : "center",
@@ -1056,6 +1056,53 @@
               "type" : "select",
               "placeholder" : "belch-button-default",
               "value" : "belch-button-default",
+              "options" : ["belch-button-default", "belch-button-secondary"],
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Button 2",
+          "settings": [
+            {
+              "id": "show_secondary_button",
+              "label": "Show Secondary Button",
+              "type": "checkbox",
+              "placeholder": "",
+              "value": true,
+              "required": false
+            },
+            {
+              "id": "secondary_button_links_to",
+              "label": "Secondary Button Link",
+              "type": "text",
+              "placeholder": "#",
+              "value": "#",
+              "required": false
+            },
+            {
+              "id": "secondary_button_label",
+              "label": "Secondary Button Label",
+              "type": "text",
+              "placeholder": "Learn More",
+              "value": "Learn More",
+              "required": false
+            },
+            {
+              "id" : "secondary_button_position",
+              "label" : "Secondary Button Position",
+              "type" : "select",
+              "placeholder" : "center",
+              "value" : "center",
+              "options" : ["left", "center", "right"],
+              "required" : false
+            },
+            {
+              "id" : "secondary_button_style",
+              "label" : "Secondary Button Style",
+              "type" : "select",
+              "placeholder" : "belch-button-secondary",
+              "value" : "belch-button-secondary",
               "options" : ["belch-button-default", "belch-button-secondary"],
               "required" : false
             }

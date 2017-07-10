@@ -396,6 +396,24 @@
     height: 0;
     visibility: hidden;
   }
+
+  .belch-clearfix {
+    clear: both;
+    float: none;
+    display: block;
+    width: 100%;
+    height: 1px;
+    visibility: hidden;
+  }
+</style>
+
+<style>
+  .primary-button-{{$index}} {
+    float: {{getSetting(block, 'primary_button_position')}};
+  }
+  .secondary-button-{{$index}} {
+    float: {{getSetting(block, 'secondary_button_position')}};
+  }
 </style>
 
 <section class="belch-block belch-block-{{$index}} cover--1"  image-background label="Cover Background Image" content="background_image" settings conditional-class="block_full_height|full-height">
@@ -413,8 +431,11 @@
         <p>You were put on this earth to achieve your greatest self, to live out your purpose, and to do it courageously and simple.</p>
       </div>
       <div class="belch-margin" settings style-setting="height:bottom_content_spacer(px)"></div>
-      <a settings show-if="show_secondary_button" url-link link="secondary_button_links_to" text="secondary_button_label" label="Cover 1 Secondary Link" href="" class="belch-button belch-button-secondary">Learn More</a>
-      <a settings show-if="show_primary_button" url-link link="primary_button_links_to" text="primary_button_label" label="Cover 1 Primary Link" settings class-setting="primary_button_style" href="" class="belch-button">Take A Tour</a>
+      <div class="cover-1-actions">
+        <a settings show-if="show_secondary_button" url-link link="secondary_button_links_to" text="secondary_button_label" label="Cover 1 Secondary Link" href="" class="belch-button belch-button-secondary secondary-button-{{$index}}">Learn More</a>
+        <a settings show-if="show_primary_button" url-link link="primary_button_links_to" text="primary_button_label" label="Cover 1 Primary Link" settings class-setting="primary_button_style" href="" class="belch-button primary-button-{{$index}}">Take A Tour</a>
+        <div class="belch-clearfix"></div>
+      </div>
       <div class="belch-margin" settings style-setting="height:cover_bottom_spacer(vh)"></div>
     </div>
   </div>
