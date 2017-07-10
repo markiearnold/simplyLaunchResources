@@ -411,6 +411,10 @@
   .cover-actions-{{$index}} {
     float: {{getSetting(block, 'button_position')}};
     text-align: {{getSetting(block, 'button_position')}};
+    border-top: {{getSetting(block, 'block_border', 'top')}} {{getSetting(block, 'block_border_style')}} {{getSetting(block, 'block_border_color')}};
+    border-right: {{getSetting(block, 'block_border', 'right')}} {{getSetting(block, 'block_border_style')}} {{getSetting(block, 'block_border_color')}};
+    border-bottom: {{getSetting(block, 'block_border', 'bottom')}} {{getSetting(block, 'block_border_style')}} {{getSetting(block, 'block_border_color')}};
+    border-left: {{getSetting(block, 'block_border', 'left')}} {{getSetting(block, 'block_border_style')}} {{getSetting(block, 'block_border_color')}};
   }
   @media screen and (min-width: 993px) {
     .horizontal-padding-{{$index}} {
@@ -436,7 +440,7 @@
       </div>
       <div class="belch-margin" settings style-setting="height:bottom_content_spacer(px)"></div>
       <div class="cover-1-actions horizontal-padding-{{$index}} cover-actions-{{$index}}">
-        <a settings show-if="show_secondary_button" url-link link="secondary_button_links_to" text="secondary_button_label" label="Cover 1 Secondary Link" href="" class="belch-button belch-button-secondary secondary-button-{{$index}}">Learn More</a>
+        <a settings show-if="show_secondary_button" url-link link="secondary_button_links_to" text="secondary_button_label" label="Cover 1 Secondary Link" settings class-setting="secondary_button_style" href="" class="belch-button secondary-button-{{$index}}">Learn More</a>
         <a settings show-if="show_primary_button" url-link link="primary_button_links_to" text="primary_button_label" label="Cover 1 Primary Link" settings class-setting="primary_button_style" href="" class="belch-button primary-button-{{$index}}">Take A Tour</a>
         <div class="belch-clearfix"></div>
       </div>
