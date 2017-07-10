@@ -1018,7 +1018,7 @@
               "required": false
             }
           ]
-        }
+        },
         {
           "group": "Button",
           "settings": [
