@@ -980,6 +980,15 @@
               "required": false
             },
             {
+              "id" : "button_position",
+              "label" : "Button Position",
+              "type" : "select",
+              "placeholder" : "center",
+              "value" : "center",
+              "options" : ["left", "center", "right"],
+              "required" : false
+            },
+            {
               "id" : "banner_border",
               "label" : "Block Border",
               "type" : "box",
@@ -1042,15 +1051,6 @@
               "required": false
             },
             {
-              "id" : "primary_button_position",
-              "label" : "Primary Button Position",
-              "type" : "select",
-              "placeholder" : "center",
-              "value" : "center",
-              "options" : ["left", "center", "right"],
-              "required" : false
-            },
-            {
               "id" : "primary_button_style",
               "label" : "Primary Button Style",
               "type" : "select",
@@ -1087,15 +1087,6 @@
               "placeholder": "Learn More",
               "value": "Learn More",
               "required": false
-            },
-            {
-              "id" : "secondary_button_position",
-              "label" : "Secondary Button Position",
-              "type" : "select",
-              "placeholder" : "center",
-              "value" : "center",
-              "options" : ["left", "center", "right"],
-              "required" : false
             },
             {
               "id" : "secondary_button_style",
