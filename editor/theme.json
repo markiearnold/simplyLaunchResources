@@ -994,7 +994,7 @@
               "type" : "select",
               "placeholder" : "col-md-offset-3",
               "value" : "col-md-offset-3",
-              "options" : ["col-md-offset-1", "col-md-offset-2", "col-md-offset-3", "col-md-offset-4"],
+              "options" : ["col-md-offset-0", "col-md-offset-1", "col-md-offset-2", "col-md-offset-3", "col-md-offset-4"],
               "required" : false
             },
             {
