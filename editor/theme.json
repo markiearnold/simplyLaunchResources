@@ -1031,7 +1031,12 @@
               "value" : "center",
               "options" : ["left", "center", "right"],
               "required" : false
-            },
+            }
+          ]
+        },
+        {
+          "group": "Border",
+          "settings": [
             {
               "id" : "banner_border",
               "label" : "Block Border",
