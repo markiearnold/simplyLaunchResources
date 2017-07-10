@@ -1015,14 +1015,30 @@
           ]
         },
         {
-          "group": "Button",
+          "group": "Primary Button",
           "settings": [
             {
-              "id": "show_button",
-              "label": "Show Button",
+              "id": "show_primary_button",
+              "label": "Show Primary Button",
               "type": "checkbox",
               "placeholder": "",
               "value": true,
+              "required": false
+            },
+            {
+              "id": "primary_button_links_to",
+              "label": "Primary Button Link",
+              "type": "text",
+              "placeholder": "#",
+              "value": "#",
+              "required": false
+            },
+            {
+              "id": "primary_button_label",
+              "label": "Button Label",
+              "type": "text",
+              "placeholder": "Learn More",
+              "value": "Learn More",
               "required": false
             },
             {
@@ -1032,99 +1048,6 @@
               "placeholder" : "center",
               "value" : "center",
               "options" : ["left", "center", "right"],
-              "required" : false
-            },
-            {
-              "id": "button_links_to",
-              "label": "Button Links To",
-              "type": "text",
-              "placeholder": "#",
-              "value": "#",
-              "required": false
-            },
-            {
-              "id": "button_label",
-              "label": "Button Label",
-              "type": "text",
-              "placeholder": "CONTACT US",
-              "value": "CONTACT US",
-              "required": false
-            },
-            {
-              "id": "button_background_color",
-              "label": "Button BG Color",
-              "type": "color",
-              "placeholder": "#fb795b",
-              "value": "#fb795b",
-              "required": false
-            },
-            {
-              "id": "button_text_color",
-              "label": "Button Text Color",
-              "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
-              "required": false
-            },
-            {
-              "id": "button_border_color",
-              "label": "Button Border Color",
-              "type": "color",
-              "placeholder": "#fb795b",
-              "value": "#fb795b",
-              "required": false
-            },
-            {
-              "id": "button_hover_background_color",
-              "label": "Button Hover BG Color",
-              "type": "color",
-              "placeholder": "#333333",
-              "value": "#333333",
-              "required": false
-            },
-            {
-              "id": "button_hover_text_color",
-              "label": "Button Hover Text Color",
-              "type": "color",
-              "placeholder": "#ffffff",
-              "value": "#ffffff",
-              "required": false
-            },
-            {
-              "id": "button_hover_border_color",
-              "label": "Button Hover Color",
-              "type": "color",
-              "placeholder": "#333333",
-              "value": "#333333",
-              "required": false
-            },
-            {
-              "id" : "button_border_radius",
-              "label" : "Button Border Radius",
-              "type" : "range",
-              "placeholder" : "0",
-              "value" : 0,
-              "options" : {
-                "min" : 0,
-                "max" : 100,
-                "step" : 1
-              },
-              "required" : false
-            },
-            {
-              "id" : "header_button_padding",
-              "label" : "Button Padding",
-              "type" : "box",
-              "placeholder" : "",
-              "value" : {
-                "top" : "10px",
-                "right" : "40px",
-                "bottom" : "10px",
-                "left" : "40px"
-              },
-              "options" : {
-                "step" : 5
-              },
               "required" : false
             }
           ]
