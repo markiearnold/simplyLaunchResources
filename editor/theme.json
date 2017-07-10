@@ -984,7 +984,7 @@
               "label" : "Cover Left Padding",
               "type" : "range",
               "placeholder" : "0",
-              "value" : 250,
+              "value" : 260,
               "options" : {
                 "min" : 0,
                 "max" : 400,
@@ -997,7 +997,7 @@
               "label" : "Cover Right Padding",
               "type" : "range",
               "placeholder" : "0",
-              "value" : 0,
+              "value" : 260,
               "options" : {
                 "min" : 0,
                 "max" : 400,
