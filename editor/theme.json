@@ -58,6 +58,32 @@
         {
         }
       ]
+    },
+    {
+      "name" : "Nav 1",
+      "type" : "nav--1",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : true,
+      "preview_image" : "global.png",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Cover 1",
+      "type" : "cover--1",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : true,
+      "preview_image" : "global.png",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
     }
   ]
 }
