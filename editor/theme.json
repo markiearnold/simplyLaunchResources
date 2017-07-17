@@ -454,7 +454,7 @@
       "type" : "banner--1",
       "order" : 0,
       "multiple" : true,
-      "showOnDefault" : true,
+      "showOnDefault" : false,
       "preview_image" : "global.jpg",
       "content" : {},
       "block_settings": [
@@ -465,6 +465,97 @@
     {
       "name" : "Banner 2",
       "type" : "banner--2",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Banner 3",
+      "type" : "banner--3",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Banner 4",
+      "type" : "banner--4",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Banner 5",
+      "type" : "banner--5",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Banner 6",
+      "type" : "banner--6",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Banner 7",
+      "type" : "banner--7",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Banner 8",
+      "type" : "banner--8",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Banner 9",
+      "type" : "banner--9",
       "order" : 0,
       "multiple" : true,
       "showOnDefault" : false,
@@ -491,6 +582,97 @@
     {
       "name" : "CTA 2",
       "type" : "cta--2",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "CTA 3",
+      "type" : "cta--3",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "CTA 4",
+      "type" : "cta--4",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "CTA 5",
+      "type" : "cta--5",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "CTA 6",
+      "type" : "cta--6",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "CTA 7",
+      "type" : "cta--7",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "CTA 8",
+      "type" : "cta--8",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "CTA 9",
+      "type" : "cta--9",
       "order" : 0,
       "multiple" : true,
       "showOnDefault" : false,
