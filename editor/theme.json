@@ -43,6 +43,19 @@
           "required": false
         }
       ]
+    },
+    {
+      "group" : "Colors",
+      "settings" : [
+        {
+          "id" : "main_color",
+          "label" : "Main Color",
+          "type" : "color",
+          "placeholder" : "#08a9fa",
+          "value" : "#08a9fa",
+          "required" : false
+        }
+      ]
     }
   ],
   "blocks": [
