@@ -175,6 +175,64 @@
                "required" : false
             }
           ]
+        },
+        {
+          "group" : "MENU: Link #2",
+          "settings" : [
+            {
+              "id": "show_second_link",
+              "label": "Show Link",
+              "type": "checkbox",
+              "placeholder": "",
+              "value": true,
+              "required": false
+            },
+            {
+               "id" : "second_link_text",
+               "label" : "Text",
+               "type" : "text",
+               "placeholder" : "",
+               "value" : "ABOUT",
+               "required" : false
+            },
+            {
+               "id" : "second_link_url",
+               "label" : "Link URL",
+               "type" : "text",
+               "placeholder" : "",
+               "value" : "#",
+               "required" : false
+            }
+          ]
+        },
+        {
+          "group" : "MENU: Link #3",
+          "settings" : [
+            {
+              "id": "show_third_link",
+              "label": "Show Link",
+              "type": "checkbox",
+              "placeholder": "",
+              "value": true,
+              "required": false
+            },
+            {
+               "id" : "third_link_text",
+               "label" : "Text",
+               "type" : "text",
+               "placeholder" : "",
+               "value" : "BUY NOW",
+               "required" : false
+            },
+            {
+               "id" : "third_link_url",
+               "label" : "Link URL",
+               "type" : "text",
+               "placeholder" : "",
+               "value" : "#",
+               "required" : false
+            }
+          ]
         }
       ]
     },
