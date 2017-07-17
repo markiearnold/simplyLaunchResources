@@ -825,6 +825,136 @@
         {
         }
       ]
+    },
+    {
+      "name" : "Services 1",
+      "type" : "services--1",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : true,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Services 2",
+      "type" : "services--2",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Services 3",
+      "type" : "services--3",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Services 4",
+      "type" : "services--4",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Services 5",
+      "type" : "services--5",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Services 6",
+      "type" : "services--6",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Services 7",
+      "type" : "services--7",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Services 8",
+      "type" : "services--8",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Services 9",
+      "type" : "services--9",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Services 10",
+      "type" : "services--10",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
     }
   ]
 }
