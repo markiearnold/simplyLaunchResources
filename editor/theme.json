@@ -90,7 +90,7 @@
       "type" : "nav--2",
       "order" : 0,
       "multiple" : true,
-      "showOnDefault" : true,
+      "showOnDefault" : false,
       "preview_image" : "global.png",
       "content" : {},
       "block_settings": [
@@ -103,7 +103,7 @@
       "type" : "nav--3",
       "order" : 0,
       "multiple" : true,
-      "showOnDefault" : true,
+      "showOnDefault" : false,
       "preview_image" : "global.png",
       "content" : {},
       "block_settings": [
@@ -129,7 +129,7 @@
       "type" : "nav--5",
       "order" : 0,
       "multiple" : true,
-      "showOnDefault" : true,
+      "showOnDefault" : false,
       "preview_image" : "global.png",
       "content" : {},
       "block_settings": [
@@ -142,7 +142,7 @@
       "type" : "nav--6",
       "order" : 0,
       "multiple" : true,
-      "showOnDefault" : true,
+      "showOnDefault" : false,
       "preview_image" : "global.png",
       "content" : {},
       "block_settings": [
@@ -155,7 +155,46 @@
       "type" : "nav--7",
       "order" : 0,
       "multiple" : true,
-      "showOnDefault" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.png",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Nav 8",
+      "type" : "nav--8",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.png",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Nav 9",
+      "type" : "nav--9",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.png",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Nav 10",
+      "type" : "nav--10",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
       "preview_image" : "global.png",
       "content" : {},
       "block_settings": [
