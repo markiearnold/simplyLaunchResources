@@ -133,7 +133,7 @@
           "settings" : [
             {
               "id": "logo_width",
-              "label": "Logo for Light Background",
+              "label": "Logo Width",
               "type" : "range",
               "placeholder" : "0",
               "value" : "74",
@@ -144,6 +144,35 @@
                 "step" : 1
               },
               "required" : false
+            }
+          ]
+        },
+        {
+          "group" : "MENU: Link #1",
+          "settings" : [
+            {
+              "id": "show_first_link",
+              "label": "Show Link",
+              "type": "checkbox",
+              "placeholder": "",
+              "value": true,
+              "required": false
+            },
+            {
+               "id" : "first_link_text",
+               "label" : "Text",
+               "type" : "text",
+               "placeholder" : "",
+               "value" : "HOME",
+               "required" : false
+            },
+            {
+               "id" : "first_link_url",
+               "label" : "Link URL",
+               "type" : "text",
+               "placeholder" : "",
+               "value" : "#",
+               "required" : false
             }
           ]
         }
