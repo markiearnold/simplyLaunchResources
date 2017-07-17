@@ -307,11 +307,102 @@
       ]
     },
     {
+      "name" : "Nav 19",
+      "type" : "nav--19",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.png",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Nav 20",
+      "type" : "nav--20",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.png",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Nav 21",
+      "type" : "nav--21",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.png",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Nav 22",
+      "type" : "nav--22",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.png",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Nav 23",
+      "type" : "nav--23",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.png",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Nav 24",
+      "type" : "nav--24",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.png",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
       "name" : "Cover 1",
       "type" : "cover--1",
       "order" : 0,
       "multiple" : true,
       "showOnDefault" : true,
+      "preview_image" : "global.png",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Cover 2",
+      "type" : "cover--2",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
       "preview_image" : "global.png",
       "content" : {},
       "block_settings": [
