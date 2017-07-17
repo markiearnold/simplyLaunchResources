@@ -203,6 +203,110 @@
       ]
     },
     {
+      "name" : "Nav 11",
+      "type" : "nav--11",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.png",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Nav 12",
+      "type" : "nav--12",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.png",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Nav 13",
+      "type" : "nav--13",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.png",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Nav 14",
+      "type" : "nav--14",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.png",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Nav 15",
+      "type" : "nav--15",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.png",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Nav 16",
+      "type" : "nav--16",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.png",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Nav 17",
+      "type" : "nav--17",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.png",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Nav 18",
+      "type" : "nav--18",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.png",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
       "name" : "Cover 1",
       "type" : "cover--1",
       "order" : 0,
