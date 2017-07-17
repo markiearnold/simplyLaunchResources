@@ -133,7 +133,7 @@
           "settings" : [
             {
               "id": "logo_width",
-              "label": "Logo Width",
+              "label": "Nav4 Logo Width",
               "type" : "range",
               "placeholder" : "0",
               "value" : "74",
@@ -152,7 +152,7 @@
           "settings" : [
             {
               "id": "show_first_link",
-              "label": "Show Link",
+              "label": "Nav4 Show Link 1",
               "type": "checkbox",
               "placeholder": "",
               "value": true,
@@ -160,7 +160,7 @@
             },
             {
                "id" : "first_link_text",
-               "label" : "Text",
+               "label" : "Nav4 Link Text 1",
                "type" : "text",
                "placeholder" : "",
                "value" : "HOME",
@@ -168,7 +168,7 @@
             },
             {
                "id" : "first_link_url",
-               "label" : "Link URL",
+               "label" : "Nav4 Link URL 1",
                "type" : "text",
                "placeholder" : "",
                "value" : "#",
@@ -181,7 +181,7 @@
           "settings" : [
             {
               "id": "show_second_link",
-              "label": "Show Link",
+              "label": "Nav4 Show Link 2",
               "type": "checkbox",
               "placeholder": "",
               "value": true,
@@ -189,7 +189,7 @@
             },
             {
                "id" : "second_link_text",
-               "label" : "Text",
+               "label" : "Nav4 Link Text 2",
                "type" : "text",
                "placeholder" : "",
                "value" : "ABOUT",
@@ -197,7 +197,7 @@
             },
             {
                "id" : "second_link_url",
-               "label" : "Link URL",
+               "label" : "Nav4 Link URL 2",
                "type" : "text",
                "placeholder" : "",
                "value" : "#",
@@ -210,7 +210,7 @@
           "settings" : [
             {
               "id": "show_third_link",
-              "label": "Show Link",
+              "label": "Nav4 Show Link 3",
               "type": "checkbox",
               "placeholder": "",
               "value": true,
@@ -218,7 +218,7 @@
             },
             {
                "id" : "third_link_text",
-               "label" : "Text",
+               "label" : "Nav4 Link Text 3",
                "type" : "text",
                "placeholder" : "",
                "value" : "BUY NOW",
@@ -226,11 +226,44 @@
             },
             {
                "id" : "third_link_url",
-               "label" : "Link URL",
+               "label" : "Nav4 Link URL 3",
                "type" : "text",
                "placeholder" : "",
                "value" : "#",
                "required" : false
+            }
+          ]
+        },
+        {
+          "group" : "Spacing",
+          "settings" : [
+            {
+              "id": "top_padding",
+              "label": "Nav4 Top Padding",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "25",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 150,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "bottom_padding",
+              "label": "Nav4 Bottom Padding",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "25",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 150,
+                "step" : 1
+              },
+              "required" : false
             }
           ]
         }
