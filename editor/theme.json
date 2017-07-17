@@ -86,6 +86,84 @@
       ]
     },
     {
+      "name" : "Nav 2",
+      "type" : "nav--2",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : true,
+      "preview_image" : "global.png",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Nav 3",
+      "type" : "nav--3",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : true,
+      "preview_image" : "global.png",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Nav 4",
+      "type" : "nav--4",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : true,
+      "preview_image" : "global.png",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Nav 5",
+      "type" : "nav--5",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : true,
+      "preview_image" : "global.png",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Nav 6",
+      "type" : "nav--6",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : true,
+      "preview_image" : "global.png",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Nav 7",
+      "type" : "nav--7",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : true,
+      "preview_image" : "global.png",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
       "name" : "Cover 1",
       "type" : "cover--1",
       "order" : 0,
