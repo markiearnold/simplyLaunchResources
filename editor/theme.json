@@ -409,6 +409,97 @@
         {
         }
       ]
+    },
+    {
+      "name" : "Cover 3",
+      "type" : "cover--3",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Cover 4",
+      "type" : "cover--4",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Cover 5",
+      "type" : "cover--5",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Banner 1",
+      "type" : "banner--1",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : true,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "Banner 2",
+      "type" : "banner--2",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "CTA 1",
+      "type" : "cta--1",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
+    },
+    {
+      "name" : "CTA 2",
+      "type" : "cta--2",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : false,
+      "preview_image" : "global.jpg",
+      "content" : {},
+      "block_settings": [
+        {
+        }
+      ]
     }
   ]
 }
