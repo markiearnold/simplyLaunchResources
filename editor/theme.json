@@ -98,6 +98,59 @@
       "content" : {},
       "block_settings": [
         {
+          "group": "Background",
+          "settings": [
+            {
+              "id": "background_color",
+              "label": "Background Color",
+              "type" : "color",
+              "placeholder" : "#3b3f40",
+              "value" : "#3b3f40",
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Content",
+          "settings": [
+            {
+              "id": "text_color",
+              "label": "Text Color",
+              "type" : "color",
+              "placeholder" : "#ffffff",
+              "value" : "#ffffff",
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Link",
+          "settings": [
+            {
+              "id": "show_link",
+              "label": "Show Link",
+              "type" : "checkbox",
+              "placeholder" : "",
+              "value" : true,
+              "required" : false
+            },
+            {
+              "id": "link_text",
+              "label": "Link Text",
+              "type": "text",
+              "placeholder": "View online",
+              "value": "View online",
+              "required": false
+            },
+            {
+              "id": "links_to",
+              "label": "Link Url",
+              "type": "text",
+              "placeholder": "#",
+              "value": "#",
+              "required": false
+            }
+          ]
         }
       ]
     },
