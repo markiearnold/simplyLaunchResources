@@ -609,7 +609,10 @@
       "multiple" : true,
       "showOnDefault" : false,
       "preview_image" : "global.jpg",
-      "content" : {},
+      "content" : {
+        "text_block" : "WELCOME TO BelchMail",
+        "paragraph_block" : "Curabitur et ligula. Ut molestie a, ultricies porta urn vestibulum commodo"
+      },
       "block_settings": [
         {
           "group": "Background",
