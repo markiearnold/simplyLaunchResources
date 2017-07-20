@@ -621,8 +621,8 @@
               "id": "background_color",
               "label": "Background Color",
               "type" : "color",
-              "placeholder" : "#3b3f40",
-              "value" : "#3b3f40",
+              "placeholder" : "#1f2f50",
+              "value" : "#1f2f50",
               "required" : false
             }
           ]
