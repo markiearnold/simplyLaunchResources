@@ -668,7 +668,7 @@
           ]
         },
         {
-          "group": "Button #2",
+          "group": "Content",
           "settings": [
             {
               "id": "show_header",
