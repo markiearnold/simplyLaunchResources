@@ -668,6 +668,27 @@
           ]
         },
         {
+          "group": "Button #2",
+          "settings": [
+            {
+              "id": "show_header",
+              "label": "Show Header",
+              "type" : "checkbox",
+              "placeholder" : "",
+              "value" : true,
+              "required" : false
+            },
+            {
+              "id": "show_paragraph",
+              "label": "Show Paragraph",
+              "type" : "checkbox",
+              "placeholder" : "",
+              "value" : true,
+              "required" : false
+            }
+          ]
+        },
+        {
           "group": "Button #1",
           "settings": [
             {
