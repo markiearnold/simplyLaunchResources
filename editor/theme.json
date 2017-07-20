@@ -98,6 +98,33 @@
       "content" : {},
       "block_settings": [
         {
+          "group": "Logo",
+          "settings": [
+            {
+              "id": "logo_image",
+              "label": "Logo Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "http://themes.scsnoopyindustri.netdna-cdn.com/BBT_Builder/Template_Pics/Ultimail/logo_w.png",
+              "required": false
+            },
+            {
+              "id": "logo_width",
+              "label": "Logo Width",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "74",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
+              "required" : false
+            }
+          ]
+        },
+        {
           "group": "Background",
           "settings": [
             {
