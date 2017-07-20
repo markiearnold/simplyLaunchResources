@@ -618,12 +618,12 @@
           "group": "Background",
           "settings": [
             {
-              "id": "background_image",
-              "label": "Background Image",
-              "type": "image",
-              "placeholder": "",
-              "value": "http://themes.scsnoopyindustri.netdna-cdn.com/BBT_Builder/Template_Pics/Ultimail/bg4.jpg",
-              "required": false
+              "id": "background_color",
+              "label": "Background Color",
+              "type" : "color",
+              "placeholder" : "#3b3f40",
+              "value" : "#3b3f40",
+              "required" : false
             }
           ]
         },
