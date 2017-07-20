@@ -853,13 +853,13 @@
               "id": "button_bg_1",
               "label": "Button 1 Background",
               "type" : "color",
-              "placeholder" : "#ffffff",
-              "value" : "#ffffff",
+              "placeholder" : "#08a9fa",
+              "value" : "#08a9fa",
               "required" : false
             },
             {
-              "id": "button_border_radius_2",
-              "label": "Button 2 Border Radius",
+              "id": "button_border_radius_1",
+              "label": "Button 1 Border Radius",
               "type" : "range",
               "placeholder" : "0",
               "value" : "6",
