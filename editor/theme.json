@@ -928,7 +928,7 @@
               "label": "Button 2 Width",
               "type" : "range",
               "placeholder" : "0",
-              "value" : "110",
+              "value" : "115",
               "options" : {
                 "cssAttr" : "padding",
                 "min" : 0,
