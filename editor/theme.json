@@ -796,9 +796,166 @@
       "multiple" : true,
       "showOnDefault" : false,
       "preview_image" : "global.jpg",
-      "content" : {},
+      "content" : {
+        "text_block" : "The app <br>You'll love",
+        "paragraph_block" : "is finally here!"
+      },
       "block_settings": [
         {
+          "group": "Background",
+          "settings": [
+            {
+              "id": "background_color",
+              "label": "Background Color",
+              "type" : "color",
+              "placeholder" : "#1f2f50",
+              "value" : "#1f2f50",
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Button #1",
+          "settings": [
+            {
+              "id": "show_button_1",
+              "label": "Show Button 1",
+              "type" : "checkbox",
+              "placeholder" : "",
+              "value" : true,
+              "required" : false
+            },
+            {
+              "id": "button_label_1",
+              "label": "Button 1 Label",
+              "type": "text",
+              "placeholder": "Download",
+              "value": "Download",
+              "required": false
+            },
+            {
+              "id": "button_links_to_1",
+              "label": "Button 1 Links To",
+              "type": "text",
+              "placeholder": "#",
+              "value": "#",
+              "required": false
+            },
+            {
+              "id": "button_color_1",
+              "label": "Button 1 Color",
+              "type" : "color",
+              "placeholder" : "#ffffff",
+              "value" : "#ffffff",
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Button #2",
+          "settings": [
+            {
+              "id": "show_button_2",
+              "label": "Show Button 2",
+              "type" : "checkbox",
+              "placeholder" : "",
+              "value" : true,
+              "required" : false
+            },
+            {
+              "id": "button_label_2",
+              "label": "Button 2 Label",
+              "type": "text",
+              "placeholder": "Learn more",
+              "value": "Learn more",
+              "required": false
+            },
+            {
+              "id": "button_links_to_2",
+              "label": "Button 2 Links To",
+              "type": "text",
+              "placeholder": "#",
+              "value": "#",
+              "required": false
+            },
+            {
+              "id": "button_color_2",
+              "label": "Button 2 Color",
+              "type" : "color",
+              "placeholder" : "#ffffff",
+              "value" : "#ffffff",
+              "required" : false
+            },
+            {
+              "id": "button_border_2",
+              "label": "Button 2 Border",
+              "type" : "color",
+              "placeholder" : "#ffffff",
+              "value" : "#ffffff",
+              "required" : false
+            },
+            {
+              "id": "button_border_size_2",
+              "label": "Button 2 Border Size",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "1",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 5,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "button_border_radius_2",
+              "label": "Button 2 Border Radius",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "6",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 40,
+                "step" : 1
+              },
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group" : "Spacing",
+          "settings" : [
+            {
+              "id": "top_padding",
+              "label": "Top Padding",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "90",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "bottom_padding",
+              "label": "Bottom Padding",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "90",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
+              "required" : false
+            }
+          ]
         }
       ]
     },
