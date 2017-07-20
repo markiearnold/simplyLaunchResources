@@ -626,6 +626,60 @@
               "required": false
             }
           ]
+        },
+        {
+          "group": "Content Image",
+          "settings": [
+            {
+              "id": "content_image",
+              "label": "Content Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "http://themes.scsnoopyindustri.netdna-cdn.com/BBT_Builder/Template_Pics/Ultimail/img2.png",
+              "required": false
+            },
+            {
+              "id": "content_image_link",
+              "label": "Content Image Link",
+              "type" : "text",
+              "placeholder" : "#",
+              "value" : "#",
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group" : "Spacing",
+          "settings" : [
+            {
+              "id": "top_padding",
+              "label": "Top Padding",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "95",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "bottom_padding",
+              "label": "Bottom Padding",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "50",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
+              "required" : false
+            }
+          ]
         }
       ]
     },
