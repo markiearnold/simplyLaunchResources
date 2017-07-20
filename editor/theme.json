@@ -933,14 +933,6 @@
               "required" : false
             },
             {
-              "id": "button_bg_2",
-              "label": "Button 2 Background",
-              "type" : "color",
-              "placeholder" : "#08a9fa",
-              "value" : "#08a9fa",
-              "required" : false
-            },
-            {
               "id": "button_border_2",
               "label": "Button 2 Border",
               "type" : "color",
@@ -987,6 +979,83 @@
                 "max" : 40,
                 "step" : 1
               },
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group" : "Spacing",
+          "settings" : [
+            {
+              "id": "border_top",
+              "label": "Top Border",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "0",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "border_top_color",
+              "label": "Top Border Color",
+              "type" : "color",
+              "placeholder" : "#ffffff",
+              "value" : "#ffffff",
+              "required" : false
+            },
+            {
+              "id": "top_padding",
+              "label": "Top Padding",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "120",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "bottom_padding",
+              "label": "Bottom Padding",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "125",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "border_bottom",
+              "label": "Bottom Border",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "0",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "border_bottom_color",
+              "label": "Bottom Border Color",
+              "type" : "color",
+              "placeholder" : "#ffffff",
+              "value" : "#ffffff",
               "required" : false
             }
           ]
