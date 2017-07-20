@@ -987,28 +987,6 @@
           "group" : "Spacing",
           "settings" : [
             {
-              "id": "border_top",
-              "label": "Top Border",
-              "type" : "range",
-              "placeholder" : "0",
-              "value" : "0",
-              "options" : {
-                "cssAttr" : "padding",
-                "min" : 0,
-                "max" : 200,
-                "step" : 1
-              },
-              "required" : false
-            },
-            {
-              "id": "border_top_color",
-              "label": "Top Border Color",
-              "type" : "color",
-              "placeholder" : "#ffffff",
-              "value" : "#ffffff",
-              "required" : false
-            },
-            {
               "id": "top_padding",
               "label": "Top Padding",
               "type" : "range",
@@ -1034,6 +1012,28 @@
                 "max" : 200,
                 "step" : 1
               },
+              "required" : false
+            },
+            {
+              "id": "border_top",
+              "label": "Top Border",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "0",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "border_top_color",
+              "label": "Top Border Color",
+              "type" : "color",
+              "placeholder" : "#ffffff",
+              "value" : "#ffffff",
               "required" : false
             },
             {
