@@ -632,9 +632,207 @@
       "multiple" : true,
       "showOnDefault" : true,
       "preview_image" : "global.jpg",
-      "content" : {},
+      "content" : {
+        "text_block" : "<h1 style='font-size:36px;'>Welcome to BelchMail</h1><br/><p style='font-size:16px;'>Build beautiful email newsletters in minutes.</p>"
+      },
       "block_settings": [
         {
+          "group": "Background",
+          "settings": [
+            {
+              "id": "background_image",
+              "label": "Background Image",
+              "type": "image",
+              "preferred": "800 x 550",
+              "placeholder": "",
+              "value": "http://themes.scsnoopyindustri.netdna-cdn.com/BBT_Builder/Template_Pics/Ultimail/bg_01.jpg",
+              "required": false
+            },
+            {
+              "id": "background_on",
+              "label": "Show Bg Image",
+              "type" : "checkbox",
+              "placeholder" : "",
+              "value" : true,
+              "required" : false
+            },
+            {
+              "id": "background_color",
+              "label": "Background Color",
+              "type" : "color",
+              "placeholder" : "#1f2f50",
+              "value" : "#1f2f50",
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Button #1",
+          "settings": [
+            {
+              "id": "show_button_1",
+              "label": "Show Button 1",
+              "type" : "checkbox",
+              "placeholder" : "",
+              "value" : true,
+              "required" : false
+            },
+            {
+              "id": "button_label_1",
+              "label": "Button 1 Label",
+              "type": "text",
+              "placeholder": "Buy Now",
+              "value": "Buy Now",
+              "required": false
+            },
+            {
+              "id": "button_links_to_1",
+              "label": "Button 1 Links To",
+              "type": "text",
+              "placeholder": "#",
+              "value": "#",
+              "required": false
+            },
+            {
+              "id": "button_width_1",
+              "label": "Button 1 Width",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "110",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 250,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "button_color_1",
+              "label": "Button 1 Text",
+              "type" : "color",
+              "placeholder" : "#ffffff",
+              "value" : "#ffffff",
+              "required" : false
+            },
+            {
+              "id": "button_bg_1",
+              "label": "Button 1 Background",
+              "type" : "color",
+              "placeholder" : "#08a9fa",
+              "value" : "#08a9fa",
+              "required" : false
+            },
+            {
+              "id": "button_border_radius_1",
+              "label": "Button 1 Border Radius",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "4",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 40,
+                "step" : 1
+              },
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Button #1",
+          "settings": [
+            {
+              "id": "show_button_2",
+              "label": "Show Button 2",
+              "type" : "checkbox",
+              "placeholder" : "",
+              "value" : true,
+              "required" : false
+            },
+            {
+              "id": "button_label_2",
+              "label": "Button 2 Label",
+              "type": "text",
+              "placeholder": "Read More",
+              "value": "Ready More",
+              "required": false
+            },
+            {
+              "id": "button_links_to_2",
+              "label": "Button 2 Links To",
+              "type": "text",
+              "placeholder": "#",
+              "value": "#",
+              "required": false
+            },
+            {
+              "id": "button_width_2",
+              "label": "Button 2 Width",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "110",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 250,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "button_color_2",
+              "label": "Button 2 Text",
+              "type" : "color",
+              "placeholder" : "#ffffff",
+              "value" : "#ffffff",
+              "required" : false
+            },
+            {
+              "id": "button_bg_2",
+              "label": "Button 2 Background",
+              "type" : "color",
+              "placeholder" : "#08a9fa",
+              "value" : "#08a9fa",
+              "required" : false
+            },
+            {
+              "id": "button_border_2",
+              "label": "Button 2 Border",
+              "type" : "color",
+              "placeholder" : "#ffffff",
+              "value" : "#ffffff",
+              "required" : false
+            },
+            {
+              "id": "button_border_size_2",
+              "label": "Button 2 Border Size",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "1",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 5,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "button_border_radius_2",
+              "label": "Button 2 Border Radius",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "4",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 40,
+                "step" : 1
+              },
+              "required" : false
+            }
+          ]
         }
       ]
     },
