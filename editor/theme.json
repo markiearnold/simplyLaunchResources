@@ -842,6 +842,20 @@
               "required": false
             },
             {
+              "id": "button_width_1",
+              "label": "Button 1 Width",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "170",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 250,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
               "id": "button_color_1",
               "label": "Button 1 Text",
               "type" : "color",
@@ -899,6 +913,20 @@
               "placeholder": "#",
               "value": "#",
               "required": false
+            },
+            {
+              "id": "button_width_2",
+              "label": "Button 2 Width",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "168",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 250,
+                "step" : 1
+              },
+              "required" : false
             },
             {
               "id": "button_color_2",

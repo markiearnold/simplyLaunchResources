@@ -49,7 +49,7 @@
                                                     <table cellpadding="0" cellspacing="0" border="0" class="mobile_centered_table">
                                                       <tbody>
                                                         <tr>
-                                                          <td settings show-if="show_button_1" class="stacked_buttons" bgcolor="{{getSetting(block, 'button_bg_1')}}"   align="center" width="170" height="43" style="display: block; border-radius: {{getSetting(block, 'button_border_radius_1')}}px;">
+                                                          <td settings show-if="show_button_1" class="stacked_buttons" bgcolor="{{getSetting(block, 'button_bg_1')}}"   align="center" width="{{getSetting(block, 'button_width_1')}}" height="43" style="display: block; border-radius: {{getSetting(block, 'button_border_radius_1')}}px;">
                                                             <table cellspacing="0" cellpadding="0" border="0">
                                                               <tbody>
                                                                 <tr>
@@ -59,8 +59,8 @@
                                                               </tbody>
                                                             </table>
                                                           </td>
-                                                          <td settings show-if="show_button_2" width="20" class="noresponsive"></td>
-                                                          <td class="button" align="center" width="168" height="43" style="border-radius: {{getSetting(block, 'button_border_radius_2')}}px; display: block; border: {{getSetting(block, 'button_border_size_2')}}px solid {{getSetting(block, 'button_border_2')}};">
+                                                          <td settings show-if="show_button_1" width="20" class="noresponsive"></td>
+                                                          <td settings show-if="show_button_2" class="button" align="center" width="{{getSetting(block, 'button_width_2')}}" height="43" style="border-radius: {{getSetting(block, 'button_border_radius_2')}}px; display: block; border: {{getSetting(block, 'button_border_size_2')}}px solid {{getSetting(block, 'button_border_2')}};">
                                                             <table cellspacing="0" cellpadding="0" border="0">
                                                               <tbody>
                                                                 <tr>
