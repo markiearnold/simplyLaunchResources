@@ -35,20 +35,26 @@
       "group" : "Logo",
       "settings" : [
         {
-          "id": "logo_image_lt",
-          "label": "Logo for Light Background",
+          "id": "logo_image",
+          "label": "Logo Image",
           "type": "image",
           "placeholder": "",
-          "value": "http://themes.scsnoopyindustri.netdna-cdn.com/BBT_Builder/Template_Pics/Ultimail/logo.png",
+          "value": "http://themes.scsnoopyindustri.netdna-cdn.com/BBT_Builder/Template_Pics/Ultimail/logo_w.png",
           "required": false
         },
         {
-          "id": "logo_image_dk",
-          "label": "Logo for Dark Background",
-          "type": "image",
-          "placeholder": "",
-          "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-logo.png",
-          "required": false
+          "id": "logo_width",
+          "label": "Logo Width",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "74",
+          "options" : {
+            "cssAttr" : "padding",
+            "min" : 0,
+            "max" : 200,
+            "step" : 1
+          },
+          "required" : false
         }
       ]
     },
@@ -97,33 +103,6 @@
       "preview_image" : "global.jpg",
       "content" : {},
       "block_settings": [
-        {
-          "group": "Logo",
-          "settings": [
-            {
-              "id": "logo_image",
-              "label": "Logo Image",
-              "type": "image",
-              "placeholder": "",
-              "value": "http://themes.scsnoopyindustri.netdna-cdn.com/BBT_Builder/Template_Pics/Ultimail/logo_w.png",
-              "required": false
-            },
-            {
-              "id": "logo_width",
-              "label": "Logo Width",
-              "type" : "range",
-              "placeholder" : "0",
-              "value" : "74",
-              "options" : {
-                "cssAttr" : "padding",
-                "min" : 0,
-                "max" : 200,
-                "step" : 1
-              },
-              "required" : false
-            }
-          ]
-        },
         {
           "group": "Background",
           "settings": [
@@ -806,6 +785,14 @@
               "type" : "checkbox",
               "placeholder" : "",
               "value" : true,
+              "required" : false
+            },
+            {
+              "id": "line_color",
+              "label": "Line Color",
+              "type" : "color",
+              "placeholder" : "#08a9fa",
+              "value" : "#08a9fa",
               "required" : false
             }
           ]
