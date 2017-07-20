@@ -644,7 +644,7 @@
               "id": "background_image",
               "label": "Background Image",
               "type": "image",
-              "preferred": "800 x 550",
+              "preferred": "800 x 400",
               "placeholder": "",
               "value": "http://themes.scsnoopyindustri.netdna-cdn.com/BBT_Builder/Template_Pics/Ultimail/bg_01.jpg",
               "required": false
