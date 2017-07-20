@@ -975,6 +975,41 @@
           ]
         },
         {
+          "group": "Content Image",
+          "settings": [
+            {
+              "id": "content_image",
+              "label": "Content Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "http://themes.scsnoopyindustri.netdna-cdn.com/BBT_Builder/Template_Pics/Ultimail/img5.png",
+              "required": false
+            },
+            {
+              "id": "content_image_link",
+              "label": "Content Image Link",
+              "type" : "text",
+              "placeholder" : "#",
+              "value" : "#",
+              "required" : false
+            },
+            {
+              "id": "content_image_width",
+              "label": "Content Image Width",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "210",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 800,
+                "step" : 1
+              },
+              "required" : false
+            }
+          ]
+        },
+        {
           "group" : "Spacing",
           "settings" : [
             {
