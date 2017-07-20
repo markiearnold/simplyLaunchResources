@@ -111,19 +111,6 @@
           ]
         },
         {
-          "group": "Content",
-          "settings": [
-            {
-              "id": "text_color",
-              "label": "Text Color",
-              "type" : "color",
-              "placeholder" : "#ffffff",
-              "value" : "#ffffff",
-              "required" : false
-            }
-          ]
-        },
-        {
           "group": "Link",
           "settings": [
             {
@@ -149,6 +136,47 @@
               "placeholder": "#",
               "value": "#",
               "required": false
+            },
+            {
+              "id": "text_color",
+              "label": "Link Color",
+              "type" : "color",
+              "placeholder" : "#ffffff",
+              "value" : "#ffffff",
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group" : "Spacing",
+          "settings" : [
+            {
+              "id": "top_padding",
+              "label": "Top Padding",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "20",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "bottom_padding",
+              "label": "Bottom Padding",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "20",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
+              "required" : false
             }
           ]
         }
