@@ -633,7 +633,8 @@
       "showOnDefault" : true,
       "preview_image" : "global.jpg",
       "content" : {
-        "text_block" : "<h1 style='font-size:36px;'>Welcome to BelchMail</h1><br/><p style='font-size:16px;'>Build beautiful email newsletters in minutes.</p>"
+        "text_block" : "Welcome to BelchMail",
+        "paragraph_block" : "Build beautiful email newsletters in minutes."
       },
       "block_settings": [
         {
@@ -736,11 +737,24 @@
                 "step" : 1
               },
               "required" : false
+            },
+            {
+              "id": "button_font_size_1",
+              "label": "Button Font Size",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "14",
+              "options" : {
+                "min" : 8,
+                "max" : 40,
+                "step" : 1
+              },
+              "required" : false
             }
           ]
         },
         {
-          "group": "Button #1",
+          "group": "Button #2",
           "settings": [
             {
               "id": "show_button_2",
@@ -827,6 +841,19 @@
               "options" : {
                 "cssAttr" : "padding",
                 "min" : 0,
+                "max" : 40,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "button_font_size_2",
+              "label": "Button Font Size",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "14",
+              "options" : {
+                "min" : 8,
                 "max" : 40,
                 "step" : 1
               },
