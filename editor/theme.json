@@ -171,6 +171,20 @@
               "placeholder" : "#ffffff",
               "value" : "#ffffff",
               "required" : false
+            },
+            {
+              "id": "link_font_size",
+              "label": "Link Font Size",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "10",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 40,
+                "step" : 1
+              },
+              "required" : false
             }
           ]
         },
