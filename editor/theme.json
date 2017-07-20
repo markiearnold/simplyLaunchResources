@@ -627,7 +627,7 @@
             },
             {
               "id": "background_on",
-              "label": "Show Background Image",
+              "label": "Show Bg Image",
               "type" : "checkbox",
               "placeholder" : "",
               "value" : true,
