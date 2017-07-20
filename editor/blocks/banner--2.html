@@ -2,38 +2,31 @@
   <tbody>
     <tr>
       <td>
-        <!--[if gte mso 9]>
-        <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:800px;height:210px;">
-          <v:fill type="tile" color="{{getSetting(block, 'background_color')}}" ></v:fill>
-          <v:textbox inset="0,0,0,0">
-            <![endif]-->
-            <table cellpadding="0" cellspacing="0" border="0">
-              <tbody>
-                <tr>
-                  <td height="{{getSetting(block, 'top_padding')}}"></td>
-                </tr>
-                <tr>
-                  <td class="content" style="width: 800px;">
-                    <table cellspacing="0" cellpadding="0" border="0" width="100%">
-                      <tbody>
-                        <tr>
-                          <td class="padding" style="width: 20px;"></td>
-                          <td class="content_row" align="center" style="width: 760px;"><img linked-image label="Content Image" content="content_image" link="content_image_link" width="{{getSetting(block, 'content_image_width')}}" style="display:block;" border="0" alt="" class=""></td>
-                          <td class="padding" style="width: 20px;"></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </td>
-                </tr>
-                <tr>
-                  <td height="{{getSetting(block, 'bottom_padding')}}"></td>
-                </tr>
-              </tbody>
-            </table>
-            <!--[if gte mso 9]>
-          </v:textbox>
-        </v:rect>
-        <![endif]-->
+        <!-- directive: comment "[if gte mso 9]><v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:800px;height:210px;"><v:fill type="tile" color="{{getSetting(block, 'background_color')}}" ></v:fill><v:textbox inset="0,0,0,0"><![endif]" -->
+        <table cellpadding="0" cellspacing="0" border="0">
+          <tbody>
+            <tr>
+              <td height="{{getSetting(block, 'top_padding')}}"></td>
+            </tr>
+            <tr>
+              <td class="content" style="width: 800px;">
+                <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tbody>
+                    <tr>
+                      <td class="padding" style="width: 20px;"></td>
+                      <td class="content_row" align="center" style="width: 760px;"><img linked-image label="Content Image" content="content_image" link="content_image_link" width="{{getSetting(block, 'content_image_width')}}" style="display:block;" border="0" alt="" class=""></td>
+                      <td class="padding" style="width: 20px;"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td height="{{getSetting(block, 'bottom_padding')}}"></td>
+            </tr>
+          </tbody>
+        </table>
+        <!--[if gte mso 9]></v:textbox></v:rect><![endif]-->
       </td>
     </tr>
   </tbody>
