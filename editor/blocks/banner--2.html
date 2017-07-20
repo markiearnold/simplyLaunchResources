@@ -1,16 +1,16 @@
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper_table"  style="max-width: 800px; background: url(http://themes.scsnoopyindustri.netdna-cdn.com/BBT_Builder/Template_Pics/Ultimail/bg15.jpg) center top / 100% 100% no-repeat rgb(59, 63, 64);">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper_table"  style="max-width: 800px;{{getSetting(block, 'background_color')}};">
   <tbody>
     <tr>
       <td>
         <!--[if gte mso 9]>
         <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:800px;height:210px;">
-          <v:fill type="tile"  src="http://themes.scsnoopyindustri.netdna-cdn.com/BBT_Builder/Template_Pics/Ultimail/bg15.jpg" color="{{getSetting(block, 'dark_color')}}" ></v:fill>
+          <v:fill type="tile" color="{{getSetting(block, 'background_color')}}" ></v:fill>
           <v:textbox inset="0,0,0,0">
             <![endif]-->
             <table cellpadding="0" cellspacing="0" border="0">
               <tbody>
                 <tr>
-                  <td height="90"></td>
+                  <td height="{{getSetting(block, 'top_padding')}}"></td>
                 </tr>
                 <tr>
                   <td class="content" style="width: 800px;">
@@ -18,7 +18,7 @@
                       <tbody>
                         <tr>
                           <td class="padding" style="width: 20px;"></td>
-                          <td class="content_row" align="center" style="width: 760px;"><a href="#" target="_blank" style="text-decoration: none;"><img src="http://themes.scsnoopyindustri.netdna-cdn.com/BBT_Builder/Template_Pics/Ultimail/logo_big.png" width="147" style="display: block;" border="0" alt=""></a></td>
+                          <td class="content_row" align="center" style="width: 760px;"><img linked-image label="Content Image" content="content_image" link="content_image_link" width="{{getSetting(block, 'content_image_width')}}" style="display:block;" border="0" alt="" class=""></td>
                           <td class="padding" style="width: 20px;"></td>
                         </tr>
                       </tbody>
@@ -26,7 +26,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td height="90"></td>
+                  <td height="{{getSetting(block, 'bottom_padding')}}"></td>
                 </tr>
               </tbody>
             </table>

@@ -645,6 +645,20 @@
               "placeholder" : "#",
               "value" : "#",
               "required" : false
+            },
+            {
+              "id": "content_image_width",
+              "label": "Content Image Width",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "268",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 800,
+                "step" : 1
+              },
+              "required" : false
             }
           ]
         },
@@ -693,6 +707,85 @@
       "content" : {},
       "block_settings": [
         {
+          "group": "Background",
+          "settings": [
+            {
+              "id": "background_color",
+              "label": "Background Color",
+              "type" : "color",
+              "placeholder" : "#1f2f50",
+              "value" : "#1f2f50",
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Content Image",
+          "settings": [
+            {
+              "id": "content_image",
+              "label": "Content Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "http://themes.scsnoopyindustri.netdna-cdn.com/BBT_Builder/Template_Pics/Ultimail/logo_big.png",
+              "required": false
+            },
+            {
+              "id": "content_image_link",
+              "label": "Content Image Link",
+              "type" : "text",
+              "placeholder" : "#",
+              "value" : "#",
+              "required" : false
+            },
+            {
+              "id": "content_image_width",
+              "label": "Content Image Width",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "147",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 800,
+                "step" : 1
+              },
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group" : "Spacing",
+          "settings" : [
+            {
+              "id": "top_padding",
+              "label": "Top Padding",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "90",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "bottom_padding",
+              "label": "Bottom Padding",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "90",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
+              "required" : false
+            }
+          ]
         }
       ]
     },
