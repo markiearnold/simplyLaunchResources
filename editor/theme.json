@@ -843,10 +843,32 @@
             },
             {
               "id": "button_color_1",
-              "label": "Button 1 Color",
+              "label": "Button 1 Text",
               "type" : "color",
               "placeholder" : "#ffffff",
               "value" : "#ffffff",
+              "required" : false
+            },
+            {
+              "id": "button_bg_1",
+              "label": "Button 1 Background",
+              "type" : "color",
+              "placeholder" : "#ffffff",
+              "value" : "#ffffff",
+              "required" : false
+            },
+            {
+              "id": "button_border_radius_2",
+              "label": "Button 2 Border Radius",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "6",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 40,
+                "step" : 1
+              },
               "required" : false
             }
           ]
@@ -880,7 +902,7 @@
             },
             {
               "id": "button_color_2",
-              "label": "Button 2 Color",
+              "label": "Button 2 Text",
               "type" : "color",
               "placeholder" : "#ffffff",
               "value" : "#ffffff",
