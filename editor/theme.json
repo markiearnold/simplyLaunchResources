@@ -626,6 +626,14 @@
               "required": false
             },
             {
+              "id": "background_on",
+              "label": "Show Background Image",
+              "type" : "checkbox",
+              "placeholder" : "",
+              "value" : true,
+              "required" : false
+            },
+            {
               "id": "background_color",
               "label": "Background Color",
               "type" : "color",
