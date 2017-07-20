@@ -992,6 +992,34 @@
               "required" : false
             },
             {
+              "id": "content_top_padding",
+              "label": "Content Top",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "20",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "content_bottom_padding",
+              "label": "Content Bottom",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "20",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
               "id": "bottom_padding",
               "label": "Bottom Padding",
               "type" : "range",
