@@ -65,8 +65,8 @@
           "id" : "main_color",
           "label" : "Main Color",
           "type" : "color",
-          "placeholder" : "#08a9fa",
-          "value" : "#08a9fa",
+          "placeholder" : "#d7504b",
+          "value" : "#d7504b",
           "required" : false
         },
         {
@@ -549,8 +549,8 @@
               "id": "button_bg_1",
               "label": "Button 1 Background",
               "type" : "color",
-              "placeholder" : "#08a9fa",
-              "value" : "#08a9fa",
+              "placeholder" : "#d7504b",
+              "value" : "#d7504b",
               "required" : false
             },
             {
@@ -782,8 +782,8 @@
               "id": "line_color",
               "label": "Line Color",
               "type" : "color",
-              "placeholder" : "#08a9fa",
-              "value" : "#08a9fa",
+              "placeholder" : "#d7504b",
+              "value" : "#d7504b",
               "required" : false
             },
             {
@@ -855,8 +855,8 @@
               "id": "button_bg_1",
               "label": "Button 1 Background",
               "type" : "color",
-              "placeholder" : "#08a9fa",
-              "value" : "#08a9fa",
+              "placeholder" : "#d7504b",
+              "value" : "#d7504b",
               "required" : false
             },
             {
