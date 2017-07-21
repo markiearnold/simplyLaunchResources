@@ -1482,13 +1482,13 @@
       "type" : "services--4",
       "order" : 0,
       "multiple" : true,
-      "showOnDefault" : false,
+      "showOnDefault" : true,
       "preview_image" : "global.jpg",
       "content" : {
-        "text_block_1" : "<h3>RESPONSIVE LAYOUT</h3>",
-        "text_block_2" : "<h3>PERFECT CODE</h3>",
-        "text_block_3" : "<h3>AMAZING SUPPORT</h3>",
-        "text_block_4" : "<h3>SUPER FAST</h3>"
+        "text_block_1" : "<h3>RESPONSIVE LAYOUT</h3><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>",
+        "text_block_2" : "<h3>PERFECT CODE</h3><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>",
+        "text_block_3" : "<h3>AMAZING SUPPORT</h3><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>",
+        "text_block_4" : "<h3>SUPER FAST</h3><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>"
       },
       "block_settings": [
         {
