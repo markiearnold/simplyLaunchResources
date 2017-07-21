@@ -1265,7 +1265,7 @@
       "showOnDefault" : true,
       "preview_image" : "global.jpg",
       "content" : {
-        "text_block" : "<h1>CREATIVE HEADING GOES HERE</h2>"
+        "text_block" : "<h2>CREATIVE HEADING GOES HERE</h2>"
       },
       "block_settings": [
         {
