@@ -3459,7 +3459,7 @@
       "showOnDefault" : true,
       "preview_image" : "global.jpg",
       "content" : {
-        "text_block" : "<p style=\"color:#ffffff;\">Copyright &copy; 2017</p>"
+        "text_block" : "<p style=\"color:#999999;\">Copyright &copy; 2017</p>"
       },
       "block_settings": [
         {
