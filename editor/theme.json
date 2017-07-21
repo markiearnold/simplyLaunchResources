@@ -100,7 +100,7 @@
       "order" : 0,
       "multiple" : true,
       "showOnDefault" : true,
-      "preview_image" : "global.jpg",
+      "preview_image" : "nav.png",
       "content" : {},
       "block_settings": [
         {
@@ -208,7 +208,7 @@
       "order" : 0,
       "multiple" : true,
       "showOnDefault" : true,
-      "preview_image" : "global.jpg",
+      "preview_image" : "banner.png",
       "content" : {
         "text_block" : "<h1>Welcome to BelchMail</h1><h6>Build beautiful email newsletters in minutes.</h6>"
       },
@@ -549,7 +549,7 @@
       "order" : 0,
       "multiple" : true,
       "showOnDefault" : true,
-      "preview_image" : "global.jpg",
+      "preview_image" : "heading.png",
       "content" : {
         "text_block" : "<h2>CREATIVE HEADING GOES HERE</h2>"
       },
@@ -608,7 +608,7 @@
       "order" : 0,
       "multiple" : true,
       "showOnDefault" : true,
-      "preview_image" : "global.jpg",
+      "preview_image" : "services.png",
       "content" : {
         "text_block_1" : "<h3><img src=\"https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/img10.png\" alt=\"\" width=\"80\" height=\"80\"><br data-mce-bogus=\"1\"></h3><h3>RESPONSIVE LAYOUT</h3><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>",
         "text_block_2" : "<h3><img src=\"https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/img11.png\" alt=\"\" width=\"80\" height=\"80\"><br data-mce-bogus=\"1\"></h3><h3>PERFECT CODE</h3><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>",
@@ -708,7 +708,7 @@
       "order" : 0,
       "multiple" : true,
       "showOnDefault" : true,
-      "preview_image" : "global.jpg",
+      "preview_image" : "center-content.png",
       "content" : {
         "text_block_centered" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
       },
@@ -767,7 +767,7 @@
       "order" : 0,
       "multiple" : true,
       "showOnDefault" : true,
-      "preview_image" : "global.jpg",
+      "preview_image" : "full-width-content.png",
       "content" : {
         "text_block_full" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
       },
@@ -826,7 +826,7 @@
       "order" : 0,
       "multiple" : true,
       "showOnDefault" : true,
-      "preview_image" : "global.jpg",
+      "preview_image" : "two-column.png",
       "content" : {
         "text_block_col1" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         "text_block_col2" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
@@ -960,7 +960,7 @@
       "order" : 0,
       "multiple" : true,
       "showOnDefault" : true,
-      "preview_image" : "global.jpg",
+      "preview_image" : "two-thirds.png",
       "content" : {
         "text_block_col1" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.",
         "text_block_col2" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
@@ -1034,7 +1034,7 @@
       "order" : 0,
       "multiple" : true,
       "showOnDefault" : true,
-      "preview_image" : "global.jpg",
+      "preview_image" : "three-column.png",
       "content" : {
         "text_block_col1" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         "text_block_col2" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
