@@ -65,8 +65,8 @@
           "id" : "main_color",
           "label" : "Main Color",
           "type" : "color",
-          "placeholder" : "#d7504b",
-          "value" : "#d7504b",
+          "placeholder" : "#06A9FA",
+          "value" : "#06A9FA",
           "required" : false
         },
         {
@@ -222,7 +222,7 @@
               "type": "image",
               "preferred": "800 x 430",
               "placeholder": "",
-              "value": "https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/headerjpg-4.jpeg",
+              "value": "https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/headerjpg-5.jpeg",
               "required": false
             },
             {
@@ -258,8 +258,8 @@
               "id": "line_color",
               "label": "Line Color",
               "type" : "color",
-              "placeholder" : "#d7504b",
-              "value" : "#d7504b",
+              "placeholder" : "#06A9FA",
+              "value" : "#06A9FA",
               "required" : false
             },
             {
@@ -331,8 +331,8 @@
               "id": "button_bg_1",
               "label": "Button 1 Background",
               "type" : "color",
-              "placeholder" : "#d7504b",
-              "value" : "#d7504b",
+              "placeholder" : "#06A9FA",
+              "value" : "#06A9FA",
               "required" : false
             },
             {
