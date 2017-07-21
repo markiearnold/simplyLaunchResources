@@ -1805,9 +1805,58 @@
       "multiple" : true,
       "showOnDefault" : true,
       "preview_image" : "global.jpg",
-      "content" : {},
+      "content" : {
+        "text_block_centered" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      },
       "block_settings": [
         {
+          "group" : "Spacing",
+          "settings" : [
+            {
+              "id": "top_border",
+              "label": "Top Border",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "30",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "top_padding_color",
+              "label": "Top Border Color",
+              "type" : "color",
+              "placeholder" : "#ffffff",
+              "value" : "#ffffff",
+              "required" : false
+            },
+            {
+              "id": "bottom_border",
+              "label": "Bottom Border",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "30",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "bottom_padding_color",
+              "label": "Bottom Border Color",
+              "type" : "color",
+              "placeholder" : "#ffffff",
+              "value" : "#ffffff",
+              "required" : false
+            }
+          ]
         }
       ]
     },
