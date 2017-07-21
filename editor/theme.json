@@ -1508,6 +1508,15 @@
           "group": "Content",
           "settings": [
             {
+              "id" : "grid_number",
+              "label" : "Number of Items",
+              "type" : "select",
+              "placeholder" : "container",
+              "value" : "4",
+              "options" : ["4", "3"],
+              "required" : false
+            },
+            {
               "id": "border_color",
               "label": "Border Color",
               "type" : "color",
