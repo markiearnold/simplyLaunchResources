@@ -955,6 +955,80 @@
       ]
     },
     {
+      "name" : "Content 6",
+      "type" : "content--6",
+      "order" : 0,
+      "multiple" : true,
+      "showOnDefault" : true,
+      "preview_image" : "global.jpg",
+      "content" : {
+        "text_block_col1" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.",
+        "text_block_col2" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      },
+      "block_settings": [
+        {
+          "group" : "Background",
+          "settings" : [
+            {
+              "id": "background_color",
+              "label": "Background Color",
+              "type" : "color",
+              "placeholder" : "#ffffff",
+              "value" : "#ffffff",
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group" : "Content",
+          "settings" : [
+            {
+              "id" : "grid_position",
+              "label" : "Column Position",
+              "type" : "select",
+              "placeholder" : "container",
+              "value" : "One-Quarter/Three-Quarter",
+              "options" : ["One-Quarter/Three-Quarter", "Three-Quarter/One-Quarter"],
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group" : "Spacing",
+          "settings" : [
+            {
+              "id": "top_border",
+              "label": "Top Padding",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "15",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "bottom_border",
+              "label": "Bottom Padding",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "15",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
+              "required" : false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name" : "Content 4",
       "type" : "content--4",
       "order" : 0,
