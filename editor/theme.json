@@ -3534,7 +3534,7 @@
       "type" : "copyright--1",
       "order" : 0,
       "multiple" : true,
-      "showOnDefault" : true,
+      "showOnDefault" : false,
       "preview_image" : "global.jpg",
       "content" : {},
       "block_settings": [
