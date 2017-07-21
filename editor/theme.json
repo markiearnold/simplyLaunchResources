@@ -1024,8 +1024,8 @@
       "preview_image" : "global.jpg",
       "content" : {
         "text_block_col1" : "<img src=\"https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/grid1a.png\" alt=\"\" width=\"240\" height=\"180\">",
-        "text_block_col2" : "<img src=\"https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/grid2a.png\" alt=\"\" width=\"240\" height=\"180\">",
-        "text_block_col3" : "<img src=\"https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/grid3a.png\" alt=\"\" width=\"240\" height=\"180\">"
+        "text_block_col2" : "<img src=\"https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/grid1b.png\" alt=\"\" width=\"240\" height=\"180\">",
+        "text_block_col3" : "<img src=\"https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/grid1c.png\" alt=\"\" width=\"240\" height=\"180\">"
       },
       "block_settings": [
         {
