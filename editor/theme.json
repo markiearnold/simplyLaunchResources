@@ -1810,6 +1810,19 @@
       },
       "block_settings": [
         {
+          "group" : "Background",
+          "settings" : [
+            {
+              "id": "background_color",
+              "label": "Background Color",
+              "type" : "color",
+              "placeholder" : "#ffffff",
+              "value" : "#ffffff",
+              "required" : false
+            }
+          ]
+        }
+        {
           "group" : "Spacing",
           "settings" : [
             {
