@@ -744,9 +744,9 @@
               "id": "background_image",
               "label": "Background Image",
               "type": "image",
-              "preferred": "800 x 400",
+              "preferred": "800 x 430",
               "placeholder": "",
-              "value": "https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/headerjpg-3.jpeg",
+              "value": "https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/headerjpg-4.jpeg",
               "required": false
             },
             {
