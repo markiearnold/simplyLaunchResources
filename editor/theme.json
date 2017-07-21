@@ -255,6 +255,14 @@
               "required" : false
             },
             {
+              "id": "show_line",
+              "label": "Show Line",
+              "type" : "checkbox",
+              "placeholder" : "",
+              "value" : true,
+              "required" : false
+            },
+            {
               "id": "line_color",
               "label": "Line Color",
               "type" : "color",
