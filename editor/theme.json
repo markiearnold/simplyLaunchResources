@@ -734,7 +734,7 @@
       "showOnDefault" : true,
       "preview_image" : "global.jpg",
       "content" : {
-        "text_block" : "<h1>Welcome to BelchMail</h1><br/><h6>Build beautiful email newsletters in minutes.</h6>"
+        "text_block" : "<h1>Welcome to BelchMail</h1><h6>Build beautiful email newsletters in minutes.</h6>"
       },
       "block_settings": [
         {
