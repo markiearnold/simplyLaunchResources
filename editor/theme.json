@@ -2042,10 +2042,61 @@
       "type" : "grid--1",
       "order" : 0,
       "multiple" : true,
-      "showOnDefault" : false,
+      "showOnDefault" : true,
       "preview_image" : "global.jpg",
-      "content" : {},
-      "block_settings": []
+      "content" : {
+        "text_block_col1" : "<img src=\"https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/img32.png\" alt=\"\" width=\"240\" height=\"180\">",
+        "text_block_col2" : "<img src=\"https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/img33.png\" alt=\"\" width=\"240\" height=\"180\">",
+        "text_block_col3" : "<img src=\"https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/img34.png\" alt=\"\" width=\"240\" height=\"180\">"
+      },
+      "block_settings": [
+        {
+          "group" : "Background",
+          "settings" : [
+            {
+              "id": "background_color",
+              "label": "Background Color",
+              "type" : "color",
+              "placeholder" : "#ffffff",
+              "value" : "#ffffff",
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group" : "Spacing",
+          "settings" : [
+            {
+              "id": "top_border",
+              "label": "Top Padding",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "30",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "bottom_border",
+              "label": "Bottom Padding",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "30",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
+              "required" : false
+            }
+          ]
+        }
+      ]
     },
     {
       "name" : "Grid 2",
