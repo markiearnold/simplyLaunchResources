@@ -793,6 +793,20 @@
               "placeholder" : "#08a9fa",
               "value" : "#08a9fa",
               "required" : false
+            },
+            {
+              "id": "button_spacer",
+              "label": "Button Spacer",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "20",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 250,
+                "step" : 1
+              },
+              "required" : false
             }
           ]
         },
