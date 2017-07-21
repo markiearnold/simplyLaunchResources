@@ -1297,6 +1297,27 @@
           ]
         },
         {
+          "group" : "Content",
+          "settings" : [
+            {
+              "id" : "show_footer_logo",
+              "label" : "Show Footer Logo",
+              "type" : "checkbox",
+              "placeholder" : "",
+              "value" : true,
+              "required" : false
+            },
+            {
+              "id" : "show_footer_text",
+              "label" : "Show Footer Text",
+              "type" : "checkbox",
+              "placeholder" : "",
+              "value" : true,
+              "required" : false
+            }
+          ]
+        },
+        {
           "group" : "Spacing",
           "settings" : [
             {
