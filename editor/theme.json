@@ -140,7 +140,7 @@
               "label": "Link Url",
               "type": "text",
               "placeholder": "#",
-              "value": "#",
+              "value": "{{ view_as_page_url }}",
               "required": false
             },
             {
