@@ -3458,7 +3458,9 @@
       "multiple" : true,
       "showOnDefault" : true,
       "preview_image" : "global.jpg",
-      "content" : {},
+      "content" : {
+        "text_block" : "Copyright &copy; 2017"
+      },
       "block_settings": [
         {
           "group" : "Background",
