@@ -1534,7 +1534,7 @@
               "label": "Top Border",
               "type" : "range",
               "placeholder" : "0",
-              "value" : "30",
+              "value" : "0",
               "options" : {
                 "cssAttr" : "padding",
                 "min" : 0,
