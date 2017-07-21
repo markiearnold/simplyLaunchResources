@@ -1821,7 +1821,7 @@
               "required" : false
             }
           ]
-        }
+        },
         {
           "group" : "Spacing",
           "settings" : [
