@@ -110,8 +110,8 @@
               "id": "background_color",
               "label": "Background Color",
               "type" : "color",
-              "placeholder" : "#3b3f40",
-              "value" : "#3b3f40",
+              "placeholder" : "#343437",
+              "value" : "#343437",
               "required" : false
             }
           ]
@@ -3469,8 +3469,8 @@
               "id": "background_color",
               "label": "Background Color",
               "type" : "color",
-              "placeholder" : "#3b3f40",
-              "value" : "#3b3f40",
+              "placeholder" : "#343437",
+              "value" : "#343437",
               "required" : false
             }
           ]
