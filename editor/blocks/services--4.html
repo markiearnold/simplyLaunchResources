@@ -1,14 +1,35 @@
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper_table" style="width: 800px;">
+<style id="belch-compile">
+  h3 {
+    font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif;
+    font-size: 16px;
+    color: {{getSetting(block, "dark_color")}};
+    line-height: 16px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  p {
+    font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif;
+    font-size: 12px;
+    color: {{getSetting(block, "dark_color")}};
+    line-height: 20px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: none;
+  }
+</style>
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper_table" style="width: 800px;background:{{getSetting(block, 'top_padding_color')}};" bgcolor="{{getSetting(block, 'top_padding_color')}}">
   <tbody>
     <tr>
-      <td align="center" width="100%" height="30"  class="section_h"></td>
+      <td align="center" width="100%" height="{{getSetting(block, 'top_padding')}}"  class="section_h"></td>
     </tr>
   </tbody>
 </table>
 <table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper_table" style="width: 800px;">
   <tbody>
     <tr>
-      <td align="center" bgcolor="#ffffff" >
+      <td align="center" bgcolor="{{getSetting(block, 'background_color')}}" >
         <table cellspacing="0" cellpadding="0" border="0">
           <tbody>
             <tr>
@@ -17,27 +38,17 @@
                   <tbody>
                     <tr>
                       <td class="padding" style="width: 25px;"></td>
-                      <td class="content_row" align="center"  style="width: 750px; border-bottom-color: #ebebeb; border-bottom-width: 1px; border-bottom-style: solid;">
+                      <td class="content_row" align="center"  style="width: 750px; border-bottom-color: {{getSetting(block, 'border_color')}}; border-bottom-width: 1px; border-bottom-style: solid;">
                         <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" class="mobile_centered_table">
                           <tbody>
                             <tr>
-                              <td class="one_half" valign="top" align="center" width="360" bgcolor="#ffffff" >
+                              <td class="one_half" valign="top" align="center" width="360" bgcolor="{{getSetting(block, 'background_color')}}" >
                                 <table cellspacing="0" cellpadding="0" border="0" width="100%">
                                   <tbody>
                                     <tr>
-                                      <td align="center"><a href=""><img src="http://themes.scsnoopyindustri.netdna-cdn.com/BBT_Builder/Template_Pics/Ultimail/img10.png" width="80" border="0" style="display: block;" alt=""></a></td>
-                                    </tr>
-                                    <tr>
-                                      <td height="15" class="space_class" style="line-height: 1px; font-size: 1px;">&nbsp;</td>
-                                    </tr>
-                                    <tr>
-                                      <td class="text_center"  style="font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif; line-height: 16px; font-size: 16px; color: {{getSetting(block, 'dark_color')}}; font-weight: 700; text-align: center; text-transform: uppercase;" align="center"><span class="black_text" > RESPONSIVE LAYOUT </span></td>
-                                    </tr>
-                                    <tr>
-                                      <td height="5" class="space_class" style="line-height: 1px; font-size: 1px;">&nbsp;</td>
-                                    </tr>
-                                    <tr>
-                                      <td class="black_text"  align="center"style="font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif; font-size: 12px; color: #63676e; line-height: 20px; font-weight: 400; text-align: center;">Lorem ipsum dolor sit amet,<span class="noresponsive"><br></span>consectetuer adipiscing elit, sed diam<span class="noresponsive"><br></span>nonummy nibh euismod tincidunt ut<span class="noresponsive"><br></span>laoreet dolore.   </td>
+                                      <td class="text_center"  style="font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif; line-height: 16px; font-size: 16px; color: {{getSetting(block, 'dark_color')}}; font-weight: 700; text-align: center; text-transform: uppercase;" align="center">
+                                        <div class="black_text" rich-block label="Heading" content="text_block_1"></div>
+                                      </td>
                                     </tr>
                                     <tr>
                                       <td height="20"></td>
@@ -45,25 +56,15 @@
                                   </tbody>
                                 </table>
                               </td>
-                              <td class="nomobile" width="10"  style="border-right-width: 1px; border-right-color: #ebebeb; border-right-style: solid;"></td>
+                              <td class="nomobile" width="10"  style="border-right-width: 1px; border-right-color: {{getSetting(block, 'border_color')}}; border-right-style: solid;"></td>
                               <td class="nomobile" width="10"></td>
-                              <td class="one_half" valign="top" align="center" width="360" bgcolor="#ffffff" >
+                              <td class="one_half" valign="top" align="center" width="360" bgcolor="{{getSetting(block, 'background_color')}}" >
                                 <table cellspacing="0" cellpadding="0" border="0" width="100%">
                                   <tbody>
                                     <tr>
-                                      <td align="center"><a href=""><img src="http://themes.scsnoopyindustri.netdna-cdn.com/BBT_Builder/Template_Pics/Ultimail/img11.png" width="80" border="0" style="display: block;" alt=""></a></td>
-                                    </tr>
-                                    <tr>
-                                      <td height="15" class="space_class" style="line-height: 1px; font-size: 1px;">&nbsp;</td>
-                                    </tr>
-                                    <tr>
-                                      <td class="text_center"  style="font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif; line-height: 16px; font-size: 16px; color: {{getSetting(block, 'dark_color')}}; font-weight: 700; text-align: center; text-transform: uppercase;" align="center"><span class="black_text" >perfect code </span></td>
-                                    </tr>
-                                    <tr>
-                                      <td height="5" class="space_class" style="line-height: 1px; font-size: 1px;">&nbsp;</td>
-                                    </tr>
-                                    <tr>
-                                      <td class="black_text"  align="center"style="font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif; font-size: 12px; color: #63676e; line-height: 20px; font-weight: 400; text-align: center;">Lorem ipsum dolor sit amet,<span class="noresponsive"><br></span>consectetuer adipiscing elit, sed diam<span class="noresponsive"><br></span>nonummy nibh euismod tincidunt ut<span class="noresponsive"><br></span>laoreet dolore.</td>
+                                      <td class="text_center"  style="font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif; line-height: 16px; font-size: 16px; color: {{getSetting(block, 'dark_color')}}; font-weight: 700; text-align: center; text-transform: uppercase;" align="center">
+                                        <div class="black_text" rich-block label="Heading" content="text_block_2"></div>
+                                      </td>
                                     </tr>
                                     <tr>
                                       <td height="20"></td>
@@ -90,7 +91,7 @@
 <table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper_table" style="width: 800px;">
   <tbody>
     <tr>
-      <td align="center" bgcolor="#ffffff" >
+      <td align="center" bgcolor="{{getSetting(block, 'background_color')}}" >
         <table cellspacing="0" cellpadding="0" border="0">
           <tbody>
             <tr>
@@ -103,52 +104,32 @@
                         <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" class="mobile_centered_table">
                           <tbody>
                             <tr>
-                              <td class="one_half" valign="top" align="center" width="360" bgcolor="#ffffff" >
+                              <td class="one_half" valign="top" align="center" width="360" bgcolor="{{getSetting(block, 'background_color')}}" >
                                 <table cellspacing="0" cellpadding="0" border="0" width="100%">
                                   <tbody>
                                     <tr>
                                       <td height="20"></td>
                                     </tr>
                                     <tr>
-                                      <td align="center"><a href="#"><img src="http://themes.scsnoopyindustri.netdna-cdn.com/BBT_Builder/Template_Pics/Ultimail/img12.png" width="80" border="0" style="display: block;" alt=""></a></td>
-                                    </tr>
-                                    <tr>
-                                      <td height="15" class="space_class" style="line-height: 1px; font-size: 1px;">&nbsp;</td>
-                                    </tr>
-                                    <tr>
-                                      <td class="text_center"  style="font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif; line-height: 16px; font-size: 16px; color: {{getSetting(block, 'dark_color')}}; font-weight: 700; text-align: center; text-transform: uppercase;" align="center"><span class="black_text" > amazing support </span></td>
-                                    </tr>
-                                    <tr>
-                                      <td height="5" class="space_class" style="line-height: 1px; font-size: 1px;">&nbsp;</td>
-                                    </tr>
-                                    <tr>
-                                      <td class="black_text"  align="center"style="font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif; font-size: 12px; color: #63676e; line-height: 20px; font-weight: 400; text-align: center;">Lorem ipsum dolor sit amet,<span class="noresponsive"><br></span>consectetuer adipiscing elit, sed diam<span class="noresponsive"><br></span>nonummy nibh euismod tincidunt ut<span class="noresponsive"><br></span>laoreet dolore.</td>
+                                      <td class="text_center"  style="font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif; line-height: 16px; font-size: 16px; color: {{getSetting(block, 'dark_color')}}; font-weight: 700; text-align: center; text-transform: uppercase;" align="center">
+                                        <div class="black_text" rich-block label="Heading" content="text_block_3"></div>
+                                      </td>
                                     </tr>
                                   </tbody>
                                 </table>
                               </td>
-                              <td class="nomobile" width="10"  style="border-right-width: 1px; border-right-color: #ebebeb; border-right-style: solid;"></td>
+                              <td class="nomobile" width="10"  style="border-right-width: 1px; border-right-color: {{getSetting(block, 'border_color')}}; border-right-style: solid;"></td>
                               <td class="nomobile" width="10"></td>
-                              <td class="one_half" valign="top" align="center" width="360" bgcolor="#ffffff" >
+                              <td class="one_half" valign="top" align="center" width="360" bgcolor="{{getSetting(block, 'background_color')}}" >
                                 <table cellspacing="0" cellpadding="0" border="0" width="100%">
                                   <tbody>
                                     <tr>
                                       <td height="20"></td>
                                     </tr>
                                     <tr>
-                                      <td align="center"><a href="#"><img src="http://themes.scsnoopyindustri.netdna-cdn.com/BBT_Builder/Template_Pics/Ultimail/img22.png" width="80" border="0" style="display: block;" alt=""></a></td>
-                                    </tr>
-                                    <tr>
-                                      <td height="15" class="space_class" style="line-height: 1px; font-size: 1px;">&nbsp;</td>
-                                    </tr>
-                                    <tr>
-                                      <td class="text_center"  style="font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif; line-height: 16px; font-size: 16px; color: {{getSetting(block, 'dark_color')}}; font-weight: 700; text-align: center; text-transform: uppercase;" align="center"><span class="black_text" > super fast </span></td>
-                                    </tr>
-                                    <tr>
-                                      <td height="5" class="space_class" style="line-height: 1px; font-size: 1px;">&nbsp;</td>
-                                    </tr>
-                                    <tr>
-                                      <td class="black_text"  align="center"style="font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif; font-size: 12px; color: #63676e; line-height: 20px; font-weight: 400; text-align: center;">Lorem ipsum dolor sit amet,<span class="noresponsive"><br></span>consectetuer adipiscing elit, sed diam<span class="noresponsive"><br></span>nonummy nibh euismod tincidunt ut<span class="noresponsive"><br></span>laoreet dolore.</td>
+                                      <td class="text_center"  style="font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif; line-height: 16px; font-size: 16px; color: {{getSetting(block, 'dark_color')}}; font-weight: 700; text-align: center; text-transform: uppercase;" align="center">
+                                        <div class="black_text" rich-block label="Heading" content="text_block_4"></div>
+                                      </td>
                                     </tr>
                                   </tbody>
                                 </table>
@@ -169,10 +150,10 @@
     </tr>
   </tbody>
 </table>
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper_table" style="width: 800px;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper_table" style="width: 800px;background:{{getSetting(block, 'bottom_padding_color')}};" bgcolor="{{getSetting(block, 'bottom_padding_color')}}">
   <tbody>
     <tr>
-      <td align="center" width="100%" height="30"  class="section_h"></td>
+      <td align="center" width="100%" height="{{getSetting(block, 'bottom_padding')}}"  class="section_h"></td>
     </tr>
   </tbody>
 </table>

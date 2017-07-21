@@ -1484,9 +1484,87 @@
       "multiple" : true,
       "showOnDefault" : false,
       "preview_image" : "global.jpg",
-      "content" : {},
+      "content" : {
+        "text_block_1" : "<h3>RESPONSIVE LAYOUT</h3>",
+        "text_block_2" : "<h3>PERFECT CODE</h3>",
+        "text_block_3" : "<h3>AMAZING SUPPORT</h3>",
+        "text_block_4" : "<h3>SUPER FAST</h3>"
+      },
       "block_settings": [
         {
+          "group": "Background",
+          "settings": [
+            {
+              "id": "background_color",
+              "label": "Background Color",
+              "type" : "color",
+              "placeholder" : "#ffffff",
+              "value" : "#ffffff",
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group": "Content",
+          "settings": [
+            {
+              "id": "border_color",
+              "label": "Border Color",
+              "type" : "color",
+              "placeholder" : "#ebebeb",
+              "value" : "#ebebeb",
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group" : "Spacing",
+          "settings" : [
+            {
+              "id": "top_padding",
+              "label": "Top Border",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "30",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "top_padding_color",
+              "label": "Top Border Color",
+              "type" : "color",
+              "placeholder" : "#ffffff",
+              "value" : "#ffffff",
+              "required" : false
+            },
+            {
+              "id": "bottom_padding",
+              "label": "Bottom Border",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "30",
+              "options" : {
+                "cssAttr" : "padding",
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "bottom_padding_color",
+              "label": "Bottom Border Color",
+              "type" : "color",
+              "placeholder" : "#ffffff",
+              "value" : "#ffffff",
+              "required" : false
+            }
+          ]
         }
       ]
     },
