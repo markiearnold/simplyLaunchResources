@@ -1,4 +1,4 @@
-<style type="text/css" class="belch-compile">
+<style type="text/css" class="belch-compile belch-email-global">
   @font-face {
   font-family: 'Open Sans'; font-style: normal; font-weight: 400; src: local('Open Sans'), local('OpenSans'), url('http://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3aCWcynf_cDxXwCLxiixG1c.ttf') format('truetype');
   }
@@ -363,5 +363,52 @@
   }
   table#nobg {background-image: none !important;
   }
+  }
+</style>
+
+<style type="text/css" class="belch-compile">
+  h1 {
+    font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif;
+    font-size: 36px;
+    line-height: 34px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+  h2 {
+    font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif;
+    font-size: 20px;
+    color: {{getSetting(block, "dark_color")}};
+    line-height: 22px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  h3 {
+    font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif;
+    font-size: 16px;
+    color: {{getSetting(block, "dark_color")}};
+    line-height: 16px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  h6 {
+    font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif;
+    font-size: 16px;
+    line-height: 34px;
+    color: #ffffff;
+    font-weight: 400;
+    margin: 5px 0;
+  }
+  p {
+    font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif;
+    font-size: 12px;
+    color: {{getSetting(block, "dark_color")}};
+    line-height: 20px !important;
+    text-align: center;
+    font-weight: 400;
+    text-transform: none;
   }
 </style>
