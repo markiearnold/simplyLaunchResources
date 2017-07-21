@@ -2056,7 +2056,7 @@
       "preview_image" : "global.jpg",
       "content" : {
         "text_block_col1" : "<img src=\"https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/img32.png\" alt=\"\" width=\"370\" height=\"270\">",
-        "text_block_col2" : "<img src=\"https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/img33.png\" alt=\"\" width=\"370\" height=\"270\">",
+        "text_block_col2" : "<img src=\"https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/img33.png\" alt=\"\" width=\"370\" height=\"270\">"
       },
       "block_settings": [
         {
