@@ -1827,7 +1827,7 @@
           "settings" : [
             {
               "id": "top_border",
-              "label": "Top Border",
+              "label": "Top Padding",
               "type" : "range",
               "placeholder" : "0",
               "value" : "30",
@@ -1837,19 +1837,11 @@
                 "max" : 200,
                 "step" : 1
               },
-              "required" : false
-            },
-            {
-              "id": "top_padding_color",
-              "label": "Top Border Color",
-              "type" : "color",
-              "placeholder" : "#ffffff",
-              "value" : "#ffffff",
               "required" : false
             },
             {
               "id": "bottom_border",
-              "label": "Bottom Border",
+              "label": "Bottom Padding",
               "type" : "range",
               "placeholder" : "0",
               "value" : "30",
@@ -1859,14 +1851,6 @@
                 "max" : 200,
                 "step" : 1
               },
-              "required" : false
-            },
-            {
-              "id": "bottom_padding_color",
-              "label": "Bottom Border Color",
-              "type" : "color",
-              "placeholder" : "#ffffff",
-              "value" : "#ffffff",
               "required" : false
             }
           ]
