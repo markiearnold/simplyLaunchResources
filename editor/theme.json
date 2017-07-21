@@ -1485,10 +1485,10 @@
       "showOnDefault" : true,
       "preview_image" : "global.jpg",
       "content" : {
-        "text_block_1" : "<h3>RESPONSIVE LAYOUT</h3><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>",
-        "text_block_2" : "<h3>PERFECT CODE</h3><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>",
-        "text_block_3" : "<h3>AMAZING SUPPORT</h3><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>",
-        "text_block_4" : "<h3>SUPER FAST</h3><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>"
+        "text_block_1" : "<h3><img src=\"https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/img10.png\" alt=\"\" width=\"80\" height=\"80\"><br data-mce-bogus=\"1\"></h3><h3>RESPONSIVE LAYOUT</h3><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>",
+        "text_block_2" : "<h3><img src=\"https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/img11.png\" alt=\"\" width=\"80\" height=\"80\"><br data-mce-bogus=\"1\"></h3><h3>PERFECT CODE</h3><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>",
+        "text_block_3" : "<h3><img src=\"https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/img12.png\" alt=\"\" width=\"80\" height=\"80\"><br data-mce-bogus=\"1\"></h3><h3>AMAZING SUPPORT</h3><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>",
+        "text_block_4" : "<h3><img src=\"https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/img22.png\" alt=\"\" width=\"80\" height=\"80\"><br data-mce-bogus=\"1\"></h3><h3>SUPER FAST</h3><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>"
       },
       "block_settings": [
         {
