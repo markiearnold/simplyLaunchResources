@@ -95,7 +95,7 @@
       ]
     },
     {
-      "name" : "Nav 20",
+      "name" : "Nav",
       "type" : "nav--20",
       "order" : 0,
       "multiple" : true,
@@ -703,7 +703,7 @@
       ]
     },
     {
-      "name" : "Content 1",
+      "name" : "Centered Full Width",
       "type" : "content--1",
       "order" : 0,
       "multiple" : true,
@@ -762,7 +762,7 @@
       ]
     },
     {
-      "name" : "Content 2",
+      "name" : "Full Width",
       "type" : "content--2",
       "order" : 0,
       "multiple" : true,
@@ -821,7 +821,7 @@
       ]
     },
     {
-      "name" : "Content 3",
+      "name" : "Two Column",
       "type" : "content--3",
       "order" : 0,
       "multiple" : true,
@@ -833,7 +833,7 @@
       },
       "block_settings": [
         {
-          "group" : "Background",
+          "group" : "Two Column Content",
           "settings" : [
             {
               "id": "background_color",
@@ -881,7 +881,7 @@
       ]
     },
     {
-      "name" : "Content 5",
+      "name" : "One Quarter/Three Quarter",
       "type" : "content--5",
       "order" : 0,
       "multiple" : true,
@@ -955,7 +955,7 @@
       ]
     },
     {
-      "name" : "Content 6",
+      "name" : "One Third/Two Third",
       "type" : "content--6",
       "order" : 0,
       "multiple" : true,
@@ -1029,7 +1029,7 @@
       ]
     },
     {
-      "name" : "Content 4",
+      "name" : "Three Column",
       "type" : "content--4",
       "order" : 0,
       "multiple" : true,
@@ -1090,7 +1090,7 @@
       ]
     },
     {
-      "name" : "Grid 1",
+      "name" : "Three Column Grid",
       "type" : "grid--1",
       "order" : 0,
       "multiple" : true,
@@ -1151,7 +1151,7 @@
       ]
     },
     {
-      "name" : "Grid 2",
+      "name" : "Two Column Grid",
       "type" : "grid--2",
       "order" : 0,
       "multiple" : true,
@@ -1211,7 +1211,7 @@
       ]
     },
     {
-      "name" : "Grid 3",
+      "name" : "Four Column Grid",
       "type" : "grid--3",
       "order" : 0,
       "multiple" : true,
