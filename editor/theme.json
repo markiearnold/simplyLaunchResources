@@ -47,7 +47,7 @@
           "label": "Logo Width",
           "type" : "range",
           "placeholder" : "0",
-          "value" : "74",
+          "value" : "100",
           "options" : {
             "cssAttr" : "padding",
             "min" : 0,
