@@ -987,8 +987,8 @@
               "label" : "Column Position",
               "type" : "select",
               "placeholder" : "container",
-              "value" : "One-Quarter/Three-Quarter",
-              "options" : ["One-Quarter/Three-Quarter", "Three-Quarter/One-Quarter"],
+              "value" : "One-Third/Two-Third",
+              "options" : ["One-Third/Two-Third", "Two-Third/One-Third"],
               "required" : false
             }
           ]
