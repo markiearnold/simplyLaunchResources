@@ -886,7 +886,7 @@
       "order" : 0,
       "multiple" : true,
       "showOnDefault" : true,
-      "preview_image" : "global.jpg",
+      "preview_image" : "one-four.png",
       "content" : {
         "text_block_col1" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.",
         "text_block_col2" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
@@ -1095,7 +1095,7 @@
       "order" : 0,
       "multiple" : true,
       "showOnDefault" : true,
-      "preview_image" : "global.jpg",
+      "preview_image" : "3-grid.png",
       "content" : {
         "text_block_col1" : "<img src=\"https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/grid1a.png\" alt=\"\" width=\"240\" height=\"180\">",
         "text_block_col2" : "<img src=\"https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/grid1b.png\" alt=\"\" width=\"240\" height=\"180\">",
@@ -1156,7 +1156,7 @@
       "order" : 0,
       "multiple" : true,
       "showOnDefault" : true,
-      "preview_image" : "global.jpg",
+      "preview_image" : "2-grid.png",
       "content" : {
         "text_block_col1" : "<img src=\"https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/grid2a-1.png\" alt=\"\" width=\"370\" height=\"270\">",
         "text_block_col2" : "<img src=\"https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/grid2b.png\" alt=\"\" width=\"370\" height=\"270\">"
@@ -1216,7 +1216,7 @@
       "order" : 0,
       "multiple" : true,
       "showOnDefault" : true,
-      "preview_image" : "global.jpg",
+      "preview_image" : "4-grid.png",
       "content" : {
         "text_block_col1" : "<img src=\"https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/grid3a-1.png\" alt=\"\" width=\"175\" height=\"130\">",
         "text_block_col2" : "<img src=\"https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/grid3b.png\" alt=\"\" width=\"175\" height=\"130\">",
@@ -1278,7 +1278,7 @@
       "order" : 0,
       "multiple" : true,
       "showOnDefault" : true,
-      "preview_image" : "global.jpg",
+      "preview_image" : "footer.png",
       "content" : {
         "text_block" : "<p style=\"color:#999999;\">Copyright &copy; 2017</p>"
       },
