@@ -987,7 +987,7 @@
               "label" : "Column Position",
               "type" : "select",
               "placeholder" : "container",
-              "value" : "One-Third/Two-Third",
+              "value" : "Two-Third/One-Third",
               "options" : ["One-Third/Two-Third", "Two-Third/One-Third"],
               "required" : false
             }
