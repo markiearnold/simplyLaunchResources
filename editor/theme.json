@@ -380,7 +380,7 @@
               "label": "Button 2 Label",
               "type": "text",
               "placeholder": "Read More",
-              "value": "Ready More",
+              "value": "Read More",
               "required": false
             },
             {
