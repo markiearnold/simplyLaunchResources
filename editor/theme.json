@@ -1803,7 +1803,7 @@
       "type" : "content--1",
       "order" : 0,
       "multiple" : true,
-      "showOnDefault" : false,
+      "showOnDefault" : true,
       "preview_image" : "global.jpg",
       "content" : {},
       "block_settings": [
@@ -1816,7 +1816,7 @@
       "type" : "content--2",
       "order" : 0,
       "multiple" : true,
-      "showOnDefault" : false,
+      "showOnDefault" : true,
       "preview_image" : "global.jpg",
       "content" : {},
       "block_settings": [
@@ -1829,7 +1829,7 @@
       "type" : "content--3",
       "order" : 0,
       "multiple" : true,
-      "showOnDefault" : false,
+      "showOnDefault" : true,
       "preview_image" : "global.jpg",
       "content" : {},
       "block_settings": [
@@ -1842,7 +1842,7 @@
       "type" : "content--4",
       "order" : 0,
       "multiple" : true,
-      "showOnDefault" : false,
+      "showOnDefault" : true,
       "preview_image" : "global.jpg",
       "content" : {},
       "block_settings": [
