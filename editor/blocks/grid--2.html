@@ -21,9 +21,9 @@
                         <table class="mobile_centered_table" cellspacing="0" cellpadding="0" border="0">
                           <tbody>
                             <tr>
-                              <td class="one_half" valign="middle" align="center" width="370"><div class="black_text" rich-block label="Content Block 1" content="text_block_col1"></div></td>
+                              <td class="one_half" valign="{{getSetting(block, 'col1_vertical_align')}}" align="center" width="370" style="vertical-align:{{getSetting(block, 'col1_vertical_align')}};"><div class="black_text" rich-block label="Content Block 1" content="text_block_col1"></div></td>
                               <td width="20" class="nomobile"></td>
-                              <td class="one_half" valign="middle" align="center" width="370"><div class="black_text" rich-block label="Content Block 2" content="text_block_col2"></div></td>
+                              <td class="one_half" valign="{{getSetting(block, 'col2_vertical_align')}}" align="center" width="370" style="vertical-align:{{getSetting(block, 'col2_vertical_align')}};"><div class="black_text" rich-block label="Content Block 2" content="text_block_col2"></div></td>
                             </tr>
                           </tbody>
                         </table>
