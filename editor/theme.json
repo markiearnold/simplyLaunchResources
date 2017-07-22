@@ -37,27 +37,6 @@
       ]
     },
     {
-      "group" : "Colors",
-      "settings" : [
-        {
-          "id" : "main_color",
-          "label" : "Main Color",
-          "type" : "color",
-          "placeholder" : "#06A9FA",
-          "value" : "#06A9FA",
-          "required" : false
-        },
-        {
-          "id" : "dark_color",
-          "label" : "Dark Color",
-          "type" : "color",
-          "placeholder" : "#3b3f40",
-          "value" : "#3b3f40",
-          "required" : false
-        }
-      ]
-    },
-    {
       "group" : "Buttons",
       "settings" : [
         {
