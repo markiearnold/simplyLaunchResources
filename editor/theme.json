@@ -348,8 +348,8 @@
           "id": "p_color",
           "label": "Paragraph Color",
           "type" : "color",
-          "placeholder" : "#ffffff",
-          "value" : "#ffffff",
+          "placeholder" : "#3b3f40",
+          "value" : "#3b3f40",
           "required" : false
         },
         {
