@@ -369,46 +369,47 @@
 <style type="text/css" class="belch-compile">
   h1 {
     font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif;
-    font-size: 36px;
-    line-height: 34px;
-    color: #ffffff;
-    font-weight: bold;
-    text-transform: uppercase;
+    font-size: {{getSetting(block, 'h1_font_size')}}px;
+    line-height: {{getSetting(block, 'h1_line_height')}}px;
+    color: {{getSetting(block, 'h1_color')}};
+    font-weight: {{getSetting(block, 'h1_font_weight')}};
+    text-transform: {{getSetting(block, 'h1_transform')}};
     margin-bottom: 0;
   }
   h2 {
     font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif;
-    font-size: 20px;
-    color: {{getSetting(block, "dark_color")}};
-    line-height: 22px;
+    font-size: {{getSetting(block, 'h2_font_size')}}px;
+    color: {{getSetting(block, "h2_color")}};
+    line-height: {{getSetting(block, "h2_line_height")}}px;
     text-align: center;
-    font-weight: 700;
-    text-transform: uppercase;
+    font-weight: {{getSetting(block, "h2_font_weight")}};
+    text-transform: {{getSetting(block, 'h2_transform')}};
   }
   h3 {
     font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif;
-    font-size: 16px;
-    color: {{getSetting(block, "dark_color")}};
-    line-height: 16px;
+    font-size: {{getSetting(block, 'h3_font_size')}}px;
+    color: {{getSetting(block, "h3_color")}};
+    line-height: {{getSetting(block, "h3_light_height")}}px;
     text-align: center;
-    font-weight: 700;
-    text-transform: uppercase;
+    font-weight: {{getSetting(block, "h3_font_weight")}};
+    text-transform: {{getSetting(block, "h3_transform")}};
   }
   h6 {
     font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif;
-    font-size: 16px;
-    line-height: 34px;
-    color: #ffffff;
-    font-weight: 400;
+    font-size: {{getSetting(block, 'h6_font_size')}}px;
+    line-height: {{getSetting(block, 'h6_line_height')}}px;
+    color: {{getSetting(block, 'h6_color')}};
+    font-weight: {{getSetting(block, 'h6_font_weight')}};
+    font-weight: {{getSetting(block, 'h6_transform')}};
     margin: 5px 0;
   }
   p {
     font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif;
-    font-size: 12px;
-    color: {{getSetting(block, "dark_color")}};
-    line-height: 20px !important;
+    font-size: {{getSetting(block, 'p_font_size')}}px;
+    color: {{getSetting(block, "p_color")}};
+    line-height: {{getSetting(block, 'p_line_height')}}px !important;
     text-align: center;
-    font-weight: 400;
-    text-transform: none;
+    font-weight: {{getSetting(block, 'p_font_weight')}};
+    text-transform: {{getSetting(block, 'p_transform')}};
   }
 </style>

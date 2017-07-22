@@ -11,27 +11,6 @@
   },
   "settings":[
     {
-      "group" : "Menu",
-      "settings" : [
-        {
-          "id" : "main_nav",
-          "label" : "Main Navigation",
-          "type" : "menu",
-          "placeholder" : "default",
-          "value" : "default",
-          "required" : false
-        },
-        {
-          "id" : "show_main_nav",
-          "label" : "Show Main Nav",
-          "type" : "checkbox",
-          "placeholder" : "",
-          "value" : true,
-          "required" : false
-        }
-      ]
-    },
-    {
       "group" : "Logo",
       "settings" : [
         {
@@ -75,6 +54,311 @@
           "type" : "color",
           "placeholder" : "#3b3f40",
           "value" : "#3b3f40",
+          "required" : false
+        }
+      ]
+    },
+    {
+      "group" : "Typography: H1",
+      "settings" : [
+        {
+          "id": "h1_font_size",
+          "label": "H1 Font Size",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "36",
+          "options" : {
+            "min" : 0,
+            "max" : 60,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id": "h1_line_height",
+          "label": "H1 Line Height",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "34",
+          "options" : {
+            "min" : 0,
+            "max" : 80,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id": "h1_font_weight",
+          "label": "H1 Font Weight",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "800",
+          "options" : {
+            "min" : 300,
+            "max" : 800,
+            "step" : 100
+          },
+          "required" : false
+        },
+        {
+          "id": "h1_color",
+          "label": "H1 Color",
+          "type" : "color",
+          "placeholder" : "#ffffff",
+          "value" : "#ffffff",
+          "required" : false
+        },
+        {
+          "id" : "h1_transform",
+          "label" : "H1 Text Transform",
+          "type" : "select",
+          "placeholder" : "uppercase",
+          "value" : "uppercase",
+          "options" : ["uppercase", "capitalize", "lowercase", "none"],
+          "required" : false
+        }
+      ]
+    },
+    {
+      "group" : "Typography: H2",
+      "settings" : [
+        {
+          "id": "h2_font_size",
+          "label": "H2 Font Size",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "20",
+          "options" : {
+            "min" : 0,
+            "max" : 60,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id": "h2_line_height",
+          "label": "H2 Line Height",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "22",
+          "options" : {
+            "min" : 0,
+            "max" : 80,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id": "h2_font_weight",
+          "label": "H2 Font Weight",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "700",
+          "options" : {
+            "min" : 300,
+            "max" : 800,
+            "step" : 100
+          },
+          "required" : false
+        },
+        {
+          "id": "h2_color",
+          "label": "H2 Color",
+          "type" : "color",
+          "placeholder" : "#3b3f40",
+          "value" : "#3b3f40",
+          "required" : false
+        },
+        {
+          "id" : "h2_transform",
+          "label" : "H2 Text Transform",
+          "type" : "select",
+          "placeholder" : "uppercase",
+          "value" : "uppercase",
+          "options" : ["uppercase", "capitalize", "lowercase", "none"],
+          "required" : false
+        }
+      ]
+    },
+    {
+      "group" : "Typography: H3",
+      "settings" : [
+        {
+          "id": "h3_font_size",
+          "label": "H3 Font Size",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "16",
+          "options" : {
+            "min" : 0,
+            "max" : 60,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id": "h3_line_height",
+          "label": "H3 Line Height",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "16",
+          "options" : {
+            "min" : 0,
+            "max" : 80,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id": "h3_font_weight",
+          "label": "H3 Font Weight",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "700",
+          "options" : {
+            "min" : 300,
+            "max" : 800,
+            "step" : 100
+          },
+          "required" : false
+        },
+        {
+          "id": "h3_color",
+          "label": "H3 Color",
+          "type" : "color",
+          "placeholder" : "#3b3f40",
+          "value" : "#3b3f40",
+          "required" : false
+        },
+        {
+          "id" : "h3_transform",
+          "label" : "H3 Text Transform",
+          "type" : "select",
+          "placeholder" : "uppercase",
+          "value" : "uppercase",
+          "options" : ["uppercase", "capitalize", "lowercase", "none"],
+          "required" : false
+        }
+      ]
+    },
+    {
+      "group" : "Typography: H6",
+      "settings" : [
+        {
+          "id": "h6_font_size",
+          "label": "H6 Font Size",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "16",
+          "options" : {
+            "min" : 0,
+            "max" : 60,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id": "h6_line_height",
+          "label": "H6 Line Height",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "16",
+          "options" : {
+            "min" : 0,
+            "max" : 80,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id": "h6_font_weight",
+          "label": "H6 Font Weight",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "400",
+          "options" : {
+            "min" : 300,
+            "max" : 800,
+            "step" : 100
+          },
+          "required" : false
+        },
+        {
+          "id": "h6_color",
+          "label": "H6 Color",
+          "type" : "color",
+          "placeholder" : "#ffffff",
+          "value" : "#ffffff",
+          "required" : false
+        },
+        {
+          "id" : "h6_transform",
+          "label" : "H6 Text Transform",
+          "type" : "select",
+          "placeholder" : "none",
+          "value" : "none",
+          "options" : ["uppercase", "capitalize", "lowercase", "none"],
+          "required" : false
+        }
+      ]
+    },
+    {
+      "group" : "Typography: Paragraph",
+      "settings" : [
+        {
+          "id": "p_font_size",
+          "label": "Paragraph Font Size",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "12",
+          "options" : {
+            "min" : 0,
+            "max" : 60,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id": "p_line_height",
+          "label": "Paragraph Line Height",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "20",
+          "options" : {
+            "min" : 0,
+            "max" : 80,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id": "p_font_weight",
+          "label": "Paragraph Font Weight",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "400",
+          "options" : {
+            "min" : 300,
+            "max" : 800,
+            "step" : 100
+          },
+          "required" : false
+        },
+        {
+          "id": "p_color",
+          "label": "Paragraph Color",
+          "type" : "color",
+          "placeholder" : "#ffffff",
+          "value" : "#ffffff",
+          "required" : false
+        },
+        {
+          "id" : "p_transform",
+          "label" : "Paragraph Text Transform",
+          "type" : "select",
+          "placeholder" : "none",
+          "value" : "none",
+          "options" : ["uppercase", "capitalize", "lowercase", "none"],
           "required" : false
         }
       ]
