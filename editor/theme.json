@@ -944,6 +944,47 @@
           ]
         },
         {
+          "group" : "Alignment",
+          "settings" : [
+            {
+              "id" : "col1_vertical_align",
+              "label" : "Col1 Vertical Align",
+              "type" : "select",
+              "placeholder" : "middle",
+              "value" : "middle",
+              "options" : ["top", "middle", "bottom", "baseline"],
+              "required" : false
+            },
+            {
+              "id" : "col2_vertical_align",
+              "label" : "Col2 Vertical Align",
+              "type" : "select",
+              "placeholder" : "middle",
+              "value" : "middle",
+              "options" : ["top", "middle", "bottom", "baseline"],
+              "required" : false
+            },
+            {
+              "id" : "col3_vertical_align",
+              "label" : "Col3 Vertical Align",
+              "type" : "select",
+              "placeholder" : "middle",
+              "value" : "middle",
+              "options" : ["top", "middle", "bottom", "baseline"],
+              "required" : false
+            },
+            {
+              "id" : "col4_vertical_align",
+              "label" : "Col4 Vertical Align",
+              "type" : "select",
+              "placeholder" : "middle",
+              "value" : "middle",
+              "options" : ["top", "middle", "bottom", "baseline"],
+              "required" : false
+            }
+          ]
+        },
+        {
           "group" : "Spacing",
           "settings" : [
             {
@@ -1709,6 +1750,15 @@
             {
               "id" : "col3_vertical_align",
               "label" : "Col3 Vertical Align",
+              "type" : "select",
+              "placeholder" : "middle",
+              "value" : "middle",
+              "options" : ["top", "middle", "bottom", "baseline"],
+              "required" : false
+            },
+            {
+              "id" : "col4_vertical_align",
+              "label" : "Col4 Vertical Align",
               "type" : "select",
               "placeholder" : "middle",
               "value" : "middle",
