@@ -1019,20 +1019,6 @@
           ]
         },
         {
-          "group" : "Alignment",
-          "settings" : [
-            {
-              "id" : "vertical_align",
-              "label" : "Vertical Align",
-              "type" : "select",
-              "placeholder" : "middle",
-              "value" : "middle",
-              "options" : ["top", "middle", "bottom", "baseline"],
-              "required" : false
-            }
-          ]
-        },
-        {
           "group" : "Spacing",
           "settings" : [
             {
@@ -1147,6 +1133,29 @@
               "type" : "color",
               "placeholder" : "#ffffff",
               "value" : "#ffffff",
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group" : "Alignment",
+          "settings" : [
+            {
+              "id" : "col1_vertical_align",
+              "label" : "Col1 Vertical Align",
+              "type" : "select",
+              "placeholder" : "middle",
+              "value" : "middle",
+              "options" : ["top", "middle", "bottom", "baseline"],
+              "required" : false
+            },
+            {
+              "id" : "col2_vertical_align",
+              "label" : "Col2 Vertical Align",
+              "type" : "select",
+              "placeholder" : "middle",
+              "value" : "middle",
+              "options" : ["top", "middle", "bottom", "baseline"],
               "required" : false
             }
           ]
