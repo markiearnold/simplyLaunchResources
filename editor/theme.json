@@ -1019,6 +1019,20 @@
           ]
         },
         {
+          "group" : "Alignment",
+          "settings" : [
+            {
+              "id" : "vertical_align",
+              "label" : "Vertical Align",
+              "type" : "select",
+              "placeholder" : "middle",
+              "value" : "middle",
+              "options" : ["top", "middle", "bottom", "baseline"],
+              "required" : false
+            }
+          ]
+        },
+        {
           "group" : "Spacing",
           "settings" : [
             {
