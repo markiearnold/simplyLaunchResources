@@ -414,15 +414,19 @@
   }
   .belch-theme-button {
     font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif;
-    font-size: 14px;
-    color: {{getSetting(block, 'main_color')}};
+    font-size: {{getSetting(block, "main_btn_font_size")}}px;
+    background: {{getSetting(block, 'main_btn_background')}};
     text-align: center;
-    text-transform: uppercase;
-    font-weight: 400;
+    text-transform: {{getSetting(block, 'main_btn_transform')}};
+    font-weight: {{getSetting(block, 'main_btn_font_weight')}};
     text-decoration: none;
-    color: #ffffff;
+    color: {{getSetting(block, 'main_btn_color')}};
     width: auto;
-    line-height: 35px;
+    line-height: {{getSetting(block, 'main_btn_line_height')}}px;
     display: inline-block;
+    padding: 0 {{getSetting(block, 'main_btn_padding')}}px;
+    border-radius: {{getSetting(block, 'main_btn_radius')}}px;
+    -moz-border-radius: {{getSetting(block, 'main_btn_radius')}}px;
+    -webkit-border-radius: {{getSetting(block, 'main_btn_radius')}}px;
   }
 </style>
