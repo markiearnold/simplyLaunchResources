@@ -37,7 +37,7 @@
       ]
     },
     {
-      "group" : "Buttons",
+      "group" : "WYSISYG Buttons",
       "settings" : [
         {
           "id" : "main_btn_font_size",
