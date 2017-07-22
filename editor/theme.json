@@ -1239,7 +1239,7 @@
           "settings" : [
             {
               "id" : "col1_vertical_align",
-              "label" : "Col1 Vertical Align",
+              "label" : "1/4 Vertical Align",
               "type" : "select",
               "placeholder" : "middle",
               "value" : "middle",
@@ -1248,7 +1248,7 @@
             },
             {
               "id" : "col2_vertical_align",
-              "label" : "Col2 Vertical Align",
+              "label" : "3/4 Vertical Align",
               "type" : "select",
               "placeholder" : "middle",
               "value" : "middle",
@@ -1336,7 +1336,7 @@
           "settings" : [
             {
               "id" : "col1_vertical_align",
-              "label" : "Col1 Vertical Align",
+              "label" : "1/3 Vertical Align",
               "type" : "select",
               "placeholder" : "middle",
               "value" : "middle",
@@ -1345,7 +1345,7 @@
             },
             {
               "id" : "col2_vertical_align",
-              "label" : "Col2 Vertical Align",
+              "label" : "2/3 Vertical Align",
               "type" : "select",
               "placeholder" : "middle",
               "value" : "middle",
