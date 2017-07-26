@@ -53,12 +53,16 @@
           "required" : false
         },
         {
-          "id" : "main_btn_transform",
-          "label" : "Button Transform",
-          "type" : "select",
-          "placeholder" : "uppercase",
-          "value" : "uppercase",
-          "options" : ["uppercase", "capitalize", "lowercase", "none"],
+          "id" : "main_btn_letter_spacing",
+          "label" : "Button Letter Spacing",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "0",
+          "options" : {
+            "min" : 0,
+            "max" : 10,
+            "step" : 1
+          },
           "required" : false
         },
         {
@@ -148,20 +152,24 @@
           "required" : false
         },
         {
+          "id" : "h1_letter_spacing",
+          "label" : "H1 Letter Spacing",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "0",
+          "options" : {
+            "min" : 0,
+            "max" : 10,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
           "id": "h1_color",
           "label": "H1 Color",
           "type" : "color",
           "placeholder" : "#ffffff",
           "value" : "#ffffff",
-          "required" : false
-        },
-        {
-          "id" : "h1_transform",
-          "label" : "H1 Text Transform",
-          "type" : "select",
-          "placeholder" : "uppercase",
-          "value" : "uppercase",
-          "options" : ["uppercase", "capitalize", "lowercase", "none"],
           "required" : false
         }
       ]
@@ -209,20 +217,24 @@
           "required" : false
         },
         {
+          "id" : "h2_letter_spacing",
+          "label" : "H2 Letter Spacing",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "0",
+          "options" : {
+            "min" : 0,
+            "max" : 10,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
           "id": "h2_color",
           "label": "H2 Color",
           "type" : "color",
           "placeholder" : "#3b3f40",
           "value" : "#3b3f40",
-          "required" : false
-        },
-        {
-          "id" : "h2_transform",
-          "label" : "H2 Text Transform",
-          "type" : "select",
-          "placeholder" : "uppercase",
-          "value" : "uppercase",
-          "options" : ["uppercase", "capitalize", "lowercase", "none"],
           "required" : false
         }
       ]
@@ -270,20 +282,154 @@
           "required" : false
         },
         {
+          "id" : "h3_letter_spacing",
+          "label" : "H3 Letter Spacing",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "0",
+          "options" : {
+            "min" : 0,
+            "max" : 10,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
           "id": "h3_color",
           "label": "H3 Color",
           "type" : "color",
           "placeholder" : "#3b3f40",
           "value" : "#3b3f40",
           "required" : false
+        }
+      ]
+    },
+    {
+      "group" : "Typography: H4",
+      "settings" : [
+        {
+          "id": "h4_font_size",
+          "label": "H4 Font Size",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "14",
+          "options" : {
+            "min" : 0,
+            "max" : 60,
+            "step" : 1
+          },
+          "required" : false
         },
         {
-          "id" : "h3_transform",
-          "label" : "H3 Text Transform",
-          "type" : "select",
-          "placeholder" : "uppercase",
-          "value" : "uppercase",
-          "options" : ["uppercase", "capitalize", "lowercase", "none"],
+          "id": "h4_line_height",
+          "label": "H4 Line Height",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "14",
+          "options" : {
+            "min" : 0,
+            "max" : 80,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id": "h4_font_weight",
+          "label": "H4 Font Weight",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "700",
+          "options" : {
+            "min" : 300,
+            "max" : 800,
+            "step" : 100
+          },
+          "required" : false
+        },
+        {
+          "id" : "h4_letter_spacing",
+          "label" : "H4 Letter Spacing",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "0",
+          "options" : {
+            "min" : 0,
+            "max" : 10,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id": "h4_color",
+          "label": "H4 Color",
+          "type" : "color",
+          "placeholder" : "#3b3f40",
+          "value" : "#3b3f40",
+          "required" : false
+        }
+      ]
+    },
+    {
+      "group" : "Typography: H5",
+      "settings" : [
+        {
+          "id": "h5_font_size",
+          "label": "H5 Font Size",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "12",
+          "options" : {
+            "min" : 0,
+            "max" : 60,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id": "h5_line_height",
+          "label": "H5 Line Height",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "12",
+          "options" : {
+            "min" : 0,
+            "max" : 80,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id": "h5_font_weight",
+          "label": "H5 Font Weight",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "700",
+          "options" : {
+            "min" : 300,
+            "max" : 800,
+            "step" : 100
+          },
+          "required" : false
+        },
+        {
+          "id" : "h5_letter_spacing",
+          "label" : "H5 Letter Spacing",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "0",
+          "options" : {
+            "min" : 0,
+            "max" : 10,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
+          "id": "h5_color",
+          "label": "H5 Color",
+          "type" : "color",
+          "placeholder" : "#3b3f40",
+          "value" : "#3b3f40",
           "required" : false
         }
       ]
@@ -331,20 +477,24 @@
           "required" : false
         },
         {
+          "id" : "h6_letter_spacing",
+          "label" : "H6 Letter Spacing",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "0",
+          "options" : {
+            "min" : 0,
+            "max" : 10,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
           "id": "h6_color",
           "label": "H6 Color",
           "type" : "color",
           "placeholder" : "#ffffff",
           "value" : "#ffffff",
-          "required" : false
-        },
-        {
-          "id" : "h6_transform",
-          "label" : "H6 Text Transform",
-          "type" : "select",
-          "placeholder" : "none",
-          "value" : "none",
-          "options" : ["uppercase", "capitalize", "lowercase", "none"],
           "required" : false
         }
       ]
@@ -392,20 +542,24 @@
           "required" : false
         },
         {
+          "id" : "p_letter_spacing",
+          "label" : "Letter Spacing",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "0",
+          "options" : {
+            "min" : 0,
+            "max" : 10,
+            "step" : 1
+          },
+          "required" : false
+        },
+        {
           "id": "p_color",
           "label": "Paragraph Color",
           "type" : "color",
           "placeholder" : "#3b3f40",
           "value" : "#3b3f40",
-          "required" : false
-        },
-        {
-          "id" : "p_transform",
-          "label" : "Paragraph Text Transform",
-          "type" : "select",
-          "placeholder" : "none",
-          "value" : "none",
-          "options" : ["uppercase", "capitalize", "lowercase", "none"],
           "required" : false
         }
       ]
@@ -667,19 +821,6 @@
               "required": false
             },
             {
-              "id": "button_width_1",
-              "label": "Button 1 Width",
-              "type" : "range",
-              "placeholder" : "0",
-              "value" : "110",
-              "options" : {
-                "min" : 0,
-                "max" : 250,
-                "step" : 1
-              },
-              "required" : false
-            },
-            {
               "id": "button_color_1",
               "label": "Button 1 Text",
               "type" : "color",
@@ -696,19 +837,6 @@
               "required" : false
             },
             {
-              "id": "button_border_radius_1",
-              "label": "Button 1 Border Radius",
-              "type" : "range",
-              "placeholder" : "0",
-              "value" : "4",
-              "options" : {
-                "min" : 0,
-                "max" : 40,
-                "step" : 1
-              },
-              "required" : false
-            },
-            {
               "id": "button_font_size_1",
               "label": "Button Font Size",
               "type" : "range",
@@ -716,6 +844,71 @@
               "value" : "14",
               "options" : {
                 "min" : 8,
+                "max" : 40,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id" : "button_line_height_1",
+              "label" : "Button Line Height",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "35",
+              "options" : {
+                "min" : 0,
+                "max" : 80,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id" : "button_font_weight_1",
+              "label" : "Button Font Weight",
+              "type" : "range",
+              "placeholder" : "400",
+              "value" : "400",
+              "options" : {
+                "min" : 300,
+                "max" : 800,
+                "step" : 100
+              },
+              "required" : false
+            },
+            {
+              "id" : "button_letter_spacing_1",
+              "label" : "Button Letter Spacing",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "0",
+              "options" : {
+                "min" : 0,
+                "max" : 10,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "button_width_1",
+              "label": "Button 1 Width",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "110",
+              "options" : {
+                "min" : 0,
+                "max" : 250,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "button_border_radius_1",
+              "label": "Button 1 Border Radius",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "4",
+              "options" : {
+                "min" : 0,
                 "max" : 40,
                 "step" : 1
               },
@@ -751,19 +944,6 @@
               "required": false
             },
             {
-              "id": "button_width_2",
-              "label": "Button 2 Width",
-              "type" : "range",
-              "placeholder" : "0",
-              "value" : "115",
-              "options" : {
-                "min" : 0,
-                "max" : 250,
-                "step" : 1
-              },
-              "required" : false
-            },
-            {
               "id": "button_color_2",
               "label": "Button 2 Text",
               "type" : "color",
@@ -793,19 +973,6 @@
               "required" : false
             },
             {
-              "id": "button_border_radius_2",
-              "label": "Button 2 Border Radius",
-              "type" : "range",
-              "placeholder" : "0",
-              "value" : "4",
-              "options" : {
-                "min" : 0,
-                "max" : 40,
-                "step" : 1
-              },
-              "required" : false
-            },
-            {
               "id": "button_font_size_2",
               "label": "Button Font Size",
               "type" : "range",
@@ -813,6 +980,71 @@
               "value" : "14",
               "options" : {
                 "min" : 8,
+                "max" : 40,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id" : "button_line_height_2",
+              "label" : "Button Line Height",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "35",
+              "options" : {
+                "min" : 0,
+                "max" : 80,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id" : "button_font_weight_2",
+              "label" : "Button Font Weight",
+              "type" : "range",
+              "placeholder" : "400",
+              "value" : "400",
+              "options" : {
+                "min" : 300,
+                "max" : 800,
+                "step" : 100
+              },
+              "required" : false
+            },
+            {
+              "id" : "button_letter_spacing_2",
+              "label" : "Button Letter Spacing",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "0",
+              "options" : {
+                "min" : 0,
+                "max" : 10,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "button_width_2",
+              "label": "Button 2 Width",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "115",
+              "options" : {
+                "min" : 0,
+                "max" : 250,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "button_border_radius_2",
+              "label": "Button 2 Border Radius",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "4",
+              "options" : {
+                "min" : 0,
                 "max" : 40,
                 "step" : 1
               },
