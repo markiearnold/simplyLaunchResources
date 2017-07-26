@@ -1036,6 +1036,19 @@
                 "step" : 1
               },
               "required" : false
+            },
+            {
+              "id" : "button_spacer_2",
+              "label" : "Button Left Spacer",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "0",
+              "options" : {
+                "min" : 0,
+                "max" : 20,
+                "step" : 1
+              },
+              "required" : false
             }
           ]
         },
