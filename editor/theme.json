@@ -777,19 +777,6 @@
               "placeholder" : "#06A9FA",
               "value" : "#06A9FA",
               "required" : false
-            },
-            {
-              "id": "button_spacer",
-              "label": "Button Spacer",
-              "type" : "range",
-              "placeholder" : "0",
-              "value" : "20",
-              "options" : {
-                "min" : 0,
-                "max" : 20,
-                "step" : 1
-              },
-              "required" : false
             }
           ]
         },
