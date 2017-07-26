@@ -11,32 +11,6 @@
   },
   "settings":[
     {
-      "group" : "Logo",
-      "settings" : [
-        {
-          "id": "logo_image",
-          "label": "Logo Image",
-          "type": "image",
-          "placeholder": "",
-          "value": "https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/white_logo_54png.png",
-          "required": false
-        },
-        {
-          "id": "logo_width",
-          "label": "Logo Width",
-          "type" : "range",
-          "placeholder" : "0",
-          "value" : "100",
-          "options" : {
-            "min" : 0,
-            "max" : 200,
-            "step" : 1
-          },
-          "required" : false
-        }
-      ]
-    },
-    {
       "group" : "WYSISYG Buttons",
       "settings" : [
         {
@@ -469,6 +443,32 @@
               "type" : "color",
               "placeholder" : "#2B2E33",
               "value" : "#2B2E33",
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group" : "Logo",
+          "settings" : [
+            {
+              "id": "logo_image",
+              "label": "Logo Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/white_logo_54png.png",
+              "required": false
+            },
+            {
+              "id": "logo_width",
+              "label": "Logo Width",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "100",
+              "options" : {
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
               "required" : false
             }
           ]
@@ -1860,6 +1860,32 @@
               "type" : "color",
               "placeholder" : "#2B2E33",
               "value" : "#2B2E33",
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group" : "Logo",
+          "settings" : [
+            {
+              "id": "logo_image",
+              "label": "Logo Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/white_logo_54png.png",
+              "required": false
+            },
+            {
+              "id": "logo_width",
+              "label": "Logo Width",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "100",
+              "options" : {
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
               "required" : false
             }
           ]
