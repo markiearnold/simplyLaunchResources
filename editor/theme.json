@@ -1041,7 +1041,7 @@
               "id" : "button_spacer_2",
               "label" : "Button Left Spacer",
               "type" : "range",
-              "placeholder" : "0",
+              "placeholder" : "20",
               "value" : "20",
               "options" : {
                 "min" : 0,
