@@ -367,17 +367,19 @@
 </style>
 
 <style type="text/css" class="belch-compile">
+  body {
+    font-family: {{getSetting(block, 'fallback_font')}}
+  }
   h1 {
-    font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif;
     font-size: {{getSetting(block, 'h1_font_size')}}px;
     line-height: {{getSetting(block, 'h1_line_height')}}px !important;
     color: {{getSetting(block, 'h1_color')}};
     font-weight: {{getSetting(block, 'h1_font_weight')}};
     letter-spacing: {{getSetting(block, 'h1_letter_spacing')}};
     text-transform: none;
+    {{getSetting(block, 'h1_font_family')}}
   }
   h2 {
-    font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif;
     font-size: {{getSetting(block, 'h2_font_size')}}px;
     color: {{getSetting(block, "h2_color")}};
     line-height: {{getSetting(block, "h2_line_height")}}px !important;
@@ -385,9 +387,9 @@
     font-weight: {{getSetting(block, "h2_font_weight")}};
     letter-spacing: {{getSetting(block, 'h2_letter_spacing')}};
     text-transform: none;
+    {{getSetting(block, 'h2_font_family')}}
   }
   h3 {
-    font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif;
     font-size: {{getSetting(block, 'h3_font_size')}}px;
     color: {{getSetting(block, "h3_color")}};
     line-height: {{getSetting(block, "h3_line_height")}}px !important;
@@ -395,9 +397,9 @@
     font-weight: {{getSetting(block, "h3_font_weight")}};
     letter-spacing: {{getSetting(block, 'h3_letter_spacing')}};
     text-transform: none;
+    {{getSetting(block, 'h3_font_family')}}
   }
   h4 {
-    font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif;
     font-size: {{getSetting(block, 'h4_font_size')}}px;
     color: {{getSetting(block, "h4_color")}};
     line-height: {{getSetting(block, "h4_line_height")}}px !important;
@@ -405,9 +407,9 @@
     font-weight: {{getSetting(block, "h4_font_weight")}};
     letter-spacing: {{getSetting(block, 'h4_letter_spacing')}};
     text-transform: none;
+    {{getSetting(block, 'h4_font_family')}}
   }
   h5 {
-    font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif;
     font-size: {{getSetting(block, 'h5_font_size')}}px;
     color: {{getSetting(block, "h5_color")}};
     line-height: {{getSetting(block, "h5_line_height")}}px !important;
@@ -415,18 +417,18 @@
     font-weight: {{getSetting(block, "h5_font_weight")}};
     letter-spacing: {{getSetting(block, 'h5_letter_spacing')}};
     text-transform: none;
+    {{getSetting(block, 'h5_font_family')}}
   }
   h6 {
-    font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif;
     font-size: {{getSetting(block, 'h6_font_size')}}px;
     line-height: {{getSetting(block, 'h6_line_height')}}px !important;
     color: {{getSetting(block, 'h6_color')}};
     font-weight: {{getSetting(block, 'h6_font_weight')}};
     letter-spacing: {{getSetting(block, 'h6_letter_spacing')}};
     text-transform: none;
+    {{getSetting(block, 'h6_font_family')}}
   }
   p {
-    font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif;
     font-size: {{getSetting(block, 'p_font_size')}}px;
     color: {{getSetting(block, "p_color")}};
     line-height: {{getSetting(block, 'p_line_height')}}px !important;
@@ -434,9 +436,9 @@
     font-weight: {{getSetting(block, 'p_font_weight')}};
     letter-spacing: {{getSetting(block, 'p_letter_spacing')}};
     text-transform: none;
+    {{getSetting(block, 'p_font_family')}}
   }
   .belch-theme-button {
-    font-family: 'Montserrat',Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial, sans-serif;
     font-size: {{getSetting(block, "main_btn_font_size")}}px;
     background: {{getSetting(block, 'main_btn_background')}};
     text-align: center;
@@ -452,5 +454,6 @@
     border-radius: {{getSetting(block, 'main_btn_radius')}}px;
     -moz-border-radius: {{getSetting(block, 'main_btn_radius')}}px;
     -webkit-border-radius: {{getSetting(block, 'main_btn_radius')}}px;
+    {{getSetting(block, 'main_btn_font_family')}}
   }
 </style>

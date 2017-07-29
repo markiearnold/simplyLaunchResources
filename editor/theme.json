@@ -66,6 +66,14 @@
           "required" : false
         },
         {
+          "id": "main_btn_font_family",
+          "label": "Font Family",
+          "type": "text",
+          "placeholder": "font-family: 'Montserrat', sans-serif;",
+          "value": "font-family: 'Montserrat', sans-serif;",
+          "required": false
+        },
+        {
           "id" : "main_btn_background",
           "label" : "Button Background",
           "type" : "color",
@@ -105,6 +113,28 @@
             "max" : 50,
             "step" : 1
           },
+          "required" : false
+        }
+      ]
+    },
+    {
+      "group" : "Custom Fonts",
+      "settings" : [
+        {
+          "id": "google_font",
+          "label": "Google Fonts",
+          "type": "text",
+          "placeholder": "@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700');",
+          "value": "@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700');",
+          "required": false
+        },
+        {
+          "id": "fallback_font",
+          "label": "Fallback Fonts",
+          "type" : "select",
+          "placeholder" : "container",
+          "value" : "Arial, Helvetica, sans-serif",
+          "options" : ["Arial, Helvetica, sans-serif", "Georgia, Garamond, serif"],
           "required" : false
         }
       ]
@@ -163,6 +193,14 @@
             "step" : 1
           },
           "required" : false
+        },
+        {
+          "id": "h1_font_family",
+          "label": "H1 Font Family",
+          "type": "text",
+          "placeholder": "font-family: 'Montserrat', sans-serif;",
+          "value": "font-family: 'Montserrat', sans-serif;",
+          "required": false
         },
         {
           "id": "h1_color",
@@ -230,6 +268,14 @@
           "required" : false
         },
         {
+          "id": "h2_font_family",
+          "label": "H2 Font Family",
+          "type": "text",
+          "placeholder": "font-family: 'Montserrat', sans-serif;",
+          "value": "font-family: 'Montserrat', sans-serif;",
+          "required": false
+        },
+        {
           "id": "h2_color",
           "label": "H2 Color",
           "type" : "color",
@@ -293,6 +339,14 @@
             "step" : 1
           },
           "required" : false
+        },
+        {
+          "id": "h3_font_family",
+          "label": "H3 Font Family",
+          "type": "text",
+          "placeholder": "font-family: 'Montserrat', sans-serif;",
+          "value": "font-family: 'Montserrat', sans-serif;",
+          "required": false
         },
         {
           "id": "h3_color",
@@ -360,6 +414,14 @@
           "required" : false
         },
         {
+          "id": "h4_font_family",
+          "label": "H4 Font Family",
+          "type": "text",
+          "placeholder": "font-family: 'Open Sans', sans-serif;",
+          "value": "font-family: 'Open Sans', sans-serif;",
+          "required": false
+        },
+        {
           "id": "h4_color",
           "label": "H4 Color",
           "type" : "color",
@@ -423,6 +485,14 @@
             "step" : 1
           },
           "required" : false
+        },
+        {
+          "id": "h5_font_family",
+          "label": "H5 Font Family",
+          "type": "text",
+          "placeholder": "font-family: 'Open Sans', sans-serif;",
+          "value": "font-family: 'Open Sans', sans-serif;",
+          "required": false
         },
         {
           "id": "h5_color",
@@ -490,6 +560,14 @@
           "required" : false
         },
         {
+          "id": "h6_font_family",
+          "label": "H6 Font Family",
+          "type": "text",
+          "placeholder": "font-family: 'Open Sans', sans-serif;",
+          "value": "font-family: 'Open Sans', sans-serif;",
+          "required": false
+        },
+        {
           "id": "h6_color",
           "label": "H6 Color",
           "type" : "color",
@@ -504,7 +582,7 @@
       "settings" : [
         {
           "id": "p_font_size",
-          "label": "Paragraph Font Size",
+          "label": "Font Size",
           "type" : "range",
           "placeholder" : "0",
           "value" : "12",
@@ -517,7 +595,7 @@
         },
         {
           "id": "p_line_height",
-          "label": "Paragraph Line Height",
+          "label": "Line Height",
           "type" : "range",
           "placeholder" : "0",
           "value" : "20",
@@ -530,7 +608,7 @@
         },
         {
           "id": "p_font_weight",
-          "label": "Paragraph Font Weight",
+          "label": "Font Weight",
           "type" : "range",
           "placeholder" : "0",
           "value" : "400",
@@ -553,6 +631,14 @@
             "step" : 1
           },
           "required" : false
+        },
+        {
+          "id": "p_font_family",
+          "label": "Font Family",
+          "type": "text",
+          "placeholder": "font-family: 'Open Sans', sans-serif;",
+          "value": "font-family: 'Open Sans', sans-serif;",
+          "required": false
         },
         {
           "id": "p_color",
