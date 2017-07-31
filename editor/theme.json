@@ -1769,7 +1769,7 @@
               "label": "Top Padding",
               "type" : "range",
               "placeholder" : "0",
-              "value" : "120",
+              "value" : "15",
               "options" : {
                 "min" : 0,
                 "max" : 200,
@@ -1782,7 +1782,7 @@
               "label": "Bottom Padding",
               "type" : "range",
               "placeholder" : "0",
-              "value" : "125",
+              "value" : "15",
               "options" : {
                 "min" : 0,
                 "max" : 200,
