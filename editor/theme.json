@@ -1437,15 +1437,15 @@
               "label": "Show Bg Image",
               "type" : "checkbox",
               "placeholder" : "",
-              "value" : true,
+              "value" : false,
               "required" : false
             },
             {
               "id": "background_color",
               "label": "Background Color",
               "type" : "color",
-              "placeholder" : "#3d424d",
-              "value" : "#3d424d",
+              "placeholder" : "#EC644B",
+              "value" : "#EC644B",
               "required" : false
             }
           ]
