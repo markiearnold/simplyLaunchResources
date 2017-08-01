@@ -2424,6 +2424,79 @@
           ]
         },
         {
+          "group" : "Spacing",
+          "settings" : [
+            {
+              "id": "top_padding",
+              "label": "Top Padding",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "28",
+              "options" : {
+                "min" : 0,
+                "max" : 300,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "bottom_padding",
+              "label": "Bottom Padding",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "15",
+              "options" : {
+                "min" : 0,
+                "max" : 300,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "border_top",
+              "label": "Top Border",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "0",
+              "options" : {
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "border_top_color",
+              "label": "Top Border Color",
+              "type" : "color",
+              "placeholder" : "#ffffff",
+              "value" : "#ffffff",
+              "required" : false
+            },
+            {
+              "id": "border_bottom",
+              "label": "Bottom Border",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "0",
+              "options" : {
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "border_bottom_color",
+              "label": "Bottom Border Color",
+              "type" : "color",
+              "placeholder" : "#ffffff",
+              "value" : "#ffffff",
+              "required" : false
+            }
+          ]
+        },
+        {
           "group" : "Alignment",
           "settings" : [
             {
@@ -2442,37 +2515,6 @@
               "placeholder" : "middle",
               "value" : "middle",
               "options" : ["top", "middle", "bottom", "baseline"],
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group" : "Spacing",
-          "settings" : [
-            {
-              "id": "top_border",
-              "label": "Top Padding",
-              "type" : "range",
-              "placeholder" : "0",
-              "value" : "30",
-              "options" : {
-                "min" : 0,
-                "max" : 200,
-                "step" : 1
-              },
-              "required" : false
-            },
-            {
-              "id": "bottom_border",
-              "label": "Bottom Padding",
-              "type" : "range",
-              "placeholder" : "0",
-              "value" : "30",
-              "options" : {
-                "min" : 0,
-                "max" : 200,
-                "step" : 1
-              },
               "required" : false
             }
           ]
@@ -2499,6 +2541,79 @@
             {
               "id": "background_color",
               "label": "Background Color",
+              "type" : "color",
+              "placeholder" : "#ffffff",
+              "value" : "#ffffff",
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group" : "Spacing",
+          "settings" : [
+            {
+              "id": "top_padding",
+              "label": "Top Padding",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "28",
+              "options" : {
+                "min" : 0,
+                "max" : 300,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "bottom_padding",
+              "label": "Bottom Padding",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "15",
+              "options" : {
+                "min" : 0,
+                "max" : 300,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "border_top",
+              "label": "Top Border",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "0",
+              "options" : {
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "border_top_color",
+              "label": "Top Border Color",
+              "type" : "color",
+              "placeholder" : "#ffffff",
+              "value" : "#ffffff",
+              "required" : false
+            },
+            {
+              "id": "border_bottom",
+              "label": "Bottom Border",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "0",
+              "options" : {
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "border_bottom_color",
+              "label": "Bottom Border Color",
               "type" : "color",
               "placeholder" : "#ffffff",
               "value" : "#ffffff",
@@ -2543,37 +2658,6 @@
               "placeholder" : "middle",
               "value" : "middle",
               "options" : ["top", "middle", "bottom", "baseline"],
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group" : "Spacing",
-          "settings" : [
-            {
-              "id": "top_border",
-              "label": "Top Padding",
-              "type" : "range",
-              "placeholder" : "0",
-              "value" : "30",
-              "options" : {
-                "min" : 0,
-                "max" : 200,
-                "step" : 1
-              },
-              "required" : false
-            },
-            {
-              "id": "bottom_border",
-              "label": "Bottom Padding",
-              "type" : "range",
-              "placeholder" : "0",
-              "value" : "30",
-              "options" : {
-                "min" : 0,
-                "max" : 200,
-                "step" : 1
-              },
               "required" : false
             }
           ]
@@ -2655,11 +2739,37 @@
           "group" : "Spacing",
           "settings" : [
             {
-              "id": "top_border",
+              "id": "top_padding",
               "label": "Top Padding",
               "type" : "range",
               "placeholder" : "0",
-              "value" : "30",
+              "value" : "28",
+              "options" : {
+                "min" : 0,
+                "max" : 300,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "bottom_padding",
+              "label": "Bottom Padding",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "15",
+              "options" : {
+                "min" : 0,
+                "max" : 300,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "border_top",
+              "label": "Top Border",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "0",
               "options" : {
                 "min" : 0,
                 "max" : 200,
@@ -2668,16 +2778,32 @@
               "required" : false
             },
             {
-              "id": "bottom_border",
-              "label": "Bottom Padding",
+              "id": "border_top_color",
+              "label": "Top Border Color",
+              "type" : "color",
+              "placeholder" : "#ffffff",
+              "value" : "#ffffff",
+              "required" : false
+            },
+            {
+              "id": "border_bottom",
+              "label": "Bottom Border",
               "type" : "range",
               "placeholder" : "0",
-              "value" : "30",
+              "value" : "0",
               "options" : {
                 "min" : 0,
                 "max" : 200,
                 "step" : 1
               },
+              "required" : false
+            },
+            {
+              "id": "border_bottom_color",
+              "label": "Bottom Border Color",
+              "type" : "color",
+              "placeholder" : "#ffffff",
+              "value" : "#ffffff",
               "required" : false
             }
           ]
