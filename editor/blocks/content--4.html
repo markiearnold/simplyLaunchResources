@@ -1,20 +1,24 @@
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper_table" style="width: 800px;background:{{getSetting(block, 'background_color')}};" bgcolor="{{getSetting(block, 'background_color')}}">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper_table" style="width: 800px;background:{{getSetting(block, 'border_top_color')}};" bgcolor="{{getSetting(block, 'border_top_color')}}">
   <tbody>
     <tr>
-      <td align="center" width="100%"  height="{{getSetting(block, 'top_border')}}"></td>
+      <td align="center" width="100%"  height="{{getSetting(block, 'border_top')}}"></td>
     </tr>
   </tbody>
 </table>
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper_table" style="width: 800px;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper_table" email-background label="Banner Background" indx="{{$index}}" content="background_image" blockcolor="background_color" turnedon="background_on">
   <tbody>
     <tr>
-      <td align="center" bgcolor="{{getSetting(block, 'background_color')}}" >
-        <table cellspacing="0" cellpadding="0" border="0">
+      <td class="content" style="width: 800px;">
+        <div class="belch-outlook-background" bheight="405px" turnedon="{{getSetting(block, 'background_on')}}" bgcolor="{{getSetting(block, 'background_color')}}"></div>
+          <table cellspacing="0" cellpadding="0" border="0" width="100%">
           <tbody>
             <tr>
               <td class="content" style="width: 800px;">
                 <table cellspacing="0" cellpadding="0" border="0" width="100%">
                   <tbody>
+                      <tr>
+                        <td class="section_h" height="{{getSetting(block, 'top_padding')}}"></td>
+                      </tr>
                     <tr>
                       <td class="padding" style="width: 20px;"></td>
                       <td class="content_row" align="center" style="width: 760px;">
@@ -62,20 +66,24 @@
                       </td>
                       <td class="padding" style="width: 20px;"></td>
                     </tr>
+                      <tr>
+                        <td class="section_h" height="{{getSetting(block, 'bottom_padding')}}"></td>
+                      </tr>
                   </tbody>
                 </table>
               </td>
             </tr>
           </tbody>
-        </table>
+          </table>
+          <!--[if gte mso 9]></v:textbox></v:rect><![endif]-->
       </td>
     </tr>
   </tbody>
 </table>
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper_table" style="width: 800px;background:{{getSetting(block, 'background_color')}};" bgcolor="{{getSetting(block, 'background_color')}}">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper_table" style="width: 800px;background:{{getSetting(block, 'border_bottom_color')}};" bgcolor="{{getSetting(block, 'border_bottom_color')}}">
   <tbody>
     <tr>
-      <td align="center"  width="100%" height="{{getSetting(block, 'bottom_border')}}"></td>
+      <td align="center" width="100%"  height="{{getSetting(block, 'border_bottom')}}"></td>
     </tr>
   </tbody>
 </table>
