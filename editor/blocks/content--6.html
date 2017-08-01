@@ -5,11 +5,11 @@
     </tr>
   </tbody>
 </table>
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper_table" style="width: 800px;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper_table" email-background label="Banner Background" indx="{{$index}}" content="background_image" blockcolor="background_color" turnedon="background_on">
   <tbody>
     <tr>
-      <td align="center" bgcolor="{{getSetting(block, 'background_color')}}"  width="100%">
-        <!-- One-Third/Two-Third -->
+      <td class="content" style="width: 800px;">
+        <div class="belch-outlook-background" bheight="405px" turnedon="{{getSetting(block, 'background_on')}}" bgcolor="{{getSetting(block, 'background_color')}}"></div>
         <table settings show-if="grid_position" show-if-condition="=='One-Third/Two-Third'" cellspacing="0" cellpadding="0" border="0">
           <tbody>
             <tr>
@@ -85,7 +85,8 @@
               </td>
             </tr>
           </tbody>
-        </table>
+          </table>
+          <!--[if gte mso 9]></v:textbox></v:rect><![endif]-->
       </td>
     </tr>
   </tbody>

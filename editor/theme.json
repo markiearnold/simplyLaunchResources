@@ -1948,51 +1948,31 @@
       },
       "block_settings": [
         {
-          "group" : "Background",
-          "settings" : [
+          "group": "Background",
+          "settings": [
+            {
+              "id": "background_image",
+              "label": "Background Image",
+              "type": "image",
+              "preferred": "800 x 430",
+              "placeholder": "",
+              "value": "https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/headerjpg-5.jpeg",
+              "required": false
+            },
+            {
+              "id": "background_on",
+              "label": "Show Bg Image",
+              "type" : "checkbox",
+              "placeholder" : "",
+              "value" : false,
+              "required" : false
+            },
             {
               "id": "background_color",
               "label": "Background Color",
               "type" : "color",
               "placeholder" : "#ffffff",
               "value" : "#ffffff",
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group" : "Content",
-          "settings" : [
-            {
-              "id" : "grid_position",
-              "label" : "Column Position",
-              "type" : "select",
-              "placeholder" : "container",
-              "value" : "Two-Third/One-Third",
-              "options" : ["One-Third/Two-Third", "Two-Third/One-Third"],
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group" : "Alignment",
-          "settings" : [
-            {
-              "id" : "col1_vertical_align",
-              "label" : "1/3 Vertical Align",
-              "type" : "select",
-              "placeholder" : "middle",
-              "value" : "middle",
-              "options" : ["top", "middle", "bottom", "baseline"],
-              "required" : false
-            },
-            {
-              "id" : "col2_vertical_align",
-              "label" : "2/3 Vertical Align",
-              "type" : "select",
-              "placeholder" : "middle",
-              "value" : "middle",
-              "options" : ["top", "middle", "bottom", "baseline"],
               "required" : false
             }
           ]
@@ -2066,6 +2046,43 @@
               "type" : "color",
               "placeholder" : "#ffffff",
               "value" : "#ffffff",
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group" : "Content",
+          "settings" : [
+            {
+              "id" : "grid_position",
+              "label" : "Column Position",
+              "type" : "select",
+              "placeholder" : "container",
+              "value" : "Two-Third/One-Third",
+              "options" : ["One-Third/Two-Third", "Two-Third/One-Third"],
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group" : "Alignment",
+          "settings" : [
+            {
+              "id" : "col1_vertical_align",
+              "label" : "1/3 Vertical Align",
+              "type" : "select",
+              "placeholder" : "middle",
+              "value" : "middle",
+              "options" : ["top", "middle", "bottom", "baseline"],
+              "required" : false
+            },
+            {
+              "id" : "col2_vertical_align",
+              "label" : "2/3 Vertical Align",
+              "type" : "select",
+              "placeholder" : "middle",
+              "value" : "middle",
+              "options" : ["top", "middle", "bottom", "baseline"],
               "required" : false
             }
           ]
