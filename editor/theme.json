@@ -706,7 +706,7 @@
               "value" : "100",
               "options" : {
                 "min" : 0,
-                "max" : 200,
+                "max" : 400,
                 "step" : 1
               },
               "required" : false
@@ -1365,6 +1365,32 @@
           "settings" : [
             {
               "id": "top_padding",
+              "label": "Top Padding",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "120",
+              "options" : {
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "bottom_padding",
+              "label": "Bottom Padding",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "125",
+              "options" : {
+                "min" : 0,
+                "max" : 200,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "border_top",
               "label": "Top Border",
               "type" : "range",
               "placeholder" : "0",
@@ -1377,7 +1403,7 @@
               "required" : false
             },
             {
-              "id": "top_padding_color",
+              "id": "border_top_color",
               "label": "Top Border Color",
               "type" : "color",
               "placeholder" : "#ffffff",
@@ -1385,11 +1411,11 @@
               "required" : false
             },
             {
-              "id": "bottom_padding",
+              "id": "border_bottom",
               "label": "Bottom Border",
               "type" : "range",
               "placeholder" : "0",
-              "value" : "30",
+              "value" : "0",
               "options" : {
                 "min" : 0,
                 "max" : 200,
@@ -1398,7 +1424,7 @@
               "required" : false
             },
             {
-              "id": "bottom_padding_color",
+              "id": "border_bottom_color",
               "label": "Bottom Border Color",
               "type" : "color",
               "placeholder" : "#ffffff",
@@ -2555,7 +2581,7 @@
               "value" : "100",
               "options" : {
                 "min" : 0,
-                "max" : 200,
+                "max" : 400,
                 "step" : 1
               },
               "required" : false
