@@ -2689,53 +2689,6 @@
           ]
         },
         {
-          "group" : "Logo",
-          "settings" : [
-            {
-              "id": "logo_image",
-              "label": "Logo Image",
-              "type": "image",
-              "placeholder": "",
-              "value": "https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/white_logo_54png.png",
-              "required": false
-            },
-            {
-              "id": "logo_width",
-              "label": "Logo Width",
-              "type" : "range",
-              "placeholder" : "0",
-              "value" : "100",
-              "options" : {
-                "min" : 0,
-                "max" : 400,
-                "step" : 1
-              },
-              "required" : false
-            }
-          ]
-        },
-        {
-          "group" : "Content",
-          "settings" : [
-            {
-              "id" : "show_footer_logo",
-              "label" : "Show Footer Logo",
-              "type" : "checkbox",
-              "placeholder" : "",
-              "value" : true,
-              "required" : false
-            },
-            {
-              "id" : "show_footer_text",
-              "label" : "Show Footer Text",
-              "type" : "checkbox",
-              "placeholder" : "",
-              "value" : true,
-              "required" : false
-            }
-          ]
-        },
-        {
           "group" : "Spacing",
           "settings" : [
             {
@@ -2804,6 +2757,53 @@
               "type" : "color",
               "placeholder" : "#ffffff",
               "value" : "#ffffff",
+              "required" : false
+            }
+          ]
+      },
+        {
+          "group" : "Logo",
+          "settings" : [
+            {
+              "id": "logo_image",
+              "label": "Logo Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/white_logo_54png.png",
+              "required": false
+            },
+            {
+              "id": "logo_width",
+              "label": "Logo Width",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "100",
+              "options" : {
+                "min" : 0,
+                "max" : 400,
+                "step" : 1
+              },
+              "required" : false
+            }
+          ]
+        },
+        {
+          "group" : "Content",
+          "settings" : [
+            {
+              "id" : "show_footer_logo",
+              "label" : "Show Footer Logo",
+              "type" : "checkbox",
+              "placeholder" : "",
+              "value" : true,
+              "required" : false
+            },
+            {
+              "id" : "show_footer_text",
+              "label" : "Show Footer Text",
+              "type" : "checkbox",
+              "placeholder" : "",
+              "value" : true,
               "required" : false
             }
           ]
