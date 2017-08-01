@@ -1417,7 +1417,7 @@
       "showOnDefault" : true,
       "preview_image" : "center-content.png",
       "content" : {
-        "text_block_centered" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "text_block_centered" : "<p><span style='color: #ffffff; font-size: 16px;'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span></p>"
       },
       "block_settings": [
         {
@@ -1458,7 +1458,7 @@
               "label": "Top Padding",
               "type" : "range",
               "placeholder" : "0",
-              "value" : "15",
+              "value" : "28",
               "options" : {
                 "min" : 0,
                 "max" : 300,
