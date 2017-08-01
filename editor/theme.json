@@ -1421,14 +1421,31 @@
       },
       "block_settings": [
         {
-          "group" : "Background",
-          "settings" : [
+          "group": "Background",
+          "settings": [
+            {
+              "id": "background_image",
+              "label": "Background Image",
+              "type": "image",
+              "preferred": "800 x 430",
+              "placeholder": "",
+              "value": "https://cdn2.hubspot.net/hubfs/385224/belch.io/template-assets/headerjpg-5.jpeg",
+              "required": false
+            },
+            {
+              "id": "background_on",
+              "label": "Show Bg Image",
+              "type" : "checkbox",
+              "placeholder" : "",
+              "value" : true,
+              "required" : false
+            },
             {
               "id": "background_color",
               "label": "Background Color",
               "type" : "color",
-              "placeholder" : "#ffffff",
-              "value" : "#ffffff",
+              "placeholder" : "#3d424d",
+              "value" : "#3d424d",
               "required" : false
             }
           ]
@@ -1437,11 +1454,37 @@
           "group" : "Spacing",
           "settings" : [
             {
-              "id": "top_border",
+              "id": "top_padding",
               "label": "Top Padding",
               "type" : "range",
               "placeholder" : "0",
-              "value" : "30",
+              "value" : "15",
+              "options" : {
+                "min" : 0,
+                "max" : 300,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "bottom_padding",
+              "label": "Bottom Padding",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "15",
+              "options" : {
+                "min" : 0,
+                "max" : 300,
+                "step" : 1
+              },
+              "required" : false
+            },
+            {
+              "id": "border_top",
+              "label": "Top Border",
+              "type" : "range",
+              "placeholder" : "0",
+              "value" : "0",
               "options" : {
                 "min" : 0,
                 "max" : 200,
@@ -1450,16 +1493,32 @@
               "required" : false
             },
             {
-              "id": "bottom_border",
-              "label": "Bottom Padding",
+              "id": "border_top_color",
+              "label": "Top Border Color",
+              "type" : "color",
+              "placeholder" : "#ffffff",
+              "value" : "#ffffff",
+              "required" : false
+            },
+            {
+              "id": "border_bottom",
+              "label": "Bottom Border",
               "type" : "range",
               "placeholder" : "0",
-              "value" : "30",
+              "value" : "0",
               "options" : {
                 "min" : 0,
                 "max" : 200,
                 "step" : 1
               },
+              "required" : false
+            },
+            {
+              "id": "border_bottom_color",
+              "label": "Bottom Border Color",
+              "type" : "color",
+              "placeholder" : "#ffffff",
+              "value" : "#ffffff",
               "required" : false
             }
           ]
