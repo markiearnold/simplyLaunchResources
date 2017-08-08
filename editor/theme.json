@@ -1305,7 +1305,7 @@
               "label": "Gallery Image",
               "type": "image",
               "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/gal1.jpg",
+              "value": "https://cdn2.hubspot.net/hubfs/3319790/belch.io/template-assets/pexelsphoto386025jpg.jpeg",
               "required": false
             },
             {
@@ -1342,7 +1342,7 @@
               "label": "Gallery Image",
               "type": "image",
               "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/gal2.jpg",
+              "value": "https://cdn2.hubspot.net/hubfs/3319790/belch.io/template-assets/pexelsphoto307008jpg.jpeg",
               "required": false
             },
             {
@@ -1379,7 +1379,7 @@
               "label": "Gallery Image",
               "type": "image",
               "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/gal3.jpg",
+              "value": "https://cdn2.hubspot.net/hubfs/3319790/belch.io/template-assets/pexelsphoto245032jpg.jpeg",
               "required": false
             },
             {
@@ -2300,15 +2300,15 @@
               "label": "Background Image",
               "type": "image",
               "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
+              "value": "https://cdn2.hubspot.net/hubfs/3319790/belch.io/template-assets/feettrunkviewjpg.jpeg",
               "required": false
             },
             {
               "id": "overlay_color",
               "label": "Overlay Color",
               "type": "color",
-              "placeholder": "rgba(255,255,255,0.8)",
-              "value": "rgba(255,255,255,0.8)",
+              "placeholder": "rgba(0,0,0,0.7)",
+              "value": "rgba(0,0,0,0.7)",
               "required": false
             }
           ]
@@ -2544,7 +2544,7 @@
       "preview_image": "utility.png",
       "content": {
         "colone": "<h3 class='text-right'>Adaptive<br>Design</h3><p class='text-right'>Proin finibus nunc sed nunc interdum consectetur. Proin porta placerat turpis at pulvinar. Curabitur sem purus, aliquam quis tincidunt at, faucibus a turpis.</p>",
-        "coltwo": "<img src='https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-utility.jpg' class='block-center' />",
+        "coltwo": "<img src='https://cdn2.hubspot.net/hub/3319790/hubfs/belch.io/template-assets/pexels-photo-386025.jpg' class='block-center' />",
         "colthree": "<h3>Responsive<br>Development</h3><p>Proin finibus nunc sed nunc interdum consectetur. Proin porta placerat turpis at pulvinar. Curabitur sem purus, aliquam quis tincidunt at, faucibus a turpis.</p>",
         "colfour": "<p class='text-right'>Proin finibus nunc sed nunc interdum consectetur. Proin porta placerat turpis at pulvinar. Curabitur sem purus, aliquam quis tincidunt at, faucibus a turpis.</p>",
         "colfive": "<p class='text-right'>Proin finibus nunc sed nunc interdum consectetur. Proin porta placerat turpis at pulvinar. Curabitur sem purus, aliquam quis tincidunt at, faucibus a turpis.</p>",
