@@ -2289,7 +2289,7 @@
       "showOnDefault" : true,
       "preview_image": "cta.png",
       "content": {
-        "cta_text": "<h3>\"Good design adds value faster than it adds cost.\" - Thomas C. Gale</h3><p class=\"cta-sub-title\">Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor.<br></p><br>"
+        "cta_text": "<h3 style=\"color:white;\">\"Good design adds value faster than it adds cost.\" - Thomas C. Gale</h3><p class=\"cta-sub-title\" style=\"color:white;\">Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor.<br></p><br>"
       },
       "block_settings": [
         {
@@ -2409,8 +2409,8 @@
               "id": "button_text_color",
               "label": "Button Text Color",
               "type": "color",
-              "placeholder": "#1d1d1d",
-              "value": "#1d1d1d",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
               "required": false
             },
             {
@@ -2441,16 +2441,16 @@
               "id": "button_border_color",
               "label": "Button Border Color",
               "type": "color",
-              "placeholder": "#000000",
-              "value": "#000000",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
               "required": false
             },
             {
               "id": "button_hover_border_color",
               "label": "Button Hover Border Color",
               "type": "color",
-              "placeholder": "#000000",
-              "value": "#000000",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
               "required": false
             },
             {
