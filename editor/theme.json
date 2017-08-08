@@ -966,7 +966,7 @@
               "label": "Background Image",
               "type": "image",
               "placeholder": "",
-              "value": "https://s3.amazonaws.com/belch.io/themes/minimalist/img/minimalist-stock2.jpg",
+              "value": "https://cdn2.hubspot.net/hubfs/3319790/belch.io/template-assets/feettrunkviewjpg.jpeg",
               "required": false
             },
             {
