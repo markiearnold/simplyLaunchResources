@@ -1773,6 +1773,196 @@
           "yekhsah": "objereplace"
         }
       ]
+    },
+    {
+      "name": "Team2",
+      "type": "team",
+      "showOnDefault": false,
+      "preview_image": "team.png",
+      "content": {
+        "team_header": "<h3>Our <b>Super-duper<\/b> Team<\/h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua.<\/p>",
+        "team_one": "<h3 class=\"text-center\">William Hurt<br><\/h3><p class=\"text-center\"><strong>CFO<\/strong><\/p><p class=\"text-center\">Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. Nunc arcu dolor, vehicula ac dictum ut, dapibus id lacus. Duis nunc magna, imperdiet non placerat convallis, porta in ex.<\/p>",
+        "team_two": "<h3 class=\"text-center\">Paul Johnson<br><\/h3><p class=\"text-center\"><strong>PROJECT MANAGER<\/strong><\/p><p class=\"text-center\">Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. Nunc arcu dolor, vehicula ac dictum ut, dapibus id lacus. Duis nunc magna, imperdiet non placerat convallis, porta in ex.<\/p>",
+        "team_three": "<h3 class=\"text-center\">John Richards<br><\/h3><p class=\"text-center\"><strong>MARKETING OFFICER<\/strong><\/p><p class=\"text-center\">Maecenas et condimentum tellus. Donec placerat lacinia massa efficitur auctor. Nunc arcu dolor, vehicula ac dictum ut, dapibus id lacus. Duis nunc magna, imperdiet non placerat convallis, porta in ex.<\/p>"
+      },
+      "block_settings": [
+        {
+          "group": "Background",
+          "settings": [
+            {
+              "id": "background_image",
+              "label": "Background Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https:\/\/s3.amazonaws.com\/belch.io\/themes\/minimalist\/img\/minimalist-stock2.jpg",
+              "required": false,
+              "yekhsah": "objereplace"
+            },
+            {
+              "id": "overlay_color",
+              "label": "Overlay Color",
+              "type": "color",
+              "placeholder": "#ffffff",
+              "value": "#ffffff",
+              "required": false,
+              "yekhsah": "objereplace"
+            }
+          ],
+          "yekhsah": "objereplace"
+        },
+        {
+          "group": "Border",
+          "settings": [
+            {
+              "id": "team_border",
+              "label": "Team Border",
+              "type": "box",
+              "placeholder": "",
+              "value": {
+                "top": "0px",
+                "right": "0px",
+                "bottom": "0px",
+                "left": "0px"
+              },
+              "options": {
+                "step": 1
+              },
+              "required": false,
+              "yekhsah": "objereplace"
+            },
+            {
+              "id": "team_border_color",
+              "label": "Team Border Color",
+              "type": "color",
+              "placeholder": "rgba(255,255,255,1)",
+              "value": "rgba(255,255,255,1)",
+              "required": false,
+              "yekhsah": "objereplace"
+            },
+            {
+              "id": "team_border_style",
+              "label": "Team Border Style",
+              "type": "select",
+              "placeholder": "solid",
+              "value": "solid",
+              "options": [
+                "solid",
+                "dashed",
+                "dotted",
+                "double"
+              ],
+              "required": false,
+              "yekhsah": "objereplace"
+            }
+          ],
+          "yekhsah": "objereplace"
+        },
+        {
+          "group": "Spacing",
+          "settings": [
+            {
+              "id": "team_padding",
+              "label": "Team Padding",
+              "type": "box",
+              "placeholder": "",
+              "value": {
+                "top": "70px",
+                "right": "0px",
+                "bottom": "70px",
+                "left": "0px"
+              },
+              "options": {
+                "step": 5
+              },
+              "required": false,
+              "yekhsah": "objereplace"
+            }
+          ],
+          "yekhsah": "objereplace"
+        },
+        {
+          "group": "Content",
+          "settings": [
+            {
+              "id": "in_grid",
+              "label": "Content In Grid?",
+              "type": "select",
+              "placeholder": "container",
+              "value": "container",
+              "options": [
+                "container",
+                "container-fluid"
+              ],
+              "required": false,
+              "yekhsah": "objereplace"
+            },
+            {
+              "id": "col_count",
+              "label": "People Count",
+              "type": "select",
+              "placeholder": "3",
+              "value": "3",
+              "options": [
+                "2",
+                "3"
+              ],
+              "required": false,
+              "yekhsah": "objereplace"
+            },
+            {
+              "id": "img_position",
+              "label": "Image Position",
+              "type": "select",
+              "placeholder": "center",
+              "value": "center",
+              "options": [
+                "left",
+                "center",
+                "right"
+              ],
+              "required": false,
+              "yekhsah": "objereplace"
+            },
+            {
+              "id": "show_header_section",
+              "label": "Team Header Text",
+              "type": "checkbox",
+              "placeholder": "",
+              "value": false,
+              "required": false,
+              "yekhsah": "objereplace"
+            },
+            {
+              "id": "team1_image",
+              "label": "Person One Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https:\/\/cdn2.hubspot.net\/hubfs\/385224\/belch.io\/template-assets\/member1jpg.jpeg",
+              "required": false,
+              "yekhsah": "objereplace"
+            },
+            {
+              "id": "team2_image",
+              "label": "Person Two Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https:\/\/cdn2.hubspot.net\/hubfs\/385224\/belch.io\/template-assets\/member2jpg.jpeg",
+              "required": false,
+              "yekhsah": "objereplace"
+            },
+            {
+              "id": "team3_image",
+              "label": "Person Three Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https:\/\/cdn2.hubspot.net\/hubfs\/385224\/belch.io\/template-assets\/member4jpg.jpeg",
+              "required": false,
+              "yekhsah": "objereplace"
+            }
+          ],
+          "yekhsah": "objereplace"
+        }
+      ]
     }
   ]
 }
