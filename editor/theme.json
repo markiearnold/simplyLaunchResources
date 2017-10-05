@@ -1775,8 +1775,8 @@
       ]
     },
     {
-      "name": "Team2",
-      "type": "team",
+      "name": "Team",
+      "type": "team2",
       "showOnDefault": false,
       "preview_image": "team.png",
       "content": {
