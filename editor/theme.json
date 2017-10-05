@@ -1775,6 +1775,151 @@
       ]
     },
     {
+      "name": "Utility Column",
+      "type": "utility",
+      "showOnDefault": true,
+      "preview_image": "utility.png",
+      "content": {
+        "colone": "<h3 data-mce-style=\"text-align: center;\" style=\"text-align: center;\">WHY WITH US?<\/h3><p style=\"text-align: center;\" data-mce-style=\"text-align: center;\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<\/p>",
+        "coltwo": "<img src='https:\/\/s3.amazonaws.com\/belch.io\/themes\/minimalist\/img\/minimalist-utility.jpg' class='block-center' \/>",
+        "colthree": "<h3>Responsive<br>Development<\/h3><p>Proin finibus nunc sed nunc interdum consectetur. Proin porta placerat turpis at pulvinar. Curabitur sem purus, aliquam quis tincidunt at, faucibus a turpis.<\/p>",
+        "colfour": "<p class='text-right'>Proin finibus nunc sed nunc interdum consectetur. Proin porta placerat turpis at pulvinar. Curabitur sem purus, aliquam quis tincidunt at, faucibus a turpis.<\/p>",
+        "colfive": "<p class='text-right'>Proin finibus nunc sed nunc interdum consectetur. Proin porta placerat turpis at pulvinar. Curabitur sem purus, aliquam quis tincidunt at, faucibus a turpis.<\/p>",
+        "colsix": " <p class='text-right'>Proin finibus nunc sed nunc interdum consectetur. Proin porta placerat turpis at pulvinar. Curabitur sem purus, aliquam quis tincidunt at, faucibus a turpis.<\/p>"
+      },
+      "block_settings": [
+        {
+          "group": "Background",
+          "settings": [
+            {
+              "id": "background_image",
+              "label": "Background Image",
+              "type": "image",
+              "placeholder": "",
+              "value": "https:\/\/s3.amazonaws.com\/belch.io\/themes\/minimalist\/img\/minimalist-stock2.jpg",
+              "required": false,
+              "yekhsah": "objereplace"
+            },
+            {
+              "id": "overlay_color",
+              "label": "Overlay Color",
+              "type": "color",
+              "placeholder": "#f9f9f9",
+              "value": "#f9f9f9",
+              "required": false,
+              "yekhsah": "objereplace"
+            }
+          ],
+          "yekhsah": "objereplace"
+        },
+        {
+          "group": "Border",
+          "settings": [
+            {
+              "id": "utility_border",
+              "label": "Utility Border",
+              "type": "box",
+              "placeholder": "",
+              "value": {
+                "top": "3px",
+                "right": "0px",
+                "bottom": "0px",
+                "left": "0px"
+              },
+              "options": {
+                "step": 1
+              },
+              "required": false,
+              "yekhsah": "objereplace"
+            },
+            {
+              "id": "utility_border_color",
+              "label": "Utility Border Color",
+              "type": "color",
+              "placeholder": "rgba(255,255,255,1)",
+              "value": "#fc7700",
+              "required": false,
+              "yekhsah": "objereplace"
+            },
+            {
+              "id": "utility_border_style",
+              "label": "Utility Border Style",
+              "type": "select",
+              "placeholder": "solid",
+              "value": "solid",
+              "options": [
+                "solid",
+                "dashed",
+                "dotted",
+                "double"
+              ],
+              "required": false,
+              "yekhsah": "objereplace"
+            }
+          ],
+          "yekhsah": "objereplace"
+        },
+        {
+          "group": "Spacing",
+          "settings": [
+            {
+              "id": "utility_padding",
+              "label": "Utility Padding",
+              "type": "box",
+              "placeholder": "",
+              "value": {
+                "top": "80px",
+                "right": "180px",
+                "bottom": "0px",
+                "left": "180px"
+              },
+              "options": {
+                "step": 5
+              },
+              "required": false,
+              "yekhsah": "objereplace"
+            }
+          ],
+          "yekhsah": "objereplace"
+        },
+        {
+          "group": "Content",
+          "settings": [
+            {
+              "id": "in_grid",
+              "label": "Content In Grid?",
+              "type": "select",
+              "placeholder": "container",
+              "value": "container",
+              "options": [
+                "container",
+                "container-fluid"
+              ],
+              "required": false,
+              "yekhsah": "objereplace"
+            },
+            {
+              "id": "col_count",
+              "label": "Column Count",
+              "type": "select",
+              "placeholder": "3",
+              "value": "1",
+              "options": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "6"
+              ],
+              "required": false,
+              "yekhsah": "objereplace"
+            }
+          ],
+          "yekhsah": "objereplace"
+        }
+      ]
+    },
+    {
       "name": "Team",
       "type": "team2",
       "showOnDefault": true,
